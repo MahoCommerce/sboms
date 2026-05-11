@@ -32,11 +32,18 @@ jobs:
       - name: Scan
         run: ./scan.sh
 
+      - name: Publish report to job summary
+        if: always()
+        run: |
+          if [[ -f VULNERABILITIES.md ]]; then
+            cat VULNERABILITIES.md >> "$GITHUB_STEP_SUMMARY"
+          fi
+
       - name: Commit and push
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add vulns/
+          git add vulns/ VULNERABILITIES.md
           if git diff --cached --quiet; then
             echo "No vulnerability changes."
             exit 0

@@ -47,4 +47,6 @@ for sbom in "${sboms[@]}"; do
   rm -f "$grype_out" "$trivy_out"
 done
 
+python3 report.py
+
 echo "Done."

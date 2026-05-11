@@ -38,8 +38,9 @@ A second workflow (`.github/workflows/scan.yml`) runs daily on its own cron (ind
 1. Runs **Grype** (`--only-fixed`) and **Trivy** (`--ignore-unfixed`). Both tools skip vulns with no upstream fix available, which removes most of the noise.
 2. Merges the two outputs by `(cve, package, version)` via `merge.py`, picking the higher severity when scanners disagree and recording which tool(s) flagged each finding.
 3. Writes results to `vulns/<repo>/main.json`.
-4. Commits the diff.
-5. Fails the workflow run only if any merged finding is **Critical**, so the data is always current and the failure status is the actionable signal.
+4. Aggregates everything into a top-level [`VULNERABILITIES.md`](VULNERABILITIES.md) — a single human-readable summary table plus a Critical/High detail section. The same content is also published to each workflow run's job summary, so you can read it directly in the Actions tab.
+5. Commits the diff.
+6. Fails the workflow run only if any merged finding is **Critical**, so the data is always current and the failure status is the actionable signal.
 
 Old release tags are not scanned: they are immutable history and alerting on them helps no one. If a finding is a known false positive or you've assessed it as not applicable, add a [Grype suppression](https://github.com/anchore/grype#specifying-matches-to-ignore) in `.grype.yaml` at the repo root.
 
