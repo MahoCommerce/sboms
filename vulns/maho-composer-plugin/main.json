@@ -1,20 +1,4 @@
 {
-  "summary": {
-    "High": 1
-  },
-  "findings": [
-    {
-      "cve": "GHSA-mrrh-fwg8-r2c3",
-      "package": "tj-actions/changed-files",
-      "version": "v45",
-      "purl": "pkg:github/tj-actions/changed-files@v45",
-      "severity": "High",
-      "fixed_in": [
-        "46.0.1"
-      ],
-      "sources": [
-        "grype"
-      ]
-    }
-  ]
+  "summary": {},
+  "findings": []
 }

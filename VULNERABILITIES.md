@@ -1,6 +1,6 @@
 # Vulnerability Report
 
-_Last updated: 2026-05-11 10:54 UTC_
+_Last updated: 2026-05-11 11:01 UTC_
 
 Generated from the HEAD-of-default-branch SBOM of each tracked repo, scanned by Grype and Trivy. Only vulnerabilities with an upstream fix available are included. Per-repo JSON with the full finding detail is in [`vulns/`](vulns/).
 
@@ -14,7 +14,7 @@ Generated from the HEAD-of-default-branch SBOM of each tracked repo, scanned by 
 | `icons` | — | — | — | — | — | — |
 | `maho` | — | — | — | — | — | — |
 | `maho-composer-patches` | — | — | — | — | — | — |
-| `maho-composer-plugin` | — | 1 | — | — | — | — |
+| `maho-composer-plugin` | — | — | — | — | — | — |
 | `maho-l10n` | — | — | — | — | — | — |
 | `maho-phpstan-plugin` | — | — | — | — | — | — |
 | `maho-sample-data` | — | — | — | — | — | — |
@@ -29,7 +29,7 @@ Generated from the HEAD-of-default-branch SBOM of each tracked repo, scanned by 
 | `sboms` | — | — | — | — | — | — |
 | `vscode` | — | — | — | — | — | — |
 | `zed` | — | — | — | — | — | — |
-| **Total** | — | **1** | — | — | — | — |
+| **Total** | — | — | — | — | — | — |
 
 ## Critical findings
 
@@ -37,7 +37,5 @@ _None._
 
 ## High findings
 
-### `maho-composer-plugin`
-
-- [GHSA-mrrh-fwg8-r2c3](https://github.com/advisories/GHSA-mrrh-fwg8-r2c3) in `tj-actions/changed-files@v45` — fix: `46.0.1` (via grype)
+_None._
 
