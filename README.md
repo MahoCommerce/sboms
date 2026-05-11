@@ -1,4 +1,4 @@
-# maho-sbom
+# sboms
 
 Software Bill of Materials (SBOM) inventory for the [mahocommerce](https://github.com/mahocommerce) organization.
 
@@ -11,7 +11,7 @@ An SBOM document, by definition, describes the components of *one* piece of soft
 ## Layout
 
 ```
-sbom/
+sboms/
   <repo>/
     main.cdx.json         # HEAD of the default branch
     <release-tag>.cdx.json  # latest GitHub release, when one exists
@@ -35,14 +35,14 @@ To exclude a repo, archive it on GitHub or make it private. Both states are filt
 
 ```bash
 # Vulnerability scan with Grype
-grype sbom:./sbom/maho/main.cdx.json
+grype sbom:./sboms/maho/main.cdx.json
 
 # Or with Trivy
-trivy sbom ./sbom/maho/main.cdx.json
+trivy sbom ./sboms/maho/main.cdx.json
 
 # Upload to a Dependency-Track instance
 curl -X POST -H "X-Api-Key: $DT_API_KEY" \
-     -F "bom=@sbom/maho/main.cdx.json" \
+     -F "bom=@sboms/maho/main.cdx.json" \
      -F "projectName=maho" -F "projectVersion=main" \
      https://your-dependency-track/api/v1/bom
 ```

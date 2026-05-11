@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #
 # Enumerate public mahocommerce repos and (re)generate one CycloneDX SBOM per
-# repo per ref (default branch + latest release tag) into sbom/<repo>/.
+# repo per ref (default branch + latest release tag) into sboms/<repo>/.
 #
 # Requires: gh, syft, git, jq.
 
@@ -47,13 +47,13 @@ while IFS= read -r repo; do
   echo "= $repo"
 
   # default branch (always regenerate; main moves)
-  gen_sbom "$repo" "__default__" "sbom/$repo/main.cdx.json" "$WORK/$repo-default" || true
+  gen_sbom "$repo" "__default__" "sboms/$repo/main.cdx.json" "$WORK/$repo-default" || true
 
   # every published release tag; skip ones already on disk (release tags are immutable)
   while IFS= read -r tag; do
     [[ -z "$tag" ]] && continue
     safe_tag="${tag//\//_}"
-    out="sbom/$repo/$safe_tag.cdx.json"
+    out="sboms/$repo/$safe_tag.cdx.json"
     [[ -f "$out" ]] && continue
     gen_sbom "$repo" "$tag" "$out" "$WORK/$repo-$safe_tag" || true
   done < <(
