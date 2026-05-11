@@ -46,15 +46,23 @@ gen_sbom() {
 while IFS= read -r repo; do
   echo "= $repo"
 
-  # default branch
+  # default branch (always regenerate; main moves)
   gen_sbom "$repo" "__default__" "sbom/$repo/main.cdx.json" "$WORK/$repo-default" || true
 
-  # latest release (if any)
-  latest_tag="$(gh release view --repo "$ORG/$repo" --json tagName --jq .tagName 2>/dev/null || true)"
-  if [[ -n "$latest_tag" ]]; then
-    safe_tag="${latest_tag//\//_}"
-    gen_sbom "$repo" "$latest_tag" "sbom/$repo/$safe_tag.cdx.json" "$WORK/$repo-$safe_tag" || true
-  fi
+  # every published release tag; skip ones already on disk (release tags are immutable)
+  while IFS= read -r tag; do
+    [[ -z "$tag" ]] && continue
+    safe_tag="${tag//\//_}"
+    out="sbom/$repo/$safe_tag.cdx.json"
+    [[ -f "$out" ]] && continue
+    gen_sbom "$repo" "$tag" "$out" "$WORK/$repo-$safe_tag" || true
+  done < <(
+    gh release list --repo "$ORG/$repo" \
+      --limit 1000 \
+      --json tagName,isDraft \
+      --jq '.[] | select(.isDraft == false) | .tagName' \
+      2>/dev/null || true
+  )
 done < "$WORK/repos.txt"
 
 echo "Done."
