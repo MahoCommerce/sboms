@@ -1,4 +1,4 @@
-# sboms
+# Maho SBOMs
 
 Software Bill of Materials (SBOM) inventory for the [mahocommerce](https://github.com/mahocommerce) organization.
 
