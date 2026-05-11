@@ -31,7 +31,19 @@ You can trigger an out-of-band refresh from the Actions tab (`workflow_dispatch`
 
 To exclude a repo, archive it on GitHub or make it private. Both states are filtered out automatically.
 
-## Consuming the SBOMs
+## Vulnerability scanning
+
+A second workflow (`.github/workflows/scan.yml`) runs daily on its own cron (independent of the SBOM refresh, since new CVEs are published continuously even when dependencies don't change). For each `sboms/<repo>/main.cdx.json`, it:
+
+1. Runs **Grype** (`--only-fixed`) and **Trivy** (`--ignore-unfixed`). Both tools skip vulns with no upstream fix available, which removes most of the noise.
+2. Merges the two outputs by `(cve, package, version)` via `merge.py`, picking the higher severity when scanners disagree and recording which tool(s) flagged each finding.
+3. Writes results to `vulns/<repo>/main.json`.
+4. Commits the diff.
+5. Fails the workflow run only if any merged finding is **Critical**, so the data is always current and the failure status is the actionable signal.
+
+Old release tags are not scanned: they are immutable history and alerting on them helps no one. If a finding is a known false positive or you've assessed it as not applicable, add a [Grype suppression](https://github.com/anchore/grype#specifying-matches-to-ignore) in `.grype.yaml` at the repo root.
+
+## Consuming the SBOMs directly
 
 ```bash
 # Vulnerability scan with Grype
