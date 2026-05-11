@@ -1,5 +1,10 @@
 # Maho SBOMs
 
+[![Refresh SBOMs](https://github.com/MahoCommerce/sboms/actions/workflows/refresh.yml/badge.svg)](https://github.com/MahoCommerce/sboms/actions/workflows/refresh.yml)
+[![Scan SBOMs](https://github.com/MahoCommerce/sboms/actions/workflows/scan.yml/badge.svg)](https://github.com/MahoCommerce/sboms/actions/workflows/scan.yml)
+[![Critical](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/MahoCommerce/sboms/main/badges/critical.json)](VULNERABILITIES.md)
+[![High](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/MahoCommerce/sboms/main/badges/high.json)](VULNERABILITIES.md)
+
 Software Bill of Materials (SBOM) inventory for the [mahocommerce](https://github.com/mahocommerce) organization.
 
 This repository tracks one CycloneDX SBOM per repo per ref (HEAD of the default branch and the latest release tag), refreshed daily by GitHub Actions. It exists so users, integrators, and security auditors have a single, version-controlled place to see what's inside every Maho project.

@@ -107,6 +107,30 @@ def main() -> None:
     Path("VULNERABILITIES.md").write_text("\n".join(lines) + "\n")
     print("Wrote VULNERABILITIES.md")
 
+    write_badges(totals)
+
+
+def write_badges(totals: dict[str, int]) -> None:
+    """Emit shields.io endpoint JSON files for dynamic count badges."""
+    badges_dir = Path("badges")
+    badges_dir.mkdir(exist_ok=True)
+
+    color_for = {
+        "Critical": "red" if totals.get("Critical", 0) else "brightgreen",
+        "High":     "orange" if totals.get("High", 0) else "brightgreen",
+    }
+
+    for severity, color in color_for.items():
+        payload = {
+            "schemaVersion": 1,
+            "label": severity.lower(),
+            "message": str(totals.get(severity, 0)),
+            "color": color,
+        }
+        (badges_dir / f"{severity.lower()}.json").write_text(
+            json.dumps(payload) + "\n"
+        )
+
 
 if __name__ == "__main__":
     main()
