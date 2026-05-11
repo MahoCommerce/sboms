@@ -20,6 +20,7 @@ gh repo list "$ORG" \
   --limit 500 \
   --json name \
   --jq '.[].name' \
+  | grep -Ev '^maho-language' \
   | sort > "$WORK/repos.txt"
 
 echo "Found $(wc -l < "$WORK/repos.txt") repos."
