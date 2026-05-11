@@ -1,0 +1,42 @@
+name: Refresh SBOMs
+
+on:
+  schedule:
+    - cron: '0 3 * * *'  # daily at 03:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-sboms
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Install Syft
+        run: |
+          curl -sSfL https://raw.githubusercontent.com/anchore/syft/main/install.sh \
+            | sh -s -- -b /usr/local/bin
+
+      - name: Refresh SBOMs
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: ./refresh.sh
+
+      - name: Commit and push
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add sbom/
+          if git diff --cached --quiet; then
+            echo "No SBOM changes."
+            exit 0
+          fi
+          git commit -m "chore: refresh SBOMs ($(date -u +%Y-%m-%d))"
+          git push
