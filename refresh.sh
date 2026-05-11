@@ -31,7 +31,7 @@ gen_sbom() {
   local clone_args=(--depth 1)
   [[ "$ref" != "__default__" ]] && clone_args+=(--branch "$ref")
 
-  if ! git clone --quiet "${clone_args[@]}" "https://github.com/$ORG/$repo.git" "$clonedir"; then
+  if ! git -c advice.detachedHead=false clone --quiet "${clone_args[@]}" "https://github.com/$ORG/$repo.git" "$clonedir"; then
     echo "  ! clone failed for $repo@$ref, skipping"
     return 1
   fi
