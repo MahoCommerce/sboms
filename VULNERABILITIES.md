@@ -1,6 +1,6 @@
 # Vulnerability Report
 
-_Last updated: 2026-05-19 11:56 UTC_
+_Last updated: 2026-05-20 11:44 UTC_
 
 Generated from the HEAD-of-default-branch SBOM of each tracked repo, scanned by Grype and Trivy. Only vulnerabilities with an upstream fix available are included. Per-repo JSON with the full finding detail is in [`vulns/`](vulns/).
 
@@ -19,7 +19,7 @@ Generated from the HEAD-of-default-branch SBOM of each tracked repo, scanned by 
 | `maho-phpstan-plugin` | — | — | — | — | — | — |
 | `maho-sample-data` | — | — | — | — | — | — |
 | `maho-starter` | — | — | — | — | — | — |
-| `mahocommerce.com` | — | — | — | — | — | — |
+| `mahocommerce.com` | — | — | 4 | — | — | — |
 | `module-braintree` | — | — | — | — | — | — |
 | `module-mcrypt-compat` | — | — | — | — | — | — |
 | `module-mollie` | — | — | — | — | — | — |
@@ -29,7 +29,7 @@ Generated from the HEAD-of-default-branch SBOM of each tracked repo, scanned by 
 | `sboms` | — | — | — | — | — | — |
 | `vscode` | — | — | — | — | — | — |
 | `zed` | — | — | — | — | — | — |
-| **Total** | — | — | — | — | — | — |
+| **Total** | — | — | **4** | — | — | — |
 
 ## Critical findings
 
