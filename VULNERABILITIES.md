@@ -1,6 +1,6 @@
 # Vulnerability Report
 
-_Last updated: 2026-05-20 11:44 UTC_
+_Last updated: 2026-05-21 12:09 UTC_
 
 Generated from the HEAD-of-default-branch SBOM of each tracked repo, scanned by Grype and Trivy. Only vulnerabilities with an upstream fix available are included. Per-repo JSON with the full finding detail is in [`vulns/`](vulns/).
 
@@ -9,27 +9,27 @@ Generated from the HEAD-of-default-branch SBOM of each tracked repo, scanned by 
 | Repo | Critical | High | Medium | Low | Negligible | Unknown |
 |------|---|---|---|---|---|---|
 | `demo.mahocommerce.com` | — | — | — | — | — | — |
-| `directory-data` | — | — | — | — | — | — |
+| `directory-data` | — | — | 1 | — | — | — |
 | `docker-images` | — | — | — | — | — | — |
 | `icons` | — | — | — | — | — | — |
-| `maho` | — | — | — | — | — | — |
+| `maho` | — | — | 1 | — | — | — |
 | `maho-composer-patches` | — | — | — | — | — | — |
-| `maho-composer-plugin` | — | — | — | — | — | — |
+| `maho-composer-plugin` | — | — | 1 | — | — | 1 |
 | `maho-l10n` | — | — | — | — | — | — |
-| `maho-phpstan-plugin` | — | — | — | — | — | — |
+| `maho-phpstan-plugin` | — | — | 1 | — | — | — |
 | `maho-sample-data` | — | — | — | — | — | — |
 | `maho-starter` | — | — | — | — | — | — |
 | `mahocommerce.com` | — | — | 4 | — | — | — |
-| `module-braintree` | — | — | — | — | — | — |
+| `module-braintree` | — | — | 1 | — | — | — |
 | `module-mcrypt-compat` | — | — | — | — | — | — |
-| `module-mollie` | — | — | — | — | — | — |
-| `module-netseasy` | — | — | — | — | — | — |
-| `module-przelewy24` | — | — | — | — | — | — |
+| `module-mollie` | — | — | 1 | — | — | — |
+| `module-netseasy` | — | — | 1 | — | — | — |
+| `module-przelewy24` | — | — | 1 | — | — | — |
 | `phpstorm` | — | — | — | — | — | — |
 | `sboms` | — | — | — | — | — | — |
 | `vscode` | — | — | — | — | — | — |
 | `zed` | — | — | — | — | — | — |
-| **Total** | — | — | **4** | — | — | — |
+| **Total** | — | — | **12** | — | — | **1** |
 
 ## Critical findings
 
