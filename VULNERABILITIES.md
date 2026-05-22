@@ -1,6 +1,6 @@
 # Vulnerability Report
 
-_Last updated: 2026-05-21 12:09 UTC_
+_Last updated: 2026-05-22 11:40 UTC_
 
 Generated from the HEAD-of-default-branch SBOM of each tracked repo, scanned by Grype and Trivy. Only vulnerabilities with an upstream fix available are included. Per-repo JSON with the full finding detail is in [`vulns/`](vulns/).
 
@@ -25,11 +25,13 @@ Generated from the HEAD-of-default-branch SBOM of each tracked repo, scanned by 
 | `module-mollie` | — | — | 1 | — | — | — |
 | `module-netseasy` | — | — | 1 | — | — | — |
 | `module-przelewy24` | — | — | 1 | — | — | — |
+| `module-revolut` | — | — | 1 | — | — | — |
+| `module-template` | — | — | 1 | — | — | — |
 | `phpstorm` | — | — | — | — | — | — |
 | `sboms` | — | — | — | — | — | — |
 | `vscode` | — | — | — | — | — | — |
 | `zed` | — | — | — | — | — | — |
-| **Total** | — | — | **12** | — | — | **1** |
+| **Total** | — | — | **14** | — | — | **1** |
 
 ## Critical findings
 
