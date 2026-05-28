@@ -1,9 +1,22 @@
 {
   "summary": {
-    "Medium": 1,
+    "Medium": 3,
     "Unknown": 1
   },
   "findings": [
+    {
+      "cve": "CVE-2026-45065",
+      "package": "symfony/routing",
+      "version": "v7.4.9",
+      "purl": "pkg:composer/symfony/routing@v7.4.9",
+      "severity": "Medium",
+      "fixed_in": [
+        "3.0.0, 4.0.0, 5.0.0, 5.3.0, 5.4.52, 6.2.0, 6.4.40, 7.2.0, 7.3.0, 5.1.0, 5.2.0, 5.4.0, 6.3.0, 7.4.0, 8.0.12, 6.1.0, 6.4.0, 7.1.0, 7.4.12"
+      ],
+      "sources": [
+        "trivy"
+      ]
+    },
     {
       "cve": "GHSA-5wxr-w449-57cm",
       "package": "shivammathur/setup-php",
@@ -18,13 +31,26 @@
       ]
     },
     {
-      "cve": "CVE-2026-45065",
+      "cve": "GHSA-72xp-p242-47p9",
+      "package": "symfony/routing",
+      "version": "v7.4.9",
+      "purl": "pkg:composer/symfony/routing@v7.4.9",
+      "severity": "Medium",
+      "fixed_in": [
+        "7.4.12"
+      ],
+      "sources": [
+        "grype"
+      ]
+    },
+    {
+      "cve": "CVE-2026-48784",
       "package": "symfony/routing",
       "version": "v7.4.9",
       "purl": "pkg:composer/symfony/routing@v7.4.9",
       "severity": "Unknown",
       "fixed_in": [
-        "7.1.0, 7.2.0, 7.4.12, 4.0.0, 7.3.0, 8.0.12, 5.0.0, 5.2.0, 7.4.0, 3.0.0, 5.1.0, 5.3.0, 6.2.0, 6.3.0, 5.4.0, 5.4.52, 6.1.0, 6.4.0, 6.4.40"
+        "5.1.0, 7.4.0, 7.4.13, 5.4.53, 6.4.0, 6.4.41, 7.1.0, 8.0.13, 3.0.0, 4.0.0, 5.2.0, 5.3.0, 5.4.0, 6.1.0, 6.3.0, 7.2.0, 5.0.0, 6.2.0, 7.3.0"
       ],
       "sources": [
         "trivy"
