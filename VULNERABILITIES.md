@@ -1,6 +1,6 @@
 # Vulnerability Report
 
-_Last updated: 2026-06-09 11:54 UTC_
+_Last updated: 2026-06-10 08:42 UTC_
 
 Generated from the HEAD-of-default-branch SBOM of each tracked repo, scanned by Grype and Trivy. Only vulnerabilities with an upstream fix available are included. Per-repo JSON with the full finding detail is in [`vulns/`](vulns/).
 
@@ -9,22 +9,22 @@ Generated from the HEAD-of-default-branch SBOM of each tracked repo, scanned by 
 | Repo | Critical | High | Medium | Low | Negligible | Unknown |
 |------|---|---|---|---|---|---|
 | `demo.mahocommerce.com` | — | — | — | — | — | — |
-| `directory-data` | — | — | 1 | — | — | — |
+| `directory-data` | — | — | — | — | — | — |
 | `docker-images` | — | — | — | — | — | — |
 | `icons` | — | — | — | — | — | — |
 | `infrastructure` | — | — | — | — | — | — |
-| `maho` | — | — | 1 | — | — | — |
+| `maho` | — | — | — | — | — | — |
 | `maho-composer-patches` | — | — | — | — | — | — |
-| `maho-composer-plugin` | — | — | 1 | — | — | — |
+| `maho-composer-plugin` | — | — | — | — | — | — |
 | `maho-l10n` | — | — | — | — | — | — |
 | `maho-phpstan-plugin` | — | — | — | — | — | — |
 | `maho-sample-data` | — | — | — | — | — | — |
 | `maho-starter` | — | — | — | — | — | — |
 | `mahocommerce.com` | — | — | — | — | — | — |
-| `module-braintree` | — | — | 1 | — | — | — |
+| `module-braintree` | — | — | — | — | — | — |
 | `module-mcrypt-compat` | — | — | — | — | — | — |
-| `module-mollie` | — | — | 1 | — | — | — |
-| `module-netseasy` | — | — | 1 | — | — | — |
+| `module-mollie` | — | — | — | — | — | — |
+| `module-netseasy` | — | — | — | — | — | — |
 | `module-przelewy24` | — | — | — | — | — | — |
 | `module-revolut` | — | — | 1 | — | — | — |
 | `module-template` | — | — | 1 | — | — | — |
@@ -32,7 +32,7 @@ Generated from the HEAD-of-default-branch SBOM of each tracked repo, scanned by 
 | `sboms` | — | — | — | — | — | — |
 | `vscode` | — | — | — | — | — | — |
 | `zed` | — | — | — | — | — | — |
-| **Total** | — | — | **8** | — | — | — |
+| **Total** | — | — | **2** | — | — | — |
 
 ## Critical findings
 

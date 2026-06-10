@@ -1,20 +1,4 @@
 {
-  "summary": {
-    "Medium": 1
-  },
-  "findings": [
-    {
-      "cve": "GHSA-5wxr-w449-57cm",
-      "package": "shivammathur/setup-php",
-      "version": "v2",
-      "purl": "pkg:github/shivammathur/setup-php@v2",
-      "severity": "Medium",
-      "fixed_in": [
-        "2.37.1"
-      ],
-      "sources": [
-        "grype"
-      ]
-    }
-  ]
+  "summary": {},
+  "findings": []
 }
