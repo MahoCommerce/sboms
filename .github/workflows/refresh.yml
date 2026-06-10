@@ -1,4 +1,4 @@
-name: Refresh SBOMs
+name: Refresh
 
 on:
   schedule:
@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: refresh-sboms
+  group: sbom
   cancel-in-progress: false
 
 jobs:
@@ -40,3 +40,62 @@ jobs:
           fi
           git commit -m "chore: refresh SBOMs ($(date -u +%Y-%m-%d))"
           git push
+
+  scan:
+    needs: refresh
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Sync to latest SBOMs
+        run: |
+          # The refresh job may have pushed new SBOMs after this workflow's
+          # trigger SHA; fast-forward to the current branch head before scanning.
+          git fetch origin "${GITHUB_REF_NAME}"
+          git reset --hard "origin/${GITHUB_REF_NAME}"
+
+      - name: Install Grype
+        run: |
+          curl -sSfL https://raw.githubusercontent.com/anchore/grype/main/install.sh \
+            | sh -s -- -b /usr/local/bin
+
+      - name: Install Trivy
+        run: |
+          curl -sSfL https://raw.githubusercontent.com/aquasecurity/trivy/main/contrib/install.sh \
+            | sh -s -- -b /usr/local/bin
+
+      - name: Scan
+        run: ./scan.sh
+
+      - name: Publish report to job summary
+        if: always()
+        run: |
+          if [[ -f VULNERABILITIES.md ]]; then
+            cat VULNERABILITIES.md >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      - name: Commit and push
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add vulns/ VULNERABILITIES.md badges/
+          if git diff --cached --quiet; then
+            echo "No vulnerability changes."
+            exit 0
+          fi
+          git commit -m "chore: refresh vulnerability scans ($(date -u +%Y-%m-%d))"
+          git push
+
+      - name: Fail if any Critical findings on main
+        run: |
+          shopt -s nullglob
+          critical=0
+          for f in vulns/*/main.json; do
+            if jq -e '(.summary.Critical // 0) > 0' "$f" > /dev/null; then
+              repo="$(basename "$(dirname "$f")")"
+              echo "::error::Critical vulnerabilities present in $repo (see $f)"
+              critical=1
+            fi
+          done
+          exit $critical
