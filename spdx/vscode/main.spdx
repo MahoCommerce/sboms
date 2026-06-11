@@ -1,0 +1,109 @@
+SPDXVersion: SPDX-2.1
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: vscode-default
+DocumentNamespace: http://spdx.org/spdxdocs/spdx-v2.1-37b966ce-218a-4299-b260-3fc79cc67936
+Creator: Person: Anonymous ()
+Creator: Organization: Anonymous ()
+Creator: Tool: reuse-6.2.0
+Created: 2026-06-11T16:14:53Z
+CreatorComment: <text>This document was created automatically using available reuse information consistent with REUSE.</text>
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-17c29b75619048d7297101e7aad2efb2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-2b635a85e676412c9a314ec0106ff3de
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-72e365b432d8e6a3dcd0c499247e613c
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-cc9abb127aa42e3c884fff7667af45af
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-b6e2bd397f30d2e56323af9a5426dd66
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-14f7a63be93a9e93b01f18255290db93
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-738d921746989abdd8bb62ea6d0535e2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-b49f8a009e0a96b1a88787b7923ca4db
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-aa7007ad3b009f4874270656bc4140a3
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-5ae2406ccf40fcb9e36c48a05ff79a44
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-d78d3742a5a8f2149f318a06dd7a4c90
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-a813cad48a0ebafa7ad67eb997235d6f
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-0e737c22799e41e1331d0f959cee9c77
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-fc836c5d954c445b4bd5f2fc1f1b387e
+
+FileName: ./.github/FUNDING.yml
+SPDXID: SPDXRef-17c29b75619048d7297101e7aad2efb2
+FileChecksum: SHA1: 72b831238f0c17a73575386d3130716b1b670a4d
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./.github/dependabot.yml
+SPDXID: SPDXRef-2b635a85e676412c9a314ec0106ff3de
+FileChecksum: SHA1: 48bccfb4f55c8f5269c6385b56ef2649646048fc
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./.github/workflows/release.yml
+SPDXID: SPDXRef-72e365b432d8e6a3dcd0c499247e613c
+FileChecksum: SHA1: bc19daf4f14d0b55d769549c5686499cae889ae6
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./.gitignore
+SPDXID: SPDXRef-cc9abb127aa42e3c884fff7667af45af
+FileChecksum: SHA1: 1d239415031e19656d78c0ea41d04cb81ee37124
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./.vscode/launch.json
+SPDXID: SPDXRef-b6e2bd397f30d2e56323af9a5426dd66
+FileChecksum: SHA1: 42182b63d6daccedfa99595532195e96d703e378
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./.vscode/tasks.json
+SPDXID: SPDXRef-14f7a63be93a9e93b01f18255290db93
+FileChecksum: SHA1: c7e713e74442d367e5c531971b1475f87b343e50
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./.vscodeignore
+SPDXID: SPDXRef-738d921746989abdd8bb62ea6d0535e2
+FileChecksum: SHA1: b118c826f0d32748747536aaea9ce3931938d33a
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./AGENTS.md
+SPDXID: SPDXRef-b49f8a009e0a96b1a88787b7923ca4db
+FileChecksum: SHA1: 1e16f09f17770aa97e1df6a624b5e612f27f73f6
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./CLAUDE.md
+SPDXID: SPDXRef-aa7007ad3b009f4874270656bc4140a3
+FileChecksum: SHA1: c140473a3a5fbe89301c99d9d0d1b76c5971f2c3
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./README.md
+SPDXID: SPDXRef-5ae2406ccf40fcb9e36c48a05ff79a44
+FileChecksum: SHA1: 0050ffa37e9445ef0b035a8ac88728a0f54e99eb
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./package-lock.json
+SPDXID: SPDXRef-d78d3742a5a8f2149f318a06dd7a4c90
+FileChecksum: SHA1: 64f6acd0116eb888e0f2d6df7ee62e21ebc0ca92
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./package.json
+SPDXID: SPDXRef-a813cad48a0ebafa7ad67eb997235d6f
+FileChecksum: SHA1: a82980c0531f457ce05606cbe38be8e9ce215105
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./src/extension.ts
+SPDXID: SPDXRef-0e737c22799e41e1331d0f959cee9c77
+FileChecksum: SHA1: dca98225a7bf5501c4e70750c0511e4577c5ee3c
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./tsconfig.json
+SPDXID: SPDXRef-fc836c5d954c445b4bd5f2fc1f1b387e
+FileChecksum: SHA1: 64c3fe5f9df08f6116db42215086d2693012cf74
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+

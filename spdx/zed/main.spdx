@@ -1,0 +1,74 @@
+SPDXVersion: SPDX-2.1
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: zed-default
+DocumentNamespace: http://spdx.org/spdxdocs/spdx-v2.1-81810ec1-37f3-4aa6-af8b-99432775a530
+Creator: Person: Anonymous ()
+Creator: Organization: Anonymous ()
+Creator: Tool: reuse-6.2.0
+Created: 2026-06-11T16:14:56Z
+CreatorComment: <text>This document was created automatically using available reuse information consistent with REUSE.</text>
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-17c29b75619048d7297101e7aad2efb2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-7457de4264cd2d67df4cfcf7af651773
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-541aa3a7430f03e812bcce5f79419371
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-aa7007ad3b009f4874270656bc4140a3
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-5b8abc3f192eb5cb84ecaa59c25ecf72
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-805089fd352a6755bbc282ccb89d8af0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-02b88681164b7e678d13d2414daf53e6
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-1a6de536d7083fec0aa12637a0aa1e16
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-8ec30db581c7f45aea26b3e02f82ef57
+
+FileName: ./.github/FUNDING.yml
+SPDXID: SPDXRef-17c29b75619048d7297101e7aad2efb2
+FileChecksum: SHA1: 72b831238f0c17a73575386d3130716b1b670a4d
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./.gitignore
+SPDXID: SPDXRef-7457de4264cd2d67df4cfcf7af651773
+FileChecksum: SHA1: bc36323726d150e4101c55e54b0f91da6cb3fa9b
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./AGENTS.md
+SPDXID: SPDXRef-541aa3a7430f03e812bcce5f79419371
+FileChecksum: SHA1: ee40cfe2ef19d2346296faf1b46508f13b1b3adb
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./CLAUDE.md
+SPDXID: SPDXRef-aa7007ad3b009f4874270656bc4140a3
+FileChecksum: SHA1: c140473a3a5fbe89301c99d9d0d1b76c5971f2c3
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./Cargo.lock
+SPDXID: SPDXRef-5b8abc3f192eb5cb84ecaa59c25ecf72
+FileChecksum: SHA1: 6a0169aad73f88f932b67e94cff2441a89eca5aa
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./Cargo.toml
+SPDXID: SPDXRef-805089fd352a6755bbc282ccb89d8af0
+FileChecksum: SHA1: f8278577e33175ebd6f2063e0a458c6f06623667
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./README.md
+SPDXID: SPDXRef-02b88681164b7e678d13d2414daf53e6
+FileChecksum: SHA1: 7ee69cffc50b76f58742ec5aede985ecc18d44ee
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./extension.toml
+SPDXID: SPDXRef-1a6de536d7083fec0aa12637a0aa1e16
+FileChecksum: SHA1: f1eb3fdbce26d294b9da666f591d0bf1b4ded8a2
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./src/lib.rs
+SPDXID: SPDXRef-8ec30db581c7f45aea26b3e02f82ef57
+FileChecksum: SHA1: de47ce3e6ece719eb5ea863249224d3259f7f1d6
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+

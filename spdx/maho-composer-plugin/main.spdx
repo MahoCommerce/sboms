@@ -1,0 +1,144 @@
+SPDXVersion: SPDX-2.1
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: maho-composer-plugin-default
+DocumentNamespace: http://spdx.org/spdxdocs/spdx-v2.1-85e98cc4-649f-4a07-b8c1-88f70ce511b0
+Creator: Person: Anonymous ()
+Creator: Organization: Anonymous ()
+Creator: Tool: reuse-6.2.0
+Created: 2026-06-11T16:14:17Z
+CreatorComment: <text>This document was created automatically using available reuse information consistent with REUSE.</text>
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-17c29b75619048d7297101e7aad2efb2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-6d154b08f977467bfa4fce0e961d872f
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-1efbb352881deb9dd31fb9042bafe86b
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-d10b573be7f0d1c840d638781c2d1c87
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-4df2e979359f814a8c113af50eb06c29
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-5bd2198afb260e76e21d01098a8cebea
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-def603f8b7110e4ca43d6322243a9c83
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-78bcf40664a77c6ed6353fb96c3d7790
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-b3277cd32aac9f10db0809bf87aadf79
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-35a8d875782f1593466320d1ce8adef7
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-3a5e82710761486f4193d6b0b94c6b81
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-089e01ddbfd6bb09d85ff2eb1204990e
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-00d4fbfeed860d8711f77e425fde26ea
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-f9b65e17020bdfdf8bbff713dd0185f9
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-6e7e814c7fffb2fc466133a303ac7a37
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-e1b673f5fd3a205c0e0fe58a3d34836f
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-bb61414ae68f65839c66d2bed9703685
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-ab0f6889879ae39fcae1233e31182fe5
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-63e75cefece40468553e8b5327edad3a
+
+FileName: ./.github/FUNDING.yml
+SPDXID: SPDXRef-17c29b75619048d7297101e7aad2efb2
+FileChecksum: SHA1: 72b831238f0c17a73575386d3130716b1b670a4d
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./.github/dependabot.yml
+SPDXID: SPDXRef-6d154b08f977467bfa4fce0e961d872f
+FileChecksum: SHA1: bb35081facec0ec346427f2fcd1e2cf269f5d27d
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./.github/workflows/composer.yml
+SPDXID: SPDXRef-1efbb352881deb9dd31fb9042bafe86b
+FileChecksum: SHA1: 25c75d14b44b133f44c9ff849e62eefdad9102c5
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./.github/workflows/line-endings.yml
+SPDXID: SPDXRef-d10b573be7f0d1c840d638781c2d1c87
+FileChecksum: SHA1: 4da7224bdbb67968781cfc7f74e47c4837606dd0
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./.github/workflows/phpstan.yml
+SPDXID: SPDXRef-4df2e979359f814a8c113af50eb06c29
+FileChecksum: SHA1: 57e2992c4d89b87fe90a9a80eca02c6565af1109
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./.github/workflows/syntax-php.yml
+SPDXID: SPDXRef-5bd2198afb260e76e21d01098a8cebea
+FileChecksum: SHA1: 010cd24c591490779cdd6cb349cf5d1212aedd4b
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./.gitignore
+SPDXID: SPDXRef-def603f8b7110e4ca43d6322243a9c83
+FileChecksum: SHA1: 7e0ddbb8a01d2385f85105c432844245350b7c02
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./.phpstan.dist.neon
+SPDXID: SPDXRef-78bcf40664a77c6ed6353fb96c3d7790
+FileChecksum: SHA1: 7cbe52f4c8d0c1f0a46fba313a59c350ddc4949f
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./CLAUDE.md
+SPDXID: SPDXRef-b3277cd32aac9f10db0809bf87aadf79
+FileChecksum: SHA1: 9f9ebde0b44cfa3f97cb56e9156044d6250415c6
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./README.md
+SPDXID: SPDXRef-35a8d875782f1593466320d1ce8adef7
+FileChecksum: SHA1: 3e5fba63c8eb475b0a1e329f44e7fdb0727e3edd
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./composer.json
+SPDXID: SPDXRef-3a5e82710761486f4193d6b0b94c6b81
+FileChecksum: SHA1: b30a46431f6b8f7ec6a794e5162a453a078f3897
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./composer.lock
+SPDXID: SPDXRef-089e01ddbfd6bb09d85ff2eb1204990e
+FileChecksum: SHA1: e4a20746be8ef147116171c9270c42df69897701
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./src/ApiPermissionCompiler.php
+SPDXID: SPDXRef-00d4fbfeed860d8711f77e425fde26ea
+FileChecksum: SHA1: 3bb0a9fc6fd4f59f018f2969342dfa1818c650f7
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./src/AttributeCompiler.php
+SPDXID: SPDXRef-f9b65e17020bdfdf8bbff713dd0185f9
+FileChecksum: SHA1: 17f90e5138583d582574fa78d92555b9ac3608af
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./src/AutoloadPlugin.php
+SPDXID: SPDXRef-6e7e814c7fffb2fc466133a303ac7a37
+FileChecksum: SHA1: 4fa09b4a33420d85298aadae518ef00ff5f17608
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./src/AutoloadRuntime.php
+SPDXID: SPDXRef-e1b673f5fd3a205c0e0fe58a3d34836f
+FileChecksum: SHA1: 1d676a8ac468a5a70b8f2aa19af490fc96b1ab3f
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./src/FileCopyPlugin.php
+SPDXID: SPDXRef-bb61414ae68f65839c66d2bed9703685
+FileChecksum: SHA1: dfc604dba0972e84919fdcf67c32727572f2e3d1
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./src/ModmanPlugin.php
+SPDXID: SPDXRef-ab0f6889879ae39fcae1233e31182fe5
+FileChecksum: SHA1: 8e8ab95d11572ee02ce6493cd8ac443d3e06ede3
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./stubs/MahoAttributes.stub
+SPDXID: SPDXRef-63e75cefece40468553e8b5327edad3a
+FileChecksum: SHA1: 841c0dcb60c8354b013dcd2bc569a79a5ccca9ed
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+

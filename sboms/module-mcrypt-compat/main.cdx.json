@@ -1,1 +1,32 @@
-{"$schema":"http://cyclonedx.org/schema/bom-1.6.schema.json","bomFormat":"CycloneDX","specVersion":"1.6","serialNumber":"urn:uuid:d604264c-a6a4-452e-b963-160ddc7362b2","version":1,"metadata":{"timestamp":"2026-06-11T07:22:53Z","tools":{"components":[{"type":"application","author":"anchore","name":"syft","version":"1.45.1"}]},"component":{"bom-ref":"2060852789c28185","type":"file","name":"/tmp/tmp.BeeiyQ66dC/module-mcrypt-compat-default"}}}
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:a52ca1e4-79a9-4b73-a8dd-9bab04ab74d4",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-06-11T16:14:36Z",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "author": "anchore",
+          "name": "syft",
+          "version": "1.45.1"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "441610f226e382af",
+      "type": "file",
+      "name": "/tmp/tmp.UBuILv814v/module-mcrypt-compat-default",
+      "licenses": [
+        {
+          "license": {
+            "id": "OSL-3.0"
+          }
+        }
+      ]
+    }
+  }
+}

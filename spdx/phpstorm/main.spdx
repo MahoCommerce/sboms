@@ -1,0 +1,251 @@
+SPDXVersion: SPDX-2.1
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: phpstorm-default
+DocumentNamespace: http://spdx.org/spdxdocs/spdx-v2.1-6a272492-2e64-4ad1-8ec5-4ea39558d6fd
+Creator: Person: Anonymous ()
+Creator: Organization: Anonymous ()
+Creator: Tool: reuse-6.2.0
+Created: 2026-06-11T16:14:49Z
+CreatorComment: <text>This document was created automatically using available reuse information consistent with REUSE.</text>
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-17c29b75619048d7297101e7aad2efb2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-2b635a85e676412c9a314ec0106ff3de
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-52298729d4df5e3eb2450730c0f256ed
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-9af629d5ab65ed699e8d2402335b5668
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-2af712d644729d02968b5620f744d6c1
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-eff00ddd7445ff39db8d5c8381c43262
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-aa7007ad3b009f4874270656bc4140a3
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-4f416fa5d8c6f31f6155572deb3913b3
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-0b26bcf256c3b66135a0ee39b50c180d
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-b7607f4d946b71326b73ab6be25e475e
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-0f1b252092c6137566ef359a56195710
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-9dd28ca4ae0d33d62ae124f587c842e5
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-7cc0fa2ab12eb1dd01e4a86d7b3c7dac
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-c93dabb7a7bc6902f4c7ee0ebdfa23a7
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-0197a4e1ab9994c7f440c38c51ad43bd
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-172d9012c10ea85b87fa79b4bde743a9
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-c0ac491e2570c64fe660dabe5541b097
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-db11bcfb0f41abac2ff826ffb83c4e4e
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-2021fe04e5e647666ce0355c67cd9ba5
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-af6b08ac41ed3ae803d89bfc762b30cd
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-a7c7668c467c7b4614e923f224ec2fde
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-2b2044bc99c831dee45587e7d8b889c7
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-ee0ad4e54e1e51e23d242038209874f2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-e47f40906aab5aab8cbcfa48e2e1360d
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-6661d9124d34c47d2b513cac01931e52
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-efc73617a7eeb25834bd59485b22b8f6
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-8297d674e32e29b13eeeef3eb9de3e38
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-80d1d9533b5c13a89caeb485910a4180
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-4cd97f4f849c21e055c14fb2e9002fe2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-606e6b51d9f17447c29802837ccbde45
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-eaf7b20eb800adfaa44f7b8ab10771ea
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-c56a1b59b2302d56b34b97ee2d4da8c0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-4dd680f7bd48fd5785f95027baba132e
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-0befa261c503393a8e0f063824e1e762
+
+FileName: ./.github/FUNDING.yml
+SPDXID: SPDXRef-17c29b75619048d7297101e7aad2efb2
+FileChecksum: SHA1: 72b831238f0c17a73575386d3130716b1b670a4d
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./.github/dependabot.yml
+SPDXID: SPDXRef-2b635a85e676412c9a314ec0106ff3de
+FileChecksum: SHA1: 48bccfb4f55c8f5269c6385b56ef2649646048fc
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./.github/workflows/release.yml
+SPDXID: SPDXRef-52298729d4df5e3eb2450730c0f256ed
+FileChecksum: SHA1: 80194eb18e593c77591a6dac224d9bb56f9293d5
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./.gitignore
+SPDXID: SPDXRef-9af629d5ab65ed699e8d2402335b5668
+FileChecksum: SHA1: acce7ad758da5243d34cffca372cc0817a7f8ffb
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./AGENTS.md
+SPDXID: SPDXRef-2af712d644729d02968b5620f744d6c1
+FileChecksum: SHA1: 181006e8b4ccf1519b39e9cf7a15e529b56ac880
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./CHANGELOG.md
+SPDXID: SPDXRef-eff00ddd7445ff39db8d5c8381c43262
+FileChecksum: SHA1: ada93a6659d30d40273d316722cb9cebfec9ae4d
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./CLAUDE.md
+SPDXID: SPDXRef-aa7007ad3b009f4874270656bc4140a3
+FileChecksum: SHA1: c140473a3a5fbe89301c99d9d0d1b76c5971f2c3
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./README.md
+SPDXID: SPDXRef-4f416fa5d8c6f31f6155572deb3913b3
+FileChecksum: SHA1: 24f85e1a9b9ad47e297f17cfcd3201d069fffada
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./build.gradle.kts
+SPDXID: SPDXRef-0b26bcf256c3b66135a0ee39b50c180d
+FileChecksum: SHA1: 117ff69a25637da3ee0bd0f38ce4866e34f925cc
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./gradle.properties
+SPDXID: SPDXRef-b7607f4d946b71326b73ab6be25e475e
+FileChecksum: SHA1: 5981c2e425bf23b92983eeafb6bd128bcaa1ea2f
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./gradle/wrapper/gradle-wrapper.jar
+SPDXID: SPDXRef-0f1b252092c6137566ef359a56195710
+FileChecksum: SHA1: 5fb21a795db76a01b4ab4acb25132f8beee3138d
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./gradle/wrapper/gradle-wrapper.properties
+SPDXID: SPDXRef-9dd28ca4ae0d33d62ae124f587c842e5
+FileChecksum: SHA1: 8ed5af11b5527c5ea77d7e1144e5af7b67057f26
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./gradlew
+SPDXID: SPDXRef-7cc0fa2ab12eb1dd01e4a86d7b3c7dac
+FileChecksum: SHA1: c7d2c195e8c87163d2635ddb19792e7591ed0bfb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: <text>Copyright © 2015 the original authors.</text>
+
+FileName: ./gradlew.bat
+SPDXID: SPDXRef-c93dabb7a7bc6902f4c7ee0ebdfa23a7
+FileChecksum: SHA1: 109b1c4de5c6f88697550df6bda0b39ee44ffab6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: <text>Copyright 2015 the original author or authors.</text>
+
+FileName: ./settings.gradle.kts
+SPDXID: SPDXRef-0197a4e1ab9994c7f440c38c51ad43bd
+FileChecksum: SHA1: 75a3a3d8c2a6e1baa16a63989277c89a2cb1d3d6
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./src/main/kotlin/com/mahocommerce/maho/cli/MahoCommand.kt
+SPDXID: SPDXRef-172d9012c10ea85b87fa79b4bde743a9
+FileChecksum: SHA1: 2a7d953cc4574ff9171bbdb8f29d5e28be525ea8
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./src/main/kotlin/com/mahocommerce/maho/cli/MahoCommandAction.kt
+SPDXID: SPDXRef-c0ac491e2570c64fe660dabe5541b097
+FileChecksum: SHA1: 16e15c09fcc072535c0d977e089f1ec47fbddeff
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./src/main/kotlin/com/mahocommerce/maho/cli/MahoCommandActionGroup.kt
+SPDXID: SPDXRef-db11bcfb0f41abac2ff826ffb83c4e4e
+FileChecksum: SHA1: 0b336518ef2907bf06b5d226be3984b290b65e9e
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./src/main/kotlin/com/mahocommerce/maho/cli/MahoCommandDialog.kt
+SPDXID: SPDXRef-2021fe04e5e647666ce0355c67cd9ba5
+FileChecksum: SHA1: e4cdd41aa02d3ff6bb64bb0ccef55cfec6691165
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./src/main/kotlin/com/mahocommerce/maho/cli/MahoCommandRegistry.kt
+SPDXID: SPDXRef-af6b08ac41ed3ae803d89bfc762b30cd
+FileChecksum: SHA1: ff1c345712f870f16cdbcdd32a62e5b3e118da7e
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./src/main/kotlin/com/mahocommerce/maho/cli/MahoCommandRunner.kt
+SPDXID: SPDXRef-a7c7668c467c7b4614e923f224ec2fde
+FileChecksum: SHA1: f7abfb2f4dfd67ddb942b9453e856f75923c62dd
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./src/main/kotlin/com/mahocommerce/maho/cli/MahoConsoleManager.kt
+SPDXID: SPDXRef-2b2044bc99c831dee45587e7d8b889c7
+FileChecksum: SHA1: ab0447a4138511c1731d551779d3253e21b63a19
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./src/main/kotlin/com/mahocommerce/maho/cli/MahoToolWindowFactory.kt
+SPDXID: SPDXRef-ee0ad4e54e1e51e23d242038209874f2
+FileChecksum: SHA1: 3135d8d2f1942f6a3dcb479a18edd961b20bc795
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./src/main/kotlin/com/mahocommerce/maho/database/MahoDatabaseConfigurator.kt
+SPDXID: SPDXRef-e47f40906aab5aab8cbcfa48e2e1360d
+FileChecksum: SHA1: b853f2963d7610706e95a5603a7e39e69a4e2d23
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./src/main/kotlin/com/mahocommerce/maho/database/MahoDbConfig.kt
+SPDXID: SPDXRef-6661d9124d34c47d2b513cac01931e52
+FileChecksum: SHA1: d551016fe668148aa8a6ff92ec8ec6349bf474fb
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./src/main/kotlin/com/mahocommerce/maho/database/MahoLocalXmlParser.kt
+SPDXID: SPDXRef-efc73617a7eeb25834bd59485b22b8f6
+FileChecksum: SHA1: 55c1c4443d8aaaed5cb4cb1e8532e91a8a2a6143
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./src/main/kotlin/com/mahocommerce/maho/lsp/MahoConfigurable.kt
+SPDXID: SPDXRef-8297d674e32e29b13eeeef3eb9de3e38
+FileChecksum: SHA1: de1d0552aee6ed995ca259e998dce98615737f17
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./src/main/kotlin/com/mahocommerce/maho/lsp/MahoLspServerDescriptor.kt
+SPDXID: SPDXRef-80d1d9533b5c13a89caeb485910a4180
+FileChecksum: SHA1: 83ad4ee0511346f5118959d8177c9105e5ff4d55
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./src/main/kotlin/com/mahocommerce/maho/lsp/MahoLspServerSupportProvider.kt
+SPDXID: SPDXRef-4cd97f4f849c21e055c14fb2e9002fe2
+FileChecksum: SHA1: acebdcfc0f5ae1d98d2ae5d78be3b87ea42303eb
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./src/main/kotlin/com/mahocommerce/maho/lsp/MahoSettings.kt
+SPDXID: SPDXRef-606e6b51d9f17447c29802837ccbde45
+FileChecksum: SHA1: 9ed25ca271dc6db4876587b1ad5e25e9098ae904
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./src/main/resources/META-INF/plugin.xml
+SPDXID: SPDXRef-eaf7b20eb800adfaa44f7b8ab10771ea
+FileChecksum: SHA1: 051fbdf174131f7e3a8539a843e69d99eb30a102
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./src/main/resources/META-INF/pluginIcon.svg
+SPDXID: SPDXRef-c56a1b59b2302d56b34b97ee2d4da8c0
+FileChecksum: SHA1: 7b27e64e7574273fa80876832402f64aea314348
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./src/main/resources/icons/toolwindow.svg
+SPDXID: SPDXRef-4dd680f7bd48fd5785f95027baba132e
+FileChecksum: SHA1: 22e1e6ff35e10b1edf444b43527ac0ff19846dfd
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./src/main/resources/icons/toolwindow_dark.svg
+SPDXID: SPDXRef-0befa261c503393a8e0f063824e1e762
+FileChecksum: SHA1: 2876a0e6a0678453a71b31fc0252089fd2ea18c0
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+

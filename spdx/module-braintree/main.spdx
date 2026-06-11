@@ -1,0 +1,1306 @@
+SPDXVersion: SPDX-2.1
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: module-braintree-default
+DocumentNamespace: http://spdx.org/spdxdocs/spdx-v2.1-a9e6fa81-6350-4c7d-8a4d-213e4900fbba
+Creator: Person: Anonymous ()
+Creator: Organization: Anonymous ()
+Creator: Tool: reuse-6.2.0
+Created: 2026-06-11T16:14:33Z
+CreatorComment: <text>This document was created automatically using available reuse information consistent with REUSE.</text>
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-17c29b75619048d7297101e7aad2efb2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-2b635a85e676412c9a314ec0106ff3de
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-4aa0e4d22ebc0f705c58b5580ec7d4db
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-e41d4312751a9e906d2fc5aa5e358a11
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-3e1e0b17d119c427ae82a41344ae1dd6
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-3268a186b377cf2ea1d1eb0ce6872651
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-161b442aa9f65c3f61c48b1b6c605e46
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-5bd6e09ab01d354675949e31d5986f44
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-bc3739814eb9892968aad3a003d0eea8
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-66d9b30dfeedb73b767ed2b2b5134bfd
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-3f2c57bc44440545c080847686e63e63
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-e8cc05e28996372213070889c8b931df
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-240e0776c5c4af5b37a550fc36501a3c
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-29482d2158b1769de74f76285b5a1d4d
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-fd39326c434be4e5522fd57ffd4ae444
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-efb95c104a241cde053a6cb3120a7779
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-5a7f1038146b88ccb565eee3ab0c0e9a
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-842dea7e1646f49e1b69eb02295389ce
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-4534acf09e6271eac9c172c07a1f46c5
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-3f4f9a6161cfc6324438f2cc8686363e
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-19761c0fe806806ce01f3e105bc45a8c
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-31aced7d233444171b5073549b65b6d1
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-42c241f8b278f7c061970962bd38641d
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-90ccb10fe75e97187a78a89a7ca7785f
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-950164a3f52a5fe47751b93ac63872fb
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-32ece6d32df6e7a03655f10bf7b8aec3
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-ace3895dd293a3ee6bd1d369f67ced2d
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-7d34f02c98e430af29fc4dd1d9b9406e
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-0aebd1e196983daad758a5dee8444225
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-209f330c976ce0225b2aec74055c88a7
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-51ec530b21ea4a2b99677df9461ffe77
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-161753a9439c3c6d5ba8ca7281f85681
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-1b5591143323c8756bf42ea88d191509
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-9c9bb4958f9a580069b5e44f662a59a7
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-3f72ce9a43f72d1453a313809e673615
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-5f6eb78db890aa7d2a0761539b7fb5c2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-c660178a62de067aee3331bce98c1caf
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-755ec8f3d3681c6c62cdb009ba4c15a2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-865c0939ddd0b27ca2bb36d4c47f5cdb
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-d8b77309e9052e302eb92c0905111238
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-63bde0e0744662809eefaca03458251f
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-97a73a27ea6cbd66c0ab03bd6a472cf4
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-dfddda0ce0bdc5d23815424f1bdb0a69
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-bff0a03874b634b2593685c77c04528c
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-d9235b21efe52a5307a68ddd2e84c60a
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-adffa152920a0dfa041c1d08cf4e50db
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-2246c662489b4769cbd704621e87696a
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-9b772d517fec1e8789d546aeae372510
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-419fd026b8ed3e48847a2645eef1d029
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-b017a685b31c34f237275928358c4e60
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-3566b47504f961aeaeb48bd43dfc121b
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-1eeb529bbdc269cba11ff500f99acf96
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-2e14d796f39c877a443bad53e87a46ad
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-c6b3cfea36eaa68010da8b2734a154e0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-8df511a7184796be589a168e75ff46cc
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-c96ae983bd2aadf2f07cf76edb39af6c
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-a9335fce21352f9938546c34d199e48f
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-4469411a8d1616021a2926e74fe3ed5d
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-0068e139f6ec425df7f4c47f95870a19
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-a5dab9d5846e0bd3e4e925153b3db5f5
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-0c0f2b2f87f7474ea17d311d20efde72
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-c2c4fd83f61de6848b3965b35546fdd6
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-0ff6d015a9ada2b67196dd38aca0c8c0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-decc90584dc9c8af6d199412d535d8fe
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-c49413df285db18abed126e54283b146
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-fbe0f91a2c7eeac9078ab51b990945f8
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-d13dc4a1f097d5d053cc628266d695c1
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-c1015c7a1bc92c1bcf7c93a87505bfb3
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-0ed9823bc1c8084af0ea7993bcab2b14
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-fa49ad2c4513902b40e6c079086c093c
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-a60dbc347bbe548ad511d5d81568941f
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-8509bd9f7deee24f0ffc4fb5af0f48cf
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-817f5c91dbcffe5eb876650bcdc43c3e
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-c6730c282b3ecf3e0cda28ba1d019ce0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-9b6d91e8827e693de502053d52773df4
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-dd8830ed4cb1e8eaca87d56deed836f1
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-b1611ef009385f7273b2378c6b92d12e
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-2e6e403953fdc2a939fcbd0d77b2d223
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-47ad5f8f10e0e45d0e89658b5ce90691
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-0f5972247a1ab909f97873d53670dc12
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-147a65e522f104cd778ecdaf8f2ed1a7
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-9a7d0af51fe17d88fd4abc4f454ed03d
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-d48660f4883d0db391e9114e2010b18e
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-c04c275dfc6d67d69c73250c7b2ca970
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-b1f70d9ff21f22c9ca401a7e28aafee3
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-8359d18fb58df3dba87f44b585a19c1c
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-2d94ae66d016c9fa39d11f56c9776af9
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-1675227976fcb19c9419f66a6663e4cd
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-3b1b431468ccab149ed1899bbe14dc83
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-1f95dc6f9ca77af0c8fc9fd6c6ce662b
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-50c13d54b7fefae3f3f40f9101a6fbcb
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-cf7aeaaee996fd536575bd0f9a3bb3ac
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-eae24d16061c476299a92927fbc69c45
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-229eda65a4de205d46d2e6a6926a0574
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-728ebaea9c262ca3bf297d407f99ced2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-c341243d167ce3f20b652c91c4725aa7
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-a0dcde57e23740e1b6e92523b20697c4
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-9ef26f47988b2c0f5885c6684be56c8e
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-84470ef288d086b1228cd06403ccdec0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-5464e1dbb0b44fa1f81a91724cc29f68
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-dd0a5f9a52cf92c01a4f63d4179a8c60
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-07badb8fbc7bb8d2852bf256565854ba
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-b6f7e1ae850fa6a85c92165263eaec12
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-c2d799d1ea6e9fdfe6e6c7de57a60db0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-fbac80a53b4384c1d962ba05daf3492e
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-f95a378f39186f6e796b8bec7e8da147
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-6602ff7e8dc7a2160f9c2e187ab82bb3
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-d743d6c359177af85608c7b7ab6b615f
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-7d48c33faafd39766dfe3e526408b2fa
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-2809b88a1225aeac30a386ea688b9038
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-747ff4814c2d0a47e875cf682d3311ce
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-c16bb1b717ea7887b1aba4cc7c9de695
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-25cddec30f31097e1060c66abaf7c78c
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-3e64f952d66f934a77b123525e84bcd5
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-f006dbd2aeb28fe1217145310bf399a2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-28e8df7947f3a64daee329022d57c178
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-f89bbc69e17743cd0bce52e49e01dd2a
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-01b5d65aac3e1a57df25409bf1a73c5e
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-cc7ed93913888cf43dfc100eeaa3428e
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-be6694c195ad1a9e2a7469a03107dd21
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-25e8746d35916c0913ff88d0f4450e97
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-a6d8234b73ed48a54914efed8205e8ef
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-d74672d5c964cc6718889fc17c9a0cb0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-2f3d7ecdc713c3a4952458056f9d53ee
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-79fe44e4ad1fe147aafca2b09edd892c
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-1c4af5747d1ff1eaf1220313097b06d2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-41761b0cc61fffb1c074fc41f0c44769
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-28e6048a773eeb6af9e36158acb2ef34
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-5f054b97a6b516de2175e3b17bdac54f
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-8971c6867123e9792fd1bfa742883787
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-75aee3c230c39176c51ce9d78802052d
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-b3e438a0f4e0bb2fe915a6ecb2072021
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-bd50be629e3d97d82fe767968b4cb24b
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-bba772ba5024059152e8edfda46c8fb7
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-ca0baa3206d2ce5c13abff6c572dd468
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-c7e7a7bb94170704a4901b29f90db1f8
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-ac1b77c4dc9404822a6f2cba0ee2ba00
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-10965cc92a03d97fbbb3e655ad136424
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-98970b43303b573aec445b0c1723654f
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-ed8c035ec6d482194add206a1c1f4711
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-ff8d1c489eb991285ad11c2d30459896
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-e76300f6f8f27ce0902ecb06e483d6e0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-ec8c0e3180218f14504edfd2a07bce92
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-ab64ffc9902d5af16e46facb9361fe2c
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-a1201af9a7f21315ac005381de5db549
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-0acb9bdd6d28c62e767fd759a4e2cf7e
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-8c1bd35f321a149b89cfe61c82931cd9
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-59302559d5222804545dd633d8a29a7b
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-c7eb4502e446c1bf2c71984692e3be94
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-3ecabb5e4b3063e4bb37b0c64425c1d7
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-f1ee6de5fc0f2d026b226ef471c5d594
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-cf6392705a2d1a175ea9bfc768051548
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-72d17e0b2c8487c1f0923cbe3cb940b4
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-4e0f5dda6473518b2a715e00c57c5083
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-35fa4660275e11ac3680716f44779a4d
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-a2195cbd9a28ea8f55138cb0f213fe77
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-6f28e604a36e5debd139baf82e8c28cd
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-4489858da9bc85cda0b69733d826dbc9
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-99af9bfc0e94f389639a7c7a95edd67d
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-b8f536780e4c49433a6dfaf5a37b5d9c
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-5173a05387313b990f8b73b18734beba
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-e9384e8c581fa708ed3459d42296e5e8
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-39525787ef0247e12f13f2d4c6fce40c
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-3a53df6f20fc0e695b98ee9f3cdfbf1c
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-da0d919f940e94f2eba7862d4052c93d
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-96a0d07ad1c2f9ce76774bd84e8909a2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-a2e50b210fb0b1c1b4ace4733b2d8ad9
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-da4cdd34ba7687b110981c1ab5eb31af
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-18f1f599159d3b7fed46f9300617ecf1
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-8595604d84980513b50db2aa1f7fff12
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-c54ad19dca6edf8a98d4568bbc1598ff
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-5279652ee738ce2c6b8ab1ac62674d4e
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-ce77e96e22141c66135f614e950f803a
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-ad9ffac3aa6970947fab095a5edb12d4
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-a870cebeeded1bc7b5c34c73b2c87118
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-7f782e9f5c585e8b9f62d13fa8fca1a2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-181e025ddf523bb4782a367293f69882
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-031890c54f0f28a5136173af40e48f45
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-bdfa0b3528c55e788b58dba7658a043d
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-e3e1b0597efb34cc5345c332e6e71123
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-8b5fffc267249254b6481e27d51d5079
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-a766cde03ba30e47ec7df246ab494305
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-9a4ed3fdef9cfb86062c9546608792c9
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-a4490f26cfbca9f4f87ea42da8f375b7
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-3a0d8a6f167e48608dc699a478fa3ce4
+
+FileName: ./.github/FUNDING.yml
+SPDXID: SPDXRef-17c29b75619048d7297101e7aad2efb2
+FileChecksum: SHA1: 72b831238f0c17a73575386d3130716b1b670a4d
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./.github/dependabot.yml
+SPDXID: SPDXRef-2b635a85e676412c9a314ec0106ff3de
+FileChecksum: SHA1: 48bccfb4f55c8f5269c6385b56ef2649646048fc
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./.github/workflows/composer.yml
+SPDXID: SPDXRef-4aa0e4d22ebc0f705c58b5580ec7d4db
+FileChecksum: SHA1: aa881954e839905ff2b88af4a95c9a2067ebec8f
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./.github/workflows/line-endings.yml
+SPDXID: SPDXRef-e41d4312751a9e906d2fc5aa5e358a11
+FileChecksum: SHA1: b6202e9dcaec27022730f0fec4b94e2bdbb934e0
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./.github/workflows/lint.yml
+SPDXID: SPDXRef-3e1e0b17d119c427ae82a41344ae1dd6
+FileChecksum: SHA1: 0703a78c51ea5f727e4c77adee6f6fc814690f45
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./.github/workflows/phpstan.yml
+SPDXID: SPDXRef-3268a186b377cf2ea1d1eb0ce6872651
+FileChecksum: SHA1: b3645519012fcf26b2de92e47ac89766ae1de11e
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./.github/workflows/syntax-php.yml
+SPDXID: SPDXRef-161b442aa9f65c3f61c48b1b6c605e46
+FileChecksum: SHA1: 21f5c1165713f514a37fc9cd93f3a0abc303a98d
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./.github/workflows/syntax-xml.yml
+SPDXID: SPDXRef-5bd6e09ab01d354675949e31d5986f44
+FileChecksum: SHA1: 43af7ec47fdbd7b5490d4144e0d025652f7b46e6
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./.gitignore
+SPDXID: SPDXRef-bc3739814eb9892968aad3a003d0eea8
+FileChecksum: SHA1: be212e2a4434c902fd3964d3334ab9454255f516
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./.php-cs-fixer.php
+SPDXID: SPDXRef-66d9b30dfeedb73b767ed2b2b5134bfd
+FileChecksum: SHA1: 9bc310ef642a7bbc19ca856db19a9e6876bf4738
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./.phpstan.dist.neon
+SPDXID: SPDXRef-3f2c57bc44440545c080847686e63e63
+FileChecksum: SHA1: c6d5c8d8109cdef222ca1c548543ab00c2389b5c
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./.rector.php
+SPDXID: SPDXRef-e8cc05e28996372213070889c8b931df
+FileChecksum: SHA1: 4cc86845b2afc4b50a982deefa3d09bbd231c75d
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./CLAUDE.md
+SPDXID: SPDXRef-240e0776c5c4af5b37a550fc36501a3c
+FileChecksum: SHA1: f6f92bfd871993aa1290e2a2e86a1ea2467c90db
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./README.md
+SPDXID: SPDXRef-29482d2158b1769de74f76285b5a1d4d
+FileChecksum: SHA1: d63e60fb1d6c0ae4bdc160bcfc587b012bff114b
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/code/community/Gene/Braintree/Block/Adminhtml/Report/Transactions.php
+SPDXID: SPDXRef-fd39326c434be4e5522fd57ffd4ae444
+FileChecksum: SHA1: 9c14538df734b9426da2a8b0cd3ba75ab8ae8513
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/code/community/Gene/Braintree/Block/Adminhtml/Report/Transactions/Grid.php
+SPDXID: SPDXRef-efb95c104a241cde053a6cb3120a7779
+FileChecksum: SHA1: 26d7354515b84db6144d17a9b8ed4fa8efbf494f
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/code/community/Gene/Braintree/Block/Adminhtml/Report/Transactions/Search.php
+SPDXID: SPDXRef-5a7f1038146b88ccb565eee3ab0c0e9a
+FileChecksum: SHA1: 9dc83d231734a6f761ae9e154d7909b8aa5bb020
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/code/community/Gene/Braintree/Block/Adminhtml/System/Config/Braintree/Config.php
+SPDXID: SPDXRef-842dea7e1646f49e1b69eb02295389ce
+FileChecksum: SHA1: 531f1a56393337aba203c4ec60ffe9a62d93b300
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/code/community/Gene/Braintree/Block/Adminhtml/System/Config/Braintree/Currency.php
+SPDXID: SPDXRef-4534acf09e6271eac9c172c07a1f46c5
+FileChecksum: SHA1: 9ceade2fdc6290b84b86ecd123db55650cf42cde
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/code/community/Gene/Braintree/Block/Adminhtml/System/Config/Braintree/Kount/Ens.php
+SPDXID: SPDXRef-3f4f9a6161cfc6324438f2cc8686363e
+FileChecksum: SHA1: fe45675af2685e64071905778d24d6dbf052c8d5
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/code/community/Gene/Braintree/Block/Adminhtml/System/Config/Braintree/Migration.php
+SPDXID: SPDXRef-19761c0fe806806ce01f3e105bc45a8c
+FileChecksum: SHA1: ba8a9494d5996aa14cf85b6b7898fd958d70494f
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/code/community/Gene/Braintree/Block/Adminhtml/System/Config/Migration.php
+SPDXID: SPDXRef-31aced7d233444171b5073549b65b6d1
+FileChecksum: SHA1: 1e738d35296c8f900c12393f71d0fbfbb74e24ca
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/code/community/Gene/Braintree/Block/Applepay.php
+SPDXID: SPDXRef-42c241f8b278f7c061970962bd38641d
+FileChecksum: SHA1: bf708ca797f417d726872f42664bc665a5728e52
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/code/community/Gene/Braintree/Block/Applepay/Express/Abstract.php
+SPDXID: SPDXRef-90ccb10fe75e97187a78a89a7ca7785f
+FileChecksum: SHA1: d51b0ef44f2c17c4465d1a3836993b8b7dfa392a
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/code/community/Gene/Braintree/Block/Applepay/Express/Button.php
+SPDXID: SPDXRef-950164a3f52a5fe47751b93ac63872fb
+FileChecksum: SHA1: 01bfb3267f5ee3dd11d5533b61ac93407a34c194
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/code/community/Gene/Braintree/Block/Applepay/Express/Setup.php
+SPDXID: SPDXRef-32ece6d32df6e7a03655f10bf7b8aec3
+FileChecksum: SHA1: f1cba7b3ab858b61b5a5c7c00227a3bcea61b86c
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/code/community/Gene/Braintree/Block/Applepay/Info.php
+SPDXID: SPDXRef-ace3895dd293a3ee6bd1d369f67ced2d
+FileChecksum: SHA1: 608acae29c5c49ad2e2e6bcc27e14c0e6721324a
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/code/community/Gene/Braintree/Block/Applepay/Setup.php
+SPDXID: SPDXRef-7d34f02c98e430af29fc4dd1d9b9406e
+FileChecksum: SHA1: 36a078d425468d187eff57c39a8e429884542116
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/code/community/Gene/Braintree/Block/Assets.php
+SPDXID: SPDXRef-0aebd1e196983daad758a5dee8444225
+FileChecksum: SHA1: 8a9de5008c26cd82fd6e6253bb2839e313f190b5
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/code/community/Gene/Braintree/Block/Braintree.php
+SPDXID: SPDXRef-209f330c976ce0225b2aec74055c88a7
+FileChecksum: SHA1: 5b6d8fd05961779dce0ee56a6dce9e536a42624c
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/code/community/Gene/Braintree/Block/Cart/Totals.php
+SPDXID: SPDXRef-51ec530b21ea4a2b99677df9461ffe77
+FileChecksum: SHA1: 83004fdf51821af7be6fa3814cc8f58867edbf63
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/code/community/Gene/Braintree/Block/Creditcard.php
+SPDXID: SPDXRef-161753a9439c3c6d5ba8ca7281f85681
+FileChecksum: SHA1: 12bc2f679599231eb04a9a150d5dd5146a4b2b91
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/code/community/Gene/Braintree/Block/Creditcard/Info.php
+SPDXID: SPDXRef-1b5591143323c8756bf42ea88d191509
+FileChecksum: SHA1: a731d8ab0a415cb2037b0358ab775867c5791fb9
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/code/community/Gene/Braintree/Block/Creditcard/Saved.php
+SPDXID: SPDXRef-9c9bb4958f9a580069b5e44f662a59a7
+FileChecksum: SHA1: ca15554c63684d3625aedbbfcddbd2de83a8ad79
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/code/community/Gene/Braintree/Block/Creditcard/Threedsecure.php
+SPDXID: SPDXRef-3f72ce9a43f72d1453a313809e673615
+FileChecksum: SHA1: 691cf4f3c6af2d355319368555e524aa7687cae3
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/code/community/Gene/Braintree/Block/Googlepay.php
+SPDXID: SPDXRef-5f6eb78db890aa7d2a0761539b7fb5c2
+FileChecksum: SHA1: 7710f668d3aee77ca324ee74ca176b43c725971a
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/code/community/Gene/Braintree/Block/Googlepay/Info.php
+SPDXID: SPDXRef-c660178a62de067aee3331bce98c1caf
+FileChecksum: SHA1: 1579e187a54c69d070b9abaa3c37b465176e33fe
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/code/community/Gene/Braintree/Block/Googlepay/Setup.php
+SPDXID: SPDXRef-755ec8f3d3681c6c62cdb009ba4c15a2
+FileChecksum: SHA1: 34614651d6facc90a162612388e1fafba0a29417
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/code/community/Gene/Braintree/Block/Info.php
+SPDXID: SPDXRef-865c0939ddd0b27ca2bb36d4c47f5cdb
+FileChecksum: SHA1: 1f3800a422c85a59e5ab888e2e4c0889c519e9fe
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/code/community/Gene/Braintree/Block/Js.php
+SPDXID: SPDXRef-d8b77309e9052e302eb92c0905111238
+FileChecksum: SHA1: 4943cf312950b5edf22c2e7bf83ba7297da24ba1
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/code/community/Gene/Braintree/Block/Saved.php
+SPDXID: SPDXRef-63bde0e0744662809eefaca03458251f
+FileChecksum: SHA1: e172697c62b59d7eafcda421e064c4d4addbb493
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/code/community/Gene/Braintree/Block/Saved/Edit.php
+SPDXID: SPDXRef-97a73a27ea6cbd66c0ab03bd6a472cf4
+FileChecksum: SHA1: fb118234fe21c518501f0ae8777019c254581982
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/code/community/Gene/Braintree/Helper/Data.php
+SPDXID: SPDXRef-dfddda0ce0bdc5d23815424f1bdb0a69
+FileChecksum: SHA1: 0679a9a642ced680853d522b2b9102b1a4ef68e5
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/code/community/Gene/Braintree/Model/Applepay/Express.php
+SPDXID: SPDXRef-bff0a03874b634b2593685c77c04528c
+FileChecksum: SHA1: dac046c1f95d96b993c601f5b804e7c396e9a196
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/code/community/Gene/Braintree/Model/Debug.php
+SPDXID: SPDXRef-d9235b21efe52a5307a68ddd2e84c60a
+FileChecksum: SHA1: 8e2af2c32b9cae71e9829b0ed8dd0cb5c2b40d83
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/code/community/Gene/Braintree/Model/Entity/Setup.php
+SPDXID: SPDXRef-adffa152920a0dfa041c1d08cf4e50db
+FileChecksum: SHA1: cc8faabf73fab4351b535558e44f6c7f99341dc9
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/code/community/Gene/Braintree/Model/Kount/Ens.php
+SPDXID: SPDXRef-2246c662489b4769cbd704621e87696a
+FileChecksum: SHA1: ac82d48d71f7f26c824be09f05c0034bacb9187f
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/code/community/Gene/Braintree/Model/Kount/Rest.php
+SPDXID: SPDXRef-9b772d517fec1e8789d546aeae372510
+FileChecksum: SHA1: 2c2f05f65f9faf2354218e1a1fcb50111b159510
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/code/community/Gene/Braintree/Model/Migration.php
+SPDXID: SPDXRef-419fd026b8ed3e48847a2645eef1d029
+FileChecksum: SHA1: 98158e285982b42028b6fc0bfb51fcf1a8870189
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/code/community/Gene/Braintree/Model/Observer.php
+SPDXID: SPDXRef-b017a685b31c34f237275928358c4e60
+FileChecksum: SHA1: c0df1d31396026b644893d47a55a0845c9b8a1a6
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/code/community/Gene/Braintree/Model/Paymentmethod/Abstract.php
+SPDXID: SPDXRef-3566b47504f961aeaeb48bd43dfc121b
+FileChecksum: SHA1: 9a85141ccc856177aea593ba662781008c3caa72
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/code/community/Gene/Braintree/Model/Paymentmethod/Applepay.php
+SPDXID: SPDXRef-1eeb529bbdc269cba11ff500f99acf96
+FileChecksum: SHA1: 96c3c77eb3de728273194f0a6a46b8cedd2df800
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/code/community/Gene/Braintree/Model/Paymentmethod/Creditcard.php
+SPDXID: SPDXRef-2e14d796f39c877a443bad53e87a46ad
+FileChecksum: SHA1: 3ab6b079eea237337f785734c571efe8c1614b1e
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/code/community/Gene/Braintree/Model/Paymentmethod/Googlepay.php
+SPDXID: SPDXRef-c6b3cfea36eaa68010da8b2734a154e0
+FileChecksum: SHA1: f78e880a92c5b72c1aa7dc7c733846935610d3a8
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/code/community/Gene/Braintree/Model/Paymentmethod/Legacy/Creditcard.php
+SPDXID: SPDXRef-8df511a7184796be589a168e75ff46cc
+FileChecksum: SHA1: 44aa0659402251745a316586ea29421ee6384c89
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/code/community/Gene/Braintree/Model/Saved.php
+SPDXID: SPDXRef-c96ae983bd2aadf2f07cf76edb39af6c
+FileChecksum: SHA1: 27e61f6fed1a45efd9a75ae6595232b7a4588113
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/code/community/Gene/Braintree/Model/Source/ButtonStyle/Color.php
+SPDXID: SPDXRef-a9335fce21352f9938546c34d199e48f
+FileChecksum: SHA1: 9e106dce3cfc40678482f1646e0f73559127611a
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/code/community/Gene/Braintree/Model/Source/ButtonStyle/Layout.php
+SPDXID: SPDXRef-4469411a8d1616021a2926e74fe3ed5d
+FileChecksum: SHA1: 7a728d5f087738a59265d1f7e3ea903e54a9e52d
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/code/community/Gene/Braintree/Model/Source/ButtonStyle/Shape.php
+SPDXID: SPDXRef-0068e139f6ec425df7f4c47f95870a19
+FileChecksum: SHA1: 082bd02824ff12c8674c70a188a2767727758306
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/code/community/Gene/Braintree/Model/Source/ButtonStyle/Size.php
+SPDXID: SPDXRef-a5dab9d5846e0bd3e4e925153b3db5f5
+FileChecksum: SHA1: 445ebcc6e99c12dc16bb7ae8c806b0e3693733ad
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/code/community/Gene/Braintree/Model/Source/Cctype.php
+SPDXID: SPDXRef-0c0f2b2f87f7474ea17d311d20efde72
+FileChecksum: SHA1: 468776155d30e7b9bb3ca2b731004f3ff0a08995
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/code/community/Gene/Braintree/Model/Source/Creditcard/CaptureAction.php
+SPDXID: SPDXRef-c2c4fd83f61de6848b3965b35546fdd6
+FileChecksum: SHA1: b92ad37d1b670c9d7959e640245257b5d66281fd
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/code/community/Gene/Braintree/Model/Source/Creditcard/FormIntegration.php
+SPDXID: SPDXRef-0ff6d015a9ada2b67196dd38aca0c8c0
+FileChecksum: SHA1: 5bd88e64b1cf2da67265c7107a99442445544417
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/code/community/Gene/Braintree/Model/Source/Creditcard/PaymentAction.php
+SPDXID: SPDXRef-decc90584dc9c8af6d199412d535d8fe
+FileChecksum: SHA1: 19ed09c7c444e5dfb440c806a7d040c1860a6f9f
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/code/community/Gene/Braintree/Model/Source/Environment.php
+SPDXID: SPDXRef-c49413df285db18abed126e54283b146
+FileChecksum: SHA1: 4a67bd25d7903212b67810cee681f0966328c847
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/code/community/Gene/Braintree/Model/Source/Googlepay/AcceptedCards.php
+SPDXID: SPDXRef-fbe0f91a2c7eeac9078ab51b990945f8
+FileChecksum: SHA1: 7961c4c21b7609bdf7f7366d9d788d7a7a2e3f00
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/code/community/Gene/Braintree/Model/System/Config/Backend/Currency.php
+SPDXID: SPDXRef-d13dc4a1f097d5d053cc628266d695c1
+FileChecksum: SHA1: a7c387c0137cf3f8e2e70a788f7733d41d2c9b2b
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/code/community/Gene/Braintree/Model/System/Config/Source/Payment/Liabilityaction.php
+SPDXID: SPDXRef-c1015c7a1bc92c1bcf7c93a87505bfb3
+FileChecksum: SHA1: dec326a37fc1d2bbd9c71cb2bef111d2404079cc
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/code/community/Gene/Braintree/Model/System/Config/Source/Payment/Threedsecurecountries.php
+SPDXID: SPDXRef-0ed9823bc1c8084af0ea7993bcab2b14
+FileChecksum: SHA1: 209eabffb34e9970b52fc403b91e9f2128170160
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/code/community/Gene/Braintree/Model/Wrapper/Braintree.php
+SPDXID: SPDXRef-fa49ad2c4513902b40e6c079086c093c
+FileChecksum: SHA1: a2f91c672f7cfe78f37380ebeab1a7e561fc83cf
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/code/community/Gene/Braintree/Traits/PaymentMethods.php
+SPDXID: SPDXRef-a60dbc347bbe548ad511d5d81568941f
+FileChecksum: SHA1: 392c4514f4c4d6c5d50b2fca190df034a8afdfea
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/code/community/Gene/Braintree/controllers/Adminhtml/Braintree/MigrationController.php
+SPDXID: SPDXRef-8509bd9f7deee24f0ffc4fb5af0f48cf
+FileChecksum: SHA1: 6d2122eb6d228e959873584d7a75f66f35f58755
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/code/community/Gene/Braintree/controllers/Adminhtml/BraintreeController.php
+SPDXID: SPDXRef-817f5c91dbcffe5eb876650bcdc43c3e
+FileChecksum: SHA1: fd06a2e41f474af5947bc22cfcfb00a1f49bc5ee
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/code/community/Gene/Braintree/controllers/Adminhtml/CheckoutController.php
+SPDXID: SPDXRef-c6730c282b3ecf3e0cda28ba1d019ce0
+FileChecksum: SHA1: 2460e6da8a4ccccd1673a1eca25cad4cbec2d212
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/code/community/Gene/Braintree/controllers/ApplepayController.php
+SPDXID: SPDXRef-9b6d91e8827e693de502053d52773df4
+FileChecksum: SHA1: 09dae09a4da73c2d26a2e619cf1f060fddc473d7
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/code/community/Gene/Braintree/controllers/CheckoutController.php
+SPDXID: SPDXRef-dd8830ed4cb1e8eaca87d56deed836f1
+FileChecksum: SHA1: 4a537d9a6d09c1709c54602ccbece2fde43949cc
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/code/community/Gene/Braintree/controllers/GooglepayController.php
+SPDXID: SPDXRef-b1611ef009385f7273b2378c6b92d12e
+FileChecksum: SHA1: 2e50ca6b357e2e12651975a328e5111ea206742b
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/code/community/Gene/Braintree/controllers/Kount/EnsController.php
+SPDXID: SPDXRef-2e6e403953fdc2a939fcbd0d77b2d223
+FileChecksum: SHA1: 37dc55c02cfb5e2c1df611c552ae99fc5d74ffb4
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/code/community/Gene/Braintree/controllers/SavedController.php
+SPDXID: SPDXRef-47ad5f8f10e0e45d0e89658b5ce90691
+FileChecksum: SHA1: 71cd8751f4f31fe6f1ac2891513df55a17e2c909
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/code/community/Gene/Braintree/etc/adminhtml.xml
+SPDXID: SPDXRef-0f5972247a1ab909f97873d53670dc12
+FileChecksum: SHA1: 77d761b54752dc80eba250204df17a8c9e016489
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/code/community/Gene/Braintree/etc/config.xml
+SPDXID: SPDXRef-147a65e522f104cd778ecdaf8f2ed1a7
+FileChecksum: SHA1: 8b9a73355faf18baa96e0ae1e855f995af85bfb4
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/code/community/Gene/Braintree/etc/jstranslator.xml
+SPDXID: SPDXRef-9a7d0af51fe17d88fd4abc4f454ed03d
+FileChecksum: SHA1: 0b50cfa890e3f1292a9ab307b5800ac21c8b9453
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/code/community/Gene/Braintree/etc/system.xml
+SPDXID: SPDXRef-d48660f4883d0db391e9114e2010b18e
+FileChecksum: SHA1: 885de6fe5ecc13e539bbec42abdcebae3adbd3fc
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/code/community/Gene/Braintree/sql/gene_braintree_setup/install-0.1.0.php
+SPDXID: SPDXRef-c04c275dfc6d67d69c73250c7b2ca970
+FileChecksum: SHA1: ef2941fb4c2e16e0bb364651c3327a88933cf3b8
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/code/community/Gene/Braintree/sql/gene_braintree_setup/upgrade-1.0.5.4-2.0.0.php
+SPDXID: SPDXRef-b1f70d9ff21f22c9ca401a7e28aafee3
+FileChecksum: SHA1: eb94fea7c1e9a6454c6384b4fbd34f1722355ee6
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/code/community/Gene/Braintree/sql/gene_braintree_setup/upgrade-2.0.0-2.0.1.php
+SPDXID: SPDXRef-8359d18fb58df3dba87f44b585a19c1c
+FileChecksum: SHA1: 34939b08b741ad3a291dfc1549ab8f181afb6ee5
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/code/community/Gene/Braintree/sql/gene_braintree_setup/upgrade-2.0.4-2.1.0.php
+SPDXID: SPDXRef-2d94ae66d016c9fa39d11f56c9776af9
+FileChecksum: SHA1: 1d7dc7adbbf20281cc4a87f5ec904a89c7772afe
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/design/adminhtml/default/default/layout/gene/braintree.xml
+SPDXID: SPDXRef-1675227976fcb19c9419f66a6663e4cd
+FileChecksum: SHA1: 08dc32171f9784973cf7cf6715481ce364b1b58c
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/design/adminhtml/default/default/template/gene/braintree/applepay/info.phtml
+SPDXID: SPDXRef-3b1b431468ccab149ed1899bbe14dc83
+FileChecksum: SHA1: 2b84acfc16c122a91f5cb24a9091c6ea78931c1d
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/design/adminhtml/default/default/template/gene/braintree/assets.phtml
+SPDXID: SPDXRef-1f95dc6f9ca77af0c8fc9fd6c6ce662b
+FileChecksum: SHA1: c508d2020485ba1a6ad95b1275244170389558e8
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/design/adminhtml/default/default/template/gene/braintree/creditcard/hostedfields.phtml
+SPDXID: SPDXRef-50c13d54b7fefae3f3f40f9101a6fbcb
+FileChecksum: SHA1: efbae48a71ee299950fc6ce236e22c8a31ae8fc5
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/design/adminhtml/default/default/template/gene/braintree/creditcard/info.phtml
+SPDXID: SPDXRef-cf7aeaaee996fd536575bd0f9a3bb3ac
+FileChecksum: SHA1: b7e7eced1f5d4dd0535c249195a02f4b1d98d752
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/design/adminhtml/default/default/template/gene/braintree/creditcard/saved.phtml
+SPDXID: SPDXRef-eae24d16061c476299a92927fbc69c45
+FileChecksum: SHA1: 9750a0dc5defe306127041c289a7380a62d87320
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/design/adminhtml/default/default/template/gene/braintree/googlepay/info.phtml
+SPDXID: SPDXRef-229eda65a4de205d46d2e6a6926a0574
+FileChecksum: SHA1: ac15d5a79299ba8c5a6b87705df6dd6608d4c7ff
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/design/adminhtml/default/default/template/gene/braintree/js.phtml
+SPDXID: SPDXRef-728ebaea9c262ca3bf297d407f99ced2
+FileChecksum: SHA1: e7106e6be9faa909b939e5f6a75b69f1889e8d4e
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/design/adminhtml/default/default/template/gene/braintree/system/config/migration.phtml
+SPDXID: SPDXRef-c341243d167ce3f20b652c91c4725aa7
+FileChecksum: SHA1: 2c5cad99a2a34ed74e32d2cda0afc7b15ad99cea
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/design/adminhtml/default/default/template/gene/braintree/transactions/index.phtml
+SPDXID: SPDXRef-a0dcde57e23740e1b6e92523b20697c4
+FileChecksum: SHA1: 30e7998ac7049624992f756da9927e26b6379242
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/design/adminhtml/default/default/template/gene/braintree/transactions/search.phtml
+SPDXID: SPDXRef-9ef26f47988b2c0f5885c6684be56c8e
+FileChecksum: SHA1: dd8e855bd3e95d8ba457b458bcb5c21c82625512
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/design/frontend/base/default/layout/gene/braintree.xml
+SPDXID: SPDXRef-84470ef288d086b1228cd06403ccdec0
+FileChecksum: SHA1: 170b9f1bed5feb588d93ebff4bff82077669114e
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/design/frontend/base/default/template/gene/braintree/applepay.phtml
+SPDXID: SPDXRef-5464e1dbb0b44fa1f81a91724cc29f68
+FileChecksum: SHA1: 0be8f547a014d8410614f75583d92ee99a990c94
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/design/frontend/base/default/template/gene/braintree/applepay/express/cart/button.phtml
+SPDXID: SPDXRef-dd0a5f9a52cf92c01a4f63d4179a8c60
+FileChecksum: SHA1: 697789bc1d2acd6d6702c63234c167bf47bedd14
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/design/frontend/base/default/template/gene/braintree/applepay/express/cart/setup.phtml
+SPDXID: SPDXRef-07badb8fbc7bb8d2852bf256565854ba
+FileChecksum: SHA1: 7a61937e91a8a9fa16cd26a35ccc9f55687f6f85
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/design/frontend/base/default/template/gene/braintree/applepay/express/catalog/button.phtml
+SPDXID: SPDXRef-b6f7e1ae850fa6a85c92165263eaec12
+FileChecksum: SHA1: 087fd2a958581c059f0e4dfd1b3a2c1bf252734b
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/design/frontend/base/default/template/gene/braintree/applepay/express/catalog/setup.phtml
+SPDXID: SPDXRef-c2d799d1ea6e9fdfe6e6c7de57a60db0
+FileChecksum: SHA1: f6aef891935755668396a2d0272f0eae2c663ef8
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/design/frontend/base/default/template/gene/braintree/applepay/info.phtml
+SPDXID: SPDXRef-fbac80a53b4384c1d962ba05daf3492e
+FileChecksum: SHA1: e9f36d6d33a8c8ff2b349935de1109919a712e83
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/design/frontend/base/default/template/gene/braintree/assets.phtml
+SPDXID: SPDXRef-f95a378f39186f6e796b8bec7e8da147
+FileChecksum: SHA1: c508d2020485ba1a6ad95b1275244170389558e8
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/design/frontend/base/default/template/gene/braintree/creditcard/hostedfields.phtml
+SPDXID: SPDXRef-6602ff7e8dc7a2160f9c2e187ab82bb3
+FileChecksum: SHA1: a671effefb3b9a4268fdd22e4a27e003c1cd716b
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/design/frontend/base/default/template/gene/braintree/creditcard/info.phtml
+SPDXID: SPDXRef-d743d6c359177af85608c7b7ab6b615f
+FileChecksum: SHA1: b560595335622eb2cc8474220a65dcabcb06537d
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/design/frontend/base/default/template/gene/braintree/creditcard/saved.phtml
+SPDXID: SPDXRef-7d48c33faafd39766dfe3e526408b2fa
+FileChecksum: SHA1: e306356a9b9990aa33be9248c5fb24074474a438
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/design/frontend/base/default/template/gene/braintree/creditcard/threedsecure.phtml
+SPDXID: SPDXRef-2809b88a1225aeac30a386ea688b9038
+FileChecksum: SHA1: 3b24213cf059c8b31094fd7c0b4a106c6a82534c
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/design/frontend/base/default/template/gene/braintree/customer/edit.phtml
+SPDXID: SPDXRef-747ff4814c2d0a47e875cf682d3311ce
+FileChecksum: SHA1: 289be4003a0ea5e23f615b366dfebceaab0127c6
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/design/frontend/base/default/template/gene/braintree/customer/methods.phtml
+SPDXID: SPDXRef-c16bb1b717ea7887b1aba4cc7c9de695
+FileChecksum: SHA1: 17cc1c64085276084ba71f9c1d3a9b864b2d5826
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/design/frontend/base/default/template/gene/braintree/customer/saved.phtml
+SPDXID: SPDXRef-25cddec30f31097e1060c66abaf7c78c
+FileChecksum: SHA1: 7f437d25c95df2a959815458184f7ad1ea070e80
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/design/frontend/base/default/template/gene/braintree/googlepay.phtml
+SPDXID: SPDXRef-3e64f952d66f934a77b123525e84bcd5
+FileChecksum: SHA1: c56c20171f1467e594734cf5739fac1a3ddfeba4
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/design/frontend/base/default/template/gene/braintree/googlepay/info.phtml
+SPDXID: SPDXRef-f006dbd2aeb28fe1217145310bf399a2
+FileChecksum: SHA1: 7496929353e66c4e39c0443dc887a32e1d0b646b
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/design/frontend/base/default/template/gene/braintree/js/aheadworks.phtml
+SPDXID: SPDXRef-28e8df7947f3a64daee329022d57c178
+FileChecksum: SHA1: 967507e122fbf95e875028e31e326db87795febd
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/design/frontend/base/default/template/gene/braintree/js/amasty.phtml
+SPDXID: SPDXRef-f89bbc69e17743cd0bce52e49e01dd2a
+FileChecksum: SHA1: fca13767ab5899af7675fc31b1168cf6d458d0ff
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/design/frontend/base/default/template/gene/braintree/js/applepaysetup.phtml
+SPDXID: SPDXRef-01b5d65aac3e1a57df25409bf1a73c5e
+FileChecksum: SHA1: 28e843f4eb0b5f9b344c521201abde92ccec5a89
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/design/frontend/base/default/template/gene/braintree/js/awesomecheckout.phtml
+SPDXID: SPDXRef-cc7ed93913888cf43dfc100eeaa3428e
+FileChecksum: SHA1: af64859778b4c08dbe971b206a0231f06e879036
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/design/frontend/base/default/template/gene/braintree/js/default.phtml
+SPDXID: SPDXRef-be6694c195ad1a9e2a7469a03107dd21
+FileChecksum: SHA1: cf71534a3c6b5c0550d6bb9325c1b4f3873d9a2a
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/design/frontend/base/default/template/gene/braintree/js/fancycheckout.phtml
+SPDXID: SPDXRef-25e8746d35916c0913ff88d0f4450e97
+FileChecksum: SHA1: 34e26479490e401ee70b80ed31fda14381a01826
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/design/frontend/base/default/template/gene/braintree/js/firecheckout.phtml
+SPDXID: SPDXRef-a6d8234b73ed48a54914efed8205e8ef
+FileChecksum: SHA1: 4276d19fda89faa2675b85bfc5cee57cd74810c2
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/design/frontend/base/default/template/gene/braintree/js/fme.phtml
+SPDXID: SPDXRef-d74672d5c964cc6718889fc17c9a0cb0
+FileChecksum: SHA1: cae7b891e5e96f5118181f26ef831738e9db146d
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/design/frontend/base/default/template/gene/braintree/js/googlepaysetup.phtml
+SPDXID: SPDXRef-2f3d7ecdc713c3a4952458056f9d53ee
+FileChecksum: SHA1: 6a91d02d8d3b3f27134d0f9f1110344687a1dd40
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/design/frontend/base/default/template/gene/braintree/js/idev.phtml
+SPDXID: SPDXRef-79fe44e4ad1fe147aafca2b09edd892c
+FileChecksum: SHA1: 3613e683e588fb202c8ca889f77dbbf8e85fce75
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/design/frontend/base/default/template/gene/braintree/js/iwd.phtml
+SPDXID: SPDXRef-1c4af5747d1ff1eaf1220313097b06d2
+FileChecksum: SHA1: dde651ec11ae7ddb45abd4b6d9c3ec0146c6f9fa
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/design/frontend/base/default/template/gene/braintree/js/magestore.phtml
+SPDXID: SPDXRef-41761b0cc61fffb1c074fc41f0c44769
+FileChecksum: SHA1: 46a04a5ccc8d05fc4368d30a146d04b831d08762
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/design/frontend/base/default/template/gene/braintree/js/oye.phtml
+SPDXID: SPDXRef-28e6048a773eeb6af9e36158acb2ef34
+FileChecksum: SHA1: f74bc7e959166718343cde62a2dc6e119a526f37
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/design/frontend/base/default/template/gene/braintree/js/setup.phtml
+SPDXID: SPDXRef-5f054b97a6b516de2175e3b17bdac54f
+FileChecksum: SHA1: 7c50a144c167bfbd2f474fe7972330ac28156e31
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/design/frontend/base/default/template/gene/braintree/js/unicode.phtml
+SPDXID: SPDXRef-8971c6867123e9792fd1bfa742883787
+FileChecksum: SHA1: a8ef4f8288d6e42c995a67841dbfa39b3bafa73b
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/etc/modules/Gene_Braintree.xml
+SPDXID: SPDXRef-75aee3c230c39176c51ce9d78802052d
+FileChecksum: SHA1: 1fb23ebe5f130c8c63e0c9b21396374ddbcf869d
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/locale/en_US/Gene_Braintree.csv
+SPDXID: SPDXRef-b3e438a0f4e0bb2fe915a6ecb2072021
+FileChecksum: SHA1: bad5e9394aaa23b208fcb095ba85694b43593034
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./composer.json
+SPDXID: SPDXRef-bd50be629e3d97d82fe767968b4cb24b
+FileChecksum: SHA1: 832a7092cc4df63aaad06d9a8442e91b5391a2c0
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./js/gene_braintree/express/abstract.js
+SPDXID: SPDXRef-bba772ba5024059152e8edfda46c8fb7
+FileChecksum: SHA1: 65e9112711fda33307e799219eb76587cf23f554
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./js/gene_braintree/express/applepay.js
+SPDXID: SPDXRef-ca0baa3206d2ce5c13abff6c572dd468
+FileChecksum: SHA1: 35acf3fa0dd767adf3dfd6df016a74fee320b161
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./js/gene_braintree/vzero-applepay.js
+SPDXID: SPDXRef-c7e7a7bb94170704a4901b29f90db1f8
+FileChecksum: SHA1: f2a5c93dd9f0393202874d523bf2a6162ad673eb
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./js/gene_braintree/vzero-googlepay.js
+SPDXID: SPDXRef-ac1b77c4dc9404822a6f2cba0ee2ba00
+FileChecksum: SHA1: 2e99779e1992b43685992672b4949f433c7b3ac6
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./js/gene_braintree/vzero-integration.js
+SPDXID: SPDXRef-10965cc92a03d97fbbb3e655ad136424
+FileChecksum: SHA1: 8ca3d1e38860b0bf12fc2a615d63a8353706c759
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./js/gene_braintree/vzero.js
+SPDXID: SPDXRef-98970b43303b573aec445b0c1723654f
+FileChecksum: SHA1: 8f02320a206674a859eb14a635630f7dbd278b6e
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./skin/adminhtml/base/default/css/gene/braintree/adminhtml.css
+SPDXID: SPDXRef-ed8c035ec6d482194add206a1c1f4711
+FileChecksum: SHA1: 3af5e37776f09877901f6acc12212f0648fb442a
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./skin/adminhtml/base/default/css/gene/braintree/migration.css
+SPDXID: SPDXRef-ff8d1c489eb991285ad11c2d30459896
+FileChecksum: SHA1: 8bd7d52a232607ddda867f4edd788c70074401c9
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./skin/adminhtml/base/default/images/gene/braintree/AE.png
+SPDXID: SPDXRef-e76300f6f8f27ce0902ecb06e483d6e0
+FileChecksum: SHA1: 92de882e47a01cec35be75d5c59e95427ef48b33
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./skin/adminhtml/base/default/images/gene/braintree/DI.png
+SPDXID: SPDXRef-ec8c0e3180218f14504edfd2a07bce92
+FileChecksum: SHA1: cca9d207f3389b2013e856a7634741f96c7b331e
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./skin/adminhtml/base/default/images/gene/braintree/JCB.png
+SPDXID: SPDXRef-ab64ffc9902d5af16e46facb9361fe2c
+FileChecksum: SHA1: 71b55977785bc4279026e07a5fb48e052cb0a7b3
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./skin/adminhtml/base/default/images/gene/braintree/MC.png
+SPDXID: SPDXRef-a1201af9a7f21315ac005381de5db549
+FileChecksum: SHA1: 9084c84266ea3f5985d92572e5f57d1ce13d3a2c
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./skin/adminhtml/base/default/images/gene/braintree/ME.png
+SPDXID: SPDXRef-0acb9bdd6d28c62e767fd759a4e2cf7e
+FileChecksum: SHA1: ac8954991d2420589dfda09af5749e9a48f6dfac
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./skin/adminhtml/base/default/images/gene/braintree/PP.png
+SPDXID: SPDXRef-8c1bd35f321a149b89cfe61c82931cd9
+FileChecksum: SHA1: 37bb8fc78d93deafa5778632086b6d711be9df26
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./skin/adminhtml/base/default/images/gene/braintree/VI.png
+SPDXID: SPDXRef-59302559d5222804545dd633d8a29a7b
+FileChecksum: SHA1: 98e6aef0c502955845fde6d7a8cb47f7b4d1aff4
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./skin/adminhtml/base/default/images/gene/braintree/apple-pay-logo.png
+SPDXID: SPDXRef-c7eb4502e446c1bf2c71984692e3be94
+FileChecksum: SHA1: 17b6b511ec2e4a879ba15a5ca19664622ebdcf1f
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./skin/adminhtml/base/default/images/gene/braintree/braintree-logo-black.png
+SPDXID: SPDXRef-3ecabb5e4b3063e4bb37b0c64425c1d7
+FileChecksum: SHA1: ae1d4d1fb7a045742a78c2152590fb75a4e53ac4
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./skin/adminhtml/base/default/images/gene/braintree/card.png
+SPDXID: SPDXRef-f1ee6de5fc0f2d026b226ef471c5d594
+FileChecksum: SHA1: 619df822ca26aaee2b33f3af2322fa41777f5db2
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./skin/adminhtml/base/default/images/gene/braintree/google-pay-logo.png
+SPDXID: SPDXRef-cf6392705a2d1a175ea9bfc768051548
+FileChecksum: SHA1: d91d7b3e0533512e6de1ff4c8dda1859fd525f3e
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./skin/adminhtml/base/default/images/gene/loader-transparent.gif
+SPDXID: SPDXRef-72d17e0b2c8487c1f0923cbe3cb940b4
+FileChecksum: SHA1: f740ad16d5b1d168e596721e2a2a9e553f0a9863
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./skin/adminhtml/base/default/images/gene/loader-white.gif
+SPDXID: SPDXRef-4e0f5dda6473518b2a715e00c57c5083
+FileChecksum: SHA1: 5253146790b72581c95008df1def83587c620437
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./skin/adminhtml/base/default/images/gene/loader.gif
+SPDXID: SPDXRef-35fa4660275e11ac3680716f44779a4d
+FileChecksum: SHA1: 54fd0837eee1e0302e985caedd6ac3ff5cff0fe9
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./skin/frontend/base/default/css/gene_braintree/account.css
+SPDXID: SPDXRef-a2195cbd9a28ea8f55138cb0f213fe77
+FileChecksum: SHA1: 28da90fc35ebb1ba94090a555918c4a50beae95e
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./skin/frontend/base/default/css/gene_braintree/aheadworks.css
+SPDXID: SPDXRef-6f28e604a36e5debd139baf82e8c28cd
+FileChecksum: SHA1: 2e788fcba85afe28fb7bb1c72189ce024933fd7e
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./skin/frontend/base/default/css/gene_braintree/amasty.css
+SPDXID: SPDXRef-4489858da9bc85cda0b69733d826dbc9
+FileChecksum: SHA1: 82e3f83f7c7fc47019515af97da29728342186c0
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./skin/frontend/base/default/css/gene_braintree/applepay.css
+SPDXID: SPDXRef-99af9bfc0e94f389639a7c7a95edd67d
+FileChecksum: SHA1: 28ec243e789f2a1b7cfbcbc847ee3524c3f6b54f
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./skin/frontend/base/default/css/gene_braintree/awesomecheckout.css
+SPDXID: SPDXRef-b8f536780e4c49433a6dfaf5a37b5d9c
+FileChecksum: SHA1: 01afefcc7de6429bc64ef69c4c82e5da9c8e24f2
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./skin/frontend/base/default/css/gene_braintree/default.css
+SPDXID: SPDXRef-5173a05387313b990f8b73b18734beba
+FileChecksum: SHA1: dae1e4c409f839982ec15ac7be2cac52b74926f4
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./skin/frontend/base/default/css/gene_braintree/express.css
+SPDXID: SPDXRef-e9384e8c581fa708ed3459d42296e5e8
+FileChecksum: SHA1: f8f0778e67a817d99dae25836e9c3efe41d64c2c
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./skin/frontend/base/default/css/gene_braintree/fancycheckout.css
+SPDXID: SPDXRef-39525787ef0247e12f13f2d4c6fce40c
+FileChecksum: SHA1: a15b7564bb489ee361de5e71a3dfdadc79de7223
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./skin/frontend/base/default/css/gene_braintree/firecheckout.css
+SPDXID: SPDXRef-3a53df6f20fc0e695b98ee9f3cdfbf1c
+FileChecksum: SHA1: 8b681ce51ffb5a0fd09e1c6f23d737f8fd53f9df
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./skin/frontend/base/default/css/gene_braintree/fme.css
+SPDXID: SPDXRef-da0d919f940e94f2eba7862d4052c93d
+FileChecksum: SHA1: 8e0c52dd4fcc5b14db2ee77e2f9ed9cf9203d388
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./skin/frontend/base/default/css/gene_braintree/idev.css
+SPDXID: SPDXRef-96a0d07ad1c2f9ce76774bd84e8909a2
+FileChecksum: SHA1: b13a1609df3be89677a4f6dc2de76856ac35a726
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./skin/frontend/base/default/css/gene_braintree/iwd.css
+SPDXID: SPDXRef-a2e50b210fb0b1c1b4ace4733b2d8ad9
+FileChecksum: SHA1: 8334c22fbb1b8d3aed482c786022f2b4280d4f18
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./skin/frontend/base/default/css/gene_braintree/magestore.css
+SPDXID: SPDXRef-da4cdd34ba7687b110981c1ab5eb31af
+FileChecksum: SHA1: 11c41bc96758de82c9a8019d15f6ff7ef7807640
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./skin/frontend/base/default/css/gene_braintree/oye.css
+SPDXID: SPDXRef-18f1f599159d3b7fed46f9300617ecf1
+FileChecksum: SHA1: 77e5ecbf545d3a6949344f5a05dc14777e0b6245
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./skin/frontend/base/default/css/gene_braintree/unicode.css
+SPDXID: SPDXRef-8595604d84980513b50db2aa1f7fff12
+FileChecksum: SHA1: 561c85e8829e0f92af593ffc31d7a6817819333f
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./skin/frontend/base/default/images/gene/braintree/AE.png
+SPDXID: SPDXRef-c54ad19dca6edf8a98d4568bbc1598ff
+FileChecksum: SHA1: 92de882e47a01cec35be75d5c59e95427ef48b33
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./skin/frontend/base/default/images/gene/braintree/DI.png
+SPDXID: SPDXRef-5279652ee738ce2c6b8ab1ac62674d4e
+FileChecksum: SHA1: cca9d207f3389b2013e856a7634741f96c7b331e
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./skin/frontend/base/default/images/gene/braintree/JCB.png
+SPDXID: SPDXRef-ce77e96e22141c66135f614e950f803a
+FileChecksum: SHA1: 71b55977785bc4279026e07a5fb48e052cb0a7b3
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./skin/frontend/base/default/images/gene/braintree/MC.png
+SPDXID: SPDXRef-ad9ffac3aa6970947fab095a5edb12d4
+FileChecksum: SHA1: 9084c84266ea3f5985d92572e5f57d1ce13d3a2c
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./skin/frontend/base/default/images/gene/braintree/ME.png
+SPDXID: SPDXRef-a870cebeeded1bc7b5c34c73b2c87118
+FileChecksum: SHA1: ac8954991d2420589dfda09af5749e9a48f6dfac
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./skin/frontend/base/default/images/gene/braintree/PP.png
+SPDXID: SPDXRef-7f782e9f5c585e8b9f62d13fa8fca1a2
+FileChecksum: SHA1: 37bb8fc78d93deafa5778632086b6d711be9df26
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./skin/frontend/base/default/images/gene/braintree/VI.png
+SPDXID: SPDXRef-181e025ddf523bb4782a367293f69882
+FileChecksum: SHA1: 98e6aef0c502955845fde6d7a8cb47f7b4d1aff4
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./skin/frontend/base/default/images/gene/braintree/apple-pay-logo.png
+SPDXID: SPDXRef-031890c54f0f28a5136173af40e48f45
+FileChecksum: SHA1: 17b6b511ec2e4a879ba15a5ca19664622ebdcf1f
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./skin/frontend/base/default/images/gene/braintree/braintree-logo-black.png
+SPDXID: SPDXRef-bdfa0b3528c55e788b58dba7658a043d
+FileChecksum: SHA1: ae1d4d1fb7a045742a78c2152590fb75a4e53ac4
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./skin/frontend/base/default/images/gene/braintree/card.png
+SPDXID: SPDXRef-e3e1b0597efb34cc5345c332e6e71123
+FileChecksum: SHA1: 619df822ca26aaee2b33f3af2322fa41777f5db2
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./skin/frontend/base/default/images/gene/braintree/google-pay-logo.png
+SPDXID: SPDXRef-8b5fffc267249254b6481e27d51d5079
+FileChecksum: SHA1: d91d7b3e0533512e6de1ff4c8dda1859fd525f3e
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./skin/frontend/base/default/images/gene/loader-transparent.gif
+SPDXID: SPDXRef-a766cde03ba30e47ec7df246ab494305
+FileChecksum: SHA1: f740ad16d5b1d168e596721e2a2a9e553f0a9863
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./skin/frontend/base/default/images/gene/loader-white.gif
+SPDXID: SPDXRef-9a4ed3fdef9cfb86062c9546608792c9
+FileChecksum: SHA1: 5253146790b72581c95008df1def83587c620437
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./skin/frontend/base/default/images/gene/loader.gif
+SPDXID: SPDXRef-a4490f26cfbca9f4f87ea42da8f375b7
+FileChecksum: SHA1: 54fd0837eee1e0302e985caedd6ac3ff5cff0fe9
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./stubs/braintree.stub
+SPDXID: SPDXRef-3a0d8a6f167e48608dc699a478fa3ce4
+FileChecksum: SHA1: aecdf4fe0342831c22e9991673035acef4de59c4
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+

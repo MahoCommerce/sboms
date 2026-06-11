@@ -1,0 +1,74 @@
+SPDXVersion: SPDX-2.1
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: maho-composer-patches-default
+DocumentNamespace: http://spdx.org/spdxdocs/spdx-v2.1-66567750-7561-4f63-aff9-31e3c02bcdb3
+Creator: Person: Anonymous ()
+Creator: Organization: Anonymous ()
+Creator: Tool: reuse-6.2.0
+Created: 2026-06-11T16:14:14Z
+CreatorComment: <text>This document was created automatically using available reuse information consistent with REUSE.</text>
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-17c29b75619048d7297101e7aad2efb2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-4a02bce45f8423a58d0e8a0b70feaefd
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-8e3e72733f0547c74d0dd96cb822eebe
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-1880e8ffad269d8bfdec72cb0f455b77
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-263410d81f58b522b2f657d4dba254b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-a8d357d69c0b375ec33363ccd0734b0b
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-16d16148c9ed8f8135cf0794d1b50b31
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-09900863702b7b7db9532467f755c731
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-5401e66b41034bafe6de094e15b98252
+
+FileName: ./.github/FUNDING.yml
+SPDXID: SPDXRef-17c29b75619048d7297101e7aad2efb2
+FileChecksum: SHA1: 72b831238f0c17a73575386d3130716b1b670a4d
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./Cm_RedisSession-Revert-190.patch
+SPDXID: SPDXRef-4a02bce45f8423a58d0e8a0b70feaefd
+FileChecksum: SHA1: ce8ec9a6fedbae024f6e315a9fbbfbbfc52dc639
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./MAG-1.1.1.patch
+SPDXID: SPDXRef-8e3e72733f0547c74d0dd96cb822eebe
+FileChecksum: SHA1: 4a4a669a29c87769d5dd55d672f2910449ec841d
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./MAG-1.9.3.0.patch
+SPDXID: SPDXRef-1880e8ffad269d8bfdec72cb0f455b77
+FileChecksum: SHA1: fb7d9c68ea385c234e5c7ae6172242ffa5fe9caa
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./MAG-1.9.3.7.patch
+SPDXID: SPDXRef-263410d81f58b522b2f657d4dba254b2
+FileChecksum: SHA1: aeb29caaa4cf571c27c2343801bc89e12e4161ee
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./OM-1081.patch
+SPDXID: SPDXRef-a8d357d69c0b375ec33363ccd0734b0b
+FileChecksum: SHA1: f3753a34caad74084074e2c60bb3d79b46d2f2a3
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./OM-2047.patch
+SPDXID: SPDXRef-16d16148c9ed8f8135cf0794d1b50b31
+FileChecksum: SHA1: deaa0a3ce7749a04b0ce21af58e59e977e6e86a7
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./OM-2050.patch
+SPDXID: SPDXRef-09900863702b7b7db9532467f755c731
+FileChecksum: SHA1: 246a5ba2968fa3fb10ac285deaff3ff59f9097e4
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./OM-918.patch
+SPDXID: SPDXRef-5401e66b41034bafe6de094e15b98252
+FileChecksum: SHA1: 454fc627b20bcd060da3eeae0b5d0aa1b2d9e46e
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+

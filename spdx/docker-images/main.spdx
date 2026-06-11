@@ -1,0 +1,109 @@
+SPDXVersion: SPDX-2.1
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: docker-images-default
+DocumentNamespace: http://spdx.org/spdxdocs/spdx-v2.1-2c8296f3-daf3-44ea-b33c-96adf6155dd2
+Creator: Person: Anonymous ()
+Creator: Organization: Anonymous ()
+Creator: Tool: reuse-6.2.0
+Created: 2026-06-11T16:13:58Z
+CreatorComment: <text>This document was created automatically using available reuse information consistent with REUSE.</text>
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-4e94e5ba67ca7369cb7035af034c4313
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-17c29b75619048d7297101e7aad2efb2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-2b635a85e676412c9a314ec0106ff3de
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-f0409f888cf8c181845fcba2f70644b6
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-567077ab6be0c6a5a098bba56d5c47f6
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-aa7007ad3b009f4874270656bc4140a3
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-c29d3e211cd6e1e419511287580bd752
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-6433ebd368d06c3cdbe6cead06e3d3ff
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-179b87f77deab011bf9c17883191651a
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-cfd9113a4ab555695650400e999f882b
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-999680ab743454fdd4286a9560aa0621
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-3c33da909495a291efed15ad7f38be16
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-2409a4bea79c473bbbc7c78d7935463f
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-73f76dff224d379ef162fe7fd76683f1
+
+FileName: ./.dockerignore
+SPDXID: SPDXRef-4e94e5ba67ca7369cb7035af034c4313
+FileChecksum: SHA1: 4072d581de40fb0b1a0e903f7aa1fa0ba0b4418f
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./.github/FUNDING.yml
+SPDXID: SPDXRef-17c29b75619048d7297101e7aad2efb2
+FileChecksum: SHA1: 72b831238f0c17a73575386d3130716b1b670a4d
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./.github/dependabot.yml
+SPDXID: SPDXRef-2b635a85e676412c9a314ec0106ff3de
+FileChecksum: SHA1: 48bccfb4f55c8f5269c6385b56ef2649646048fc
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./.github/workflows/build.yml
+SPDXID: SPDXRef-f0409f888cf8c181845fcba2f70644b6
+FileChecksum: SHA1: 0fbd07d3180e5b423397a301386c0b7c7c41617f
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./AGENTS.md
+SPDXID: SPDXRef-567077ab6be0c6a5a098bba56d5c47f6
+FileChecksum: SHA1: 0487eca830c297e46dfb943aa4ffd909eff1af08
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./CLAUDE.md
+SPDXID: SPDXRef-aa7007ad3b009f4874270656bc4140a3
+FileChecksum: SHA1: c140473a3a5fbe89301c99d9d0d1b76c5971f2c3
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./Dockerfile
+SPDXID: SPDXRef-c29d3e211cd6e1e419511287580bd752
+FileChecksum: SHA1: 629a876f9cad956c9af3f9a74b94f1ee9b5737f7
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./README.md
+SPDXID: SPDXRef-6433ebd368d06c3cdbe6cead06e3d3ff
+FileChecksum: SHA1: 735ec92f9bcbfb312a6a577576f6c984eb80ed3b
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./composer.json
+SPDXID: SPDXRef-179b87f77deab011bf9c17883191651a
+FileChecksum: SHA1: 631b885184e0910364554c384f8a5d5251c8a045
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./composer_json/25.11.json
+SPDXID: SPDXRef-cfd9113a4ab555695650400e999f882b
+FileChecksum: SHA1: cadcaf01579cf55e31106e889b84497266f58728
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./composer_json/25.5.json
+SPDXID: SPDXRef-999680ab743454fdd4286a9560aa0621
+FileChecksum: SHA1: cb6bbadbb7af90a3cb0298f6f9147cdefefe10ab
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./composer_json/25.7.json
+SPDXID: SPDXRef-3c33da909495a291efed15ad7f38be16
+FileChecksum: SHA1: 70446ec17e52447c755c4594a73c3ee83bcc9d4d
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./php.ini
+SPDXID: SPDXRef-2409a4bea79c473bbbc7c78d7935463f
+FileChecksum: SHA1: f6010b89508ed3deca23b36b64b585af244511b8
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./versions.json
+SPDXID: SPDXRef-73f76dff224d379ef162fe7fd76683f1
+FileChecksum: SHA1: ff1c059f3b840557a9eff75296714862d7dbf33d
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+

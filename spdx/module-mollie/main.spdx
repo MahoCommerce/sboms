@@ -1,0 +1,541 @@
+SPDXVersion: SPDX-2.1
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: module-mollie-default
+DocumentNamespace: http://spdx.org/spdxdocs/spdx-v2.1-d959d03c-a620-49ef-93d0-1aca5e4a5834
+Creator: Person: Anonymous ()
+Creator: Organization: Anonymous ()
+Creator: Tool: reuse-6.2.0
+Created: 2026-06-11T16:14:38Z
+CreatorComment: <text>This document was created automatically using available reuse information consistent with REUSE.</text>
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-caa20f74f1bc17bcf8bdafe32e6d5127
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-711a76da9c036bc6ce843a1d9136e221
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-17c29b75619048d7297101e7aad2efb2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-2b635a85e676412c9a314ec0106ff3de
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-4aa0e4d22ebc0f705c58b5580ec7d4db
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-e41d4312751a9e906d2fc5aa5e358a11
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-3e1e0b17d119c427ae82a41344ae1dd6
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-3268a186b377cf2ea1d1eb0ce6872651
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-161b442aa9f65c3f61c48b1b6c605e46
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-5bd6e09ab01d354675949e31d5986f44
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-ee53fa2ca9c6d84a5c2fa94f4df13611
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-66d9b30dfeedb73b767ed2b2b5134bfd
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-09a04fd7ac109ed49239d2fcc7798078
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-e8cc05e28996372213070889c8b931df
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-0a25a0d3448ac3c3f26177c3a71396c0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-627c9d45527fb7f34046b5d7570687e0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-afd1d35dac274cd2de29cfdfb31f4025
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-3ef443e20b1e3157f625819d6ee87e8b
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-4461154c115636240cf4e3d6936e91de
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-cf207e8caa1c786d14f6d2c898ef534a
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-841837eb94b620c5ddad1e135d0e00fb
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-fb6fc9080c5b2c3b1c5ac22687bee564
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-4fb6c155b619ff8a8dbe73ff06c41902
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-f1e18c59de557bb7a1825ab888501171
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-b86fe791acec28804f594d2d8ff2b458
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-a3361a65985c50990803ab6bb35e8b4a
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-4cf5bf000dcc298e36fc1c294729459d
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-c9c280328a526e9ff420495788627fc9
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-c7b7bf9a9bd3e98afe27aed9590f9ba9
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-c77e9188d3d886fa16d2c002f5b0c665
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-c8728d3f68ffea2c4bc267109fb7365a
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-016df6fa960f937fb18ab6751214e116
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-941e90dee5e20dce5563427c2c2547b6
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-6f6e7d82424ea6535c4107a648137e8d
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-2fb13142a06f00a3226a4e5550be2801
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-ac7aae21a7647bc0c49dac71b789fcb9
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-e1648ec19200e85bdab607ac7dec3085
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-da3d6c93d90d9e286cfae689c3f984bd
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-d219cfe28e725de5ef2a07a246f2c465
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-caf8b79bb7818a87cf67ebb861b9e37b
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-c89293b9369b9bda957cc763b2ec4ac7
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-4dd25f0ea7620181a732f98c68a6739a
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-244420ac49d4b5285e2bdf70d5e84766
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-9c2f1d4884f9d1dbd13a0b5776e841f6
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-a069b72f8c53b9f2973204cba8eb2ed4
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-8aa10c856451725bc30d9229a7ee5bd6
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-7754006c0d6cb7254abce98b79ca7198
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-6bb0474b22bb0a4e7dec1fea614f34ae
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-81526d5f5652f20df4648f4f32f02d36
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-b6abeea4592d6462e5687dc5e60032d6
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-630b2fced51ee41ff61394f4c738fd2d
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-650062e985e5898a87736c7441e4d2ac
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-77254426309b90c79ceecf133d29c217
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-63a743f232766cccc0beb5c7ea4eaf69
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-1834c00eb1c5c41e1bc353ebecb27548
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-54a293bf04485937db6947b84c99a2e0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-962cd98cd92e3087cfa866ed1d5d3121
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-d7d598f953dc4f2f43ef47f6f083ae57
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-4f0d47383d9f71f114980cb35e267c17
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-e1d2ce8ad49231aedf38e0c40e7b273d
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-3db7ac68f1e4ef230f402219bbaae3b6
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-cb603b3208f35479660f95a3a760ab1f
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-e8575d6941d0e0b960330e256863dd70
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-6cb14d2365aca889e3458876fa70dd83
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-b16232322057763709ca5523039469a8
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-ff319a19d1de689a5aef22bade9c3ce4
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-5527ae8b7057a6b34963bffe56249667
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-7c60042c3497c9f0d973173a1e1c2142
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-0b99baa356086fc65e8a75a673c24c25
+
+FileName: ./.claude/skills/check-upstream-parity/SKILL.md
+SPDXID: SPDXRef-caa20f74f1bc17bcf8bdafe32e6d5127
+FileChecksum: SHA1: b8fb62c99d5c248e8b7fec3375149f0f74dd82c3
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./.gitattributes
+SPDXID: SPDXRef-711a76da9c036bc6ce843a1d9136e221
+FileChecksum: SHA1: a99e72da08cfec36055f534ba0bf1f9d306d596f
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./.github/FUNDING.yml
+SPDXID: SPDXRef-17c29b75619048d7297101e7aad2efb2
+FileChecksum: SHA1: 72b831238f0c17a73575386d3130716b1b670a4d
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./.github/dependabot.yml
+SPDXID: SPDXRef-2b635a85e676412c9a314ec0106ff3de
+FileChecksum: SHA1: 48bccfb4f55c8f5269c6385b56ef2649646048fc
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./.github/workflows/composer.yml
+SPDXID: SPDXRef-4aa0e4d22ebc0f705c58b5580ec7d4db
+FileChecksum: SHA1: aa881954e839905ff2b88af4a95c9a2067ebec8f
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./.github/workflows/line-endings.yml
+SPDXID: SPDXRef-e41d4312751a9e906d2fc5aa5e358a11
+FileChecksum: SHA1: b6202e9dcaec27022730f0fec4b94e2bdbb934e0
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./.github/workflows/lint.yml
+SPDXID: SPDXRef-3e1e0b17d119c427ae82a41344ae1dd6
+FileChecksum: SHA1: 0703a78c51ea5f727e4c77adee6f6fc814690f45
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./.github/workflows/phpstan.yml
+SPDXID: SPDXRef-3268a186b377cf2ea1d1eb0ce6872651
+FileChecksum: SHA1: b3645519012fcf26b2de92e47ac89766ae1de11e
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./.github/workflows/syntax-php.yml
+SPDXID: SPDXRef-161b442aa9f65c3f61c48b1b6c605e46
+FileChecksum: SHA1: 21f5c1165713f514a37fc9cd93f3a0abc303a98d
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./.github/workflows/syntax-xml.yml
+SPDXID: SPDXRef-5bd6e09ab01d354675949e31d5986f44
+FileChecksum: SHA1: 43af7ec47fdbd7b5490d4144e0d025652f7b46e6
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./.gitignore
+SPDXID: SPDXRef-ee53fa2ca9c6d84a5c2fa94f4df13611
+FileChecksum: SHA1: 22ee64aeeea32a25e36bec832528e750ee23ad8e
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./.php-cs-fixer.php
+SPDXID: SPDXRef-66d9b30dfeedb73b767ed2b2b5134bfd
+FileChecksum: SHA1: 9bc310ef642a7bbc19ca856db19a9e6876bf4738
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./.phpstan.dist.neon
+SPDXID: SPDXRef-09a04fd7ac109ed49239d2fcc7798078
+FileChecksum: SHA1: 05f7980be68657711bf95263e57f764c5700b50e
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./.rector.php
+SPDXID: SPDXRef-e8cc05e28996372213070889c8b931df
+FileChecksum: SHA1: 4cc86845b2afc4b50a982deefa3d09bbd231c75d
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./LICENSE_AFL.txt
+SPDXID: SPDXRef-0a25a0d3448ac3c3f26177c3a71396c0
+FileChecksum: SHA1: 5c4be5779b58aa506e4eca8690301d977260d0a6
+LicenseConcluded: NOASSERTION
+FileCopyrightText: <text>Copyright (C) 2005 Lawrence
+Copyright License. Licensor grants You a worldwide, royalty-free,</text>
+
+FileName: ./README.md
+SPDXID: SPDXRef-627c9d45527fb7f34046b5d7570687e0
+FileChecksum: SHA1: 5d96bb8e5989c9a74b61c090e09117c8dada421a
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/code/community/Maho/Mollie/Block/Adminhtml/System/Config/CredentialsChecker.php
+SPDXID: SPDXRef-afd1d35dac274cd2de29cfdfb31f4025
+FileChecksum: SHA1: bb2db9455a757d7088acfd6add15842f70b5e6a1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: OSL-3.0
+FileCopyrightText: <text>SPDX-FileCopyrightText: 2026 Maho <https://mahocommerce.com></text>
+
+FileName: ./app/code/community/Maho/Mollie/Block/Adminhtml/System/Config/Field/CurrencyComment.php
+SPDXID: SPDXRef-3ef443e20b1e3157f625819d6ee87e8b
+FileChecksum: SHA1: 5d1e38abece51548e21390ba86caab574e467cf7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: OSL-3.0
+FileCopyrightText: <text>SPDX-FileCopyrightText: 2026 Maho <https://mahocommerce.com></text>
+
+FileName: ./app/code/community/Maho/Mollie/Block/Form.php
+SPDXID: SPDXRef-4461154c115636240cf4e3d6936e91de
+FileChecksum: SHA1: 3538a97cc1edcec19300f2bf025cd24a5bd88696
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: OSL-3.0
+FileCopyrightText: <text>SPDX-FileCopyrightText: 2026 Maho <https://mahocommerce.com></text>
+
+FileName: ./app/code/community/Maho/Mollie/Block/Form/Creditcard.php
+SPDXID: SPDXRef-cf207e8caa1c786d14f6d2c898ef534a
+FileChecksum: SHA1: e6e2b71c1b52c859f734ea186db7ba2741f241df
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: OSL-3.0
+FileCopyrightText: <text>SPDX-FileCopyrightText: 2026 Maho <https://mahocommerce.com></text>
+
+FileName: ./app/code/community/Maho/Mollie/Block/Info.php
+SPDXID: SPDXRef-841837eb94b620c5ddad1e135d0e00fb
+FileChecksum: SHA1: 2b123475076216b2d38497d0f7a404ebb72dd329
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: OSL-3.0
+FileCopyrightText: <text>SPDX-FileCopyrightText: 2026 Maho <https://mahocommerce.com></text>
+
+FileName: ./app/code/community/Maho/Mollie/Helper/Data.php
+SPDXID: SPDXRef-fb6fc9080c5b2c3b1c5ac22687bee564
+FileChecksum: SHA1: 5ad3306eb52fc7fe927a353f236af3fb2beb6b63
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: OSL-3.0
+FileCopyrightText: <text>SPDX-FileCopyrightText: 2026 Maho <https://mahocommerce.com></text>
+
+FileName: ./app/code/community/Maho/Mollie/Model/Cron.php
+SPDXID: SPDXRef-4fb6c155b619ff8a8dbe73ff06c41902
+FileChecksum: SHA1: 02cb2b81445ea42cd81a5ef1b1fa247424be0e93
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: OSL-3.0
+FileCopyrightText: <text>SPDX-FileCopyrightText: 2026 Maho <https://mahocommerce.com></text>
+
+FileName: ./app/code/community/Maho/Mollie/Model/Method/Applepay.php
+SPDXID: SPDXRef-f1e18c59de557bb7a1825ab888501171
+FileChecksum: SHA1: 76ad754aff6638ed16f39a286f41eae043b4c90e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: OSL-3.0
+FileCopyrightText: <text>SPDX-FileCopyrightText: 2026 Maho <https://mahocommerce.com></text>
+
+FileName: ./app/code/community/Maho/Mollie/Model/Method/Bancomatpay.php
+SPDXID: SPDXRef-b86fe791acec28804f594d2d8ff2b458
+FileChecksum: SHA1: 86fe7c782efe3fa7b5c0b99e1fb97a28672ab189
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: OSL-3.0
+FileCopyrightText: <text>SPDX-FileCopyrightText: 2026 Maho <https://mahocommerce.com></text>
+
+FileName: ./app/code/community/Maho/Mollie/Model/Method/Bancontact.php
+SPDXID: SPDXRef-a3361a65985c50990803ab6bb35e8b4a
+FileChecksum: SHA1: fedbae4612832e1a80f7d06a9135cba4e81a315a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: OSL-3.0
+FileCopyrightText: <text>SPDX-FileCopyrightText: 2026 Maho <https://mahocommerce.com></text>
+
+FileName: ./app/code/community/Maho/Mollie/Model/Method/Banktransfer.php
+SPDXID: SPDXRef-4cf5bf000dcc298e36fc1c294729459d
+FileChecksum: SHA1: 5d29cd2cf35b8ff228064302fd51b9e78826e4b3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: OSL-3.0
+FileCopyrightText: <text>SPDX-FileCopyrightText: 2026 Maho <https://mahocommerce.com></text>
+
+FileName: ./app/code/community/Maho/Mollie/Model/Method/Belfius.php
+SPDXID: SPDXRef-c9c280328a526e9ff420495788627fc9
+FileChecksum: SHA1: 65f337f7d6eb3f907aedd73bf823b6951a096261
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: OSL-3.0
+FileCopyrightText: <text>SPDX-FileCopyrightText: 2026 Maho <https://mahocommerce.com></text>
+
+FileName: ./app/code/community/Maho/Mollie/Model/Method/Bizum.php
+SPDXID: SPDXRef-c7b7bf9a9bd3e98afe27aed9590f9ba9
+FileChecksum: SHA1: adc57265cbcd0e7c2e5f3ba12f4dcc75d3e934c6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: OSL-3.0
+FileCopyrightText: <text>SPDX-FileCopyrightText: 2026 Maho <https://mahocommerce.com></text>
+
+FileName: ./app/code/community/Maho/Mollie/Model/Method/Blik.php
+SPDXID: SPDXRef-c77e9188d3d886fa16d2c002f5b0c665
+FileChecksum: SHA1: 28efc342ee09d684fe8d407eb2c16f4429bfa7a6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: OSL-3.0
+FileCopyrightText: <text>SPDX-FileCopyrightText: 2026 Maho <https://mahocommerce.com></text>
+
+FileName: ./app/code/community/Maho/Mollie/Model/Method/Creditcard.php
+SPDXID: SPDXRef-c8728d3f68ffea2c4bc267109fb7365a
+FileChecksum: SHA1: 6ab54b7b98dd5acb45c2f73ec349873b70a4bd39
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: OSL-3.0
+FileCopyrightText: <text>SPDX-FileCopyrightText: 2026 Maho <https://mahocommerce.com></text>
+
+FileName: ./app/code/community/Maho/Mollie/Model/Method/Directdebit.php
+SPDXID: SPDXRef-016df6fa960f937fb18ab6751214e116
+FileChecksum: SHA1: 0479fa040bba373a98b5eb1b7f46a276d6698123
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: OSL-3.0
+FileCopyrightText: <text>SPDX-FileCopyrightText: 2026 Maho <https://mahocommerce.com></text>
+
+FileName: ./app/code/community/Maho/Mollie/Model/Method/Eps.php
+SPDXID: SPDXRef-941e90dee5e20dce5563427c2c2547b6
+FileChecksum: SHA1: 7e6b7075b7a430f8cc00cae7eed5b4a6b4de625e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: OSL-3.0
+FileCopyrightText: <text>SPDX-FileCopyrightText: 2026 Maho <https://mahocommerce.com></text>
+
+FileName: ./app/code/community/Maho/Mollie/Model/Method/Giftcard.php
+SPDXID: SPDXRef-6f6e7d82424ea6535c4107a648137e8d
+FileChecksum: SHA1: a5c9079d915a66cb5a099cf54a0db98e8bc4dc5a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: OSL-3.0
+FileCopyrightText: <text>SPDX-FileCopyrightText: 2026 Maho <https://mahocommerce.com></text>
+
+FileName: ./app/code/community/Maho/Mollie/Model/Method/Googlepay.php
+SPDXID: SPDXRef-2fb13142a06f00a3226a4e5550be2801
+FileChecksum: SHA1: d17c466407e1f6560a26fd7001e7d94f20e60eb9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: OSL-3.0
+FileCopyrightText: <text>SPDX-FileCopyrightText: 2026 Maho <https://mahocommerce.com></text>
+
+FileName: ./app/code/community/Maho/Mollie/Model/Method/Ideal.php
+SPDXID: SPDXRef-ac7aae21a7647bc0c49dac71b789fcb9
+FileChecksum: SHA1: 2e388528defa18330e3369014c21498debc48258
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: OSL-3.0
+FileCopyrightText: <text>SPDX-FileCopyrightText: 2026 Maho <https://mahocommerce.com></text>
+
+FileName: ./app/code/community/Maho/Mollie/Model/Method/Mbway.php
+SPDXID: SPDXRef-e1648ec19200e85bdab607ac7dec3085
+FileChecksum: SHA1: 156276cee24b61625bbbd2f74b3cf938529a218b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: OSL-3.0
+FileCopyrightText: <text>SPDX-FileCopyrightText: 2026 Maho <https://mahocommerce.com></text>
+
+FileName: ./app/code/community/Maho/Mollie/Model/Method/Mobilepay.php
+SPDXID: SPDXRef-da3d6c93d90d9e286cfae689c3f984bd
+FileChecksum: SHA1: 70ea99fae361714b7222807e3bfb0dc035e29875
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: OSL-3.0
+FileCopyrightText: <text>SPDX-FileCopyrightText: 2026 Maho <https://mahocommerce.com></text>
+
+FileName: ./app/code/community/Maho/Mollie/Model/Method/Multibanco.php
+SPDXID: SPDXRef-d219cfe28e725de5ef2a07a246f2c465
+FileChecksum: SHA1: f658e925f012fb85af4472adf0adf0962553c873
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: OSL-3.0
+FileCopyrightText: <text>SPDX-FileCopyrightText: 2026 Maho <https://mahocommerce.com></text>
+
+FileName: ./app/code/community/Maho/Mollie/Model/Method/Mybank.php
+SPDXID: SPDXRef-caf8b79bb7818a87cf67ebb861b9e37b
+FileChecksum: SHA1: b16afb949cac9c0b84ed14fc79f7250c3e89a488
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: OSL-3.0
+FileCopyrightText: <text>SPDX-FileCopyrightText: 2026 Maho <https://mahocommerce.com></text>
+
+FileName: ./app/code/community/Maho/Mollie/Model/Method/Paybybank.php
+SPDXID: SPDXRef-c89293b9369b9bda957cc763b2ec4ac7
+FileChecksum: SHA1: 3cde7e30f56cb198f354062860eb24cacd81ffe8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: OSL-3.0
+FileCopyrightText: <text>SPDX-FileCopyrightText: 2026 Maho <https://mahocommerce.com></text>
+
+FileName: ./app/code/community/Maho/Mollie/Model/Method/Payconiq.php
+SPDXID: SPDXRef-4dd25f0ea7620181a732f98c68a6739a
+FileChecksum: SHA1: 3f36a03656bdcb99520d90b9d53816cee95883de
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: OSL-3.0
+FileCopyrightText: <text>SPDX-FileCopyrightText: 2026 Maho <https://mahocommerce.com></text>
+
+FileName: ./app/code/community/Maho/Mollie/Model/Method/Paypal.php
+SPDXID: SPDXRef-244420ac49d4b5285e2bdf70d5e84766
+FileChecksum: SHA1: bb6d6042ce05351e6b7a7e8a5ee23594bfa197ae
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: OSL-3.0
+FileCopyrightText: <text>SPDX-FileCopyrightText: 2026 Maho <https://mahocommerce.com></text>
+
+FileName: ./app/code/community/Maho/Mollie/Model/Method/Paysafecard.php
+SPDXID: SPDXRef-9c2f1d4884f9d1dbd13a0b5776e841f6
+FileChecksum: SHA1: bd651a1b457b0f41cbfaeb093bd9f4ade6276a11
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: OSL-3.0
+FileCopyrightText: <text>SPDX-FileCopyrightText: 2026 Maho <https://mahocommerce.com></text>
+
+FileName: ./app/code/community/Maho/Mollie/Model/Method/Przelewy24.php
+SPDXID: SPDXRef-a069b72f8c53b9f2973204cba8eb2ed4
+FileChecksum: SHA1: 05860b94f012f74315ec046ecc5653ae966c7aa0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: OSL-3.0
+FileCopyrightText: <text>SPDX-FileCopyrightText: 2026 Maho <https://mahocommerce.com></text>
+
+FileName: ./app/code/community/Maho/Mollie/Model/Method/Satispay.php
+SPDXID: SPDXRef-8aa10c856451725bc30d9229a7ee5bd6
+FileChecksum: SHA1: 2b53ac130660244bb16461ac1464cface98aa58c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: OSL-3.0
+FileCopyrightText: <text>SPDX-FileCopyrightText: 2026 Maho <https://mahocommerce.com></text>
+
+FileName: ./app/code/community/Maho/Mollie/Model/Method/Standard.php
+SPDXID: SPDXRef-7754006c0d6cb7254abce98b79ca7198
+FileChecksum: SHA1: 7125682dbd3089f778d2d2e303f60ba1cc071d5a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: OSL-3.0
+FileCopyrightText: <text>SPDX-FileCopyrightText: 2026 Maho <https://mahocommerce.com></text>
+
+FileName: ./app/code/community/Maho/Mollie/Model/Method/Swish.php
+SPDXID: SPDXRef-6bb0474b22bb0a4e7dec1fea614f34ae
+FileChecksum: SHA1: 45952334992d80ac87711449cdd36698ff7a5df6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: OSL-3.0
+FileCopyrightText: <text>SPDX-FileCopyrightText: 2026 Maho <https://mahocommerce.com></text>
+
+FileName: ./app/code/community/Maho/Mollie/Model/Method/Trustly.php
+SPDXID: SPDXRef-81526d5f5652f20df4648f4f32f02d36
+FileChecksum: SHA1: f817e5198f89de5daf01f65a7e3fc95a2de0c0f6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: OSL-3.0
+FileCopyrightText: <text>SPDX-FileCopyrightText: 2026 Maho <https://mahocommerce.com></text>
+
+FileName: ./app/code/community/Maho/Mollie/Model/Method/Twint.php
+SPDXID: SPDXRef-b6abeea4592d6462e5687dc5e60032d6
+FileChecksum: SHA1: 484ca05b8047c99b29e7c605fa3c4a44ce1ef65b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: OSL-3.0
+FileCopyrightText: <text>SPDX-FileCopyrightText: 2026 Maho <https://mahocommerce.com></text>
+
+FileName: ./app/code/community/Maho/Mollie/Model/Method/Vipps.php
+SPDXID: SPDXRef-630b2fced51ee41ff61394f4c738fd2d
+FileChecksum: SHA1: 822b337d66dd382dee985ec78138c02da52634e0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: OSL-3.0
+FileCopyrightText: <text>SPDX-FileCopyrightText: 2026 Maho <https://mahocommerce.com></text>
+
+FileName: ./app/code/community/Maho/Mollie/Model/System/Config/Source/Order/Status/Pending.php
+SPDXID: SPDXRef-650062e985e5898a87736c7441e4d2ac
+FileChecksum: SHA1: 03437d6d56abf569a38b42c2b9dedc57074018dd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: OSL-3.0
+FileCopyrightText: <text>SPDX-FileCopyrightText: 2026 Maho <https://mahocommerce.com></text>
+
+FileName: ./app/code/community/Maho/Mollie/controllers/Adminhtml/Mollie/CredentialsController.php
+SPDXID: SPDXRef-77254426309b90c79ceecf133d29c217
+FileChecksum: SHA1: 8b1388fdfdda259799c3ac840fd17cf42eda65ce
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: OSL-3.0
+FileCopyrightText: <text>SPDX-FileCopyrightText: 2026 Maho <https://mahocommerce.com></text>
+
+FileName: ./app/code/community/Maho/Mollie/controllers/PaymentController.php
+SPDXID: SPDXRef-63a743f232766cccc0beb5c7ea4eaf69
+FileChecksum: SHA1: 5a74cc2ae7680c9696705715bc734266ac27fdb7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: OSL-3.0
+FileCopyrightText: <text>SPDX-FileCopyrightText: 2026 Maho <https://mahocommerce.com></text>
+
+FileName: ./app/code/community/Maho/Mollie/controllers/WebhookController.php
+SPDXID: SPDXRef-1834c00eb1c5c41e1bc353ebecb27548
+FileChecksum: SHA1: 74fbecf8aac3a6b02498b57d53d005e93b7164e6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: OSL-3.0
+FileCopyrightText: <text>SPDX-FileCopyrightText: 2026 Maho <https://mahocommerce.com></text>
+
+FileName: ./app/code/community/Maho/Mollie/etc/adminhtml.xml
+SPDXID: SPDXRef-54a293bf04485937db6947b84c99a2e0
+FileChecksum: SHA1: 5f31b12f6043b51ab3b33afae26be82db4d4edaa
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: OSL-3.0
+FileCopyrightText: <text>SPDX-FileCopyrightText: 2026 Maho <https://mahocommerce.com></text>
+
+FileName: ./app/code/community/Maho/Mollie/etc/config.xml
+SPDXID: SPDXRef-962cd98cd92e3087cfa866ed1d5d3121
+FileChecksum: SHA1: 82d725cdb815feeb17230689b2fd2937207ab1c9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: OSL-3.0
+FileCopyrightText: <text>SPDX-FileCopyrightText: 2026 Maho <https://mahocommerce.com></text>
+
+FileName: ./app/code/community/Maho/Mollie/etc/system.xml
+SPDXID: SPDXRef-d7d598f953dc4f2f43ef47f6f083ae57
+FileChecksum: SHA1: e751721313c15100ebce3b89f1eb953fe3b1702c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: OSL-3.0
+FileCopyrightText: <text>SPDX-FileCopyrightText: 2026 Maho <https://mahocommerce.com></text>
+
+FileName: ./app/design/frontend/base/default/layout/maho_mollie.xml
+SPDXID: SPDXRef-4f0d47383d9f71f114980cb35e267c17
+FileChecksum: SHA1: 213c4cda043814412051f42b5e989965295ab536
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: AFL-3.0
+FileCopyrightText: <text>SPDX-FileCopyrightText: 2026 Maho <https://mahocommerce.com></text>
+
+FileName: ./app/design/frontend/base/default/template/mollie/form/creditcard.phtml
+SPDXID: SPDXRef-e1d2ce8ad49231aedf38e0c40e7b273d
+FileChecksum: SHA1: e3a646dbea54ee427f3260a8dc8910a053a7dcad
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: AFL-3.0
+FileCopyrightText: <text>SPDX-FileCopyrightText: 2026 Maho <https://mahocommerce.com></text>
+
+FileName: ./app/etc/modules/Maho_Mollie.xml
+SPDXID: SPDXRef-3db7ac68f1e4ef230f402219bbaae3b6
+FileChecksum: SHA1: c885f17fb07d1a11bfc1d4bb6923f8215b762798
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: OSL-3.0
+FileCopyrightText: <text>SPDX-FileCopyrightText: 2026 Maho <https://mahocommerce.com></text>
+
+FileName: ./app/locale/de_DE/Maho_Mollie.csv
+SPDXID: SPDXRef-cb603b3208f35479660f95a3a760ab1f
+FileChecksum: SHA1: ccf5d6eb73f22e2bfef55f09885d1e63dc3edfd7
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/locale/en_US/Maho_Mollie.csv
+SPDXID: SPDXRef-e8575d6941d0e0b960330e256863dd70
+FileChecksum: SHA1: 0e0c7d4cd01948db0cbd2fc451a8b78abc222760
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/locale/es_ES/Maho_Mollie.csv
+SPDXID: SPDXRef-6cb14d2365aca889e3458876fa70dd83
+FileChecksum: SHA1: ec1694d6b910bdd77a8f39a60791b781c0e84497
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/locale/fr_FR/Maho_Mollie.csv
+SPDXID: SPDXRef-b16232322057763709ca5523039469a8
+FileChecksum: SHA1: 7f32fb85fb3cda5271d4ecf9d303ad514d36dd45
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/locale/it_IT/Maho_Mollie.csv
+SPDXID: SPDXRef-ff319a19d1de689a5aef22bade9c3ce4
+FileChecksum: SHA1: e34a44560692f044c7ac39f8d8ef1ff3d1dcb3e4
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./app/locale/nl_NL/Maho_Mollie.csv
+SPDXID: SPDXRef-5527ae8b7057a6b34963bffe56249667
+FileChecksum: SHA1: 44af26cb60a935e389ab10304f6b22e42bdb7534
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./composer.json
+SPDXID: SPDXRef-7c60042c3497c9f0d973173a1e1c2142
+FileChecksum: SHA1: 3f4178becb5c3cf01fdc136f6de8cedea96c3e39
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./js/maho_mollie/components.js
+SPDXID: SPDXRef-0b99baa356086fc65e8a75a673c24c25
+FileChecksum: SHA1: cd77d45cba4de111497de57e45ab85dc36b022c0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: AFL-3.0
+FileCopyrightText: <text>SPDX-FileCopyrightText: 2026 Maho <https://mahocommerce.com></text>
+

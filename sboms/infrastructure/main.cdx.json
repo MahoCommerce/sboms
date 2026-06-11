@@ -1,1 +1,2166 @@
-{"$schema":"http://cyclonedx.org/schema/bom-1.6.schema.json","bomFormat":"CycloneDX","specVersion":"1.6","serialNumber":"urn:uuid:f1e038f4-ed7d-4643-8df3-7f038666c41d","version":1,"metadata":{"timestamp":"2026-06-11T07:22:29Z","tools":{"components":[{"type":"application","author":"anchore","name":"syft","version":"1.45.1"}]},"component":{"bom-ref":"a85ef09bc54df9f1","type":"file","name":"/tmp/tmp.BeeiyQ66dC/infrastructure-default"}},"components":[{"bom-ref":"pkg:github/actions/checkout@v6.0.3?package-id=35ca5f2e7f72c974","type":"library","name":"actions/checkout","version":"v6.0.3","cpe":"cpe:2.3:a:actions\\/checkout:actions\\/checkout:v6.0.3:*:*:*:*:*:*:*","purl":"pkg:github/actions/checkout@v6.0.3","properties":[{"name":"syft:package:foundBy","value":"github-actions-usage-cataloger"},{"name":"syft:package:type","value":"github-action"},{"name":"syft:package:metadataType","value":"github-actions-use-statement"},{"name":"syft:location:0:path","value":"/.github/workflows/lint.yml"}]},{"bom-ref":"pkg:github/actions/checkout@v6.0.3?package-id=db997d25c0471854","type":"library","name":"actions/checkout","version":"v6.0.3","cpe":"cpe:2.3:a:actions\\/checkout:actions\\/checkout:v6.0.3:*:*:*:*:*:*:*","purl":"pkg:github/actions/checkout@v6.0.3","properties":[{"name":"syft:package:foundBy","value":"github-actions-usage-cataloger"},{"name":"syft:package:type","value":"github-action"},{"name":"syft:package:metadataType","value":"github-actions-use-statement"},{"name":"syft:location:0:path","value":"/.github/workflows/phpstan.yml"}]},{"bom-ref":"pkg:github/actions/checkout@v6.0.3?package-id=f43f9dc5fcba2c66","type":"library","name":"actions/checkout","version":"v6.0.3","cpe":"cpe:2.3:a:actions\\/checkout:actions\\/checkout:v6.0.3:*:*:*:*:*:*:*","purl":"pkg:github/actions/checkout@v6.0.3","properties":[{"name":"syft:package:foundBy","value":"github-actions-usage-cataloger"},{"name":"syft:package:type","value":"github-action"},{"name":"syft:package:metadataType","value":"github-actions-use-statement"},{"name":"syft:location:0:path","value":"/.github/workflows/sync.yml"}]},{"bom-ref":"pkg:github/actions/create-github-app-token@v3.2.0?package-id=b01aaf287bf5dd58","type":"library","name":"actions/create-github-app-token","version":"v3.2.0","cpe":"cpe:2.3:a:actions\\/create-github-app-token:actions\\/create-github-app-token:v3.2.0:*:*:*:*:*:*:*","purl":"pkg:github/actions/create-github-app-token@v3.2.0","properties":[{"name":"syft:package:foundBy","value":"github-actions-usage-cataloger"},{"name":"syft:package:type","value":"github-action"},{"name":"syft:package:metadataType","value":"github-actions-use-statement"},{"name":"syft:cpe23","value":"cpe:2.3:a:actions\\/create-github-app-token:actions\\/create_github_app_token:v3.2.0:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:actions\\/create_github_app_token:actions\\/create-github-app-token:v3.2.0:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:actions\\/create_github_app_token:actions\\/create_github_app_token:v3.2.0:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:actions\\/create-github-app:actions\\/create-github-app-token:v3.2.0:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:actions\\/create-github-app:actions\\/create_github_app_token:v3.2.0:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:actions\\/create_github_app:actions\\/create-github-app-token:v3.2.0:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:actions\\/create_github_app:actions\\/create_github_app_token:v3.2.0:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:actions\\/create-github:actions\\/create-github-app-token:v3.2.0:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:actions\\/create-github:actions\\/create_github_app_token:v3.2.0:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:actions\\/create_github:actions\\/create-github-app-token:v3.2.0:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:actions\\/create_github:actions\\/create_github_app_token:v3.2.0:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:actions\\/create:actions\\/create-github-app-token:v3.2.0:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:actions\\/create:actions\\/create_github_app_token:v3.2.0:*:*:*:*:*:*:*"},{"name":"syft:location:0:path","value":"/.github/workflows/sync.yml"}]},{"bom-ref":"pkg:composer/composer/ca-bundle@1.5.12?package-id=d1145460cbb96d82","type":"library","name":"composer/ca-bundle","version":"1.5.12","licenses":[{"license":{"id":"MIT"}}],"cpe":"cpe:2.3:a:composer\\/ca-bundle:composer\\/ca-bundle:1.5.12:*:*:*:*:*:*:*","purl":"pkg:composer/composer/ca-bundle@1.5.12","properties":[{"name":"syft:package:foundBy","value":"php-composer-lock-cataloger"},{"name":"syft:package:language","value":"php"},{"name":"syft:package:type","value":"php-composer"},{"name":"syft:package:metadataType","value":"php-composer-lock-entry"},{"name":"syft:cpe23","value":"cpe:2.3:a:composer\\/ca-bundle:composer\\/ca_bundle:1.5.12:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:composer\\/ca_bundle:composer\\/ca-bundle:1.5.12:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:composer\\/ca_bundle:composer\\/ca_bundle:1.5.12:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:composer\\/ca:composer\\/ca-bundle:1.5.12:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:composer\\/ca:composer\\/ca_bundle:1.5.12:*:*:*:*:*:*:*"},{"name":"syft:location:0:path","value":"/composer.lock"}]},{"bom-ref":"pkg:composer/composer/class-map-generator@1.7.3?package-id=1b2122326be45891","type":"library","name":"composer/class-map-generator","version":"1.7.3","licenses":[{"license":{"id":"MIT"}}],"cpe":"cpe:2.3:a:composer\\/class-map-generator:composer\\/class-map-generator:1.7.3:*:*:*:*:*:*:*","purl":"pkg:composer/composer/class-map-generator@1.7.3","properties":[{"name":"syft:package:foundBy","value":"php-composer-lock-cataloger"},{"name":"syft:package:language","value":"php"},{"name":"syft:package:type","value":"php-composer"},{"name":"syft:package:metadataType","value":"php-composer-lock-entry"},{"name":"syft:cpe23","value":"cpe:2.3:a:composer\\/class-map-generator:composer\\/class_map_generator:1.7.3:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:composer\\/class_map_generator:composer\\/class-map-generator:1.7.3:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:composer\\/class_map_generator:composer\\/class_map_generator:1.7.3:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:composer\\/class-map:composer\\/class-map-generator:1.7.3:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:composer\\/class-map:composer\\/class_map_generator:1.7.3:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:composer\\/class_map:composer\\/class-map-generator:1.7.3:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:composer\\/class_map:composer\\/class_map_generator:1.7.3:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:composer\\/class:composer\\/class-map-generator:1.7.3:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:composer\\/class:composer\\/class_map_generator:1.7.3:*:*:*:*:*:*:*"},{"name":"syft:location:0:path","value":"/composer.lock"}]},{"bom-ref":"pkg:composer/composer/composer@2.10.1?package-id=a073e56450c40836","type":"library","name":"composer/composer","version":"2.10.1","licenses":[{"license":{"id":"MIT"}}],"cpe":"cpe:2.3:a:composer\\/composer:composer\\/composer:2.10.1:*:*:*:*:*:*:*","purl":"pkg:composer/composer/composer@2.10.1","properties":[{"name":"syft:package:foundBy","value":"php-composer-lock-cataloger"},{"name":"syft:package:language","value":"php"},{"name":"syft:package:type","value":"php-composer"},{"name":"syft:package:metadataType","value":"php-composer-lock-entry"},{"name":"syft:location:0:path","value":"/composer.lock"}]},{"bom-ref":"pkg:composer/composer/metadata-minifier@1.0.0?package-id=2f3309dd6bbca12d","type":"library","name":"composer/metadata-minifier","version":"1.0.0","licenses":[{"license":{"id":"MIT"}}],"cpe":"cpe:2.3:a:composer\\/metadata-minifier:composer\\/metadata-minifier:1.0.0:*:*:*:*:*:*:*","purl":"pkg:composer/composer/metadata-minifier@1.0.0","properties":[{"name":"syft:package:foundBy","value":"php-composer-lock-cataloger"},{"name":"syft:package:language","value":"php"},{"name":"syft:package:type","value":"php-composer"},{"name":"syft:package:metadataType","value":"php-composer-lock-entry"},{"name":"syft:cpe23","value":"cpe:2.3:a:composer\\/metadata-minifier:composer\\/metadata_minifier:1.0.0:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:composer\\/metadata_minifier:composer\\/metadata-minifier:1.0.0:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:composer\\/metadata_minifier:composer\\/metadata_minifier:1.0.0:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:composer\\/metadata:composer\\/metadata-minifier:1.0.0:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:composer\\/metadata:composer\\/metadata_minifier:1.0.0:*:*:*:*:*:*:*"},{"name":"syft:location:0:path","value":"/composer.lock"}]},{"bom-ref":"pkg:composer/composer/pcre@3.3.2?package-id=1039eb8fd6795248","type":"library","name":"composer/pcre","version":"3.3.2","licenses":[{"license":{"id":"MIT"}}],"cpe":"cpe:2.3:a:composer\\/pcre:composer\\/pcre:3.3.2:*:*:*:*:*:*:*","purl":"pkg:composer/composer/pcre@3.3.2","properties":[{"name":"syft:package:foundBy","value":"php-composer-lock-cataloger"},{"name":"syft:package:language","value":"php"},{"name":"syft:package:type","value":"php-composer"},{"name":"syft:package:metadataType","value":"php-composer-lock-entry"},{"name":"syft:location:0:path","value":"/composer.lock"}]},{"bom-ref":"pkg:composer/composer/semver@3.4.4?package-id=d11cedd911b03ccf","type":"library","name":"composer/semver","version":"3.4.4","licenses":[{"license":{"id":"MIT"}}],"cpe":"cpe:2.3:a:composer\\/semver:composer\\/semver:3.4.4:*:*:*:*:*:*:*","purl":"pkg:composer/composer/semver@3.4.4","properties":[{"name":"syft:package:foundBy","value":"php-composer-lock-cataloger"},{"name":"syft:package:language","value":"php"},{"name":"syft:package:type","value":"php-composer"},{"name":"syft:package:metadataType","value":"php-composer-lock-entry"},{"name":"syft:location:0:path","value":"/composer.lock"}]},{"bom-ref":"pkg:composer/composer/spdx-licenses@1.6.0?package-id=13ccd44531d19ea8","type":"library","name":"composer/spdx-licenses","version":"1.6.0","licenses":[{"license":{"id":"MIT"}}],"cpe":"cpe:2.3:a:composer\\/spdx-licenses:composer\\/spdx-licenses:1.6.0:*:*:*:*:*:*:*","purl":"pkg:composer/composer/spdx-licenses@1.6.0","properties":[{"name":"syft:package:foundBy","value":"php-composer-lock-cataloger"},{"name":"syft:package:language","value":"php"},{"name":"syft:package:type","value":"php-composer"},{"name":"syft:package:metadataType","value":"php-composer-lock-entry"},{"name":"syft:cpe23","value":"cpe:2.3:a:composer\\/spdx-licenses:composer\\/spdx_licenses:1.6.0:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:composer\\/spdx_licenses:composer\\/spdx-licenses:1.6.0:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:composer\\/spdx_licenses:composer\\/spdx_licenses:1.6.0:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:composer\\/spdx:composer\\/spdx-licenses:1.6.0:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:composer\\/spdx:composer\\/spdx_licenses:1.6.0:*:*:*:*:*:*:*"},{"name":"syft:location:0:path","value":"/composer.lock"}]},{"bom-ref":"pkg:composer/composer/xdebug-handler@3.0.5?package-id=fd3b6bf1a85c7fad","type":"library","name":"composer/xdebug-handler","version":"3.0.5","licenses":[{"license":{"id":"MIT"}}],"cpe":"cpe:2.3:a:composer\\/xdebug-handler:composer\\/xdebug-handler:3.0.5:*:*:*:*:*:*:*","purl":"pkg:composer/composer/xdebug-handler@3.0.5","properties":[{"name":"syft:package:foundBy","value":"php-composer-lock-cataloger"},{"name":"syft:package:language","value":"php"},{"name":"syft:package:type","value":"php-composer"},{"name":"syft:package:metadataType","value":"php-composer-lock-entry"},{"name":"syft:cpe23","value":"cpe:2.3:a:composer\\/xdebug-handler:composer\\/xdebug_handler:3.0.5:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:composer\\/xdebug_handler:composer\\/xdebug-handler:3.0.5:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:composer\\/xdebug_handler:composer\\/xdebug_handler:3.0.5:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:composer\\/xdebug:composer\\/xdebug-handler:3.0.5:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:composer\\/xdebug:composer\\/xdebug_handler:3.0.5:*:*:*:*:*:*:*"},{"name":"syft:location:0:path","value":"/composer.lock"}]},{"bom-ref":"pkg:composer/justinrainbow/json-schema@6.9.0?package-id=bfd1c549729c43d4","type":"library","name":"justinrainbow/json-schema","version":"6.9.0","licenses":[{"license":{"id":"MIT"}}],"cpe":"cpe:2.3:a:justinrainbow\\/json-schema:justinrainbow\\/json-schema:6.9.0:*:*:*:*:*:*:*","purl":"pkg:composer/justinrainbow/json-schema@6.9.0","properties":[{"name":"syft:package:foundBy","value":"php-composer-lock-cataloger"},{"name":"syft:package:language","value":"php"},{"name":"syft:package:type","value":"php-composer"},{"name":"syft:package:metadataType","value":"php-composer-lock-entry"},{"name":"syft:cpe23","value":"cpe:2.3:a:justinrainbow\\/json-schema:justinrainbow\\/json_schema:6.9.0:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:justinrainbow\\/json_schema:justinrainbow\\/json-schema:6.9.0:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:justinrainbow\\/json_schema:justinrainbow\\/json_schema:6.9.0:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:justinrainbow\\/json:justinrainbow\\/json-schema:6.9.0:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:justinrainbow\\/json:justinrainbow\\/json_schema:6.9.0:*:*:*:*:*:*:*"},{"name":"syft:location:0:path","value":"/composer.lock"}]},{"bom-ref":"pkg:composer/marc-mabe/php-enum@v4.7.2?package-id=25a92ec14490c127","type":"library","name":"marc-mabe/php-enum","version":"v4.7.2","licenses":[{"license":{"id":"BSD-3-Clause"}}],"cpe":"cpe:2.3:a:marc-mabe\\/php-enum:marc-mabe\\/php-enum:v4.7.2:*:*:*:*:*:*:*","purl":"pkg:composer/marc-mabe/php-enum@v4.7.2","properties":[{"name":"syft:package:foundBy","value":"php-composer-lock-cataloger"},{"name":"syft:package:language","value":"php"},{"name":"syft:package:type","value":"php-composer"},{"name":"syft:package:metadataType","value":"php-composer-lock-entry"},{"name":"syft:cpe23","value":"cpe:2.3:a:marc-mabe\\/php-enum:marc_mabe\\/php_enum:v4.7.2:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:marc_mabe\\/php_enum:marc-mabe\\/php-enum:v4.7.2:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:marc_mabe\\/php_enum:marc_mabe\\/php_enum:v4.7.2:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:marc-mabe\\/php:marc-mabe\\/php-enum:v4.7.2:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:marc-mabe\\/php:marc_mabe\\/php_enum:v4.7.2:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:marc_mabe\\/php:marc-mabe\\/php-enum:v4.7.2:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:marc_mabe\\/php:marc_mabe\\/php_enum:v4.7.2:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:marc:marc-mabe\\/php-enum:v4.7.2:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:marc:marc_mabe\\/php_enum:v4.7.2:*:*:*:*:*:*:*"},{"name":"syft:location:0:path","value":"/composer.lock"}]},{"bom-ref":"pkg:composer/psr/container@2.0.2?package-id=ba98a950e177732d","type":"library","name":"psr/container","version":"2.0.2","licenses":[{"license":{"id":"MIT"}}],"cpe":"cpe:2.3:a:psr\\/container:psr\\/container:2.0.2:*:*:*:*:*:*:*","purl":"pkg:composer/psr/container@2.0.2","properties":[{"name":"syft:package:foundBy","value":"php-composer-lock-cataloger"},{"name":"syft:package:language","value":"php"},{"name":"syft:package:type","value":"php-composer"},{"name":"syft:package:metadataType","value":"php-composer-lock-entry"},{"name":"syft:location:0:path","value":"/composer.lock"}]},{"bom-ref":"pkg:composer/psr/log@3.0.2?package-id=fafdc021c692b7ee","type":"library","name":"psr/log","version":"3.0.2","licenses":[{"license":{"id":"MIT"}}],"cpe":"cpe:2.3:a:psr\\/log:psr\\/log:3.0.2:*:*:*:*:*:*:*","purl":"pkg:composer/psr/log@3.0.2","properties":[{"name":"syft:package:foundBy","value":"php-composer-lock-cataloger"},{"name":"syft:package:language","value":"php"},{"name":"syft:package:type","value":"php-composer"},{"name":"syft:package:metadataType","value":"php-composer-lock-entry"},{"name":"syft:location:0:path","value":"/composer.lock"}]},{"bom-ref":"pkg:composer/react/promise@v3.3.0?package-id=15c5fb542fccc8ca","type":"library","name":"react/promise","version":"v3.3.0","licenses":[{"license":{"id":"MIT"}}],"cpe":"cpe:2.3:a:react\\/promise:react\\/promise:v3.3.0:*:*:*:*:*:*:*","purl":"pkg:composer/react/promise@v3.3.0","properties":[{"name":"syft:package:foundBy","value":"php-composer-lock-cataloger"},{"name":"syft:package:language","value":"php"},{"name":"syft:package:type","value":"php-composer"},{"name":"syft:package:metadataType","value":"php-composer-lock-entry"},{"name":"syft:location:0:path","value":"/composer.lock"}]},{"bom-ref":"pkg:composer/seld/jsonlint@1.11.0?package-id=2fbe577705227781","type":"library","name":"seld/jsonlint","version":"1.11.0","licenses":[{"license":{"id":"MIT"}}],"cpe":"cpe:2.3:a:seld\\/jsonlint:seld\\/jsonlint:1.11.0:*:*:*:*:*:*:*","purl":"pkg:composer/seld/jsonlint@1.11.0","properties":[{"name":"syft:package:foundBy","value":"php-composer-lock-cataloger"},{"name":"syft:package:language","value":"php"},{"name":"syft:package:type","value":"php-composer"},{"name":"syft:package:metadataType","value":"php-composer-lock-entry"},{"name":"syft:location:0:path","value":"/composer.lock"}]},{"bom-ref":"pkg:composer/seld/phar-utils@1.2.1?package-id=7498e055db6e418b","type":"library","name":"seld/phar-utils","version":"1.2.1","licenses":[{"license":{"id":"MIT"}}],"cpe":"cpe:2.3:a:seld\\/phar-utils:seld\\/phar-utils:1.2.1:*:*:*:*:*:*:*","purl":"pkg:composer/seld/phar-utils@1.2.1","properties":[{"name":"syft:package:foundBy","value":"php-composer-lock-cataloger"},{"name":"syft:package:language","value":"php"},{"name":"syft:package:type","value":"php-composer"},{"name":"syft:package:metadataType","value":"php-composer-lock-entry"},{"name":"syft:cpe23","value":"cpe:2.3:a:seld\\/phar-utils:seld\\/phar_utils:1.2.1:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:seld\\/phar_utils:seld\\/phar-utils:1.2.1:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:seld\\/phar_utils:seld\\/phar_utils:1.2.1:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:seld\\/phar:seld\\/phar-utils:1.2.1:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:seld\\/phar:seld\\/phar_utils:1.2.1:*:*:*:*:*:*:*"},{"name":"syft:location:0:path","value":"/composer.lock"}]},{"bom-ref":"pkg:composer/seld/signal-handler@2.0.2?package-id=d003e026c69045f2","type":"library","name":"seld/signal-handler","version":"2.0.2","licenses":[{"license":{"id":"MIT"}}],"cpe":"cpe:2.3:a:seld\\/signal-handler:seld\\/signal-handler:2.0.2:*:*:*:*:*:*:*","purl":"pkg:composer/seld/signal-handler@2.0.2","properties":[{"name":"syft:package:foundBy","value":"php-composer-lock-cataloger"},{"name":"syft:package:language","value":"php"},{"name":"syft:package:type","value":"php-composer"},{"name":"syft:package:metadataType","value":"php-composer-lock-entry"},{"name":"syft:cpe23","value":"cpe:2.3:a:seld\\/signal-handler:seld\\/signal_handler:2.0.2:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:seld\\/signal_handler:seld\\/signal-handler:2.0.2:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:seld\\/signal_handler:seld\\/signal_handler:2.0.2:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:seld\\/signal:seld\\/signal-handler:2.0.2:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:seld\\/signal:seld\\/signal_handler:2.0.2:*:*:*:*:*:*:*"},{"name":"syft:location:0:path","value":"/composer.lock"}]},{"bom-ref":"pkg:github/shivammathur/setup-php@2.37.2?package-id=601f9983e0144444","type":"library","name":"shivammathur/setup-php","version":"2.37.2","cpe":"cpe:2.3:a:shivammathur\\/setup-php:shivammathur\\/setup-php:2.37.2:*:*:*:*:*:*:*","purl":"pkg:github/shivammathur/setup-php@2.37.2","properties":[{"name":"syft:package:foundBy","value":"github-actions-usage-cataloger"},{"name":"syft:package:type","value":"github-action"},{"name":"syft:package:metadataType","value":"github-actions-use-statement"},{"name":"syft:cpe23","value":"cpe:2.3:a:shivammathur\\/setup-php:shivammathur\\/setup_php:2.37.2:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:shivammathur\\/setup_php:shivammathur\\/setup-php:2.37.2:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:shivammathur\\/setup_php:shivammathur\\/setup_php:2.37.2:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:shivammathur\\/setup:shivammathur\\/setup-php:2.37.2:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:shivammathur\\/setup:shivammathur\\/setup_php:2.37.2:*:*:*:*:*:*:*"},{"name":"syft:location:0:path","value":"/.github/workflows/lint.yml"}]},{"bom-ref":"pkg:github/shivammathur/setup-php@2.37.2?package-id=d0ed5197ee6c16a2","type":"library","name":"shivammathur/setup-php","version":"2.37.2","cpe":"cpe:2.3:a:shivammathur\\/setup-php:shivammathur\\/setup-php:2.37.2:*:*:*:*:*:*:*","purl":"pkg:github/shivammathur/setup-php@2.37.2","properties":[{"name":"syft:package:foundBy","value":"github-actions-usage-cataloger"},{"name":"syft:package:type","value":"github-action"},{"name":"syft:package:metadataType","value":"github-actions-use-statement"},{"name":"syft:cpe23","value":"cpe:2.3:a:shivammathur\\/setup-php:shivammathur\\/setup_php:2.37.2:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:shivammathur\\/setup_php:shivammathur\\/setup-php:2.37.2:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:shivammathur\\/setup_php:shivammathur\\/setup_php:2.37.2:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:shivammathur\\/setup:shivammathur\\/setup-php:2.37.2:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:shivammathur\\/setup:shivammathur\\/setup_php:2.37.2:*:*:*:*:*:*:*"},{"name":"syft:location:0:path","value":"/.github/workflows/phpstan.yml"}]},{"bom-ref":"pkg:github/shivammathur/setup-php@2.37.2?package-id=d2ff6b02cadb102c","type":"library","name":"shivammathur/setup-php","version":"2.37.2","cpe":"cpe:2.3:a:shivammathur\\/setup-php:shivammathur\\/setup-php:2.37.2:*:*:*:*:*:*:*","purl":"pkg:github/shivammathur/setup-php@2.37.2","properties":[{"name":"syft:package:foundBy","value":"github-actions-usage-cataloger"},{"name":"syft:package:type","value":"github-action"},{"name":"syft:package:metadataType","value":"github-actions-use-statement"},{"name":"syft:cpe23","value":"cpe:2.3:a:shivammathur\\/setup-php:shivammathur\\/setup_php:2.37.2:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:shivammathur\\/setup_php:shivammathur\\/setup-php:2.37.2:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:shivammathur\\/setup_php:shivammathur\\/setup_php:2.37.2:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:shivammathur\\/setup:shivammathur\\/setup-php:2.37.2:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:shivammathur\\/setup:shivammathur\\/setup_php:2.37.2:*:*:*:*:*:*:*"},{"name":"syft:location:0:path","value":"/.github/workflows/sync.yml"}]},{"bom-ref":"pkg:composer/symfony/console@v7.4.13?package-id=a7246210b002cfd8","type":"library","name":"symfony/console","version":"v7.4.13","licenses":[{"license":{"id":"MIT"}}],"cpe":"cpe:2.3:a:symfony\\/console:symfony\\/console:v7.4.13:*:*:*:*:*:*:*","purl":"pkg:composer/symfony/console@v7.4.13","properties":[{"name":"syft:package:foundBy","value":"php-composer-lock-cataloger"},{"name":"syft:package:language","value":"php"},{"name":"syft:package:type","value":"php-composer"},{"name":"syft:package:metadataType","value":"php-composer-lock-entry"},{"name":"syft:location:0:path","value":"/composer.lock"}]},{"bom-ref":"pkg:composer/symfony/deprecation-contracts@v3.7.0?package-id=7e9fa40a179546fc","type":"library","name":"symfony/deprecation-contracts","version":"v3.7.0","licenses":[{"license":{"id":"MIT"}}],"cpe":"cpe:2.3:a:symfony\\/deprecation-contracts:symfony\\/deprecation-contracts:v3.7.0:*:*:*:*:*:*:*","purl":"pkg:composer/symfony/deprecation-contracts@v3.7.0","properties":[{"name":"syft:package:foundBy","value":"php-composer-lock-cataloger"},{"name":"syft:package:language","value":"php"},{"name":"syft:package:type","value":"php-composer"},{"name":"syft:package:metadataType","value":"php-composer-lock-entry"},{"name":"syft:cpe23","value":"cpe:2.3:a:symfony\\/deprecation-contracts:symfony\\/deprecation_contracts:v3.7.0:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:symfony\\/deprecation_contracts:symfony\\/deprecation-contracts:v3.7.0:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:symfony\\/deprecation_contracts:symfony\\/deprecation_contracts:v3.7.0:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:symfony\\/deprecation:symfony\\/deprecation-contracts:v3.7.0:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:symfony\\/deprecation:symfony\\/deprecation_contracts:v3.7.0:*:*:*:*:*:*:*"},{"name":"syft:location:0:path","value":"/composer.lock"}]},{"bom-ref":"pkg:composer/symfony/filesystem@v7.4.11?package-id=90f11995ec9d8d46","type":"library","name":"symfony/filesystem","version":"v7.4.11","licenses":[{"license":{"id":"MIT"}}],"cpe":"cpe:2.3:a:symfony\\/filesystem:symfony\\/filesystem:v7.4.11:*:*:*:*:*:*:*","purl":"pkg:composer/symfony/filesystem@v7.4.11","properties":[{"name":"syft:package:foundBy","value":"php-composer-lock-cataloger"},{"name":"syft:package:language","value":"php"},{"name":"syft:package:type","value":"php-composer"},{"name":"syft:package:metadataType","value":"php-composer-lock-entry"},{"name":"syft:location:0:path","value":"/composer.lock"}]},{"bom-ref":"pkg:composer/symfony/finder@v7.4.8?package-id=1047b2174cdb7025","type":"library","name":"symfony/finder","version":"v7.4.8","licenses":[{"license":{"id":"MIT"}}],"cpe":"cpe:2.3:a:symfony\\/finder:symfony\\/finder:v7.4.8:*:*:*:*:*:*:*","purl":"pkg:composer/symfony/finder@v7.4.8","properties":[{"name":"syft:package:foundBy","value":"php-composer-lock-cataloger"},{"name":"syft:package:language","value":"php"},{"name":"syft:package:type","value":"php-composer"},{"name":"syft:package:metadataType","value":"php-composer-lock-entry"},{"name":"syft:location:0:path","value":"/composer.lock"}]},{"bom-ref":"pkg:composer/symfony/http-client@v7.4.13?package-id=249ac1fc4862816c","type":"library","name":"symfony/http-client","version":"v7.4.13","licenses":[{"license":{"id":"MIT"}}],"cpe":"cpe:2.3:a:symfony\\/http-client:symfony\\/http-client:v7.4.13:*:*:*:*:*:*:*","purl":"pkg:composer/symfony/http-client@v7.4.13","properties":[{"name":"syft:package:foundBy","value":"php-composer-lock-cataloger"},{"name":"syft:package:language","value":"php"},{"name":"syft:package:type","value":"php-composer"},{"name":"syft:package:metadataType","value":"php-composer-lock-entry"},{"name":"syft:cpe23","value":"cpe:2.3:a:symfony\\/http-client:symfony\\/http_client:v7.4.13:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:symfony\\/http_client:symfony\\/http-client:v7.4.13:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:symfony\\/http_client:symfony\\/http_client:v7.4.13:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:symfony\\/http:symfony\\/http-client:v7.4.13:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:symfony\\/http:symfony\\/http_client:v7.4.13:*:*:*:*:*:*:*"},{"name":"syft:location:0:path","value":"/composer.lock"}]},{"bom-ref":"pkg:composer/symfony/http-client-contracts@v3.7.0?package-id=0314d2c1a708ca57","type":"library","name":"symfony/http-client-contracts","version":"v3.7.0","licenses":[{"license":{"id":"MIT"}}],"cpe":"cpe:2.3:a:symfony\\/http-client-contracts:symfony\\/http-client-contracts:v3.7.0:*:*:*:*:*:*:*","purl":"pkg:composer/symfony/http-client-contracts@v3.7.0","properties":[{"name":"syft:package:foundBy","value":"php-composer-lock-cataloger"},{"name":"syft:package:language","value":"php"},{"name":"syft:package:type","value":"php-composer"},{"name":"syft:package:metadataType","value":"php-composer-lock-entry"},{"name":"syft:cpe23","value":"cpe:2.3:a:symfony\\/http-client-contracts:symfony\\/http_client_contracts:v3.7.0:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:symfony\\/http_client_contracts:symfony\\/http-client-contracts:v3.7.0:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:symfony\\/http_client_contracts:symfony\\/http_client_contracts:v3.7.0:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:symfony\\/http-client:symfony\\/http-client-contracts:v3.7.0:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:symfony\\/http-client:symfony\\/http_client_contracts:v3.7.0:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:symfony\\/http_client:symfony\\/http-client-contracts:v3.7.0:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:symfony\\/http_client:symfony\\/http_client_contracts:v3.7.0:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:symfony\\/http:symfony\\/http-client-contracts:v3.7.0:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:symfony\\/http:symfony\\/http_client_contracts:v3.7.0:*:*:*:*:*:*:*"},{"name":"syft:location:0:path","value":"/composer.lock"}]},{"bom-ref":"pkg:composer/symfony/polyfill-ctype@v1.37.0?package-id=62ef6279c8a38cae","type":"library","name":"symfony/polyfill-ctype","version":"v1.37.0","licenses":[{"license":{"id":"MIT"}}],"cpe":"cpe:2.3:a:symfony\\/polyfill-ctype:symfony\\/polyfill-ctype:v1.37.0:*:*:*:*:*:*:*","purl":"pkg:composer/symfony/polyfill-ctype@v1.37.0","properties":[{"name":"syft:package:foundBy","value":"php-composer-lock-cataloger"},{"name":"syft:package:language","value":"php"},{"name":"syft:package:type","value":"php-composer"},{"name":"syft:package:metadataType","value":"php-composer-lock-entry"},{"name":"syft:cpe23","value":"cpe:2.3:a:symfony\\/polyfill-ctype:symfony\\/polyfill_ctype:v1.37.0:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:symfony\\/polyfill_ctype:symfony\\/polyfill-ctype:v1.37.0:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:symfony\\/polyfill_ctype:symfony\\/polyfill_ctype:v1.37.0:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:symfony\\/polyfill:symfony\\/polyfill-ctype:v1.37.0:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:symfony\\/polyfill:symfony\\/polyfill_ctype:v1.37.0:*:*:*:*:*:*:*"},{"name":"syft:location:0:path","value":"/composer.lock"}]},{"bom-ref":"pkg:composer/symfony/polyfill-intl-grapheme@v1.38.1?package-id=779d217b401ef120","type":"library","name":"symfony/polyfill-intl-grapheme","version":"v1.38.1","licenses":[{"license":{"id":"MIT"}}],"cpe":"cpe:2.3:a:symfony\\/polyfill-intl-grapheme:symfony\\/polyfill-intl-grapheme:v1.38.1:*:*:*:*:*:*:*","purl":"pkg:composer/symfony/polyfill-intl-grapheme@v1.38.1","properties":[{"name":"syft:package:foundBy","value":"php-composer-lock-cataloger"},{"name":"syft:package:language","value":"php"},{"name":"syft:package:type","value":"php-composer"},{"name":"syft:package:metadataType","value":"php-composer-lock-entry"},{"name":"syft:cpe23","value":"cpe:2.3:a:symfony\\/polyfill-intl-grapheme:symfony\\/polyfill_intl_grapheme:v1.38.1:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:symfony\\/polyfill_intl_grapheme:symfony\\/polyfill-intl-grapheme:v1.38.1:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:symfony\\/polyfill_intl_grapheme:symfony\\/polyfill_intl_grapheme:v1.38.1:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:symfony\\/polyfill-intl:symfony\\/polyfill-intl-grapheme:v1.38.1:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:symfony\\/polyfill-intl:symfony\\/polyfill_intl_grapheme:v1.38.1:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:symfony\\/polyfill_intl:symfony\\/polyfill-intl-grapheme:v1.38.1:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:symfony\\/polyfill_intl:symfony\\/polyfill_intl_grapheme:v1.38.1:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:symfony\\/polyfill:symfony\\/polyfill-intl-grapheme:v1.38.1:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:symfony\\/polyfill:symfony\\/polyfill_intl_grapheme:v1.38.1:*:*:*:*:*:*:*"},{"name":"syft:location:0:path","value":"/composer.lock"}]},{"bom-ref":"pkg:composer/symfony/polyfill-intl-normalizer@v1.38.0?package-id=122f927536defd02","type":"library","name":"symfony/polyfill-intl-normalizer","version":"v1.38.0","licenses":[{"license":{"id":"MIT"}}],"cpe":"cpe:2.3:a:symfony\\/polyfill-intl-normalizer:symfony\\/polyfill-intl-normalizer:v1.38.0:*:*:*:*:*:*:*","purl":"pkg:composer/symfony/polyfill-intl-normalizer@v1.38.0","properties":[{"name":"syft:package:foundBy","value":"php-composer-lock-cataloger"},{"name":"syft:package:language","value":"php"},{"name":"syft:package:type","value":"php-composer"},{"name":"syft:package:metadataType","value":"php-composer-lock-entry"},{"name":"syft:cpe23","value":"cpe:2.3:a:symfony\\/polyfill-intl-normalizer:symfony\\/polyfill_intl_normalizer:v1.38.0:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:symfony\\/polyfill_intl_normalizer:symfony\\/polyfill-intl-normalizer:v1.38.0:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:symfony\\/polyfill_intl_normalizer:symfony\\/polyfill_intl_normalizer:v1.38.0:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:symfony\\/polyfill-intl:symfony\\/polyfill-intl-normalizer:v1.38.0:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:symfony\\/polyfill-intl:symfony\\/polyfill_intl_normalizer:v1.38.0:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:symfony\\/polyfill_intl:symfony\\/polyfill-intl-normalizer:v1.38.0:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:symfony\\/polyfill_intl:symfony\\/polyfill_intl_normalizer:v1.38.0:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:symfony\\/polyfill:symfony\\/polyfill-intl-normalizer:v1.38.0:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:symfony\\/polyfill:symfony\\/polyfill_intl_normalizer:v1.38.0:*:*:*:*:*:*:*"},{"name":"syft:location:0:path","value":"/composer.lock"}]},{"bom-ref":"pkg:composer/symfony/polyfill-mbstring@v1.38.1?package-id=a11f76f3bd79d41b","type":"library","name":"symfony/polyfill-mbstring","version":"v1.38.1","licenses":[{"license":{"id":"MIT"}}],"cpe":"cpe:2.3:a:symfony\\/polyfill-mbstring:symfony\\/polyfill-mbstring:v1.38.1:*:*:*:*:*:*:*","purl":"pkg:composer/symfony/polyfill-mbstring@v1.38.1","properties":[{"name":"syft:package:foundBy","value":"php-composer-lock-cataloger"},{"name":"syft:package:language","value":"php"},{"name":"syft:package:type","value":"php-composer"},{"name":"syft:package:metadataType","value":"php-composer-lock-entry"},{"name":"syft:cpe23","value":"cpe:2.3:a:symfony\\/polyfill-mbstring:symfony\\/polyfill_mbstring:v1.38.1:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:symfony\\/polyfill_mbstring:symfony\\/polyfill-mbstring:v1.38.1:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:symfony\\/polyfill_mbstring:symfony\\/polyfill_mbstring:v1.38.1:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:symfony\\/polyfill:symfony\\/polyfill-mbstring:v1.38.1:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:symfony\\/polyfill:symfony\\/polyfill_mbstring:v1.38.1:*:*:*:*:*:*:*"},{"name":"syft:location:0:path","value":"/composer.lock"}]},{"bom-ref":"pkg:composer/symfony/polyfill-php73@v1.37.0?package-id=e5240c97959d6b9c","type":"library","name":"symfony/polyfill-php73","version":"v1.37.0","licenses":[{"license":{"id":"MIT"}}],"cpe":"cpe:2.3:a:symfony\\/polyfill-php73:symfony\\/polyfill-php73:v1.37.0:*:*:*:*:*:*:*","purl":"pkg:composer/symfony/polyfill-php73@v1.37.0","properties":[{"name":"syft:package:foundBy","value":"php-composer-lock-cataloger"},{"name":"syft:package:language","value":"php"},{"name":"syft:package:type","value":"php-composer"},{"name":"syft:package:metadataType","value":"php-composer-lock-entry"},{"name":"syft:cpe23","value":"cpe:2.3:a:symfony\\/polyfill-php73:symfony\\/polyfill_php73:v1.37.0:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:symfony\\/polyfill_php73:symfony\\/polyfill-php73:v1.37.0:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:symfony\\/polyfill_php73:symfony\\/polyfill_php73:v1.37.0:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:symfony\\/polyfill:symfony\\/polyfill-php73:v1.37.0:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:symfony\\/polyfill:symfony\\/polyfill_php73:v1.37.0:*:*:*:*:*:*:*"},{"name":"syft:location:0:path","value":"/composer.lock"}]},{"bom-ref":"pkg:composer/symfony/polyfill-php80@v1.37.0?package-id=009be3241475775e","type":"library","name":"symfony/polyfill-php80","version":"v1.37.0","licenses":[{"license":{"id":"MIT"}}],"cpe":"cpe:2.3:a:symfony\\/polyfill-php80:symfony\\/polyfill-php80:v1.37.0:*:*:*:*:*:*:*","purl":"pkg:composer/symfony/polyfill-php80@v1.37.0","properties":[{"name":"syft:package:foundBy","value":"php-composer-lock-cataloger"},{"name":"syft:package:language","value":"php"},{"name":"syft:package:type","value":"php-composer"},{"name":"syft:package:metadataType","value":"php-composer-lock-entry"},{"name":"syft:cpe23","value":"cpe:2.3:a:symfony\\/polyfill-php80:symfony\\/polyfill_php80:v1.37.0:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:symfony\\/polyfill_php80:symfony\\/polyfill-php80:v1.37.0:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:symfony\\/polyfill_php80:symfony\\/polyfill_php80:v1.37.0:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:symfony\\/polyfill:symfony\\/polyfill-php80:v1.37.0:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:symfony\\/polyfill:symfony\\/polyfill_php80:v1.37.0:*:*:*:*:*:*:*"},{"name":"syft:location:0:path","value":"/composer.lock"}]},{"bom-ref":"pkg:composer/symfony/polyfill-php81@v1.38.1?package-id=4961e13c1e510bdd","type":"library","name":"symfony/polyfill-php81","version":"v1.38.1","licenses":[{"license":{"id":"MIT"}}],"cpe":"cpe:2.3:a:symfony\\/polyfill-php81:symfony\\/polyfill-php81:v1.38.1:*:*:*:*:*:*:*","purl":"pkg:composer/symfony/polyfill-php81@v1.38.1","properties":[{"name":"syft:package:foundBy","value":"php-composer-lock-cataloger"},{"name":"syft:package:language","value":"php"},{"name":"syft:package:type","value":"php-composer"},{"name":"syft:package:metadataType","value":"php-composer-lock-entry"},{"name":"syft:cpe23","value":"cpe:2.3:a:symfony\\/polyfill-php81:symfony\\/polyfill_php81:v1.38.1:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:symfony\\/polyfill_php81:symfony\\/polyfill-php81:v1.38.1:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:symfony\\/polyfill_php81:symfony\\/polyfill_php81:v1.38.1:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:symfony\\/polyfill:symfony\\/polyfill-php81:v1.38.1:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:symfony\\/polyfill:symfony\\/polyfill_php81:v1.38.1:*:*:*:*:*:*:*"},{"name":"syft:location:0:path","value":"/composer.lock"}]},{"bom-ref":"pkg:composer/symfony/polyfill-php83@v1.38.1?package-id=b0695756556dbaaf","type":"library","name":"symfony/polyfill-php83","version":"v1.38.1","licenses":[{"license":{"id":"MIT"}}],"cpe":"cpe:2.3:a:symfony\\/polyfill-php83:symfony\\/polyfill-php83:v1.38.1:*:*:*:*:*:*:*","purl":"pkg:composer/symfony/polyfill-php83@v1.38.1","properties":[{"name":"syft:package:foundBy","value":"php-composer-lock-cataloger"},{"name":"syft:package:language","value":"php"},{"name":"syft:package:type","value":"php-composer"},{"name":"syft:package:metadataType","value":"php-composer-lock-entry"},{"name":"syft:cpe23","value":"cpe:2.3:a:symfony\\/polyfill-php83:symfony\\/polyfill_php83:v1.38.1:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:symfony\\/polyfill_php83:symfony\\/polyfill-php83:v1.38.1:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:symfony\\/polyfill_php83:symfony\\/polyfill_php83:v1.38.1:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:symfony\\/polyfill:symfony\\/polyfill-php83:v1.38.1:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:symfony\\/polyfill:symfony\\/polyfill_php83:v1.38.1:*:*:*:*:*:*:*"},{"name":"syft:location:0:path","value":"/composer.lock"}]},{"bom-ref":"pkg:composer/symfony/polyfill-php84@v1.38.1?package-id=47abc90db837dba7","type":"library","name":"symfony/polyfill-php84","version":"v1.38.1","licenses":[{"license":{"id":"MIT"}}],"cpe":"cpe:2.3:a:symfony\\/polyfill-php84:symfony\\/polyfill-php84:v1.38.1:*:*:*:*:*:*:*","purl":"pkg:composer/symfony/polyfill-php84@v1.38.1","properties":[{"name":"syft:package:foundBy","value":"php-composer-lock-cataloger"},{"name":"syft:package:language","value":"php"},{"name":"syft:package:type","value":"php-composer"},{"name":"syft:package:metadataType","value":"php-composer-lock-entry"},{"name":"syft:cpe23","value":"cpe:2.3:a:symfony\\/polyfill-php84:symfony\\/polyfill_php84:v1.38.1:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:symfony\\/polyfill_php84:symfony\\/polyfill-php84:v1.38.1:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:symfony\\/polyfill_php84:symfony\\/polyfill_php84:v1.38.1:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:symfony\\/polyfill:symfony\\/polyfill-php84:v1.38.1:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:symfony\\/polyfill:symfony\\/polyfill_php84:v1.38.1:*:*:*:*:*:*:*"},{"name":"syft:location:0:path","value":"/composer.lock"}]},{"bom-ref":"pkg:composer/symfony/process@v7.4.13?package-id=2ed55334b1336cf2","type":"library","name":"symfony/process","version":"v7.4.13","licenses":[{"license":{"id":"MIT"}}],"cpe":"cpe:2.3:a:symfony\\/process:symfony\\/process:v7.4.13:*:*:*:*:*:*:*","purl":"pkg:composer/symfony/process@v7.4.13","properties":[{"name":"syft:package:foundBy","value":"php-composer-lock-cataloger"},{"name":"syft:package:language","value":"php"},{"name":"syft:package:type","value":"php-composer"},{"name":"syft:package:metadataType","value":"php-composer-lock-entry"},{"name":"syft:location:0:path","value":"/composer.lock"}]},{"bom-ref":"pkg:composer/symfony/service-contracts@v3.7.0?package-id=f99bec69e2808e88","type":"library","name":"symfony/service-contracts","version":"v3.7.0","licenses":[{"license":{"id":"MIT"}}],"cpe":"cpe:2.3:a:symfony\\/service-contracts:symfony\\/service-contracts:v3.7.0:*:*:*:*:*:*:*","purl":"pkg:composer/symfony/service-contracts@v3.7.0","properties":[{"name":"syft:package:foundBy","value":"php-composer-lock-cataloger"},{"name":"syft:package:language","value":"php"},{"name":"syft:package:type","value":"php-composer"},{"name":"syft:package:metadataType","value":"php-composer-lock-entry"},{"name":"syft:cpe23","value":"cpe:2.3:a:symfony\\/service-contracts:symfony\\/service_contracts:v3.7.0:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:symfony\\/service_contracts:symfony\\/service-contracts:v3.7.0:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:symfony\\/service_contracts:symfony\\/service_contracts:v3.7.0:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:symfony\\/service:symfony\\/service-contracts:v3.7.0:*:*:*:*:*:*:*"},{"name":"syft:cpe23","value":"cpe:2.3:a:symfony\\/service:symfony\\/service_contracts:v3.7.0:*:*:*:*:*:*:*"},{"name":"syft:location:0:path","value":"/composer.lock"}]},{"bom-ref":"pkg:composer/symfony/string@v7.4.13?package-id=b6c4afb277e33af9","type":"library","name":"symfony/string","version":"v7.4.13","licenses":[{"license":{"id":"MIT"}}],"cpe":"cpe:2.3:a:symfony\\/string:symfony\\/string:v7.4.13:*:*:*:*:*:*:*","purl":"pkg:composer/symfony/string@v7.4.13","properties":[{"name":"syft:package:foundBy","value":"php-composer-lock-cataloger"},{"name":"syft:package:language","value":"php"},{"name":"syft:package:type","value":"php-composer"},{"name":"syft:package:metadataType","value":"php-composer-lock-entry"},{"name":"syft:location:0:path","value":"/composer.lock"}]},{"bom-ref":"5ebde7ddc8076c2b","type":"file","name":"/tmp/tmp.BeeiyQ66dC/infrastructure-default/.github/workflows/lint.yml","hashes":[{"alg":"SHA-1","content":"0703a78c51ea5f727e4c77adee6f6fc814690f45"},{"alg":"SHA-256","content":"588a9901a78c9e095deb33dad48886e722b94cd3c391525d0e6693f0e8dfffa8"}]},{"bom-ref":"f23abd314990253e","type":"file","name":"/tmp/tmp.BeeiyQ66dC/infrastructure-default/.github/workflows/phpstan.yml","hashes":[{"alg":"SHA-1","content":"9c79412045ae3e9a555b9864715154cb8a594884"},{"alg":"SHA-256","content":"27700ece5e991c9e6acf48c68ba52d181edc529c14335c2fd2b27583144aa096"}]},{"bom-ref":"cbbb57827f0f16c5","type":"file","name":"/tmp/tmp.BeeiyQ66dC/infrastructure-default/.github/workflows/sync.yml","hashes":[{"alg":"SHA-1","content":"9118dbbed57181b236d2159f4a246d2bf80b656c"},{"alg":"SHA-256","content":"67d3bfb2adeaf7981ccb9b312b87505d6b8d93c92ac106063e29a3daef144b83"}]},{"bom-ref":"c8bb62e6bded633e","type":"file","name":"/tmp/tmp.BeeiyQ66dC/infrastructure-default/composer.lock","hashes":[{"alg":"SHA-1","content":"9cc4c1e69888b1210632374b13a52bdb8dac0b10"},{"alg":"SHA-256","content":"68e80ffd247f1efbc4eded10c28cc9d2279afd7c9735a43234c1e064fd490244"}]}]}
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:052d0b8d-6388-4620-b3d1-7e5005bf6a72",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-06-11T16:14:05Z",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "author": "anchore",
+          "name": "syft",
+          "version": "1.45.1"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "ec99272365d680cb",
+      "type": "file",
+      "name": "/tmp/tmp.UBuILv814v/infrastructure-default",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "pkg:github/actions/checkout@v6.0.3?package-id=35ca5f2e7f72c974",
+      "type": "library",
+      "name": "actions/checkout",
+      "version": "v6.0.3",
+      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v6.0.3:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/checkout@v6.0.3",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/lint.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/actions/checkout@v6.0.3?package-id=db997d25c0471854",
+      "type": "library",
+      "name": "actions/checkout",
+      "version": "v6.0.3",
+      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v6.0.3:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/checkout@v6.0.3",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/phpstan.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/actions/checkout@v6.0.3?package-id=f43f9dc5fcba2c66",
+      "type": "library",
+      "name": "actions/checkout",
+      "version": "v6.0.3",
+      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v6.0.3:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/checkout@v6.0.3",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/sync.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/actions/create-github-app-token@v3.2.0?package-id=b01aaf287bf5dd58",
+      "type": "library",
+      "name": "actions/create-github-app-token",
+      "version": "v3.2.0",
+      "cpe": "cpe:2.3:a:actions\\/create-github-app-token:actions\\/create-github-app-token:v3.2.0:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/create-github-app-token@v3.2.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/create-github-app-token:actions\\/create_github_app_token:v3.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/create_github_app_token:actions\\/create-github-app-token:v3.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/create_github_app_token:actions\\/create_github_app_token:v3.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/create-github-app:actions\\/create-github-app-token:v3.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/create-github-app:actions\\/create_github_app_token:v3.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/create_github_app:actions\\/create-github-app-token:v3.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/create_github_app:actions\\/create_github_app_token:v3.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/create-github:actions\\/create-github-app-token:v3.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/create-github:actions\\/create_github_app_token:v3.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/create_github:actions\\/create-github-app-token:v3.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/create_github:actions\\/create_github_app_token:v3.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/create:actions\\/create-github-app-token:v3.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/create:actions\\/create_github_app_token:v3.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/sync.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:composer/composer/ca-bundle@1.5.12?package-id=d1145460cbb96d82",
+      "type": "library",
+      "name": "composer/ca-bundle",
+      "version": "1.5.12",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:composer\\/ca-bundle:composer\\/ca-bundle:1.5.12:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/composer/ca-bundle@1.5.12",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "php-composer-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "php"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "php-composer"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "php-composer-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:composer\\/ca-bundle:composer\\/ca_bundle:1.5.12:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:composer\\/ca_bundle:composer\\/ca-bundle:1.5.12:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:composer\\/ca_bundle:composer\\/ca_bundle:1.5.12:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:composer\\/ca:composer\\/ca-bundle:1.5.12:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:composer\\/ca:composer\\/ca_bundle:1.5.12:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/composer.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:composer/composer/class-map-generator@1.7.3?package-id=1b2122326be45891",
+      "type": "library",
+      "name": "composer/class-map-generator",
+      "version": "1.7.3",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:composer\\/class-map-generator:composer\\/class-map-generator:1.7.3:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/composer/class-map-generator@1.7.3",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "php-composer-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "php"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "php-composer"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "php-composer-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:composer\\/class-map-generator:composer\\/class_map_generator:1.7.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:composer\\/class_map_generator:composer\\/class-map-generator:1.7.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:composer\\/class_map_generator:composer\\/class_map_generator:1.7.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:composer\\/class-map:composer\\/class-map-generator:1.7.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:composer\\/class-map:composer\\/class_map_generator:1.7.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:composer\\/class_map:composer\\/class-map-generator:1.7.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:composer\\/class_map:composer\\/class_map_generator:1.7.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:composer\\/class:composer\\/class-map-generator:1.7.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:composer\\/class:composer\\/class_map_generator:1.7.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/composer.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:composer/composer/composer@2.10.1?package-id=a073e56450c40836",
+      "type": "library",
+      "name": "composer/composer",
+      "version": "2.10.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:composer\\/composer:composer\\/composer:2.10.1:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/composer/composer@2.10.1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "php-composer-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "php"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "php-composer"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "php-composer-lock-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/composer.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:composer/composer/metadata-minifier@1.0.0?package-id=2f3309dd6bbca12d",
+      "type": "library",
+      "name": "composer/metadata-minifier",
+      "version": "1.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:composer\\/metadata-minifier:composer\\/metadata-minifier:1.0.0:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/composer/metadata-minifier@1.0.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "php-composer-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "php"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "php-composer"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "php-composer-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:composer\\/metadata-minifier:composer\\/metadata_minifier:1.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:composer\\/metadata_minifier:composer\\/metadata-minifier:1.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:composer\\/metadata_minifier:composer\\/metadata_minifier:1.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:composer\\/metadata:composer\\/metadata-minifier:1.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:composer\\/metadata:composer\\/metadata_minifier:1.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/composer.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:composer/composer/pcre@3.3.2?package-id=1039eb8fd6795248",
+      "type": "library",
+      "name": "composer/pcre",
+      "version": "3.3.2",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:composer\\/pcre:composer\\/pcre:3.3.2:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/composer/pcre@3.3.2",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "php-composer-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "php"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "php-composer"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "php-composer-lock-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/composer.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:composer/composer/semver@3.4.4?package-id=d11cedd911b03ccf",
+      "type": "library",
+      "name": "composer/semver",
+      "version": "3.4.4",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:composer\\/semver:composer\\/semver:3.4.4:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/composer/semver@3.4.4",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "php-composer-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "php"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "php-composer"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "php-composer-lock-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/composer.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:composer/composer/spdx-licenses@1.6.0?package-id=13ccd44531d19ea8",
+      "type": "library",
+      "name": "composer/spdx-licenses",
+      "version": "1.6.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:composer\\/spdx-licenses:composer\\/spdx-licenses:1.6.0:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/composer/spdx-licenses@1.6.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "php-composer-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "php"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "php-composer"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "php-composer-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:composer\\/spdx-licenses:composer\\/spdx_licenses:1.6.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:composer\\/spdx_licenses:composer\\/spdx-licenses:1.6.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:composer\\/spdx_licenses:composer\\/spdx_licenses:1.6.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:composer\\/spdx:composer\\/spdx-licenses:1.6.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:composer\\/spdx:composer\\/spdx_licenses:1.6.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/composer.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:composer/composer/xdebug-handler@3.0.5?package-id=fd3b6bf1a85c7fad",
+      "type": "library",
+      "name": "composer/xdebug-handler",
+      "version": "3.0.5",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:composer\\/xdebug-handler:composer\\/xdebug-handler:3.0.5:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/composer/xdebug-handler@3.0.5",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "php-composer-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "php"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "php-composer"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "php-composer-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:composer\\/xdebug-handler:composer\\/xdebug_handler:3.0.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:composer\\/xdebug_handler:composer\\/xdebug-handler:3.0.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:composer\\/xdebug_handler:composer\\/xdebug_handler:3.0.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:composer\\/xdebug:composer\\/xdebug-handler:3.0.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:composer\\/xdebug:composer\\/xdebug_handler:3.0.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/composer.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:composer/justinrainbow/json-schema@6.9.0?package-id=bfd1c549729c43d4",
+      "type": "library",
+      "name": "justinrainbow/json-schema",
+      "version": "6.9.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:justinrainbow\\/json-schema:justinrainbow\\/json-schema:6.9.0:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/justinrainbow/json-schema@6.9.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "php-composer-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "php"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "php-composer"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "php-composer-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:justinrainbow\\/json-schema:justinrainbow\\/json_schema:6.9.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:justinrainbow\\/json_schema:justinrainbow\\/json-schema:6.9.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:justinrainbow\\/json_schema:justinrainbow\\/json_schema:6.9.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:justinrainbow\\/json:justinrainbow\\/json-schema:6.9.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:justinrainbow\\/json:justinrainbow\\/json_schema:6.9.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/composer.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:composer/marc-mabe/php-enum@v4.7.2?package-id=25a92ec14490c127",
+      "type": "library",
+      "name": "marc-mabe/php-enum",
+      "version": "v4.7.2",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:marc-mabe\\/php-enum:marc-mabe\\/php-enum:v4.7.2:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/marc-mabe/php-enum@v4.7.2",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "php-composer-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "php"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "php-composer"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "php-composer-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:marc-mabe\\/php-enum:marc_mabe\\/php_enum:v4.7.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:marc_mabe\\/php_enum:marc-mabe\\/php-enum:v4.7.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:marc_mabe\\/php_enum:marc_mabe\\/php_enum:v4.7.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:marc-mabe\\/php:marc-mabe\\/php-enum:v4.7.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:marc-mabe\\/php:marc_mabe\\/php_enum:v4.7.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:marc_mabe\\/php:marc-mabe\\/php-enum:v4.7.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:marc_mabe\\/php:marc_mabe\\/php_enum:v4.7.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:marc:marc-mabe\\/php-enum:v4.7.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:marc:marc_mabe\\/php_enum:v4.7.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/composer.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:composer/psr/container@2.0.2?package-id=ba98a950e177732d",
+      "type": "library",
+      "name": "psr/container",
+      "version": "2.0.2",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:psr\\/container:psr\\/container:2.0.2:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/psr/container@2.0.2",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "php-composer-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "php"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "php-composer"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "php-composer-lock-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/composer.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:composer/psr/log@3.0.2?package-id=fafdc021c692b7ee",
+      "type": "library",
+      "name": "psr/log",
+      "version": "3.0.2",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:psr\\/log:psr\\/log:3.0.2:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/psr/log@3.0.2",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "php-composer-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "php"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "php-composer"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "php-composer-lock-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/composer.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:composer/react/promise@v3.3.0?package-id=15c5fb542fccc8ca",
+      "type": "library",
+      "name": "react/promise",
+      "version": "v3.3.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:react\\/promise:react\\/promise:v3.3.0:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/react/promise@v3.3.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "php-composer-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "php"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "php-composer"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "php-composer-lock-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/composer.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:composer/seld/jsonlint@1.11.0?package-id=2fbe577705227781",
+      "type": "library",
+      "name": "seld/jsonlint",
+      "version": "1.11.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:seld\\/jsonlint:seld\\/jsonlint:1.11.0:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/seld/jsonlint@1.11.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "php-composer-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "php"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "php-composer"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "php-composer-lock-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/composer.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:composer/seld/phar-utils@1.2.1?package-id=7498e055db6e418b",
+      "type": "library",
+      "name": "seld/phar-utils",
+      "version": "1.2.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:seld\\/phar-utils:seld\\/phar-utils:1.2.1:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/seld/phar-utils@1.2.1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "php-composer-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "php"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "php-composer"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "php-composer-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:seld\\/phar-utils:seld\\/phar_utils:1.2.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:seld\\/phar_utils:seld\\/phar-utils:1.2.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:seld\\/phar_utils:seld\\/phar_utils:1.2.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:seld\\/phar:seld\\/phar-utils:1.2.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:seld\\/phar:seld\\/phar_utils:1.2.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/composer.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:composer/seld/signal-handler@2.0.2?package-id=d003e026c69045f2",
+      "type": "library",
+      "name": "seld/signal-handler",
+      "version": "2.0.2",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:seld\\/signal-handler:seld\\/signal-handler:2.0.2:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/seld/signal-handler@2.0.2",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "php-composer-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "php"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "php-composer"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "php-composer-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:seld\\/signal-handler:seld\\/signal_handler:2.0.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:seld\\/signal_handler:seld\\/signal-handler:2.0.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:seld\\/signal_handler:seld\\/signal_handler:2.0.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:seld\\/signal:seld\\/signal-handler:2.0.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:seld\\/signal:seld\\/signal_handler:2.0.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/composer.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/shivammathur/setup-php@2.37.2?package-id=601f9983e0144444",
+      "type": "library",
+      "name": "shivammathur/setup-php",
+      "version": "2.37.2",
+      "cpe": "cpe:2.3:a:shivammathur\\/setup-php:shivammathur\\/setup-php:2.37.2:*:*:*:*:*:*:*",
+      "purl": "pkg:github/shivammathur/setup-php@2.37.2",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:shivammathur\\/setup-php:shivammathur\\/setup_php:2.37.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:shivammathur\\/setup_php:shivammathur\\/setup-php:2.37.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:shivammathur\\/setup_php:shivammathur\\/setup_php:2.37.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:shivammathur\\/setup:shivammathur\\/setup-php:2.37.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:shivammathur\\/setup:shivammathur\\/setup_php:2.37.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/lint.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/shivammathur/setup-php@2.37.2?package-id=d0ed5197ee6c16a2",
+      "type": "library",
+      "name": "shivammathur/setup-php",
+      "version": "2.37.2",
+      "cpe": "cpe:2.3:a:shivammathur\\/setup-php:shivammathur\\/setup-php:2.37.2:*:*:*:*:*:*:*",
+      "purl": "pkg:github/shivammathur/setup-php@2.37.2",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:shivammathur\\/setup-php:shivammathur\\/setup_php:2.37.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:shivammathur\\/setup_php:shivammathur\\/setup-php:2.37.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:shivammathur\\/setup_php:shivammathur\\/setup_php:2.37.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:shivammathur\\/setup:shivammathur\\/setup-php:2.37.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:shivammathur\\/setup:shivammathur\\/setup_php:2.37.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/phpstan.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/shivammathur/setup-php@2.37.2?package-id=d2ff6b02cadb102c",
+      "type": "library",
+      "name": "shivammathur/setup-php",
+      "version": "2.37.2",
+      "cpe": "cpe:2.3:a:shivammathur\\/setup-php:shivammathur\\/setup-php:2.37.2:*:*:*:*:*:*:*",
+      "purl": "pkg:github/shivammathur/setup-php@2.37.2",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:shivammathur\\/setup-php:shivammathur\\/setup_php:2.37.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:shivammathur\\/setup_php:shivammathur\\/setup-php:2.37.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:shivammathur\\/setup_php:shivammathur\\/setup_php:2.37.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:shivammathur\\/setup:shivammathur\\/setup-php:2.37.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:shivammathur\\/setup:shivammathur\\/setup_php:2.37.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/sync.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:composer/symfony/console@v7.4.13?package-id=a7246210b002cfd8",
+      "type": "library",
+      "name": "symfony/console",
+      "version": "v7.4.13",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:symfony\\/console:symfony\\/console:v7.4.13:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/symfony/console@v7.4.13",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "php-composer-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "php"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "php-composer"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "php-composer-lock-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/composer.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:composer/symfony/deprecation-contracts@v3.7.0?package-id=7e9fa40a179546fc",
+      "type": "library",
+      "name": "symfony/deprecation-contracts",
+      "version": "v3.7.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:symfony\\/deprecation-contracts:symfony\\/deprecation-contracts:v3.7.0:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/symfony/deprecation-contracts@v3.7.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "php-composer-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "php"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "php-composer"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "php-composer-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/deprecation-contracts:symfony\\/deprecation_contracts:v3.7.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/deprecation_contracts:symfony\\/deprecation-contracts:v3.7.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/deprecation_contracts:symfony\\/deprecation_contracts:v3.7.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/deprecation:symfony\\/deprecation-contracts:v3.7.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/deprecation:symfony\\/deprecation_contracts:v3.7.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/composer.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:composer/symfony/filesystem@v7.4.11?package-id=90f11995ec9d8d46",
+      "type": "library",
+      "name": "symfony/filesystem",
+      "version": "v7.4.11",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:symfony\\/filesystem:symfony\\/filesystem:v7.4.11:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/symfony/filesystem@v7.4.11",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "php-composer-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "php"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "php-composer"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "php-composer-lock-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/composer.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:composer/symfony/finder@v7.4.8?package-id=1047b2174cdb7025",
+      "type": "library",
+      "name": "symfony/finder",
+      "version": "v7.4.8",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:symfony\\/finder:symfony\\/finder:v7.4.8:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/symfony/finder@v7.4.8",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "php-composer-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "php"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "php-composer"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "php-composer-lock-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/composer.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:composer/symfony/http-client@v7.4.13?package-id=249ac1fc4862816c",
+      "type": "library",
+      "name": "symfony/http-client",
+      "version": "v7.4.13",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:symfony\\/http-client:symfony\\/http-client:v7.4.13:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/symfony/http-client@v7.4.13",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "php-composer-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "php"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "php-composer"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "php-composer-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/http-client:symfony\\/http_client:v7.4.13:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/http_client:symfony\\/http-client:v7.4.13:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/http_client:symfony\\/http_client:v7.4.13:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/http:symfony\\/http-client:v7.4.13:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/http:symfony\\/http_client:v7.4.13:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/composer.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:composer/symfony/http-client-contracts@v3.7.0?package-id=0314d2c1a708ca57",
+      "type": "library",
+      "name": "symfony/http-client-contracts",
+      "version": "v3.7.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:symfony\\/http-client-contracts:symfony\\/http-client-contracts:v3.7.0:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/symfony/http-client-contracts@v3.7.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "php-composer-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "php"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "php-composer"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "php-composer-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/http-client-contracts:symfony\\/http_client_contracts:v3.7.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/http_client_contracts:symfony\\/http-client-contracts:v3.7.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/http_client_contracts:symfony\\/http_client_contracts:v3.7.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/http-client:symfony\\/http-client-contracts:v3.7.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/http-client:symfony\\/http_client_contracts:v3.7.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/http_client:symfony\\/http-client-contracts:v3.7.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/http_client:symfony\\/http_client_contracts:v3.7.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/http:symfony\\/http-client-contracts:v3.7.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/http:symfony\\/http_client_contracts:v3.7.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/composer.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:composer/symfony/polyfill-ctype@v1.37.0?package-id=62ef6279c8a38cae",
+      "type": "library",
+      "name": "symfony/polyfill-ctype",
+      "version": "v1.37.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:symfony\\/polyfill-ctype:symfony\\/polyfill-ctype:v1.37.0:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/symfony/polyfill-ctype@v1.37.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "php-composer-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "php"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "php-composer"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "php-composer-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/polyfill-ctype:symfony\\/polyfill_ctype:v1.37.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/polyfill_ctype:symfony\\/polyfill-ctype:v1.37.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/polyfill_ctype:symfony\\/polyfill_ctype:v1.37.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/polyfill:symfony\\/polyfill-ctype:v1.37.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/polyfill:symfony\\/polyfill_ctype:v1.37.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/composer.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:composer/symfony/polyfill-intl-grapheme@v1.38.1?package-id=779d217b401ef120",
+      "type": "library",
+      "name": "symfony/polyfill-intl-grapheme",
+      "version": "v1.38.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:symfony\\/polyfill-intl-grapheme:symfony\\/polyfill-intl-grapheme:v1.38.1:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/symfony/polyfill-intl-grapheme@v1.38.1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "php-composer-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "php"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "php-composer"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "php-composer-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/polyfill-intl-grapheme:symfony\\/polyfill_intl_grapheme:v1.38.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/polyfill_intl_grapheme:symfony\\/polyfill-intl-grapheme:v1.38.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/polyfill_intl_grapheme:symfony\\/polyfill_intl_grapheme:v1.38.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/polyfill-intl:symfony\\/polyfill-intl-grapheme:v1.38.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/polyfill-intl:symfony\\/polyfill_intl_grapheme:v1.38.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/polyfill_intl:symfony\\/polyfill-intl-grapheme:v1.38.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/polyfill_intl:symfony\\/polyfill_intl_grapheme:v1.38.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/polyfill:symfony\\/polyfill-intl-grapheme:v1.38.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/polyfill:symfony\\/polyfill_intl_grapheme:v1.38.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/composer.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:composer/symfony/polyfill-intl-normalizer@v1.38.0?package-id=122f927536defd02",
+      "type": "library",
+      "name": "symfony/polyfill-intl-normalizer",
+      "version": "v1.38.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:symfony\\/polyfill-intl-normalizer:symfony\\/polyfill-intl-normalizer:v1.38.0:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/symfony/polyfill-intl-normalizer@v1.38.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "php-composer-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "php"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "php-composer"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "php-composer-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/polyfill-intl-normalizer:symfony\\/polyfill_intl_normalizer:v1.38.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/polyfill_intl_normalizer:symfony\\/polyfill-intl-normalizer:v1.38.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/polyfill_intl_normalizer:symfony\\/polyfill_intl_normalizer:v1.38.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/polyfill-intl:symfony\\/polyfill-intl-normalizer:v1.38.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/polyfill-intl:symfony\\/polyfill_intl_normalizer:v1.38.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/polyfill_intl:symfony\\/polyfill-intl-normalizer:v1.38.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/polyfill_intl:symfony\\/polyfill_intl_normalizer:v1.38.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/polyfill:symfony\\/polyfill-intl-normalizer:v1.38.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/polyfill:symfony\\/polyfill_intl_normalizer:v1.38.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/composer.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:composer/symfony/polyfill-mbstring@v1.38.1?package-id=a11f76f3bd79d41b",
+      "type": "library",
+      "name": "symfony/polyfill-mbstring",
+      "version": "v1.38.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:symfony\\/polyfill-mbstring:symfony\\/polyfill-mbstring:v1.38.1:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/symfony/polyfill-mbstring@v1.38.1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "php-composer-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "php"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "php-composer"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "php-composer-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/polyfill-mbstring:symfony\\/polyfill_mbstring:v1.38.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/polyfill_mbstring:symfony\\/polyfill-mbstring:v1.38.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/polyfill_mbstring:symfony\\/polyfill_mbstring:v1.38.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/polyfill:symfony\\/polyfill-mbstring:v1.38.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/polyfill:symfony\\/polyfill_mbstring:v1.38.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/composer.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:composer/symfony/polyfill-php73@v1.37.0?package-id=e5240c97959d6b9c",
+      "type": "library",
+      "name": "symfony/polyfill-php73",
+      "version": "v1.37.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:symfony\\/polyfill-php73:symfony\\/polyfill-php73:v1.37.0:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/symfony/polyfill-php73@v1.37.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "php-composer-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "php"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "php-composer"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "php-composer-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/polyfill-php73:symfony\\/polyfill_php73:v1.37.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/polyfill_php73:symfony\\/polyfill-php73:v1.37.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/polyfill_php73:symfony\\/polyfill_php73:v1.37.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/polyfill:symfony\\/polyfill-php73:v1.37.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/polyfill:symfony\\/polyfill_php73:v1.37.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/composer.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:composer/symfony/polyfill-php80@v1.37.0?package-id=009be3241475775e",
+      "type": "library",
+      "name": "symfony/polyfill-php80",
+      "version": "v1.37.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:symfony\\/polyfill-php80:symfony\\/polyfill-php80:v1.37.0:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/symfony/polyfill-php80@v1.37.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "php-composer-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "php"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "php-composer"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "php-composer-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/polyfill-php80:symfony\\/polyfill_php80:v1.37.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/polyfill_php80:symfony\\/polyfill-php80:v1.37.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/polyfill_php80:symfony\\/polyfill_php80:v1.37.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/polyfill:symfony\\/polyfill-php80:v1.37.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/polyfill:symfony\\/polyfill_php80:v1.37.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/composer.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:composer/symfony/polyfill-php81@v1.38.1?package-id=4961e13c1e510bdd",
+      "type": "library",
+      "name": "symfony/polyfill-php81",
+      "version": "v1.38.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:symfony\\/polyfill-php81:symfony\\/polyfill-php81:v1.38.1:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/symfony/polyfill-php81@v1.38.1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "php-composer-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "php"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "php-composer"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "php-composer-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/polyfill-php81:symfony\\/polyfill_php81:v1.38.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/polyfill_php81:symfony\\/polyfill-php81:v1.38.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/polyfill_php81:symfony\\/polyfill_php81:v1.38.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/polyfill:symfony\\/polyfill-php81:v1.38.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/polyfill:symfony\\/polyfill_php81:v1.38.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/composer.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:composer/symfony/polyfill-php83@v1.38.1?package-id=b0695756556dbaaf",
+      "type": "library",
+      "name": "symfony/polyfill-php83",
+      "version": "v1.38.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:symfony\\/polyfill-php83:symfony\\/polyfill-php83:v1.38.1:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/symfony/polyfill-php83@v1.38.1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "php-composer-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "php"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "php-composer"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "php-composer-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/polyfill-php83:symfony\\/polyfill_php83:v1.38.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/polyfill_php83:symfony\\/polyfill-php83:v1.38.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/polyfill_php83:symfony\\/polyfill_php83:v1.38.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/polyfill:symfony\\/polyfill-php83:v1.38.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/polyfill:symfony\\/polyfill_php83:v1.38.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/composer.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:composer/symfony/polyfill-php84@v1.38.1?package-id=47abc90db837dba7",
+      "type": "library",
+      "name": "symfony/polyfill-php84",
+      "version": "v1.38.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:symfony\\/polyfill-php84:symfony\\/polyfill-php84:v1.38.1:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/symfony/polyfill-php84@v1.38.1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "php-composer-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "php"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "php-composer"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "php-composer-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/polyfill-php84:symfony\\/polyfill_php84:v1.38.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/polyfill_php84:symfony\\/polyfill-php84:v1.38.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/polyfill_php84:symfony\\/polyfill_php84:v1.38.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/polyfill:symfony\\/polyfill-php84:v1.38.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/polyfill:symfony\\/polyfill_php84:v1.38.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/composer.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:composer/symfony/process@v7.4.13?package-id=2ed55334b1336cf2",
+      "type": "library",
+      "name": "symfony/process",
+      "version": "v7.4.13",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:symfony\\/process:symfony\\/process:v7.4.13:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/symfony/process@v7.4.13",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "php-composer-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "php"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "php-composer"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "php-composer-lock-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/composer.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:composer/symfony/service-contracts@v3.7.0?package-id=f99bec69e2808e88",
+      "type": "library",
+      "name": "symfony/service-contracts",
+      "version": "v3.7.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:symfony\\/service-contracts:symfony\\/service-contracts:v3.7.0:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/symfony/service-contracts@v3.7.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "php-composer-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "php"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "php-composer"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "php-composer-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/service-contracts:symfony\\/service_contracts:v3.7.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/service_contracts:symfony\\/service-contracts:v3.7.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/service_contracts:symfony\\/service_contracts:v3.7.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/service:symfony\\/service-contracts:v3.7.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/service:symfony\\/service_contracts:v3.7.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/composer.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:composer/symfony/string@v7.4.13?package-id=b6c4afb277e33af9",
+      "type": "library",
+      "name": "symfony/string",
+      "version": "v7.4.13",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:symfony\\/string:symfony\\/string:v7.4.13:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/symfony/string@v7.4.13",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "php-composer-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "php"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "php-composer"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "php-composer-lock-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/composer.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "5ebde7ddc8076c2b",
+      "type": "file",
+      "name": "/tmp/tmp.UBuILv814v/infrastructure-default/.github/workflows/lint.yml",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "0703a78c51ea5f727e4c77adee6f6fc814690f45"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "588a9901a78c9e095deb33dad48886e722b94cd3c391525d0e6693f0e8dfffa8"
+        }
+      ]
+    },
+    {
+      "bom-ref": "f23abd314990253e",
+      "type": "file",
+      "name": "/tmp/tmp.UBuILv814v/infrastructure-default/.github/workflows/phpstan.yml",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "9c79412045ae3e9a555b9864715154cb8a594884"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "27700ece5e991c9e6acf48c68ba52d181edc529c14335c2fd2b27583144aa096"
+        }
+      ]
+    },
+    {
+      "bom-ref": "cbbb57827f0f16c5",
+      "type": "file",
+      "name": "/tmp/tmp.UBuILv814v/infrastructure-default/.github/workflows/sync.yml",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "9118dbbed57181b236d2159f4a246d2bf80b656c"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "67d3bfb2adeaf7981ccb9b312b87505d6b8d93c92ac106063e29a3daef144b83"
+        }
+      ]
+    },
+    {
+      "bom-ref": "c8bb62e6bded633e",
+      "type": "file",
+      "name": "/tmp/tmp.UBuILv814v/infrastructure-default/composer.lock",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "9cc4c1e69888b1210632374b13a52bdb8dac0b10"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "68e80ffd247f1efbc4eded10c28cc9d2279afd7c9735a43234c1e064fd490244"
+        }
+      ]
+    }
+  ]
+}
