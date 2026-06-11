@@ -1,0 +1,10 @@
+{
+  "repo": "module-przelewy24",
+  "ref": "main",
+  "files_total": 31,
+  "files_licensed": 13,
+  "files_unlicensed": 18,
+  "licenses": {
+    "OSL-3.0": 13
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "repo": "module-netseasy",
+  "ref": "main",
+  "files_total": 51,
+  "files_licensed": 33,
+  "files_unlicensed": 18,
+  "licenses": {
+    "OSL-3.0": 33
+  }
+}

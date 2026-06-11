@@ -1,0 +1,11 @@
+{
+  "repo": "module-mollie",
+  "ref": "main",
+  "files_total": 69,
+  "files_licensed": 46,
+  "files_unlicensed": 23,
+  "licenses": {
+    "AFL-3.0": 3,
+    "OSL-3.0": 43
+  }
+}

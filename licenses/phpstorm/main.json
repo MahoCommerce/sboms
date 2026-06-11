@@ -1,0 +1,10 @@
+{
+  "repo": "phpstorm",
+  "ref": "main",
+  "files_total": 34,
+  "files_licensed": 2,
+  "files_unlicensed": 32,
+  "licenses": {
+    "Apache-2.0": 2
+  }
+}

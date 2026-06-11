@@ -1,0 +1,10 @@
+{
+  "repo": "module-mcrypt-compat",
+  "ref": "main",
+  "files_total": 6,
+  "files_licensed": 4,
+  "files_unlicensed": 2,
+  "licenses": {
+    "OSL-3.0": 4
+  }
+}

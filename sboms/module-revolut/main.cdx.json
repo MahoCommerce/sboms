@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.6",
-  "serialNumber": "urn:uuid:30ff09da-ef41-4802-9fa4-44fa3c3c836d",
+  "serialNumber": "urn:uuid:8a4ebb1b-45a9-47bf-aac9-8a4e33f68c33",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-06-11T16:14:45Z",
+    "timestamp": "2026-06-11T16:26:24Z",
     "tools": {
       "components": [
         {
@@ -17,9 +17,9 @@
       ]
     },
     "component": {
-      "bom-ref": "50353eef967cfe00",
+      "bom-ref": "80764a8754361a2e",
       "type": "file",
-      "name": "/tmp/tmp.UBuILv814v/module-revolut-default",
+      "name": "/tmp/tmp.fq2jr6iJXV/module-revolut-default",
       "licenses": [
         {
           "license": {
@@ -353,7 +353,7 @@
     {
       "bom-ref": "d422de945bf18b46",
       "type": "file",
-      "name": "/tmp/tmp.UBuILv814v/module-revolut-default/.github/workflows/composer.yml",
+      "name": "/tmp/tmp.fq2jr6iJXV/module-revolut-default/.github/workflows/composer.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -368,7 +368,7 @@
     {
       "bom-ref": "ca67cce3ff943159",
       "type": "file",
-      "name": "/tmp/tmp.UBuILv814v/module-revolut-default/.github/workflows/line-endings.yml",
+      "name": "/tmp/tmp.fq2jr6iJXV/module-revolut-default/.github/workflows/line-endings.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -383,7 +383,7 @@
     {
       "bom-ref": "5ebde7ddc8076c2b",
       "type": "file",
-      "name": "/tmp/tmp.UBuILv814v/module-revolut-default/.github/workflows/lint.yml",
+      "name": "/tmp/tmp.fq2jr6iJXV/module-revolut-default/.github/workflows/lint.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -398,7 +398,7 @@
     {
       "bom-ref": "f23abd314990253e",
       "type": "file",
-      "name": "/tmp/tmp.UBuILv814v/module-revolut-default/.github/workflows/phpstan.yml",
+      "name": "/tmp/tmp.fq2jr6iJXV/module-revolut-default/.github/workflows/phpstan.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -413,7 +413,7 @@
     {
       "bom-ref": "5c470c2c7e53f689",
       "type": "file",
-      "name": "/tmp/tmp.UBuILv814v/module-revolut-default/.github/workflows/syntax-php.yml",
+      "name": "/tmp/tmp.fq2jr6iJXV/module-revolut-default/.github/workflows/syntax-php.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -428,7 +428,7 @@
     {
       "bom-ref": "5681d4ed4a932be8",
       "type": "file",
-      "name": "/tmp/tmp.UBuILv814v/module-revolut-default/.github/workflows/syntax-xml.yml",
+      "name": "/tmp/tmp.fq2jr6iJXV/module-revolut-default/.github/workflows/syntax-xml.yml",
       "hashes": [
         {
           "alg": "SHA-1",

@@ -1,0 +1,11 @@
+{
+  "repo": "module-revolut",
+  "ref": "main",
+  "files_total": 34,
+  "files_licensed": 16,
+  "files_unlicensed": 18,
+  "licenses": {
+    "AFL-3.0": 4,
+    "OSL-3.0": 12
+  }
+}

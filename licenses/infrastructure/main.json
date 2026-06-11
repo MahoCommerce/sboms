@@ -1,0 +1,10 @@
+{
+  "repo": "infrastructure",
+  "ref": "main",
+  "files_total": 25,
+  "files_licensed": 11,
+  "files_unlicensed": 14,
+  "licenses": {
+    "MIT": 11
+  }
+}
