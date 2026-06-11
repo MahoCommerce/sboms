@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.6",
-  "serialNumber": "urn:uuid:202617d5-8ec1-43c7-9faa-d724ec15244e",
+  "serialNumber": "urn:uuid:6aef84e6-1ff4-4068-8c33-0af8f5c971fd",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-06-11T16:26:26Z",
+    "timestamp": "2026-06-11T16:43:38Z",
     "tools": {
       "components": [
         {
@@ -17,9 +17,9 @@
       ]
     },
     "component": {
-      "bom-ref": "df5a9602e29aa993",
+      "bom-ref": "263d75793e11a09a",
       "type": "file",
-      "name": "/tmp/tmp.fq2jr6iJXV/module-template-default",
+      "name": "/tmp/tmp.ynC5exU4y3/module-template-default",
       "licenses": [
         {
           "license": {
@@ -353,7 +353,7 @@
     {
       "bom-ref": "d422de945bf18b46",
       "type": "file",
-      "name": "/tmp/tmp.fq2jr6iJXV/module-template-default/.github/workflows/composer.yml",
+      "name": "/tmp/tmp.ynC5exU4y3/module-template-default/.github/workflows/composer.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -368,7 +368,7 @@
     {
       "bom-ref": "ca67cce3ff943159",
       "type": "file",
-      "name": "/tmp/tmp.fq2jr6iJXV/module-template-default/.github/workflows/line-endings.yml",
+      "name": "/tmp/tmp.ynC5exU4y3/module-template-default/.github/workflows/line-endings.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -383,7 +383,7 @@
     {
       "bom-ref": "5ebde7ddc8076c2b",
       "type": "file",
-      "name": "/tmp/tmp.fq2jr6iJXV/module-template-default/.github/workflows/lint.yml",
+      "name": "/tmp/tmp.ynC5exU4y3/module-template-default/.github/workflows/lint.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -398,7 +398,7 @@
     {
       "bom-ref": "f23abd314990253e",
       "type": "file",
-      "name": "/tmp/tmp.fq2jr6iJXV/module-template-default/.github/workflows/phpstan.yml",
+      "name": "/tmp/tmp.ynC5exU4y3/module-template-default/.github/workflows/phpstan.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -413,7 +413,7 @@
     {
       "bom-ref": "5c470c2c7e53f689",
       "type": "file",
-      "name": "/tmp/tmp.fq2jr6iJXV/module-template-default/.github/workflows/syntax-php.yml",
+      "name": "/tmp/tmp.ynC5exU4y3/module-template-default/.github/workflows/syntax-php.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -428,7 +428,7 @@
     {
       "bom-ref": "5681d4ed4a932be8",
       "type": "file",
-      "name": "/tmp/tmp.fq2jr6iJXV/module-template-default/.github/workflows/syntax-xml.yml",
+      "name": "/tmp/tmp.ynC5exU4y3/module-template-default/.github/workflows/syntax-xml.yml",
       "hashes": [
         {
           "alg": "SHA-1",

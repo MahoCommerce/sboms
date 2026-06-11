@@ -1,10 +1,17 @@
 {
   "repo": "module-netseasy",
   "ref": "main",
-  "files_total": 51,
-  "files_licensed": 33,
-  "files_unlicensed": 18,
-  "licenses": {
+  "reuse_spec_version": "3.3",
+  "summary": {
+    "used_licenses": [
+      "OSL-3.0"
+    ],
+    "files_total": 51,
+    "files_with_copyright_info": 35,
+    "files_with_licensing_info": 33,
+    "compliant": false
+  },
+  "license_file_counts": {
     "OSL-3.0": 33
   }
 }

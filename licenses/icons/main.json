@@ -1,8 +1,13 @@
 {
   "repo": "icons",
   "ref": "main",
-  "files_total": 6152,
-  "files_licensed": 0,
-  "files_unlicensed": 6152,
-  "licenses": {}
+  "reuse_spec_version": "3.3",
+  "summary": {
+    "used_licenses": [],
+    "files_total": 6152,
+    "files_with_copyright_info": 0,
+    "files_with_licensing_info": 0,
+    "compliant": false
+  },
+  "license_file_counts": {}
 }

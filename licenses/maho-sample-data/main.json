@@ -1,8 +1,13 @@
 {
   "repo": "maho-sample-data",
   "ref": "main",
-  "files_total": 849,
-  "files_licensed": 0,
-  "files_unlicensed": 849,
-  "licenses": {}
+  "reuse_spec_version": "3.3",
+  "summary": {
+    "used_licenses": [],
+    "files_total": 849,
+    "files_with_copyright_info": 3,
+    "files_with_licensing_info": 0,
+    "compliant": false
+  },
+  "license_file_counts": {}
 }

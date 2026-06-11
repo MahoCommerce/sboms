@@ -1,8 +1,13 @@
 {
   "repo": "maho-starter",
   "ref": "main",
-  "files_total": 1,
-  "files_licensed": 0,
-  "files_unlicensed": 1,
-  "licenses": {}
+  "reuse_spec_version": "3.3",
+  "summary": {
+    "used_licenses": [],
+    "files_total": 1,
+    "files_with_copyright_info": 0,
+    "files_with_licensing_info": 0,
+    "compliant": false
+  },
+  "license_file_counts": {}
 }
