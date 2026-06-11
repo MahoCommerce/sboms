@@ -41,6 +41,25 @@ gen_sbom() {
     echo "  ! syft failed for $repo@$ref, skipping"
     return 1
   fi
+
+  # Set the project's own license on the SBOM's main component. Syft resolves
+  # dependency licenses but leaves the top-level (source) component empty; the
+  # authoritative project license is what the repo declares in composer.json /
+  # package.json. Best-effort: never fail the refresh over it.
+  python3 inject_license.py "$clonedir" "$outfile" || true
+
+  # Emit a REUSE/SPDX document from the repo's per-file SPDX headers (see #939).
+  # This is the file-level license inventory that consumes the SPDX headers,
+  # complementing the dependency-level CycloneDX SBOM above.
+  if command -v reuse > /dev/null 2>&1; then
+    local spdxout="spdx/${outfile#sboms/}"
+    spdxout="${spdxout%.cdx.json}.spdx"
+    mkdir -p "$(dirname "$spdxout")"
+    if ! reuse --root "$clonedir" spdx > "$spdxout" 2> /dev/null; then
+      echo "  ! reuse spdx failed for $repo@$ref, skipping SPDX doc"
+      rm -f "$spdxout"
+    fi
+  fi
 }
 
 while IFS= read -r repo; do

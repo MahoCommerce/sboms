@@ -24,6 +24,9 @@ jobs:
           curl -sSfL https://raw.githubusercontent.com/anchore/syft/main/install.sh \
             | sh -s -- -b /usr/local/bin
 
+      - name: Install REUSE
+        run: pipx install 'reuse[charset-normalizer]'
+
       - name: Refresh SBOMs
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -33,7 +36,7 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add sboms/
+          git add sboms/ spdx/
           if git diff --cached --quiet; then
             echo "No SBOM changes."
             exit 0
