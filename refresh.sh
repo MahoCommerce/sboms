@@ -3,7 +3,7 @@
 # Enumerate public mahocommerce repos and (re)generate one CycloneDX SBOM per
 # repo per ref (default branch + latest release tag) into sboms/<repo>/.
 #
-# Requires: gh, syft, git, jq.
+# Requires: gh, syft, reuse, git, jq, python3.
 
 set -euo pipefail
 
@@ -50,13 +50,13 @@ gen_sbom() {
 
   # Summarize the project's own per-file SPDX headers (see #939) into a compact,
   # merged license report. `reuse lint --json` is REUSE's native machine-readable
-  # report but enumerates every file (megabytes for a large repo); license_summary.py
-  # keeps REUSE's `summary` verbatim plus per-license counts. Complements the
+  # report but enumerates every file (megabytes for a large repo); jq keeps REUSE's
+  # `summary` verbatim and adds a per-license file count. Complements the
   # dependency-level CycloneDX SBOM above.
   #
   # reuse lint exits non-zero when a repo isn't fully REUSE-compliant (normal — not
   # every file carries a header) yet still emits valid JSON, so capture its output
-  # and ignore its exit code; license_summary.py fails only on unparseable input.
+  # and ignore its exit code; jq fails (non-zero) only on unparseable input.
   if command -v reuse > /dev/null 2>&1; then
     local reflabel licout lintjson
     reflabel="$(basename "${outfile%.cdx.json}")"
@@ -64,7 +64,17 @@ gen_sbom() {
     licout="${licout%.cdx.json}.json"
     mkdir -p "$(dirname "$licout")"
     lintjson="$(reuse --root "$clonedir" lint --json 2> /dev/null || true)"
-    if [[ -n "$lintjson" ]] && printf '%s' "$lintjson" | python3 license_summary.py "$repo" "$reflabel" > "$licout"; then
+    if [[ -n "$lintjson" ]] && printf '%s' "$lintjson" | jq \
+      --arg repo "$repo" --arg ref "$reflabel" '{
+        repo: $repo,
+        ref: $ref,
+        reuse_spec_version: .reuse_spec_version,
+        summary: .summary,
+        license_file_counts: (
+          [ (.files // [])[] | (.spdx_expressions // [])[] | .value ]
+          | group_by(.) | map({key: .[0], value: length}) | from_entries
+        )
+      }' > "$licout"; then
       :
     else
       echo "  ! license summary failed for $repo@$ref, skipping"
