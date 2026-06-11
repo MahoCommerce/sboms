@@ -30,7 +30,7 @@ jobs:
       - name: Refresh SBOMs
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: ./refresh.sh
+        run: ./bin/refresh.sh
 
       - name: Commit and push
         run: |
@@ -69,7 +69,7 @@ jobs:
             | sh -s -- -b /usr/local/bin
 
       - name: Scan
-        run: ./scan.sh
+        run: ./bin/scan.sh
 
       - name: Publish report to job summary
         if: always()

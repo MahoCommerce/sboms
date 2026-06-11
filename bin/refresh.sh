@@ -7,11 +7,16 @@
 
 set -euo pipefail
 
+# Resolve paths from the repo root regardless of the caller's CWD.
+cd "$(dirname "${BASH_SOURCE[0]}")/.."
+
 ORG="mahocommerce"
 WORK="$(mktemp -d)"
 trap 'rm -rf "$WORK"' EXIT
 
 # --- enumerate active public, non-fork repos -----------------------------
+# Excludes maho-language-* (auto-generated splits of the maho-l10n monorepo)
+# and `sboms` (this repo itself — self-referential, not a tracked product).
 echo "Enumerating $ORG public repos..."
 gh repo list "$ORG" \
   --visibility public \
@@ -20,7 +25,7 @@ gh repo list "$ORG" \
   --limit 500 \
   --json name \
   --jq '.[].name' \
-  | grep -Ev '^maho-language' \
+  | grep -Ev '^maho-language|^sboms$' \
   | sort > "$WORK/repos.txt"
 
 echo "Found $(wc -l < "$WORK/repos.txt") repos."
@@ -46,7 +51,7 @@ gen_sbom() {
   # dependency licenses but leaves the top-level (source) component empty; the
   # authoritative project license is what the repo declares in composer.json /
   # package.json. Best-effort: never fail the refresh over it.
-  python3 inject_license.py "$clonedir" "$outfile" || true
+  python3 bin/inject_license.py "$clonedir" "$outfile" || true
 
   # Summarize the project's own per-file SPDX headers (see #939) into a compact,
   # merged license report. `reuse lint --json` is REUSE's native machine-readable

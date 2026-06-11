@@ -11,6 +11,9 @@
 
 set -uo pipefail
 
+# Resolve paths from the repo root regardless of the caller's CWD.
+cd "$(dirname "${BASH_SOURCE[0]}")/.."
+
 mkdir -p vulns
 
 shopt -s nullglob
@@ -42,11 +45,11 @@ for sbom in "${sboms[@]}"; do
     echo '{"Results": []}' > "$trivy_out"
   fi
 
-  python3 merge.py "$grype_out" "$trivy_out" > "$outdir/main.json"
+  python3 bin/merge.py "$grype_out" "$trivy_out" > "$outdir/main.json"
 
   rm -f "$grype_out" "$trivy_out"
 done
 
-python3 report.py
+python3 bin/report.py
 
 echo "Done."
