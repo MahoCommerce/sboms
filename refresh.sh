@@ -49,17 +49,24 @@ gen_sbom() {
   python3 inject_license.py "$clonedir" "$outfile" || true
 
   # Summarize the project's own per-file SPDX headers (see #939) into a compact,
-  # merged license report. `reuse spdx` emits a full per-file SPDX BOM (megabytes
-  # for a large repo, and it churns daily on a volatile UUID); license_summary.py
-  # condenses it to small, deterministic JSON. Complements the dependency-level
-  # CycloneDX SBOM above.
+  # merged license report. `reuse lint --json` is REUSE's native machine-readable
+  # report but enumerates every file (megabytes for a large repo); license_summary.py
+  # keeps REUSE's `summary` verbatim plus per-license counts. Complements the
+  # dependency-level CycloneDX SBOM above.
+  #
+  # reuse lint exits non-zero when a repo isn't fully REUSE-compliant (normal — not
+  # every file carries a header) yet still emits valid JSON, so capture its output
+  # and ignore its exit code; license_summary.py fails only on unparseable input.
   if command -v reuse > /dev/null 2>&1; then
-    local reflabel licout
+    local reflabel licout lintjson
     reflabel="$(basename "${outfile%.cdx.json}")"
     licout="licenses/${outfile#sboms/}"
     licout="${licout%.cdx.json}.json"
     mkdir -p "$(dirname "$licout")"
-    if ! reuse --root "$clonedir" spdx 2> /dev/null | python3 license_summary.py "$repo" "$reflabel" > "$licout"; then
+    lintjson="$(reuse --root "$clonedir" lint --json 2> /dev/null || true)"
+    if [[ -n "$lintjson" ]] && printf '%s' "$lintjson" | python3 license_summary.py "$repo" "$reflabel" > "$licout"; then
+      :
+    else
       echo "  ! license summary failed for $repo@$ref, skipping"
       rm -f "$licout"
     fi
