@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.6",
-  "serialNumber": "urn:uuid:3f49da14-849c-4fdf-9b8c-d5e6c8d97862",
+  "serialNumber": "urn:uuid:a58efc93-56b4-4152-a665-be0411fbd3d8",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-06-13T06:48:06Z",
+    "timestamp": "2026-06-14T07:16:14Z",
     "tools": {
       "components": [
         {
@@ -17,9 +17,9 @@
       ]
     },
     "component": {
-      "bom-ref": "f53d1e39ee59d205",
+      "bom-ref": "5512981abf7941b0",
       "type": "file",
-      "name": "/tmp/tmp.AqpPacbHln/docker-images-default",
+      "name": "/tmp/tmp.wXhSJF6m5I/docker-images-default",
       "licenses": [
         {
           "expression": "OSL-3.0 OR AFL-3.0"
@@ -227,7 +227,7 @@
     {
       "bom-ref": "ebff2c81fbaf921b",
       "type": "file",
-      "name": "/tmp/tmp.AqpPacbHln/docker-images-default/.github/workflows/build.yml",
+      "name": "/tmp/tmp.wXhSJF6m5I/docker-images-default/.github/workflows/build.yml",
       "hashes": [
         {
           "alg": "SHA-1",

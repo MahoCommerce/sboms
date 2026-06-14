@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.6",
-  "serialNumber": "urn:uuid:cd7e7dcc-4ae4-44b0-b6f9-9a2f56f3b377",
+  "serialNumber": "urn:uuid:88af70f6-54d1-4a8e-bc39-30a1adfc4164",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-06-13T06:48:23Z",
+    "timestamp": "2026-06-14T07:16:34Z",
     "tools": {
       "components": [
         {
@@ -17,9 +17,9 @@
       ]
     },
     "component": {
-      "bom-ref": "959a2636ea6ec77a",
+      "bom-ref": "2f1edc99bf9f0df9",
       "type": "file",
-      "name": "/tmp/tmp.AqpPacbHln/maho-composer-plugin-default",
+      "name": "/tmp/tmp.wXhSJF6m5I/maho-composer-plugin-default",
       "licenses": [
         {
           "license": {
@@ -515,7 +515,7 @@
     {
       "bom-ref": "d422de945bf18b46",
       "type": "file",
-      "name": "/tmp/tmp.AqpPacbHln/maho-composer-plugin-default/.github/workflows/composer.yml",
+      "name": "/tmp/tmp.wXhSJF6m5I/maho-composer-plugin-default/.github/workflows/composer.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -530,7 +530,7 @@
     {
       "bom-ref": "ca67cce3ff943159",
       "type": "file",
-      "name": "/tmp/tmp.AqpPacbHln/maho-composer-plugin-default/.github/workflows/line-endings.yml",
+      "name": "/tmp/tmp.wXhSJF6m5I/maho-composer-plugin-default/.github/workflows/line-endings.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -545,7 +545,7 @@
     {
       "bom-ref": "f23abd314990253e",
       "type": "file",
-      "name": "/tmp/tmp.AqpPacbHln/maho-composer-plugin-default/.github/workflows/phpstan.yml",
+      "name": "/tmp/tmp.wXhSJF6m5I/maho-composer-plugin-default/.github/workflows/phpstan.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -560,7 +560,7 @@
     {
       "bom-ref": "5c470c2c7e53f689",
       "type": "file",
-      "name": "/tmp/tmp.AqpPacbHln/maho-composer-plugin-default/.github/workflows/syntax-php.yml",
+      "name": "/tmp/tmp.wXhSJF6m5I/maho-composer-plugin-default/.github/workflows/syntax-php.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -575,7 +575,7 @@
     {
       "bom-ref": "c8bb62e6bded633e",
       "type": "file",
-      "name": "/tmp/tmp.AqpPacbHln/maho-composer-plugin-default/composer.lock",
+      "name": "/tmp/tmp.wXhSJF6m5I/maho-composer-plugin-default/composer.lock",
       "hashes": [
         {
           "alg": "SHA-1",
