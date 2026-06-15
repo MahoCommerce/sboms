@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.6",
-  "serialNumber": "urn:uuid:12ec1420-b7dc-47c1-a760-717cb010d6e1",
+  "serialNumber": "urn:uuid:f7658ca7-8e19-4150-933c-fa5cf9a64a57",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-06-15T08:49:22Z",
+    "timestamp": "2026-06-15T08:49:28Z",
     "tools": {
       "components": [
         {
@@ -17,9 +17,9 @@
       ]
     },
     "component": {
-      "bom-ref": "b3a86cbd6061463f",
+      "bom-ref": "875d077f647aa16c",
       "type": "file",
-      "name": "/tmp/tmp.Buszs3ewpE/vscode-default",
+      "name": "/tmp/tmp.Buszs3ewpE/vscode-v0.10.1",
       "licenses": [
         {
           "license": {
@@ -197,10 +197,10 @@
       ]
     },
     {
-      "bom-ref": "pkg:npm/maho@0.10.3?package-id=2dc3effc89d32adc",
+      "bom-ref": "pkg:npm/maho@0.10.1?package-id=6693bd01836de767",
       "type": "library",
       "name": "maho",
-      "version": "0.10.3",
+      "version": "0.10.1",
       "licenses": [
         {
           "license": {
@@ -208,8 +208,8 @@
           }
         }
       ],
-      "cpe": "cpe:2.3:a:maho:maho:0.10.3:*:*:*:*:*:*:*",
-      "purl": "pkg:npm/maho@0.10.3",
+      "cpe": "cpe:2.3:a:maho:maho:0.10.1:*:*:*:*:*:*:*",
+      "purl": "pkg:npm/maho@0.10.1",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -570,30 +570,30 @@
     {
       "bom-ref": "cc210d8a1a5f5704",
       "type": "file",
-      "name": "/tmp/tmp.Buszs3ewpE/vscode-default/.github/workflows/release.yml",
+      "name": "/tmp/tmp.Buszs3ewpE/vscode-v0.10.1/.github/workflows/release.yml",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "1a08c9eef6f5c039ad8ecc74687bcc0f14945c20"
+          "content": "bc19daf4f14d0b55d769549c5686499cae889ae6"
         },
         {
           "alg": "SHA-256",
-          "content": "aa8eaade7536ea54de3a3be0eccc90219b36b1db35a13b95fa249795ca4c8909"
+          "content": "e7a35ff966cda8629fb9495eaf30f42d9f16ed71bd01aa4136b8a10e743fd572"
         }
       ]
     },
     {
       "bom-ref": "fd71c2238fc07657",
       "type": "file",
-      "name": "/tmp/tmp.Buszs3ewpE/vscode-default/package-lock.json",
+      "name": "/tmp/tmp.Buszs3ewpE/vscode-v0.10.1/package-lock.json",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "6ee225383fe3c3673fc5564e589edb7b7d2f61fe"
+          "content": "0a62acf5ceab1c906d3c55b756460607f014a811"
         },
         {
           "alg": "SHA-256",
-          "content": "1dd089e50dd2db62518522f5aa69bd13629b5c2556f4c1999317be53be466a30"
+          "content": "1dd162e342badeda4732e63883fcce7113b5ad7410e5007db8265f457a6e68d0"
         }
       ]
     }
@@ -606,7 +606,7 @@
       ]
     },
     {
-      "ref": "pkg:npm/maho@0.10.3?package-id=2dc3effc89d32adc",
+      "ref": "pkg:npm/maho@0.10.1?package-id=6693bd01836de767",
       "dependsOn": [
         "pkg:npm/vscode-languageclient@9.0.1?package-id=c10f359f7ebb0cb1"
       ]

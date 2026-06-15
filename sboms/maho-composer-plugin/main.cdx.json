@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.6",
-  "serialNumber": "urn:uuid:88af70f6-54d1-4a8e-bc39-30a1adfc4164",
+  "serialNumber": "urn:uuid:bf535ee0-9e73-41de-aef0-711a87248848",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-06-14T07:16:34Z",
+    "timestamp": "2026-06-15T08:48:46Z",
     "tools": {
       "components": [
         {
@@ -17,9 +17,9 @@
       ]
     },
     "component": {
-      "bom-ref": "2f1edc99bf9f0df9",
+      "bom-ref": "111d6768d9741f09",
       "type": "file",
-      "name": "/tmp/tmp.wXhSJF6m5I/maho-composer-plugin-default",
+      "name": "/tmp/tmp.Buszs3ewpE/maho-composer-plugin-default",
       "licenses": [
         {
           "license": {
@@ -451,12 +451,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:github/tj-actions/changed-files@v47.0.0?package-id=fd6b8b4f6ddddf8e",
+      "bom-ref": "pkg:github/tj-actions/changed-files@v47.0.6?package-id=bda9d408afb3a71a",
       "type": "library",
       "name": "tj-actions/changed-files",
-      "version": "v47.0.0",
-      "cpe": "cpe:2.3:a:tj-actions\\/changed-files:tj-actions\\/changed-files:v47.0.0:*:*:*:*:*:*:*",
-      "purl": "pkg:github/tj-actions/changed-files@v47.0.0",
+      "version": "v47.0.6",
+      "cpe": "cpe:2.3:a:tj-actions\\/changed-files:tj-actions\\/changed-files:v47.0.6:*:*:*:*:*:*:*",
+      "purl": "pkg:github/tj-actions/changed-files@v47.0.6",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -472,39 +472,39 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:tj-actions\\/changed-files:tj_actions\\/changed_files:v47.0.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:tj-actions\\/changed-files:tj_actions\\/changed_files:v47.0.6:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:tj_actions\\/changed_files:tj-actions\\/changed-files:v47.0.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:tj_actions\\/changed_files:tj-actions\\/changed-files:v47.0.6:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:tj_actions\\/changed_files:tj_actions\\/changed_files:v47.0.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:tj_actions\\/changed_files:tj_actions\\/changed_files:v47.0.6:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:tj-actions\\/changed:tj-actions\\/changed-files:v47.0.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:tj-actions\\/changed:tj-actions\\/changed-files:v47.0.6:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:tj-actions\\/changed:tj_actions\\/changed_files:v47.0.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:tj-actions\\/changed:tj_actions\\/changed_files:v47.0.6:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:tj_actions\\/changed:tj-actions\\/changed-files:v47.0.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:tj_actions\\/changed:tj-actions\\/changed-files:v47.0.6:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:tj_actions\\/changed:tj_actions\\/changed_files:v47.0.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:tj_actions\\/changed:tj_actions\\/changed_files:v47.0.6:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:tj:tj-actions\\/changed-files:v47.0.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:tj:tj-actions\\/changed-files:v47.0.6:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:tj:tj_actions\\/changed_files:v47.0.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:tj:tj_actions\\/changed_files:v47.0.6:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:path",
@@ -515,7 +515,7 @@
     {
       "bom-ref": "d422de945bf18b46",
       "type": "file",
-      "name": "/tmp/tmp.wXhSJF6m5I/maho-composer-plugin-default/.github/workflows/composer.yml",
+      "name": "/tmp/tmp.Buszs3ewpE/maho-composer-plugin-default/.github/workflows/composer.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -530,7 +530,7 @@
     {
       "bom-ref": "ca67cce3ff943159",
       "type": "file",
-      "name": "/tmp/tmp.wXhSJF6m5I/maho-composer-plugin-default/.github/workflows/line-endings.yml",
+      "name": "/tmp/tmp.Buszs3ewpE/maho-composer-plugin-default/.github/workflows/line-endings.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -545,7 +545,7 @@
     {
       "bom-ref": "f23abd314990253e",
       "type": "file",
-      "name": "/tmp/tmp.wXhSJF6m5I/maho-composer-plugin-default/.github/workflows/phpstan.yml",
+      "name": "/tmp/tmp.Buszs3ewpE/maho-composer-plugin-default/.github/workflows/phpstan.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -560,30 +560,30 @@
     {
       "bom-ref": "5c470c2c7e53f689",
       "type": "file",
-      "name": "/tmp/tmp.wXhSJF6m5I/maho-composer-plugin-default/.github/workflows/syntax-php.yml",
+      "name": "/tmp/tmp.Buszs3ewpE/maho-composer-plugin-default/.github/workflows/syntax-php.yml",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "010cd24c591490779cdd6cb349cf5d1212aedd4b"
+          "content": "b3cde54f1423174aa47e1a5376c311c9e1aa2acd"
         },
         {
           "alg": "SHA-256",
-          "content": "9ee2c50bb60c3ab21f89c3d72c4d4f09328e70736b309c51cae15cef6f17ce56"
+          "content": "7021e198b350a21f7faa0b25a3db1186edbb22d124306ebe18899d94bf7dc71b"
         }
       ]
     },
     {
       "bom-ref": "c8bb62e6bded633e",
       "type": "file",
-      "name": "/tmp/tmp.wXhSJF6m5I/maho-composer-plugin-default/composer.lock",
+      "name": "/tmp/tmp.Buszs3ewpE/maho-composer-plugin-default/composer.lock",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "e4a20746be8ef147116171c9270c42df69897701"
+          "content": "00aa95429fd9cf9ac23547d8bd3d54cf0ee3ae52"
         },
         {
           "alg": "SHA-256",
-          "content": "dcd6f1eeb8f912ae3e5a039149fbac204b3a616b09908ffc86874017c5488115"
+          "content": "1bc85ff7c72c04c9d3dfe28911939203651206ed5507c1a64f8d8fdfb39e8e59"
         }
       ]
     }
