@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.6",
-  "serialNumber": "urn:uuid:b4afca48-30a8-40d2-adae-83c6d05700d1",
+  "serialNumber": "urn:uuid:f26e3bf1-a34a-4851-ba3b-7d0ed2818674",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-06-18T07:28:18Z",
+    "timestamp": "2026-06-19T08:26:27Z",
     "tools": {
       "components": [
         {
@@ -17,9 +17,9 @@
       ]
     },
     "component": {
-      "bom-ref": "db2e0d47007ce34f",
+      "bom-ref": "91b1b0355d619221",
       "type": "file",
-      "name": "/tmp/tmp.JPyZ3fT6MR/vscode-default",
+      "name": "/tmp/tmp.pn3G5W3FzL/vscode-default",
       "licenses": [
         {
           "license": {
@@ -570,7 +570,7 @@
     {
       "bom-ref": "cc210d8a1a5f5704",
       "type": "file",
-      "name": "/tmp/tmp.JPyZ3fT6MR/vscode-default/.github/workflows/release.yml",
+      "name": "/tmp/tmp.pn3G5W3FzL/vscode-default/.github/workflows/release.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -585,7 +585,7 @@
     {
       "bom-ref": "fd71c2238fc07657",
       "type": "file",
-      "name": "/tmp/tmp.JPyZ3fT6MR/vscode-default/package-lock.json",
+      "name": "/tmp/tmp.pn3G5W3FzL/vscode-default/package-lock.json",
       "hashes": [
         {
           "alg": "SHA-1",
