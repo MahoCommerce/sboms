@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.6",
-  "serialNumber": "urn:uuid:1ffb28fd-58a9-4abf-b485-c011934a5cb6",
+  "serialNumber": "urn:uuid:9f81e74e-c541-42fd-985c-c4c264a37e6d",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-06-20T06:54:32Z",
+    "timestamp": "2026-06-21T07:25:32Z",
     "tools": {
       "components": [
         {
@@ -17,9 +17,9 @@
       ]
     },
     "component": {
-      "bom-ref": "80a123b537765987",
+      "bom-ref": "9bf376d4f3c9104e",
       "type": "file",
-      "name": "/tmp/tmp.XZZVu87gtt/directory-data-default",
+      "name": "/tmp/tmp.6sjrC1XMjn/directory-data-default",
       "licenses": [
         {
           "license": {
@@ -135,12 +135,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:github/shivammathur/setup-php@2.37.1?package-id=f6c2e3aba175e855",
+      "bom-ref": "pkg:github/shivammathur/setup-php@2.37.2?package-id=3a0712d65a13c1ae",
       "type": "library",
       "name": "shivammathur/setup-php",
-      "version": "2.37.1",
-      "cpe": "cpe:2.3:a:shivammathur\\/setup-php:shivammathur\\/setup-php:2.37.1:*:*:*:*:*:*:*",
-      "purl": "pkg:github/shivammathur/setup-php@2.37.1",
+      "version": "2.37.2",
+      "cpe": "cpe:2.3:a:shivammathur\\/setup-php:shivammathur\\/setup-php:2.37.2:*:*:*:*:*:*:*",
+      "purl": "pkg:github/shivammathur/setup-php@2.37.2",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -156,23 +156,23 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:shivammathur\\/setup-php:shivammathur\\/setup_php:2.37.1:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:shivammathur\\/setup-php:shivammathur\\/setup_php:2.37.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:shivammathur\\/setup_php:shivammathur\\/setup-php:2.37.1:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:shivammathur\\/setup_php:shivammathur\\/setup-php:2.37.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:shivammathur\\/setup_php:shivammathur\\/setup_php:2.37.1:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:shivammathur\\/setup_php:shivammathur\\/setup_php:2.37.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:shivammathur\\/setup:shivammathur\\/setup-php:2.37.1:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:shivammathur\\/setup:shivammathur\\/setup-php:2.37.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:shivammathur\\/setup:shivammathur\\/setup_php:2.37.1:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:shivammathur\\/setup:shivammathur\\/setup_php:2.37.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:path",
@@ -183,15 +183,15 @@
     {
       "bom-ref": "62f594948731c9a4",
       "type": "file",
-      "name": "/tmp/tmp.XZZVu87gtt/directory-data-default/.github/workflows/update-data.yml",
+      "name": "/tmp/tmp.6sjrC1XMjn/directory-data-default/.github/workflows/update-data.yml",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "540356d8b878d8783131f11e56f169672d6c0ac1"
+          "content": "061a607e0996ab9ee5ac8b525b6c317fe694f070"
         },
         {
           "alg": "SHA-256",
-          "content": "eb205d9c7cada60133918e29f138ccb4fd0dd71ce074cf55153528b1f7a37048"
+          "content": "53e9cc617895220b30d06f2df4a1aa27cd30562771628ac6be0c158400b62504"
         }
       ]
     }

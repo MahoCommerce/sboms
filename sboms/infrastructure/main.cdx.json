@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.6",
-  "serialNumber": "urn:uuid:254f9800-2069-46d8-a627-035eaa3aef0c",
+  "serialNumber": "urn:uuid:82df105f-5051-44ec-b497-bebb49686267",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-06-20T06:54:40Z",
+    "timestamp": "2026-06-21T07:25:41Z",
     "tools": {
       "components": [
         {
@@ -17,9 +17,9 @@
       ]
     },
     "component": {
-      "bom-ref": "851d09b34a085e10",
+      "bom-ref": "0ba9ac88396cb965",
       "type": "file",
-      "name": "/tmp/tmp.XZZVu87gtt/infrastructure-default",
+      "name": "/tmp/tmp.6sjrC1XMjn/infrastructure-default",
       "licenses": [
         {
           "license": {
@@ -411,10 +411,10 @@
       ]
     },
     {
-      "bom-ref": "pkg:composer/composer/pcre@3.3.2?package-id=1039eb8fd6795248",
+      "bom-ref": "pkg:composer/composer/pcre@3.4.0?package-id=f052203aad5345f4",
       "type": "library",
       "name": "composer/pcre",
-      "version": "3.3.2",
+      "version": "3.4.0",
       "licenses": [
         {
           "license": {
@@ -422,8 +422,8 @@
           }
         }
       ],
-      "cpe": "cpe:2.3:a:composer\\/pcre:composer\\/pcre:3.3.2:*:*:*:*:*:*:*",
-      "purl": "pkg:composer/composer/pcre@3.3.2",
+      "cpe": "cpe:2.3:a:composer\\/pcre:composer\\/pcre:3.4.0:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/composer/pcre@3.4.0",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -1630,10 +1630,10 @@
       ]
     },
     {
-      "bom-ref": "pkg:composer/symfony/polyfill-mbstring@v1.38.1?package-id=a11f76f3bd79d41b",
+      "bom-ref": "pkg:composer/symfony/polyfill-mbstring@v1.38.2?package-id=5404e77d3c726e90",
       "type": "library",
       "name": "symfony/polyfill-mbstring",
-      "version": "v1.38.1",
+      "version": "v1.38.2",
       "licenses": [
         {
           "license": {
@@ -1641,8 +1641,8 @@
           }
         }
       ],
-      "cpe": "cpe:2.3:a:symfony\\/polyfill-mbstring:symfony\\/polyfill-mbstring:v1.38.1:*:*:*:*:*:*:*",
-      "purl": "pkg:composer/symfony/polyfill-mbstring@v1.38.1",
+      "cpe": "cpe:2.3:a:symfony\\/polyfill-mbstring:symfony\\/polyfill-mbstring:v1.38.2:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/symfony/polyfill-mbstring@v1.38.2",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -1662,23 +1662,23 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:symfony\\/polyfill-mbstring:symfony\\/polyfill_mbstring:v1.38.1:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:symfony\\/polyfill-mbstring:symfony\\/polyfill_mbstring:v1.38.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:symfony\\/polyfill_mbstring:symfony\\/polyfill-mbstring:v1.38.1:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:symfony\\/polyfill_mbstring:symfony\\/polyfill-mbstring:v1.38.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:symfony\\/polyfill_mbstring:symfony\\/polyfill_mbstring:v1.38.1:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:symfony\\/polyfill_mbstring:symfony\\/polyfill_mbstring:v1.38.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:symfony\\/polyfill:symfony\\/polyfill-mbstring:v1.38.1:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:symfony\\/polyfill:symfony\\/polyfill-mbstring:v1.38.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:symfony\\/polyfill:symfony\\/polyfill_mbstring:v1.38.1:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:symfony\\/polyfill:symfony\\/polyfill_mbstring:v1.38.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:path",
@@ -2105,7 +2105,7 @@
     {
       "bom-ref": "5ebde7ddc8076c2b",
       "type": "file",
-      "name": "/tmp/tmp.XZZVu87gtt/infrastructure-default/.github/workflows/lint.yml",
+      "name": "/tmp/tmp.6sjrC1XMjn/infrastructure-default/.github/workflows/lint.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -2120,7 +2120,7 @@
     {
       "bom-ref": "f23abd314990253e",
       "type": "file",
-      "name": "/tmp/tmp.XZZVu87gtt/infrastructure-default/.github/workflows/phpstan.yml",
+      "name": "/tmp/tmp.6sjrC1XMjn/infrastructure-default/.github/workflows/phpstan.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -2135,7 +2135,7 @@
     {
       "bom-ref": "cbbb57827f0f16c5",
       "type": "file",
-      "name": "/tmp/tmp.XZZVu87gtt/infrastructure-default/.github/workflows/sync.yml",
+      "name": "/tmp/tmp.6sjrC1XMjn/infrastructure-default/.github/workflows/sync.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -2150,15 +2150,15 @@
     {
       "bom-ref": "c8bb62e6bded633e",
       "type": "file",
-      "name": "/tmp/tmp.XZZVu87gtt/infrastructure-default/composer.lock",
+      "name": "/tmp/tmp.6sjrC1XMjn/infrastructure-default/composer.lock",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "9cc4c1e69888b1210632374b13a52bdb8dac0b10"
+          "content": "a31de2abb28e89ee7abbef5b1e163e3165db86f1"
         },
         {
           "alg": "SHA-256",
-          "content": "68e80ffd247f1efbc4eded10c28cc9d2279afd7c9735a43234c1e064fd490244"
+          "content": "5534c935f499137ed9c2daffc297a610ab71b8958f19e5257757706d49680842"
         }
       ]
     }

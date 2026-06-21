@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.6",
-  "serialNumber": "urn:uuid:dcedc3ed-a3c1-4c37-aa52-5c9d0643339a",
+  "serialNumber": "urn:uuid:dc7b1e81-baa5-4d12-b729-8afcd8d0da0e",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-06-20T06:54:44Z",
+    "timestamp": "2026-06-21T07:25:45Z",
     "tools": {
       "components": [
         {
@@ -17,9 +17,9 @@
       ]
     },
     "component": {
-      "bom-ref": "615937ba90550ed4",
+      "bom-ref": "ebe0b9eef4a58a69",
       "type": "file",
-      "name": "/tmp/tmp.XZZVu87gtt/maho-default",
+      "name": "/tmp/tmp.6sjrC1XMjn/maho-default",
       "licenses": [
         {
           "expression": "OSL-3.0 OR AFL-3.0"
@@ -2963,10 +2963,10 @@
       ]
     },
     {
-      "bom-ref": "pkg:composer/sabberworm/php-css-parser@v9.3.0?package-id=c7faa1baaab6182c",
+      "bom-ref": "pkg:composer/sabberworm/php-css-parser@v9.4.0?package-id=acc1db48a00fbc90",
       "type": "library",
       "name": "sabberworm/php-css-parser",
-      "version": "v9.3.0",
+      "version": "v9.4.0",
       "licenses": [
         {
           "license": {
@@ -2974,8 +2974,8 @@
           }
         }
       ],
-      "cpe": "cpe:2.3:a:sabberworm\\/php-css-parser:sabberworm\\/php-css-parser:v9.3.0:*:*:*:*:*:*:*",
-      "purl": "pkg:composer/sabberworm/php-css-parser@v9.3.0",
+      "cpe": "cpe:2.3:a:sabberworm\\/php-css-parser:sabberworm\\/php-css-parser:v9.4.0:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/sabberworm/php-css-parser@v9.4.0",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -2995,39 +2995,39 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:sabberworm\\/php-css-parser:sabberworm\\/php_css_parser:v9.3.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:sabberworm\\/php-css-parser:sabberworm\\/php_css_parser:v9.4.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:sabberworm\\/php_css_parser:sabberworm\\/php-css-parser:v9.3.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:sabberworm\\/php_css_parser:sabberworm\\/php-css-parser:v9.4.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:sabberworm\\/php_css_parser:sabberworm\\/php_css_parser:v9.3.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:sabberworm\\/php_css_parser:sabberworm\\/php_css_parser:v9.4.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:sabberworm\\/php-css:sabberworm\\/php-css-parser:v9.3.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:sabberworm\\/php-css:sabberworm\\/php-css-parser:v9.4.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:sabberworm\\/php-css:sabberworm\\/php_css_parser:v9.3.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:sabberworm\\/php-css:sabberworm\\/php_css_parser:v9.4.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:sabberworm\\/php_css:sabberworm\\/php-css-parser:v9.3.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:sabberworm\\/php_css:sabberworm\\/php-css-parser:v9.4.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:sabberworm\\/php_css:sabberworm\\/php_css_parser:v9.3.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:sabberworm\\/php_css:sabberworm\\/php_css_parser:v9.4.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:sabberworm\\/php:sabberworm\\/php-css-parser:v9.3.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:sabberworm\\/php:sabberworm\\/php-css-parser:v9.4.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:sabberworm\\/php:sabberworm\\/php_css_parser:v9.3.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:sabberworm\\/php:sabberworm\\/php_css_parser:v9.4.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:path",
@@ -4920,7 +4920,7 @@
     {
       "bom-ref": "98dd120a020982a4",
       "type": "file",
-      "name": "/tmp/tmp.XZZVu87gtt/maho-default/.github/workflows/check-missing-translations.yml",
+      "name": "/tmp/tmp.6sjrC1XMjn/maho-default/.github/workflows/check-missing-translations.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -4935,7 +4935,7 @@
     {
       "bom-ref": "7e66aa23a8e80c65",
       "type": "file",
-      "name": "/tmp/tmp.XZZVu87gtt/maho-default/.github/workflows/check-unused-translations.yml",
+      "name": "/tmp/tmp.6sjrC1XMjn/maho-default/.github/workflows/check-unused-translations.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -4950,7 +4950,7 @@
     {
       "bom-ref": "5e19ea2e1f9dfee4",
       "type": "file",
-      "name": "/tmp/tmp.XZZVu87gtt/maho-default/.github/workflows/codeql-analysis.yml",
+      "name": "/tmp/tmp.6sjrC1XMjn/maho-default/.github/workflows/codeql-analysis.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -4965,7 +4965,7 @@
     {
       "bom-ref": "d422de945bf18b46",
       "type": "file",
-      "name": "/tmp/tmp.XZZVu87gtt/maho-default/.github/workflows/composer.yml",
+      "name": "/tmp/tmp.6sjrC1XMjn/maho-default/.github/workflows/composer.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -4980,7 +4980,7 @@
     {
       "bom-ref": "b90322a436b20519",
       "type": "file",
-      "name": "/tmp/tmp.XZZVu87gtt/maho-default/.github/workflows/copyright.yml",
+      "name": "/tmp/tmp.6sjrC1XMjn/maho-default/.github/workflows/copyright.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -4995,7 +4995,7 @@
     {
       "bom-ref": "dc9bdc1a84992eac",
       "type": "file",
-      "name": "/tmp/tmp.XZZVu87gtt/maho-default/.github/workflows/install-with-prefix.yml",
+      "name": "/tmp/tmp.6sjrC1XMjn/maho-default/.github/workflows/install-with-prefix.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -5010,7 +5010,7 @@
     {
       "bom-ref": "ca67cce3ff943159",
       "type": "file",
-      "name": "/tmp/tmp.XZZVu87gtt/maho-default/.github/workflows/line-endings.yml",
+      "name": "/tmp/tmp.6sjrC1XMjn/maho-default/.github/workflows/line-endings.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -5025,7 +5025,7 @@
     {
       "bom-ref": "5ebde7ddc8076c2b",
       "type": "file",
-      "name": "/tmp/tmp.XZZVu87gtt/maho-default/.github/workflows/lint.yml",
+      "name": "/tmp/tmp.6sjrC1XMjn/maho-default/.github/workflows/lint.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -5040,7 +5040,7 @@
     {
       "bom-ref": "57d4f10249bd0e10",
       "type": "file",
-      "name": "/tmp/tmp.XZZVu87gtt/maho-default/.github/workflows/locale-csv-sorting.yml",
+      "name": "/tmp/tmp.6sjrC1XMjn/maho-default/.github/workflows/locale-csv-sorting.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -5055,7 +5055,7 @@
     {
       "bom-ref": "e1e2bba7dd1b17e6",
       "type": "file",
-      "name": "/tmp/tmp.XZZVu87gtt/maho-default/.github/workflows/pest.yml",
+      "name": "/tmp/tmp.6sjrC1XMjn/maho-default/.github/workflows/pest.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -5070,7 +5070,7 @@
     {
       "bom-ref": "2f9a4ebf9db35197",
       "type": "file",
-      "name": "/tmp/tmp.XZZVu87gtt/maho-default/.github/workflows/phpdoc.yml",
+      "name": "/tmp/tmp.6sjrC1XMjn/maho-default/.github/workflows/phpdoc.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -5085,7 +5085,7 @@
     {
       "bom-ref": "f23abd314990253e",
       "type": "file",
-      "name": "/tmp/tmp.XZZVu87gtt/maho-default/.github/workflows/phpstan.yml",
+      "name": "/tmp/tmp.6sjrC1XMjn/maho-default/.github/workflows/phpstan.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -5100,7 +5100,7 @@
     {
       "bom-ref": "8a94ac50b5062d56",
       "type": "file",
-      "name": "/tmp/tmp.XZZVu87gtt/maho-default/.github/workflows/security-php.yml",
+      "name": "/tmp/tmp.6sjrC1XMjn/maho-default/.github/workflows/security-php.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -5115,7 +5115,7 @@
     {
       "bom-ref": "17bee73d399623a9",
       "type": "file",
-      "name": "/tmp/tmp.XZZVu87gtt/maho-default/.github/workflows/sync-l10n-repo.yml",
+      "name": "/tmp/tmp.6sjrC1XMjn/maho-default/.github/workflows/sync-l10n-repo.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -5130,7 +5130,7 @@
     {
       "bom-ref": "5c470c2c7e53f689",
       "type": "file",
-      "name": "/tmp/tmp.XZZVu87gtt/maho-default/.github/workflows/syntax-php.yml",
+      "name": "/tmp/tmp.6sjrC1XMjn/maho-default/.github/workflows/syntax-php.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -5145,7 +5145,7 @@
     {
       "bom-ref": "5681d4ed4a932be8",
       "type": "file",
-      "name": "/tmp/tmp.XZZVu87gtt/maho-default/.github/workflows/syntax-xml.yml",
+      "name": "/tmp/tmp.6sjrC1XMjn/maho-default/.github/workflows/syntax-xml.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -5160,15 +5160,15 @@
     {
       "bom-ref": "c8bb62e6bded633e",
       "type": "file",
-      "name": "/tmp/tmp.XZZVu87gtt/maho-default/composer.lock",
+      "name": "/tmp/tmp.6sjrC1XMjn/maho-default/composer.lock",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "fb445769e5a1a2690c5e0dc7de46a9d1d346a4ec"
+          "content": "ec4c33021971605ad44b7970d526ce46a63f45ba"
         },
         {
           "alg": "SHA-256",
-          "content": "46dd50ca42a332751b64411fcd657d87929f3cf8786e9cbba9b8d5994d463c03"
+          "content": "d7aa7bad9abdd28012e47dc17b59b18e28e43a4bf3a9acb3de8fb7eaba7d1666"
         }
       ]
     }
