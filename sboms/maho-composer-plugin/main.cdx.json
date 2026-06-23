@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.6",
-  "serialNumber": "urn:uuid:292d8e6f-da7f-478b-8857-9550d4b21a3c",
+  "serialNumber": "urn:uuid:5d0e87b0-4bfc-46a9-b533-3be175db04a6",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-06-22T08:49:08Z",
+    "timestamp": "2026-06-23T06:39:35Z",
     "tools": {
       "components": [
         {
@@ -17,9 +17,9 @@
       ]
     },
     "component": {
-      "bom-ref": "0efd6fea82d6e2a2",
+      "bom-ref": "7a864fa8baebebaa",
       "type": "file",
-      "name": "/tmp/tmp.PlBeYO0TpA/maho-composer-plugin-default",
+      "name": "/tmp/tmp.vfmyFAPisc/maho-composer-plugin-default",
       "licenses": [
         {
           "license": {
@@ -161,12 +161,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:github/actions/checkout@v6.0.3?package-id=7c47112b7084abb7",
+      "bom-ref": "pkg:github/actions/checkout@v7.0.0?package-id=7072c320070274b8",
       "type": "library",
       "name": "actions/checkout",
-      "version": "v6.0.3",
-      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v6.0.3:*:*:*:*:*:*:*",
-      "purl": "pkg:github/actions/checkout@v6.0.3",
+      "version": "v7.0.0",
+      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v7.0.0:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/checkout@v7.0.0",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -187,12 +187,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:github/actions/checkout@v6.0.3?package-id=ee61c679f648a4a6",
+      "bom-ref": "pkg:github/actions/checkout@v7.0.0?package-id=313bd5367566cf3c",
       "type": "library",
       "name": "actions/checkout",
-      "version": "v6.0.3",
-      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v6.0.3:*:*:*:*:*:*:*",
-      "purl": "pkg:github/actions/checkout@v6.0.3",
+      "version": "v7.0.0",
+      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v7.0.0:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/checkout@v7.0.0",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -213,12 +213,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:github/actions/checkout@v6.0.3?package-id=db997d25c0471854",
+      "bom-ref": "pkg:github/actions/checkout@v7.0.0?package-id=fb7050b197303fc2",
       "type": "library",
       "name": "actions/checkout",
-      "version": "v6.0.3",
-      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v6.0.3:*:*:*:*:*:*:*",
-      "purl": "pkg:github/actions/checkout@v6.0.3",
+      "version": "v7.0.0",
+      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v7.0.0:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/checkout@v7.0.0",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -239,12 +239,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:github/actions/checkout@v6.0.3?package-id=0e2a8e3d2111ecb7",
+      "bom-ref": "pkg:github/actions/checkout@v7.0.0?package-id=272372cf837c59b4",
       "type": "library",
       "name": "actions/checkout",
-      "version": "v6.0.3",
-      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v6.0.3:*:*:*:*:*:*:*",
-      "purl": "pkg:github/actions/checkout@v6.0.3",
+      "version": "v7.0.0",
+      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v7.0.0:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/checkout@v7.0.0",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -515,75 +515,75 @@
     {
       "bom-ref": "d422de945bf18b46",
       "type": "file",
-      "name": "/tmp/tmp.PlBeYO0TpA/maho-composer-plugin-default/.github/workflows/composer.yml",
+      "name": "/tmp/tmp.vfmyFAPisc/maho-composer-plugin-default/.github/workflows/composer.yml",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "25c75d14b44b133f44c9ff849e62eefdad9102c5"
+          "content": "c224aab8d55c08e3ad39b1039d389fa859e9ceba"
         },
         {
           "alg": "SHA-256",
-          "content": "b2b0f14578ace0c2ab574a4af3d845eba9a2d381a6f8d2a047fc68b5136fe3b1"
+          "content": "dcc34fe8b959d2933b51c40248348c273659705818ff6fc2f022afd6023cac0e"
         }
       ]
     },
     {
       "bom-ref": "ca67cce3ff943159",
       "type": "file",
-      "name": "/tmp/tmp.PlBeYO0TpA/maho-composer-plugin-default/.github/workflows/line-endings.yml",
+      "name": "/tmp/tmp.vfmyFAPisc/maho-composer-plugin-default/.github/workflows/line-endings.yml",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "4da7224bdbb67968781cfc7f74e47c4837606dd0"
+          "content": "cf2486c2a057aee6b61ef0e04af7feac9772bfe2"
         },
         {
           "alg": "SHA-256",
-          "content": "3f9f034688602f4b158f6eaf50d9c1266f7147d8bd17d16e95c7ce68ab1bce69"
+          "content": "f2823f0da573c866f6b6fb10a3fbfee99a51d0e18a5d3d108b9f7fe8bbe35dd5"
         }
       ]
     },
     {
       "bom-ref": "f23abd314990253e",
       "type": "file",
-      "name": "/tmp/tmp.PlBeYO0TpA/maho-composer-plugin-default/.github/workflows/phpstan.yml",
+      "name": "/tmp/tmp.vfmyFAPisc/maho-composer-plugin-default/.github/workflows/phpstan.yml",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "57e2992c4d89b87fe90a9a80eca02c6565af1109"
+          "content": "54bfa5a06da38269cfb239df73ba964f375d2776"
         },
         {
           "alg": "SHA-256",
-          "content": "28385cdb18a87702b846a7be446bc84aa06a4d86e832a224cb2672fd319a9c0f"
+          "content": "b6f9949a120400a457a8761172d1a33ed70c4a78c054b08641e1ba20949558bd"
         }
       ]
     },
     {
       "bom-ref": "5c470c2c7e53f689",
       "type": "file",
-      "name": "/tmp/tmp.PlBeYO0TpA/maho-composer-plugin-default/.github/workflows/syntax-php.yml",
+      "name": "/tmp/tmp.vfmyFAPisc/maho-composer-plugin-default/.github/workflows/syntax-php.yml",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "b3cde54f1423174aa47e1a5376c311c9e1aa2acd"
+          "content": "221275a38da4e634bc90686eab64fcaebccb8cc8"
         },
         {
           "alg": "SHA-256",
-          "content": "7021e198b350a21f7faa0b25a3db1186edbb22d124306ebe18899d94bf7dc71b"
+          "content": "4a793be006e861390741bbcb1f54111adad0229e04b9cb6150d7a47d526715bf"
         }
       ]
     },
     {
       "bom-ref": "c8bb62e6bded633e",
       "type": "file",
-      "name": "/tmp/tmp.PlBeYO0TpA/maho-composer-plugin-default/composer.lock",
+      "name": "/tmp/tmp.vfmyFAPisc/maho-composer-plugin-default/composer.lock",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "00aa95429fd9cf9ac23547d8bd3d54cf0ee3ae52"
+          "content": "c96db62993e27aff5e041b8592ab5362315e6035"
         },
         {
           "alg": "SHA-256",
-          "content": "1bc85ff7c72c04c9d3dfe28911939203651206ed5507c1a64f8d8fdfb39e8e59"
+          "content": "53b367d761f5000f6bbb6e544133aba8b5d6548a67861596d8f498b8229053f6"
         }
       ]
     }

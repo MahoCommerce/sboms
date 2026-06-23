@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.6",
-  "serialNumber": "urn:uuid:8401888f-25f1-428e-932f-9cbd96130040",
+  "serialNumber": "urn:uuid:4b6c4a5e-d1fc-4ee1-8e46-05c2f8d23ac4",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-06-22T08:48:47Z",
+    "timestamp": "2026-06-23T06:39:13Z",
     "tools": {
       "components": [
         {
@@ -17,9 +17,9 @@
       ]
     },
     "component": {
-      "bom-ref": "801147c061a25d48",
+      "bom-ref": "994697a195b86e40",
       "type": "file",
-      "name": "/tmp/tmp.PlBeYO0TpA/directory-data-default",
+      "name": "/tmp/tmp.vfmyFAPisc/directory-data-default",
       "licenses": [
         {
           "license": {
@@ -31,12 +31,12 @@
   },
   "components": [
     {
-      "bom-ref": "pkg:github/actions/checkout@v6.0.3?package-id=38a1959e6c5acf85",
+      "bom-ref": "pkg:github/actions/checkout@v7.0.0?package-id=4c83771b33b6ad7c",
       "type": "library",
       "name": "actions/checkout",
-      "version": "v6.0.3",
-      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v6.0.3:*:*:*:*:*:*:*",
-      "purl": "pkg:github/actions/checkout@v6.0.3",
+      "version": "v7.0.0",
+      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v7.0.0:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/checkout@v7.0.0",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -183,15 +183,15 @@
     {
       "bom-ref": "62f594948731c9a4",
       "type": "file",
-      "name": "/tmp/tmp.PlBeYO0TpA/directory-data-default/.github/workflows/update-data.yml",
+      "name": "/tmp/tmp.vfmyFAPisc/directory-data-default/.github/workflows/update-data.yml",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "061a607e0996ab9ee5ac8b525b6c317fe694f070"
+          "content": "1211ea8cac2b5acebf684403b885384548db36e2"
         },
         {
           "alg": "SHA-256",
-          "content": "53e9cc617895220b30d06f2df4a1aa27cd30562771628ac6be0c158400b62504"
+          "content": "18e51ce4cb100ffe4365edef4a16a25f2637bac291ebdf05fa38b6ea75f82938"
         }
       ]
     }

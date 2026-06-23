@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.6",
-  "serialNumber": "urn:uuid:66d47b3a-b40a-4209-aef9-31ab41774754",
+  "serialNumber": "urn:uuid:7e24c409-9d96-4b3f-8546-950f22948362",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-06-22T08:48:57Z",
+    "timestamp": "2026-06-23T06:39:23Z",
     "tools": {
       "components": [
         {
@@ -17,9 +17,9 @@
       ]
     },
     "component": {
-      "bom-ref": "55d9825fdd42f8bb",
+      "bom-ref": "4abd0480d9c29b73",
       "type": "file",
-      "name": "/tmp/tmp.PlBeYO0TpA/infrastructure-default",
+      "name": "/tmp/tmp.vfmyFAPisc/infrastructure-default",
       "licenses": [
         {
           "license": {
@@ -31,12 +31,12 @@
   },
   "components": [
     {
-      "bom-ref": "pkg:github/actions/checkout@v6.0.3?package-id=35ca5f2e7f72c974",
+      "bom-ref": "pkg:github/actions/checkout@v7.0.0?package-id=e22dde1cf7913a9e",
       "type": "library",
       "name": "actions/checkout",
-      "version": "v6.0.3",
-      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v6.0.3:*:*:*:*:*:*:*",
-      "purl": "pkg:github/actions/checkout@v6.0.3",
+      "version": "v7.0.0",
+      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v7.0.0:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/checkout@v7.0.0",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -57,12 +57,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:github/actions/checkout@v6.0.3?package-id=db997d25c0471854",
+      "bom-ref": "pkg:github/actions/checkout@v7.0.0?package-id=fb7050b197303fc2",
       "type": "library",
       "name": "actions/checkout",
-      "version": "v6.0.3",
-      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v6.0.3:*:*:*:*:*:*:*",
-      "purl": "pkg:github/actions/checkout@v6.0.3",
+      "version": "v7.0.0",
+      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v7.0.0:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/checkout@v7.0.0",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -83,12 +83,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:github/actions/checkout@v6.0.3?package-id=f43f9dc5fcba2c66",
+      "bom-ref": "pkg:github/actions/checkout@v7.0.0?package-id=4359e105a9f4d28d",
       "type": "library",
       "name": "actions/checkout",
-      "version": "v6.0.3",
-      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v6.0.3:*:*:*:*:*:*:*",
-      "purl": "pkg:github/actions/checkout@v6.0.3",
+      "version": "v7.0.0",
+      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v7.0.0:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/checkout@v7.0.0",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -2105,60 +2105,60 @@
     {
       "bom-ref": "5ebde7ddc8076c2b",
       "type": "file",
-      "name": "/tmp/tmp.PlBeYO0TpA/infrastructure-default/.github/workflows/lint.yml",
+      "name": "/tmp/tmp.vfmyFAPisc/infrastructure-default/.github/workflows/lint.yml",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "0703a78c51ea5f727e4c77adee6f6fc814690f45"
+          "content": "4fd2c1bd8ee5b5c29dc23714803eb61d8138a057"
         },
         {
           "alg": "SHA-256",
-          "content": "588a9901a78c9e095deb33dad48886e722b94cd3c391525d0e6693f0e8dfffa8"
+          "content": "4a2915d37881f1bdadf71b8e4e5a797f0af47433a8c042f9fe9045f690b2d732"
         }
       ]
     },
     {
       "bom-ref": "f23abd314990253e",
       "type": "file",
-      "name": "/tmp/tmp.PlBeYO0TpA/infrastructure-default/.github/workflows/phpstan.yml",
+      "name": "/tmp/tmp.vfmyFAPisc/infrastructure-default/.github/workflows/phpstan.yml",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "9c79412045ae3e9a555b9864715154cb8a594884"
+          "content": "c88f9b26f5b8405c1a154f1669902a4f6e6cbe04"
         },
         {
           "alg": "SHA-256",
-          "content": "27700ece5e991c9e6acf48c68ba52d181edc529c14335c2fd2b27583144aa096"
+          "content": "1a6ba930a90b1f1aaed56f8df03f7475b4d46e7357b921cca283bd31dfe8f34f"
         }
       ]
     },
     {
       "bom-ref": "cbbb57827f0f16c5",
       "type": "file",
-      "name": "/tmp/tmp.PlBeYO0TpA/infrastructure-default/.github/workflows/sync.yml",
+      "name": "/tmp/tmp.vfmyFAPisc/infrastructure-default/.github/workflows/sync.yml",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "9118dbbed57181b236d2159f4a246d2bf80b656c"
+          "content": "8ec90f531b5c8ab120a95f3cd8c9c893ac554fa9"
         },
         {
           "alg": "SHA-256",
-          "content": "67d3bfb2adeaf7981ccb9b312b87505d6b8d93c92ac106063e29a3daef144b83"
+          "content": "21b2b1138440652d1e295cfaf42b04b46479062e84dfd940d2e6a747f889b17c"
         }
       ]
     },
     {
       "bom-ref": "c8bb62e6bded633e",
       "type": "file",
-      "name": "/tmp/tmp.PlBeYO0TpA/infrastructure-default/composer.lock",
+      "name": "/tmp/tmp.vfmyFAPisc/infrastructure-default/composer.lock",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "a31de2abb28e89ee7abbef5b1e163e3165db86f1"
+          "content": "4899b900a3c67e523c7c6b4aeeabf1449aa2281c"
         },
         {
           "alg": "SHA-256",
-          "content": "5534c935f499137ed9c2daffc297a610ab71b8958f19e5257757706d49680842"
+          "content": "4df83c84a3859e20d14dd7dee0b74993ce332d6211775f8456b4e82702a41dc9"
         }
       ]
     }
