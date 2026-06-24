@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.6",
-  "serialNumber": "urn:uuid:b5888d51-f88d-49d3-927a-48be78cfed26",
+  "serialNumber": "urn:uuid:f8b743d7-e30e-416e-b3d3-ba7392af0bd4",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-06-23T06:39:41Z",
+    "timestamp": "2026-06-24T06:37:11Z",
     "tools": {
       "components": [
         {
@@ -17,9 +17,9 @@
       ]
     },
     "component": {
-      "bom-ref": "be9edc24ed3c12a8",
+      "bom-ref": "ad43f8f4d07c5f1e",
       "type": "file",
-      "name": "/tmp/tmp.vfmyFAPisc/maho-phpstan-plugin-default",
+      "name": "/tmp/tmp.sGWWzLdSgd/maho-phpstan-plugin-default",
       "licenses": [
         {
           "license": {
@@ -31,12 +31,12 @@
   },
   "components": [
     {
-      "bom-ref": "pkg:github/actions/checkout@v6.0.3?package-id=db997d25c0471854",
+      "bom-ref": "pkg:github/actions/checkout@v7.0.0?package-id=fb7050b197303fc2",
       "type": "library",
       "name": "actions/checkout",
-      "version": "v6.0.3",
-      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v6.0.3:*:*:*:*:*:*:*",
-      "purl": "pkg:github/actions/checkout@v6.0.3",
+      "version": "v7.0.0",
+      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v7.0.0:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/checkout@v7.0.0",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -142,22 +142,22 @@
     {
       "bom-ref": "f23abd314990253e",
       "type": "file",
-      "name": "/tmp/tmp.vfmyFAPisc/maho-phpstan-plugin-default/.github/workflows/phpstan.yml",
+      "name": "/tmp/tmp.sGWWzLdSgd/maho-phpstan-plugin-default/.github/workflows/phpstan.yml",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "c6e66204dd21b0b42ccdad2c4d9572def6253ac0"
+          "content": "2d4c7da91b7a0f709f908ce4dc51c6866c7a4cbc"
         },
         {
           "alg": "SHA-256",
-          "content": "ca71fdef689861cfa8408db302a69b96e7ab3aaa531b259ff441bbad567c2e84"
+          "content": "20b2e712aaf39066001d6e362db707ca21e0fa7d6bc7651298b0507c9692f338"
         }
       ]
     },
     {
       "bom-ref": "c8bb62e6bded633e",
       "type": "file",
-      "name": "/tmp/tmp.vfmyFAPisc/maho-phpstan-plugin-default/composer.lock",
+      "name": "/tmp/tmp.sGWWzLdSgd/maho-phpstan-plugin-default/composer.lock",
       "hashes": [
         {
           "alg": "SHA-1",

@@ -1,0 +1,19 @@
+{
+  "repo": "module-mollie",
+  "ref": "v1.1.0",
+  "reuse_spec_version": "3.3",
+  "summary": {
+    "used_licenses": [
+      "AFL-3.0",
+      "OSL-3.0"
+    ],
+    "files_total": 69,
+    "files_with_copyright_info": 47,
+    "files_with_licensing_info": 46,
+    "compliant": false
+  },
+  "license_file_counts": {
+    "AFL-3.0": 3,
+    "OSL-3.0": 43
+  }
+}

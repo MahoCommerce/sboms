@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.6",
-  "serialNumber": "urn:uuid:1d5d5753-1761-469b-9e6f-6f5fbca71fbf",
+  "serialNumber": "urn:uuid:42e463f3-22da-4510-ba2b-e55556fc978a",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-06-23T06:40:10Z",
+    "timestamp": "2026-06-24T06:37:44Z",
     "tools": {
       "components": [
         {
@@ -17,9 +17,9 @@
       ]
     },
     "component": {
-      "bom-ref": "a87265b05e057348",
+      "bom-ref": "6b391aadc85b7d46",
       "type": "file",
-      "name": "/tmp/tmp.vfmyFAPisc/vscode-default",
+      "name": "/tmp/tmp.sGWWzLdSgd/vscode-default",
       "licenses": [
         {
           "license": {
@@ -31,12 +31,12 @@
   },
   "components": [
     {
-      "bom-ref": "pkg:github/actions/checkout@v6.0.3?package-id=39d5de03cb465a33",
+      "bom-ref": "pkg:github/actions/checkout@v7.0.0?package-id=51b623a3bc354634",
       "type": "library",
       "name": "actions/checkout",
-      "version": "v6.0.3",
-      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v6.0.3:*:*:*:*:*:*:*",
-      "purl": "pkg:github/actions/checkout@v6.0.3",
+      "version": "v7.0.0",
+      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v7.0.0:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/checkout@v7.0.0",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -570,22 +570,22 @@
     {
       "bom-ref": "cc210d8a1a5f5704",
       "type": "file",
-      "name": "/tmp/tmp.vfmyFAPisc/vscode-default/.github/workflows/release.yml",
+      "name": "/tmp/tmp.sGWWzLdSgd/vscode-default/.github/workflows/release.yml",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "8b130114d645984bd0df7e7200046a5059a91476"
+          "content": "5f7ccc33a68f14e365c0598230ecfb1cb5c94dbd"
         },
         {
           "alg": "SHA-256",
-          "content": "e27518ae87ceebda15ac4142a9b33bd189ac5425788954f6a33898056fcdab58"
+          "content": "2c56b4098a4d992d2e46dc0f38f17709f6185a38d1441bd12ca5998e41627f41"
         }
       ]
     },
     {
       "bom-ref": "fd71c2238fc07657",
       "type": "file",
-      "name": "/tmp/tmp.vfmyFAPisc/vscode-default/package-lock.json",
+      "name": "/tmp/tmp.sGWWzLdSgd/vscode-default/package-lock.json",
       "hashes": [
         {
           "alg": "SHA-1",

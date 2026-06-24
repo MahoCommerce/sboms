@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.6",
-  "serialNumber": "urn:uuid:637b6e21-72a6-41a4-8504-7ff3a6a4342b",
+  "serialNumber": "urn:uuid:1a753424-1e72-4630-abe6-b4fc42b99139",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-06-24T06:37:35Z",
+    "timestamp": "2026-06-24T06:37:29Z",
     "tools": {
       "components": [
         {
@@ -17,9 +17,9 @@
       ]
     },
     "component": {
-      "bom-ref": "a278cddd298cd8af",
+      "bom-ref": "c31b5bf8df39e5d1",
       "type": "file",
-      "name": "/tmp/tmp.sGWWzLdSgd/module-przelewy24-default",
+      "name": "/tmp/tmp.sGWWzLdSgd/module-mollie-v1.2.0",
       "licenses": [
         {
           "expression": "OSL-3.0 OR AFL-3.0"
@@ -351,7 +351,7 @@
     {
       "bom-ref": "d422de945bf18b46",
       "type": "file",
-      "name": "/tmp/tmp.sGWWzLdSgd/module-przelewy24-default/.github/workflows/composer.yml",
+      "name": "/tmp/tmp.sGWWzLdSgd/module-mollie-v1.2.0/.github/workflows/composer.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -366,7 +366,7 @@
     {
       "bom-ref": "ca67cce3ff943159",
       "type": "file",
-      "name": "/tmp/tmp.sGWWzLdSgd/module-przelewy24-default/.github/workflows/line-endings.yml",
+      "name": "/tmp/tmp.sGWWzLdSgd/module-mollie-v1.2.0/.github/workflows/line-endings.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -381,7 +381,7 @@
     {
       "bom-ref": "5ebde7ddc8076c2b",
       "type": "file",
-      "name": "/tmp/tmp.sGWWzLdSgd/module-przelewy24-default/.github/workflows/lint.yml",
+      "name": "/tmp/tmp.sGWWzLdSgd/module-mollie-v1.2.0/.github/workflows/lint.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -396,7 +396,7 @@
     {
       "bom-ref": "f23abd314990253e",
       "type": "file",
-      "name": "/tmp/tmp.sGWWzLdSgd/module-przelewy24-default/.github/workflows/phpstan.yml",
+      "name": "/tmp/tmp.sGWWzLdSgd/module-mollie-v1.2.0/.github/workflows/phpstan.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -411,7 +411,7 @@
     {
       "bom-ref": "5c470c2c7e53f689",
       "type": "file",
-      "name": "/tmp/tmp.sGWWzLdSgd/module-przelewy24-default/.github/workflows/syntax-php.yml",
+      "name": "/tmp/tmp.sGWWzLdSgd/module-mollie-v1.2.0/.github/workflows/syntax-php.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -426,7 +426,7 @@
     {
       "bom-ref": "5681d4ed4a932be8",
       "type": "file",
-      "name": "/tmp/tmp.sGWWzLdSgd/module-przelewy24-default/.github/workflows/syntax-xml.yml",
+      "name": "/tmp/tmp.sGWWzLdSgd/module-mollie-v1.2.0/.github/workflows/syntax-xml.yml",
       "hashes": [
         {
           "alg": "SHA-1",

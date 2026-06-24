@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.6",
-  "serialNumber": "urn:uuid:c5bdcd7d-2a5a-4688-b481-d55ea8adc9ea",
+  "serialNumber": "urn:uuid:f5a4c4bb-728c-4ba5-b5fc-7aabc1f34d4b",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-06-23T06:39:16Z",
+    "timestamp": "2026-06-24T06:36:45Z",
     "tools": {
       "components": [
         {
@@ -17,9 +17,9 @@
       ]
     },
     "component": {
-      "bom-ref": "7deb11c4e30ff675",
+      "bom-ref": "0fb842d4d4f25b57",
       "type": "file",
-      "name": "/tmp/tmp.vfmyFAPisc/docker-images-default",
+      "name": "/tmp/tmp.sGWWzLdSgd/docker-images-default",
       "licenses": [
         {
           "expression": "OSL-3.0 OR AFL-3.0"
@@ -29,12 +29,12 @@
   },
   "components": [
     {
-      "bom-ref": "pkg:github/actions/checkout@v6.0.3?package-id=e6ddca85a26635be",
+      "bom-ref": "pkg:github/actions/checkout@v7.0.0?package-id=b5b285396ef0f5d9",
       "type": "library",
       "name": "actions/checkout",
-      "version": "v6.0.3",
-      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v6.0.3:*:*:*:*:*:*:*",
-      "purl": "pkg:github/actions/checkout@v6.0.3",
+      "version": "v7.0.0",
+      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v7.0.0:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/checkout@v7.0.0",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -227,15 +227,15 @@
     {
       "bom-ref": "ebff2c81fbaf921b",
       "type": "file",
-      "name": "/tmp/tmp.vfmyFAPisc/docker-images-default/.github/workflows/build.yml",
+      "name": "/tmp/tmp.sGWWzLdSgd/docker-images-default/.github/workflows/build.yml",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "0fbd07d3180e5b423397a301386c0b7c7c41617f"
+          "content": "7ba9ed3ffab25b569c8c8c45f152949a08d497a2"
         },
         {
           "alg": "SHA-256",
-          "content": "6243dff7b5e152ab786075b081d7c7bb453d8d91e484b1ace3cfe97035b04ce1"
+          "content": "e664cf4b1f90e95d29ca0b084687547b3945ba4446d651961908f5290a74e894"
         }
       ]
     }
