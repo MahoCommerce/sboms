@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.6",
-  "serialNumber": "urn:uuid:aaf35bba-ccd2-48d2-86f6-5b7534cf882b",
+  "serialNumber": "urn:uuid:a5974470-92db-4669-9faf-dbd39a1f89a9",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-06-24T06:36:58Z",
+    "timestamp": "2026-06-25T06:40:53Z",
     "tools": {
       "components": [
         {
@@ -17,9 +17,9 @@
       ]
     },
     "component": {
-      "bom-ref": "f231d95c70005df9",
+      "bom-ref": "a57c605d080fc6bb",
       "type": "file",
-      "name": "/tmp/tmp.sGWWzLdSgd/maho-default",
+      "name": "/tmp/tmp.ELGAlSa1aw/maho-default",
       "licenses": [
         {
           "expression": "OSL-3.0 OR AFL-3.0"
@@ -185,12 +185,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:github/actions/cache@v5.0.5?package-id=9751dec3a2eaed3b",
+      "bom-ref": "pkg:github/actions/cache@v6.0.0?package-id=8e64ed3a6471ce9e",
       "type": "library",
       "name": "actions/cache",
-      "version": "v5.0.5",
-      "cpe": "cpe:2.3:a:actions\\/cache:actions\\/cache:v5.0.5:*:*:*:*:*:*:*",
-      "purl": "pkg:github/actions/cache@v5.0.5",
+      "version": "v6.0.0",
+      "cpe": "cpe:2.3:a:actions\\/cache:actions\\/cache:v6.0.0:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/cache@v6.0.0",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -211,12 +211,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:github/actions/cache@v5.0.5?package-id=690b58b8cc801a04",
+      "bom-ref": "pkg:github/actions/cache@v6.0.0?package-id=489250cd6c10fc4d",
       "type": "library",
       "name": "actions/cache",
-      "version": "v5.0.5",
-      "cpe": "cpe:2.3:a:actions\\/cache:actions\\/cache:v5.0.5:*:*:*:*:*:*:*",
-      "purl": "pkg:github/actions/cache@v5.0.5",
+      "version": "v6.0.0",
+      "cpe": "cpe:2.3:a:actions\\/cache:actions\\/cache:v6.0.0:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/cache@v6.0.0",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -237,12 +237,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:github/actions/cache@v5.0.5?package-id=e7f3e80fa84a236b",
+      "bom-ref": "pkg:github/actions/cache@v6.0.0?package-id=86c37475e1516f37",
       "type": "library",
       "name": "actions/cache",
-      "version": "v5.0.5",
-      "cpe": "cpe:2.3:a:actions\\/cache:actions\\/cache:v5.0.5:*:*:*:*:*:*:*",
-      "purl": "pkg:github/actions/cache@v5.0.5",
+      "version": "v6.0.0",
+      "cpe": "cpe:2.3:a:actions\\/cache:actions\\/cache:v6.0.0:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/cache@v6.0.0",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -263,12 +263,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:github/actions/cache@v5.0.5?package-id=da497fa64f7d7e79",
+      "bom-ref": "pkg:github/actions/cache@v6.0.0?package-id=b43f4b83234d9098",
       "type": "library",
       "name": "actions/cache",
-      "version": "v5.0.5",
-      "cpe": "cpe:2.3:a:actions\\/cache:actions\\/cache:v5.0.5:*:*:*:*:*:*:*",
-      "purl": "pkg:github/actions/cache@v5.0.5",
+      "version": "v6.0.0",
+      "cpe": "cpe:2.3:a:actions\\/cache:actions\\/cache:v6.0.0:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/cache@v6.0.0",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -289,12 +289,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:github/actions/cache@v5.0.5?package-id=05a19ecae06f7133",
+      "bom-ref": "pkg:github/actions/cache@v6.0.0?package-id=d4e531c5761abcee",
       "type": "library",
       "name": "actions/cache",
-      "version": "v5.0.5",
-      "cpe": "cpe:2.3:a:actions\\/cache:actions\\/cache:v5.0.5:*:*:*:*:*:*:*",
-      "purl": "pkg:github/actions/cache@v5.0.5",
+      "version": "v6.0.0",
+      "cpe": "cpe:2.3:a:actions\\/cache:actions\\/cache:v6.0.0:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/cache@v6.0.0",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -315,12 +315,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:github/actions/cache@v5.0.5?package-id=9801879a3700173f",
+      "bom-ref": "pkg:github/actions/cache@v6.0.0?package-id=c702ff9546a9f369",
       "type": "library",
       "name": "actions/cache",
-      "version": "v5.0.5",
-      "cpe": "cpe:2.3:a:actions\\/cache:actions\\/cache:v5.0.5:*:*:*:*:*:*:*",
-      "purl": "pkg:github/actions/cache@v5.0.5",
+      "version": "v6.0.0",
+      "cpe": "cpe:2.3:a:actions\\/cache:actions\\/cache:v6.0.0:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/cache@v6.0.0",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -341,12 +341,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:github/actions/cache@v5.0.5?package-id=a1f8f0083780e051",
+      "bom-ref": "pkg:github/actions/cache@v6.0.0?package-id=1d674825208fc9f0",
       "type": "library",
       "name": "actions/cache",
-      "version": "v5.0.5",
-      "cpe": "cpe:2.3:a:actions\\/cache:actions\\/cache:v5.0.5:*:*:*:*:*:*:*",
-      "purl": "pkg:github/actions/cache@v5.0.5",
+      "version": "v6.0.0",
+      "cpe": "cpe:2.3:a:actions\\/cache:actions\\/cache:v6.0.0:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/cache@v6.0.0",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -367,12 +367,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:github/actions/cache@v5.0.5?package-id=276b0a63d77fe4ac",
+      "bom-ref": "pkg:github/actions/cache@v6.0.0?package-id=e92d6555d4fb192b",
       "type": "library",
       "name": "actions/cache",
-      "version": "v5.0.5",
-      "cpe": "cpe:2.3:a:actions\\/cache:actions\\/cache:v5.0.5:*:*:*:*:*:*:*",
-      "purl": "pkg:github/actions/cache@v5.0.5",
+      "version": "v6.0.0",
+      "cpe": "cpe:2.3:a:actions\\/cache:actions\\/cache:v6.0.0:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/cache@v6.0.0",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -393,12 +393,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:github/actions/cache@v5.0.5?package-id=0728604ba6c018f2#restore",
+      "bom-ref": "pkg:github/actions/cache@v6.0.0?package-id=2abab50915b3fca1#restore",
       "type": "library",
       "name": "actions/cache/restore",
-      "version": "v5.0.5",
-      "cpe": "cpe:2.3:a:actions\\/cache\\/restore:actions\\/cache\\/restore:v5.0.5:*:*:*:*:*:*:*",
-      "purl": "pkg:github/actions/cache@v5.0.5#restore",
+      "version": "v6.0.0",
+      "cpe": "cpe:2.3:a:actions\\/cache\\/restore:actions\\/cache\\/restore:v6.0.0:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/cache@v6.0.0#restore",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -419,12 +419,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:github/actions/cache@v5.0.5?package-id=afd08887cc97ff13#save",
+      "bom-ref": "pkg:github/actions/cache@v6.0.0?package-id=37dfc82829511555#save",
       "type": "library",
       "name": "actions/cache/save",
-      "version": "v5.0.5",
-      "cpe": "cpe:2.3:a:actions\\/cache\\/save:actions\\/cache\\/save:v5.0.5:*:*:*:*:*:*:*",
-      "purl": "pkg:github/actions/cache@v5.0.5#save",
+      "version": "v6.0.0",
+      "cpe": "cpe:2.3:a:actions\\/cache\\/save:actions\\/cache\\/save:v6.0.0:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/cache@v6.0.0#save",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -445,12 +445,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:github/actions/checkout@v6.0.3?package-id=fb4ce40b9dffcdcd",
+      "bom-ref": "pkg:github/actions/checkout@v7.0.0?package-id=c120e4ddf54408af",
       "type": "library",
       "name": "actions/checkout",
-      "version": "v6.0.3",
-      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v6.0.3:*:*:*:*:*:*:*",
-      "purl": "pkg:github/actions/checkout@v6.0.3",
+      "version": "v7.0.0",
+      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v7.0.0:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/checkout@v7.0.0",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -471,12 +471,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:github/actions/checkout@v6.0.3?package-id=7932683b787204c1",
+      "bom-ref": "pkg:github/actions/checkout@v7.0.0?package-id=fdb169cb185f392d",
       "type": "library",
       "name": "actions/checkout",
-      "version": "v6.0.3",
-      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v6.0.3:*:*:*:*:*:*:*",
-      "purl": "pkg:github/actions/checkout@v6.0.3",
+      "version": "v7.0.0",
+      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v7.0.0:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/checkout@v7.0.0",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -497,12 +497,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:github/actions/checkout@v6.0.3?package-id=089ccbe9bc51536a",
+      "bom-ref": "pkg:github/actions/checkout@v7.0.0?package-id=0a57b20f083bf27e",
       "type": "library",
       "name": "actions/checkout",
-      "version": "v6.0.3",
-      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v6.0.3:*:*:*:*:*:*:*",
-      "purl": "pkg:github/actions/checkout@v6.0.3",
+      "version": "v7.0.0",
+      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v7.0.0:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/checkout@v7.0.0",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -523,12 +523,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:github/actions/checkout@v6.0.3?package-id=7c47112b7084abb7",
+      "bom-ref": "pkg:github/actions/checkout@v7.0.0?package-id=7072c320070274b8",
       "type": "library",
       "name": "actions/checkout",
-      "version": "v6.0.3",
-      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v6.0.3:*:*:*:*:*:*:*",
-      "purl": "pkg:github/actions/checkout@v6.0.3",
+      "version": "v7.0.0",
+      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v7.0.0:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/checkout@v7.0.0",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -549,12 +549,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:github/actions/checkout@v6.0.3?package-id=d77d2ac06fdcb458",
+      "bom-ref": "pkg:github/actions/checkout@v7.0.0?package-id=9289ebc4fa8ee16b",
       "type": "library",
       "name": "actions/checkout",
-      "version": "v6.0.3",
-      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v6.0.3:*:*:*:*:*:*:*",
-      "purl": "pkg:github/actions/checkout@v6.0.3",
+      "version": "v7.0.0",
+      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v7.0.0:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/checkout@v7.0.0",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -575,12 +575,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:github/actions/checkout@v6.0.3?package-id=a6e2af9721df510f",
+      "bom-ref": "pkg:github/actions/checkout@v7.0.0?package-id=7cf148fc353bdb5a",
       "type": "library",
       "name": "actions/checkout",
-      "version": "v6.0.3",
-      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v6.0.3:*:*:*:*:*:*:*",
-      "purl": "pkg:github/actions/checkout@v6.0.3",
+      "version": "v7.0.0",
+      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v7.0.0:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/checkout@v7.0.0",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -601,12 +601,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:github/actions/checkout@v6.0.3?package-id=ee61c679f648a4a6",
+      "bom-ref": "pkg:github/actions/checkout@v7.0.0?package-id=313bd5367566cf3c",
       "type": "library",
       "name": "actions/checkout",
-      "version": "v6.0.3",
-      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v6.0.3:*:*:*:*:*:*:*",
-      "purl": "pkg:github/actions/checkout@v6.0.3",
+      "version": "v7.0.0",
+      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v7.0.0:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/checkout@v7.0.0",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -627,12 +627,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:github/actions/checkout@v6.0.3?package-id=35ca5f2e7f72c974",
+      "bom-ref": "pkg:github/actions/checkout@v7.0.0?package-id=e22dde1cf7913a9e",
       "type": "library",
       "name": "actions/checkout",
-      "version": "v6.0.3",
-      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v6.0.3:*:*:*:*:*:*:*",
-      "purl": "pkg:github/actions/checkout@v6.0.3",
+      "version": "v7.0.0",
+      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v7.0.0:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/checkout@v7.0.0",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -653,12 +653,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:github/actions/checkout@v6.0.3?package-id=0a1aa94855c26d49",
+      "bom-ref": "pkg:github/actions/checkout@v7.0.0?package-id=0677a4db0a0154bf",
       "type": "library",
       "name": "actions/checkout",
-      "version": "v6.0.3",
-      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v6.0.3:*:*:*:*:*:*:*",
-      "purl": "pkg:github/actions/checkout@v6.0.3",
+      "version": "v7.0.0",
+      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v7.0.0:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/checkout@v7.0.0",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -679,12 +679,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:github/actions/checkout@v6.0.3?package-id=77ebc917bdccc83f",
+      "bom-ref": "pkg:github/actions/checkout@v7.0.0?package-id=ec0c40fc7b442e54",
       "type": "library",
       "name": "actions/checkout",
-      "version": "v6.0.3",
-      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v6.0.3:*:*:*:*:*:*:*",
-      "purl": "pkg:github/actions/checkout@v6.0.3",
+      "version": "v7.0.0",
+      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v7.0.0:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/checkout@v7.0.0",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -705,12 +705,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:github/actions/checkout@v6.0.3?package-id=eee6211879165ad6",
+      "bom-ref": "pkg:github/actions/checkout@v7.0.0?package-id=725d14f2a42e96d8",
       "type": "library",
       "name": "actions/checkout",
-      "version": "v6.0.3",
-      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v6.0.3:*:*:*:*:*:*:*",
-      "purl": "pkg:github/actions/checkout@v6.0.3",
+      "version": "v7.0.0",
+      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v7.0.0:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/checkout@v7.0.0",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -731,12 +731,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:github/actions/checkout@v6.0.3?package-id=db997d25c0471854",
+      "bom-ref": "pkg:github/actions/checkout@v7.0.0?package-id=fb7050b197303fc2",
       "type": "library",
       "name": "actions/checkout",
-      "version": "v6.0.3",
-      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v6.0.3:*:*:*:*:*:*:*",
-      "purl": "pkg:github/actions/checkout@v6.0.3",
+      "version": "v7.0.0",
+      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v7.0.0:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/checkout@v7.0.0",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -757,12 +757,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:github/actions/checkout@v6.0.3?package-id=72d807632b9df1c8",
+      "bom-ref": "pkg:github/actions/checkout@v7.0.0?package-id=9981a4f631204593",
       "type": "library",
       "name": "actions/checkout",
-      "version": "v6.0.3",
-      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v6.0.3:*:*:*:*:*:*:*",
-      "purl": "pkg:github/actions/checkout@v6.0.3",
+      "version": "v7.0.0",
+      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v7.0.0:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/checkout@v7.0.0",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -783,12 +783,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:github/actions/checkout@v6.0.3?package-id=3ea002235cc5ba05",
+      "bom-ref": "pkg:github/actions/checkout@v7.0.0?package-id=ac6708ee24a2cc70",
       "type": "library",
       "name": "actions/checkout",
-      "version": "v6.0.3",
-      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v6.0.3:*:*:*:*:*:*:*",
-      "purl": "pkg:github/actions/checkout@v6.0.3",
+      "version": "v7.0.0",
+      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v7.0.0:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/checkout@v7.0.0",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -809,12 +809,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:github/actions/checkout@v6.0.3?package-id=0e2a8e3d2111ecb7",
+      "bom-ref": "pkg:github/actions/checkout@v7.0.0?package-id=272372cf837c59b4",
       "type": "library",
       "name": "actions/checkout",
-      "version": "v6.0.3",
-      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v6.0.3:*:*:*:*:*:*:*",
-      "purl": "pkg:github/actions/checkout@v6.0.3",
+      "version": "v7.0.0",
+      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v7.0.0:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/checkout@v7.0.0",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -835,12 +835,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:github/actions/checkout@v6.0.3?package-id=75be232774159f51",
+      "bom-ref": "pkg:github/actions/checkout@v7.0.0?package-id=274cc6b005799273",
       "type": "library",
       "name": "actions/checkout",
-      "version": "v6.0.3",
-      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v6.0.3:*:*:*:*:*:*:*",
-      "purl": "pkg:github/actions/checkout@v6.0.3",
+      "version": "v7.0.0",
+      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v7.0.0:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/checkout@v7.0.0",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -4920,247 +4920,247 @@
     {
       "bom-ref": "98dd120a020982a4",
       "type": "file",
-      "name": "/tmp/tmp.sGWWzLdSgd/maho-default/.github/workflows/check-missing-translations.yml",
+      "name": "/tmp/tmp.ELGAlSa1aw/maho-default/.github/workflows/check-missing-translations.yml",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "0692345c477eff51e02d081a672020d1e581fc95"
+          "content": "335c7d147cb1bf1b12053233d6ae6e8a2abab20c"
         },
         {
           "alg": "SHA-256",
-          "content": "fb53fc6d7f2b048af9f12bc41ace0a1f379a7b4238d08c9a1140135c5c92f846"
+          "content": "4ee8423363c51b45e29aa34360ffc8ce831ba139f4be14d96171c5e311b3268a"
         }
       ]
     },
     {
       "bom-ref": "7e66aa23a8e80c65",
       "type": "file",
-      "name": "/tmp/tmp.sGWWzLdSgd/maho-default/.github/workflows/check-unused-translations.yml",
+      "name": "/tmp/tmp.ELGAlSa1aw/maho-default/.github/workflows/check-unused-translations.yml",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "4c29ecd5eab146f0aa9ed2b1abef031929e8394a"
+          "content": "df04aa7a3189f0a627683236e6e567f9bd7fee2a"
         },
         {
           "alg": "SHA-256",
-          "content": "c15c17d0be7db951ff213dd5c0842da3be9b0557ce8d9ee2353d32b36bc7b498"
+          "content": "4a298fded725b870f77389e452167880d7a360b4d5a88ffc25fd2988a359015e"
         }
       ]
     },
     {
       "bom-ref": "5e19ea2e1f9dfee4",
       "type": "file",
-      "name": "/tmp/tmp.sGWWzLdSgd/maho-default/.github/workflows/codeql-analysis.yml",
+      "name": "/tmp/tmp.ELGAlSa1aw/maho-default/.github/workflows/codeql-analysis.yml",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "eba2b6f8248edf156b7ca801ef2ff38a23c402db"
+          "content": "e503e2a5135a3ef8d8b31c1164cca26fdc026564"
         },
         {
           "alg": "SHA-256",
-          "content": "89367899fdd03143ab1ada6875272a63daccec1a4b76121088bcf5008c340fef"
+          "content": "3618e7ac9e1c1c4cd95fbdd8672565dae15fe7869ec60f6d0ed70ecb351f18b8"
         }
       ]
     },
     {
       "bom-ref": "d422de945bf18b46",
       "type": "file",
-      "name": "/tmp/tmp.sGWWzLdSgd/maho-default/.github/workflows/composer.yml",
+      "name": "/tmp/tmp.ELGAlSa1aw/maho-default/.github/workflows/composer.yml",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "095603881076cb7fae52c930b6c66dc34c320464"
+          "content": "906ec0d567ab11ccb7d1fd8eec58d676d31cff41"
         },
         {
           "alg": "SHA-256",
-          "content": "5e0627dfbedcd382519add27a93ea454925b407ab83b896d1569a2fa6eb38894"
+          "content": "bf2355120b69c912d568da572cda91e59069fb6aa12cb1c9c51a4ccb511dcefc"
         }
       ]
     },
     {
       "bom-ref": "b90322a436b20519",
       "type": "file",
-      "name": "/tmp/tmp.sGWWzLdSgd/maho-default/.github/workflows/copyright.yml",
+      "name": "/tmp/tmp.ELGAlSa1aw/maho-default/.github/workflows/copyright.yml",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "83957611cb2bdef2dd99ab26d52589a91bca16b9"
+          "content": "5f535d67c584934488c7274e6aecc01409698abd"
         },
         {
           "alg": "SHA-256",
-          "content": "8ecd036e09cf17cd00398b13d6a8123adf3abc18b7bf9cf2890aec96c3bb5ac4"
+          "content": "267204be25dfb362f10aa0dc30f27985ffe1fcbc987336e0aa31c416b189506e"
         }
       ]
     },
     {
       "bom-ref": "dc9bdc1a84992eac",
       "type": "file",
-      "name": "/tmp/tmp.sGWWzLdSgd/maho-default/.github/workflows/install-with-prefix.yml",
+      "name": "/tmp/tmp.ELGAlSa1aw/maho-default/.github/workflows/install-with-prefix.yml",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "89174bb47212ef3d55023fed294e11bc5614bdca"
+          "content": "0a6f20eb3218b31a23f117122c8e3f887f0799b8"
         },
         {
           "alg": "SHA-256",
-          "content": "1234f9af213e3f0313d4403bec66477a326481086a3d5383e8472a95b16bb59a"
+          "content": "6e522d9faeea6b143fce0682ddfbd8b25c80e3b2f4d2eb21fa6d397c5456dc0e"
         }
       ]
     },
     {
       "bom-ref": "ca67cce3ff943159",
       "type": "file",
-      "name": "/tmp/tmp.sGWWzLdSgd/maho-default/.github/workflows/line-endings.yml",
+      "name": "/tmp/tmp.ELGAlSa1aw/maho-default/.github/workflows/line-endings.yml",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "d8aa67625b280435970844d81d211bda0dcc6665"
+          "content": "abc9dd33c2c50160350eb42d0e9d71b8a4c2be0a"
         },
         {
           "alg": "SHA-256",
-          "content": "4fc89c4231dd6f440f2cc62b76f6da82e158184555a96c8eff609af3054f0404"
+          "content": "6948d21d62036824726b02d4fc658a5551168c84e789fc051eb1c53129eade9a"
         }
       ]
     },
     {
       "bom-ref": "5ebde7ddc8076c2b",
       "type": "file",
-      "name": "/tmp/tmp.sGWWzLdSgd/maho-default/.github/workflows/lint.yml",
+      "name": "/tmp/tmp.ELGAlSa1aw/maho-default/.github/workflows/lint.yml",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "8f2f6f4dbbb108592cb50a29dc35030f3bbcb613"
+          "content": "3917fca35979a247dcebe96b586069b0b5f08c7b"
         },
         {
           "alg": "SHA-256",
-          "content": "f01bd813b115f5a72159bd78e0995ea642f501f41f449d3ad9b26f8e4ce7ee02"
+          "content": "d7cc0be8b89d6edb1fb7fe86fccb9a27d2e1cbb2c4693ad2b7d0a5a26ccdd933"
         }
       ]
     },
     {
       "bom-ref": "57d4f10249bd0e10",
       "type": "file",
-      "name": "/tmp/tmp.sGWWzLdSgd/maho-default/.github/workflows/locale-csv-sorting.yml",
+      "name": "/tmp/tmp.ELGAlSa1aw/maho-default/.github/workflows/locale-csv-sorting.yml",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "79a549b8e7609dd03585fde12e873cedf693a290"
+          "content": "efca7bd6a411497783f4c8ce4e786100ead4797f"
         },
         {
           "alg": "SHA-256",
-          "content": "3c7ccc80505c433ded20a4125c19f6dd073cbdf650ab51924d4eda7126f161e7"
+          "content": "3ebda8f446c05ff91a53ff37c66015fe61290f682c8fe5fb699b679308428c31"
         }
       ]
     },
     {
       "bom-ref": "e1e2bba7dd1b17e6",
       "type": "file",
-      "name": "/tmp/tmp.sGWWzLdSgd/maho-default/.github/workflows/pest.yml",
+      "name": "/tmp/tmp.ELGAlSa1aw/maho-default/.github/workflows/pest.yml",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "012d373d13acc97f900fca3b7a3ff3cf40043777"
+          "content": "dd62b3939747e20c293bb49080ed8f9482b73d0f"
         },
         {
           "alg": "SHA-256",
-          "content": "4684b6ad1ae3db63b2cb29415bc7875f7c63b27ea3d717f85588ea6149f5d105"
+          "content": "ac76cbdf2b8d31397a57b3e33a2c4fee567a34d565452d455bb87a48d955dc9b"
         }
       ]
     },
     {
       "bom-ref": "2f9a4ebf9db35197",
       "type": "file",
-      "name": "/tmp/tmp.sGWWzLdSgd/maho-default/.github/workflows/phpdoc.yml",
+      "name": "/tmp/tmp.ELGAlSa1aw/maho-default/.github/workflows/phpdoc.yml",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "4db684c5f493bda781f5463ab18ea0e1fff99e48"
+          "content": "4af77fc895145fccf90fdb328461314ba8117c32"
         },
         {
           "alg": "SHA-256",
-          "content": "1e9d405e8a62b773a06e040772679d9a8d30f31c36f9cbcd5720b84b723499d3"
+          "content": "6ef5884faa6163aed84c2825a474f65aef3b6f96c4222cf0df78b2d924ff5efa"
         }
       ]
     },
     {
       "bom-ref": "f23abd314990253e",
       "type": "file",
-      "name": "/tmp/tmp.sGWWzLdSgd/maho-default/.github/workflows/phpstan.yml",
+      "name": "/tmp/tmp.ELGAlSa1aw/maho-default/.github/workflows/phpstan.yml",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "6d81b1d167fa71f1c86ca1b494d3a3bd04a8b249"
+          "content": "782e2301dbd8fd53c800c87f3ed7cb8fcb2fa75d"
         },
         {
           "alg": "SHA-256",
-          "content": "1b6328e751829ab5454f300cc40e1b2b2bdb5be4b8c765894a2eac004c0b8a22"
+          "content": "4c3b653ea178c7908ea4928b9f91a7e8178b2a55562d6eef16e4646feaf7af24"
         }
       ]
     },
     {
       "bom-ref": "8a94ac50b5062d56",
       "type": "file",
-      "name": "/tmp/tmp.sGWWzLdSgd/maho-default/.github/workflows/security-php.yml",
+      "name": "/tmp/tmp.ELGAlSa1aw/maho-default/.github/workflows/security-php.yml",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "2e73bcc71eab6c4c5cbddaa0ed87b8c0d106bc21"
+          "content": "b06ef01cb05651b292ce026e8abd54caa2eef87a"
         },
         {
           "alg": "SHA-256",
-          "content": "062570949945e6878f9712957c6271c10b66c2afbcafaee2985f9c473452ba5a"
+          "content": "f1e857530f0c2a78cc879dc76483c404edd2a55bb86bd08b20f6f3d83320cccb"
         }
       ]
     },
     {
       "bom-ref": "17bee73d399623a9",
       "type": "file",
-      "name": "/tmp/tmp.sGWWzLdSgd/maho-default/.github/workflows/sync-l10n-repo.yml",
+      "name": "/tmp/tmp.ELGAlSa1aw/maho-default/.github/workflows/sync-l10n-repo.yml",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "eb3330133540b849f1ad58b1481ebd0f3a07dd98"
+          "content": "68f7b64794daf826c4494ee3d582319eb49385ae"
         },
         {
           "alg": "SHA-256",
-          "content": "1fe1ec2781e4ea249d803267acf49e474ff82197aa8360a8b751e5d5d9702074"
+          "content": "2c8efd15d1faaa64ebaf5890a5ec1793136d08383949e2ee61e7d61a5f4fd570"
         }
       ]
     },
     {
       "bom-ref": "5c470c2c7e53f689",
       "type": "file",
-      "name": "/tmp/tmp.sGWWzLdSgd/maho-default/.github/workflows/syntax-php.yml",
+      "name": "/tmp/tmp.ELGAlSa1aw/maho-default/.github/workflows/syntax-php.yml",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "d6b1030ce559f983e80ecc3c2bacdebffe25477c"
+          "content": "b8132a7f3e822afb4dd6a76990423887757ef88f"
         },
         {
           "alg": "SHA-256",
-          "content": "708cf8a7661a3bb312a4842b8e1576229cdce36dd9359705a3d4b2db3b692732"
+          "content": "c681c9dc8bc2ec3b55b7f9da515d3919dbf44a11987a57a50e513658e73a5514"
         }
       ]
     },
     {
       "bom-ref": "5681d4ed4a932be8",
       "type": "file",
-      "name": "/tmp/tmp.sGWWzLdSgd/maho-default/.github/workflows/syntax-xml.yml",
+      "name": "/tmp/tmp.ELGAlSa1aw/maho-default/.github/workflows/syntax-xml.yml",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "6cddc4a09bb0df010c1115f3f2e50e70e37e431b"
+          "content": "28054ad34e870ff2fa0c2faaf214dd4a775b07ea"
         },
         {
           "alg": "SHA-256",
-          "content": "6de499a91aaec1293111cf2cab33cb06c92cc34b2a65ccf93574d4e90b4cd547"
+          "content": "01e563c60e832e4b61da6cf50fef9e7afc8167f9f06c165a506cae1f41b87ad1"
         }
       ]
     },
     {
       "bom-ref": "c8bb62e6bded633e",
       "type": "file",
-      "name": "/tmp/tmp.sGWWzLdSgd/maho-default/composer.lock",
+      "name": "/tmp/tmp.ELGAlSa1aw/maho-default/composer.lock",
       "hashes": [
         {
           "alg": "SHA-1",
