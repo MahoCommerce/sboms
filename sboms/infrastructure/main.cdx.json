@@ -1,25 +1,25 @@
 {
-  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
   "bomFormat": "CycloneDX",
-  "specVersion": "1.6",
-  "serialNumber": "urn:uuid:90e55680-e870-4a50-bd9e-c5b13821d37c",
+  "specVersion": "1.7",
+  "serialNumber": "urn:uuid:d4f6998e-6065-490b-9dc2-dc6dfe52ad1a",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-06-26T06:43:01Z",
+    "timestamp": "2026-06-27T06:21:39Z",
     "tools": {
       "components": [
         {
           "type": "application",
           "author": "anchore",
           "name": "syft",
-          "version": "1.45.1"
+          "version": "1.46.0"
         }
       ]
     },
     "component": {
-      "bom-ref": "9e19033800ec2420",
+      "bom-ref": "6c647c639505d25d",
       "type": "file",
-      "name": "/tmp/tmp.SoW2Mxlqe7/infrastructure-default",
+      "name": "/tmp/tmp.oYE9UzGhJH/infrastructure-default",
       "licenses": [
         {
           "license": {
@@ -2105,7 +2105,7 @@
     {
       "bom-ref": "5ebde7ddc8076c2b",
       "type": "file",
-      "name": "/tmp/tmp.SoW2Mxlqe7/infrastructure-default/.github/workflows/lint.yml",
+      "name": "/tmp/tmp.oYE9UzGhJH/infrastructure-default/.github/workflows/lint.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -2120,7 +2120,7 @@
     {
       "bom-ref": "f23abd314990253e",
       "type": "file",
-      "name": "/tmp/tmp.SoW2Mxlqe7/infrastructure-default/.github/workflows/phpstan.yml",
+      "name": "/tmp/tmp.oYE9UzGhJH/infrastructure-default/.github/workflows/phpstan.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -2135,7 +2135,7 @@
     {
       "bom-ref": "cbbb57827f0f16c5",
       "type": "file",
-      "name": "/tmp/tmp.SoW2Mxlqe7/infrastructure-default/.github/workflows/sync.yml",
+      "name": "/tmp/tmp.oYE9UzGhJH/infrastructure-default/.github/workflows/sync.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -2150,7 +2150,7 @@
     {
       "bom-ref": "c8bb62e6bded633e",
       "type": "file",
-      "name": "/tmp/tmp.SoW2Mxlqe7/infrastructure-default/composer.lock",
+      "name": "/tmp/tmp.oYE9UzGhJH/infrastructure-default/composer.lock",
       "hashes": [
         {
           "alg": "SHA-1",

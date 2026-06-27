@@ -1,25 +1,25 @@
 {
-  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
   "bomFormat": "CycloneDX",
-  "specVersion": "1.6",
-  "serialNumber": "urn:uuid:e85902b2-9f7c-4772-a1ac-6e731b150e44",
+  "specVersion": "1.7",
+  "serialNumber": "urn:uuid:cf8ad334-835d-4737-bc90-8fe4cc779cc7",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-06-26T06:42:51Z",
+    "timestamp": "2026-06-27T06:21:27Z",
     "tools": {
       "components": [
         {
           "type": "application",
           "author": "anchore",
           "name": "syft",
-          "version": "1.45.1"
+          "version": "1.46.0"
         }
       ]
     },
     "component": {
-      "bom-ref": "c9958c70fdc7f48f",
+      "bom-ref": "8e74b048274e91fc",
       "type": "file",
-      "name": "/tmp/tmp.SoW2Mxlqe7/demo.mahocommerce.com-default",
+      "name": "/tmp/tmp.oYE9UzGhJH/demo.mahocommerce.com-default",
       "licenses": [
         {
           "expression": "OSL-3.0 OR AFL-3.0"

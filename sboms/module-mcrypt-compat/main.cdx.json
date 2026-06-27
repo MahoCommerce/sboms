@@ -1,25 +1,25 @@
 {
-  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
   "bomFormat": "CycloneDX",
-  "specVersion": "1.6",
-  "serialNumber": "urn:uuid:d147a8b5-3598-480b-ba90-85309dc13a4c",
+  "specVersion": "1.7",
+  "serialNumber": "urn:uuid:6fc921a9-4041-40b7-95f3-6b1929a1309a",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-06-26T06:43:30Z",
+    "timestamp": "2026-06-27T06:22:13Z",
     "tools": {
       "components": [
         {
           "type": "application",
           "author": "anchore",
           "name": "syft",
-          "version": "1.45.1"
+          "version": "1.46.0"
         }
       ]
     },
     "component": {
-      "bom-ref": "34ba8e974cac0894",
+      "bom-ref": "cfbf05e027853d81",
       "type": "file",
-      "name": "/tmp/tmp.SoW2Mxlqe7/module-mcrypt-compat-default",
+      "name": "/tmp/tmp.oYE9UzGhJH/module-mcrypt-compat-default",
       "licenses": [
         {
           "license": {

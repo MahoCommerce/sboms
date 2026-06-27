@@ -1,0 +1,13 @@
+{
+  "repo": "maho-composer-plugin",
+  "ref": "v4.2.0",
+  "reuse_spec_version": "3.3",
+  "summary": {
+    "used_licenses": [],
+    "files_total": 19,
+    "files_with_copyright_info": 0,
+    "files_with_licensing_info": 0,
+    "compliant": false
+  },
+  "license_file_counts": {}
+}

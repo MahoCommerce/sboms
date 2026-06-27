@@ -1,25 +1,25 @@
 {
-  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
   "bomFormat": "CycloneDX",
-  "specVersion": "1.6",
-  "serialNumber": "urn:uuid:c97dc1fa-db75-4d50-894e-5699acf4f6d0",
+  "specVersion": "1.7",
+  "serialNumber": "urn:uuid:a25e8570-f206-4fda-b231-b12b3712c484",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-06-26T06:42:55Z",
+    "timestamp": "2026-06-27T06:21:32Z",
     "tools": {
       "components": [
         {
           "type": "application",
           "author": "anchore",
           "name": "syft",
-          "version": "1.45.1"
+          "version": "1.46.0"
         }
       ]
     },
     "component": {
-      "bom-ref": "36a58b6f51f8831c",
+      "bom-ref": "63dc4c991c446d5f",
       "type": "file",
-      "name": "/tmp/tmp.SoW2Mxlqe7/docker-images-default",
+      "name": "/tmp/tmp.oYE9UzGhJH/docker-images-default",
       "licenses": [
         {
           "expression": "OSL-3.0 OR AFL-3.0"
@@ -227,7 +227,7 @@
     {
       "bom-ref": "ebff2c81fbaf921b",
       "type": "file",
-      "name": "/tmp/tmp.SoW2Mxlqe7/docker-images-default/.github/workflows/build.yml",
+      "name": "/tmp/tmp.oYE9UzGhJH/docker-images-default/.github/workflows/build.yml",
       "hashes": [
         {
           "alg": "SHA-1",

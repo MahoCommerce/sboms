@@ -1,25 +1,25 @@
 {
-  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
   "bomFormat": "CycloneDX",
-  "specVersion": "1.6",
-  "serialNumber": "urn:uuid:88da0fd4-e32d-406b-8a85-f4105bdaa4bb",
+  "specVersion": "1.7",
+  "serialNumber": "urn:uuid:fde92e6d-3a4f-436e-9098-81ca6318f4c9",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-06-26T06:42:53Z",
+    "timestamp": "2026-06-27T06:21:30Z",
     "tools": {
       "components": [
         {
           "type": "application",
           "author": "anchore",
           "name": "syft",
-          "version": "1.45.1"
+          "version": "1.46.0"
         }
       ]
     },
     "component": {
-      "bom-ref": "7b7494692e1043b7",
+      "bom-ref": "03457f894a2ef3e6",
       "type": "file",
-      "name": "/tmp/tmp.SoW2Mxlqe7/directory-data-default",
+      "name": "/tmp/tmp.oYE9UzGhJH/directory-data-default",
       "licenses": [
         {
           "license": {
@@ -183,7 +183,7 @@
     {
       "bom-ref": "62f594948731c9a4",
       "type": "file",
-      "name": "/tmp/tmp.SoW2Mxlqe7/directory-data-default/.github/workflows/update-data.yml",
+      "name": "/tmp/tmp.oYE9UzGhJH/directory-data-default/.github/workflows/update-data.yml",
       "hashes": [
         {
           "alg": "SHA-1",
