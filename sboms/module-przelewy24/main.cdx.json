@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
-  "serialNumber": "urn:uuid:8a21b104-dca6-40ea-b10f-2096631de148",
+  "serialNumber": "urn:uuid:8eedff80-ef34-435a-8b81-da5ed521c1d2",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-06-28T06:55:15Z",
+    "timestamp": "2026-06-29T07:22:11Z",
     "tools": {
       "components": [
         {
@@ -17,9 +17,9 @@
       ]
     },
     "component": {
-      "bom-ref": "8b4e4670a16b6399",
+      "bom-ref": "e06d8c6e313cd6ef",
       "type": "file",
-      "name": "/tmp/tmp.pH1BpEvL7m/module-przelewy24-default",
+      "name": "/tmp/tmp.7a93UBzHPO/module-przelewy24-default",
       "licenses": [
         {
           "expression": "OSL-3.0 OR AFL-3.0"
@@ -351,7 +351,7 @@
     {
       "bom-ref": "d422de945bf18b46",
       "type": "file",
-      "name": "/tmp/tmp.pH1BpEvL7m/module-przelewy24-default/.github/workflows/composer.yml",
+      "name": "/tmp/tmp.7a93UBzHPO/module-przelewy24-default/.github/workflows/composer.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -366,7 +366,7 @@
     {
       "bom-ref": "ca67cce3ff943159",
       "type": "file",
-      "name": "/tmp/tmp.pH1BpEvL7m/module-przelewy24-default/.github/workflows/line-endings.yml",
+      "name": "/tmp/tmp.7a93UBzHPO/module-przelewy24-default/.github/workflows/line-endings.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -381,7 +381,7 @@
     {
       "bom-ref": "5ebde7ddc8076c2b",
       "type": "file",
-      "name": "/tmp/tmp.pH1BpEvL7m/module-przelewy24-default/.github/workflows/lint.yml",
+      "name": "/tmp/tmp.7a93UBzHPO/module-przelewy24-default/.github/workflows/lint.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -396,7 +396,7 @@
     {
       "bom-ref": "f23abd314990253e",
       "type": "file",
-      "name": "/tmp/tmp.pH1BpEvL7m/module-przelewy24-default/.github/workflows/phpstan.yml",
+      "name": "/tmp/tmp.7a93UBzHPO/module-przelewy24-default/.github/workflows/phpstan.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -411,7 +411,7 @@
     {
       "bom-ref": "5c470c2c7e53f689",
       "type": "file",
-      "name": "/tmp/tmp.pH1BpEvL7m/module-przelewy24-default/.github/workflows/syntax-php.yml",
+      "name": "/tmp/tmp.7a93UBzHPO/module-przelewy24-default/.github/workflows/syntax-php.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -426,7 +426,7 @@
     {
       "bom-ref": "5681d4ed4a932be8",
       "type": "file",
-      "name": "/tmp/tmp.pH1BpEvL7m/module-przelewy24-default/.github/workflows/syntax-xml.yml",
+      "name": "/tmp/tmp.7a93UBzHPO/module-przelewy24-default/.github/workflows/syntax-xml.yml",
       "hashes": [
         {
           "alg": "SHA-1",
