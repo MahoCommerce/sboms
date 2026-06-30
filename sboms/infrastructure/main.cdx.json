@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
-  "serialNumber": "urn:uuid:56f10906-48a5-47a1-ad8b-70da90c05314",
+  "serialNumber": "urn:uuid:bb98e913-7078-45ab-87bd-e8de066a684e",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-06-29T07:21:32Z",
+    "timestamp": "2026-06-30T06:46:14Z",
     "tools": {
       "components": [
         {
@@ -17,9 +17,9 @@
       ]
     },
     "component": {
-      "bom-ref": "13b6281734824b35",
+      "bom-ref": "943ec4aac103e538",
       "type": "file",
-      "name": "/tmp/tmp.7a93UBzHPO/infrastructure-default",
+      "name": "/tmp/tmp.KAwQD0qOuX/infrastructure-default",
       "licenses": [
         {
           "license": {
@@ -1129,10 +1129,10 @@
       ]
     },
     {
-      "bom-ref": "pkg:composer/symfony/console@v7.4.13?package-id=a7246210b002cfd8",
+      "bom-ref": "pkg:composer/symfony/console@v7.4.14?package-id=138be3c240f7a212",
       "type": "library",
       "name": "symfony/console",
-      "version": "v7.4.13",
+      "version": "v7.4.14",
       "licenses": [
         {
           "license": {
@@ -1140,8 +1140,8 @@
           }
         }
       ],
-      "cpe": "cpe:2.3:a:symfony\\/console:symfony\\/console:v7.4.13:*:*:*:*:*:*:*",
-      "purl": "pkg:composer/symfony/console@v7.4.13",
+      "cpe": "cpe:2.3:a:symfony\\/console:symfony\\/console:v7.4.14:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/symfony/console@v7.4.14",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -1166,10 +1166,10 @@
       ]
     },
     {
-      "bom-ref": "pkg:composer/symfony/deprecation-contracts@v3.7.0?package-id=7e9fa40a179546fc",
+      "bom-ref": "pkg:composer/symfony/deprecation-contracts@v3.7.1?package-id=017b654a9656e81d",
       "type": "library",
       "name": "symfony/deprecation-contracts",
-      "version": "v3.7.0",
+      "version": "v3.7.1",
       "licenses": [
         {
           "license": {
@@ -1177,8 +1177,8 @@
           }
         }
       ],
-      "cpe": "cpe:2.3:a:symfony\\/deprecation-contracts:symfony\\/deprecation-contracts:v3.7.0:*:*:*:*:*:*:*",
-      "purl": "pkg:composer/symfony/deprecation-contracts@v3.7.0",
+      "cpe": "cpe:2.3:a:symfony\\/deprecation-contracts:symfony\\/deprecation-contracts:v3.7.1:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/symfony/deprecation-contracts@v3.7.1",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -1198,23 +1198,23 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:symfony\\/deprecation-contracts:symfony\\/deprecation_contracts:v3.7.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:symfony\\/deprecation-contracts:symfony\\/deprecation_contracts:v3.7.1:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:symfony\\/deprecation_contracts:symfony\\/deprecation-contracts:v3.7.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:symfony\\/deprecation_contracts:symfony\\/deprecation-contracts:v3.7.1:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:symfony\\/deprecation_contracts:symfony\\/deprecation_contracts:v3.7.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:symfony\\/deprecation_contracts:symfony\\/deprecation_contracts:v3.7.1:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:symfony\\/deprecation:symfony\\/deprecation-contracts:v3.7.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:symfony\\/deprecation:symfony\\/deprecation-contracts:v3.7.1:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:symfony\\/deprecation:symfony\\/deprecation_contracts:v3.7.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:symfony\\/deprecation:symfony\\/deprecation_contracts:v3.7.1:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:path",
@@ -1260,10 +1260,10 @@
       ]
     },
     {
-      "bom-ref": "pkg:composer/symfony/finder@v7.4.8?package-id=1047b2174cdb7025",
+      "bom-ref": "pkg:composer/symfony/finder@v7.4.14?package-id=0c67318e84b07b68",
       "type": "library",
       "name": "symfony/finder",
-      "version": "v7.4.8",
+      "version": "v7.4.14",
       "licenses": [
         {
           "license": {
@@ -1271,8 +1271,8 @@
           }
         }
       ],
-      "cpe": "cpe:2.3:a:symfony\\/finder:symfony\\/finder:v7.4.8:*:*:*:*:*:*:*",
-      "purl": "pkg:composer/symfony/finder@v7.4.8",
+      "cpe": "cpe:2.3:a:symfony\\/finder:symfony\\/finder:v7.4.14:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/symfony/finder@v7.4.14",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -2009,10 +2009,10 @@
       ]
     },
     {
-      "bom-ref": "pkg:composer/symfony/service-contracts@v3.7.0?package-id=f99bec69e2808e88",
+      "bom-ref": "pkg:composer/symfony/service-contracts@v3.7.1?package-id=eba32ba1da58aa73",
       "type": "library",
       "name": "symfony/service-contracts",
-      "version": "v3.7.0",
+      "version": "v3.7.1",
       "licenses": [
         {
           "license": {
@@ -2020,8 +2020,8 @@
           }
         }
       ],
-      "cpe": "cpe:2.3:a:symfony\\/service-contracts:symfony\\/service-contracts:v3.7.0:*:*:*:*:*:*:*",
-      "purl": "pkg:composer/symfony/service-contracts@v3.7.0",
+      "cpe": "cpe:2.3:a:symfony\\/service-contracts:symfony\\/service-contracts:v3.7.1:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/symfony/service-contracts@v3.7.1",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -2041,23 +2041,23 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:symfony\\/service-contracts:symfony\\/service_contracts:v3.7.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:symfony\\/service-contracts:symfony\\/service_contracts:v3.7.1:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:symfony\\/service_contracts:symfony\\/service-contracts:v3.7.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:symfony\\/service_contracts:symfony\\/service-contracts:v3.7.1:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:symfony\\/service_contracts:symfony\\/service_contracts:v3.7.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:symfony\\/service_contracts:symfony\\/service_contracts:v3.7.1:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:symfony\\/service:symfony\\/service-contracts:v3.7.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:symfony\\/service:symfony\\/service-contracts:v3.7.1:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:symfony\\/service:symfony\\/service_contracts:v3.7.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:symfony\\/service:symfony\\/service_contracts:v3.7.1:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:path",
@@ -2105,7 +2105,7 @@
     {
       "bom-ref": "5ebde7ddc8076c2b",
       "type": "file",
-      "name": "/tmp/tmp.7a93UBzHPO/infrastructure-default/.github/workflows/lint.yml",
+      "name": "/tmp/tmp.KAwQD0qOuX/infrastructure-default/.github/workflows/lint.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -2120,7 +2120,7 @@
     {
       "bom-ref": "f23abd314990253e",
       "type": "file",
-      "name": "/tmp/tmp.7a93UBzHPO/infrastructure-default/.github/workflows/phpstan.yml",
+      "name": "/tmp/tmp.KAwQD0qOuX/infrastructure-default/.github/workflows/phpstan.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -2135,7 +2135,7 @@
     {
       "bom-ref": "cbbb57827f0f16c5",
       "type": "file",
-      "name": "/tmp/tmp.7a93UBzHPO/infrastructure-default/.github/workflows/sync.yml",
+      "name": "/tmp/tmp.KAwQD0qOuX/infrastructure-default/.github/workflows/sync.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -2150,15 +2150,15 @@
     {
       "bom-ref": "c8bb62e6bded633e",
       "type": "file",
-      "name": "/tmp/tmp.7a93UBzHPO/infrastructure-default/composer.lock",
+      "name": "/tmp/tmp.KAwQD0qOuX/infrastructure-default/composer.lock",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "4899b900a3c67e523c7c6b4aeeabf1449aa2281c"
+          "content": "1ca0eb937ee13ebfc57831cfb5cbb3937ee9747e"
         },
         {
           "alg": "SHA-256",
-          "content": "4df83c84a3859e20d14dd7dee0b74993ce332d6211775f8456b4e82702a41dc9"
+          "content": "49c8500b335aebc0fd83acbb159f6c452f956b30a4678f90518a3d1efad3fdcc"
         }
       ]
     }

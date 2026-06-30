@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
-  "serialNumber": "urn:uuid:8e591bd5-3fdf-4bc0-bf3f-8122a8c1bd4f",
+  "serialNumber": "urn:uuid:6979159f-db48-4683-964a-eb7367836ec9",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-06-29T07:22:09Z",
+    "timestamp": "2026-06-30T06:46:48Z",
     "tools": {
       "components": [
         {
@@ -17,9 +17,9 @@
       ]
     },
     "component": {
-      "bom-ref": "74a21daf4def41b3",
+      "bom-ref": "9bf8e11f68b981d0",
       "type": "file",
-      "name": "/tmp/tmp.7a93UBzHPO/module-netseasy-default",
+      "name": "/tmp/tmp.KAwQD0qOuX/module-netseasy-default",
       "licenses": [
         {
           "expression": "OSL-3.0 OR AFL-3.0"
@@ -351,7 +351,7 @@
     {
       "bom-ref": "d422de945bf18b46",
       "type": "file",
-      "name": "/tmp/tmp.7a93UBzHPO/module-netseasy-default/.github/workflows/composer.yml",
+      "name": "/tmp/tmp.KAwQD0qOuX/module-netseasy-default/.github/workflows/composer.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -366,7 +366,7 @@
     {
       "bom-ref": "ca67cce3ff943159",
       "type": "file",
-      "name": "/tmp/tmp.7a93UBzHPO/module-netseasy-default/.github/workflows/line-endings.yml",
+      "name": "/tmp/tmp.KAwQD0qOuX/module-netseasy-default/.github/workflows/line-endings.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -381,7 +381,7 @@
     {
       "bom-ref": "5ebde7ddc8076c2b",
       "type": "file",
-      "name": "/tmp/tmp.7a93UBzHPO/module-netseasy-default/.github/workflows/lint.yml",
+      "name": "/tmp/tmp.KAwQD0qOuX/module-netseasy-default/.github/workflows/lint.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -396,7 +396,7 @@
     {
       "bom-ref": "f23abd314990253e",
       "type": "file",
-      "name": "/tmp/tmp.7a93UBzHPO/module-netseasy-default/.github/workflows/phpstan.yml",
+      "name": "/tmp/tmp.KAwQD0qOuX/module-netseasy-default/.github/workflows/phpstan.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -411,7 +411,7 @@
     {
       "bom-ref": "5c470c2c7e53f689",
       "type": "file",
-      "name": "/tmp/tmp.7a93UBzHPO/module-netseasy-default/.github/workflows/syntax-php.yml",
+      "name": "/tmp/tmp.KAwQD0qOuX/module-netseasy-default/.github/workflows/syntax-php.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -426,7 +426,7 @@
     {
       "bom-ref": "5681d4ed4a932be8",
       "type": "file",
-      "name": "/tmp/tmp.7a93UBzHPO/module-netseasy-default/.github/workflows/syntax-xml.yml",
+      "name": "/tmp/tmp.KAwQD0qOuX/module-netseasy-default/.github/workflows/syntax-xml.yml",
       "hashes": [
         {
           "alg": "SHA-1",

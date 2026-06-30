@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
-  "serialNumber": "urn:uuid:17de40c8-9a5a-463d-a999-1a853e47287b",
+  "serialNumber": "urn:uuid:7985b1e8-7b84-42ce-a702-675ba46e20f6",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-06-29T07:21:44Z",
+    "timestamp": "2026-06-30T06:46:25Z",
     "tools": {
       "components": [
         {
@@ -17,9 +17,9 @@
       ]
     },
     "component": {
-      "bom-ref": "69fe8093a63bf2e8",
+      "bom-ref": "1394286c5e6be81d",
       "type": "file",
-      "name": "/tmp/tmp.7a93UBzHPO/maho-composer-plugin-default",
+      "name": "/tmp/tmp.KAwQD0qOuX/maho-composer-plugin-default",
       "licenses": [
         {
           "license": {
@@ -109,12 +109,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:github/actions/cache@v5.0.5?package-id=e7f3e80fa84a236b",
+      "bom-ref": "pkg:github/actions/cache@v6.1.0?package-id=4005fb77658c00bb",
       "type": "library",
       "name": "actions/cache",
-      "version": "v5.0.5",
-      "cpe": "cpe:2.3:a:actions\\/cache:actions\\/cache:v5.0.5:*:*:*:*:*:*:*",
-      "purl": "pkg:github/actions/cache@v5.0.5",
+      "version": "v6.1.0",
+      "cpe": "cpe:2.3:a:actions\\/cache:actions\\/cache:v6.1.0:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/cache@v6.1.0",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -135,12 +135,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:github/actions/cache@v5.0.5?package-id=a1f8f0083780e051",
+      "bom-ref": "pkg:github/actions/cache@v6.1.0?package-id=533d665346845ede",
       "type": "library",
       "name": "actions/cache",
-      "version": "v5.0.5",
-      "cpe": "cpe:2.3:a:actions\\/cache:actions\\/cache:v5.0.5:*:*:*:*:*:*:*",
-      "purl": "pkg:github/actions/cache@v5.0.5",
+      "version": "v6.1.0",
+      "cpe": "cpe:2.3:a:actions\\/cache:actions\\/cache:v6.1.0:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/cache@v6.1.0",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -357,10 +357,10 @@
       ]
     },
     {
-      "bom-ref": "pkg:composer/symfony/deprecation-contracts@v3.7.0?package-id=7e9fa40a179546fc",
+      "bom-ref": "pkg:composer/symfony/deprecation-contracts@v3.7.1?package-id=017b654a9656e81d",
       "type": "library",
       "name": "symfony/deprecation-contracts",
-      "version": "v3.7.0",
+      "version": "v3.7.1",
       "licenses": [
         {
           "license": {
@@ -368,8 +368,8 @@
           }
         }
       ],
-      "cpe": "cpe:2.3:a:symfony\\/deprecation-contracts:symfony\\/deprecation-contracts:v3.7.0:*:*:*:*:*:*:*",
-      "purl": "pkg:composer/symfony/deprecation-contracts@v3.7.0",
+      "cpe": "cpe:2.3:a:symfony\\/deprecation-contracts:symfony\\/deprecation-contracts:v3.7.1:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/symfony/deprecation-contracts@v3.7.1",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -389,23 +389,23 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:symfony\\/deprecation-contracts:symfony\\/deprecation_contracts:v3.7.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:symfony\\/deprecation-contracts:symfony\\/deprecation_contracts:v3.7.1:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:symfony\\/deprecation_contracts:symfony\\/deprecation-contracts:v3.7.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:symfony\\/deprecation_contracts:symfony\\/deprecation-contracts:v3.7.1:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:symfony\\/deprecation_contracts:symfony\\/deprecation_contracts:v3.7.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:symfony\\/deprecation_contracts:symfony\\/deprecation_contracts:v3.7.1:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:symfony\\/deprecation:symfony\\/deprecation-contracts:v3.7.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:symfony\\/deprecation:symfony\\/deprecation-contracts:v3.7.1:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:symfony\\/deprecation:symfony\\/deprecation_contracts:v3.7.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:symfony\\/deprecation:symfony\\/deprecation_contracts:v3.7.1:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:path",
@@ -515,22 +515,22 @@
     {
       "bom-ref": "d422de945bf18b46",
       "type": "file",
-      "name": "/tmp/tmp.7a93UBzHPO/maho-composer-plugin-default/.github/workflows/composer.yml",
+      "name": "/tmp/tmp.KAwQD0qOuX/maho-composer-plugin-default/.github/workflows/composer.yml",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "c224aab8d55c08e3ad39b1039d389fa859e9ceba"
+          "content": "a151f8e39c8d98e044186aa36fd5b86d79e6b64b"
         },
         {
           "alg": "SHA-256",
-          "content": "dcc34fe8b959d2933b51c40248348c273659705818ff6fc2f022afd6023cac0e"
+          "content": "e857880f083ee7867743620a9c70aafd1857aff619a240bd21cdef7e50035ab5"
         }
       ]
     },
     {
       "bom-ref": "ca67cce3ff943159",
       "type": "file",
-      "name": "/tmp/tmp.7a93UBzHPO/maho-composer-plugin-default/.github/workflows/line-endings.yml",
+      "name": "/tmp/tmp.KAwQD0qOuX/maho-composer-plugin-default/.github/workflows/line-endings.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -545,22 +545,22 @@
     {
       "bom-ref": "f23abd314990253e",
       "type": "file",
-      "name": "/tmp/tmp.7a93UBzHPO/maho-composer-plugin-default/.github/workflows/phpstan.yml",
+      "name": "/tmp/tmp.KAwQD0qOuX/maho-composer-plugin-default/.github/workflows/phpstan.yml",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "54bfa5a06da38269cfb239df73ba964f375d2776"
+          "content": "faecfdd85adfc10ce3028064a9a2b6b68d6fb3e6"
         },
         {
           "alg": "SHA-256",
-          "content": "b6f9949a120400a457a8761172d1a33ed70c4a78c054b08641e1ba20949558bd"
+          "content": "336276e5d7d36b543f05286c77cc68685a7ce9e2e1db58ba3b942a699c474e9a"
         }
       ]
     },
     {
       "bom-ref": "5c470c2c7e53f689",
       "type": "file",
-      "name": "/tmp/tmp.7a93UBzHPO/maho-composer-plugin-default/.github/workflows/syntax-php.yml",
+      "name": "/tmp/tmp.KAwQD0qOuX/maho-composer-plugin-default/.github/workflows/syntax-php.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -575,15 +575,15 @@
     {
       "bom-ref": "c8bb62e6bded633e",
       "type": "file",
-      "name": "/tmp/tmp.7a93UBzHPO/maho-composer-plugin-default/composer.lock",
+      "name": "/tmp/tmp.KAwQD0qOuX/maho-composer-plugin-default/composer.lock",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "c96db62993e27aff5e041b8592ab5362315e6035"
+          "content": "9b6a05223bc7d4d08514cda6d79f9d2f25cca99d"
         },
         {
           "alg": "SHA-256",
-          "content": "53b367d761f5000f6bbb6e544133aba8b5d6548a67861596d8f498b8229053f6"
+          "content": "936d06652b9e9a973079b4eba508c84ac71c9355a524f998601642e527d59b59"
         }
       ]
     }

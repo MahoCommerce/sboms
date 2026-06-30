@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
-  "serialNumber": "urn:uuid:2ded7de9-e9e4-4659-a3f4-a96f374868d8",
+  "serialNumber": "urn:uuid:4e13d4fc-c593-44bd-bbef-1af05cc924cf",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-06-29T07:21:57Z",
+    "timestamp": "2026-06-30T06:46:36Z",
     "tools": {
       "components": [
         {
@@ -17,9 +17,9 @@
       ]
     },
     "component": {
-      "bom-ref": "a207faf60a6b1683",
+      "bom-ref": "76c9dc98d597c31a",
       "type": "file",
-      "name": "/tmp/tmp.7a93UBzHPO/maho-starter-default",
+      "name": "/tmp/tmp.KAwQD0qOuX/maho-starter-default",
       "licenses": [
         {
           "expression": "OSL-3.0 OR AFL-3.0"
