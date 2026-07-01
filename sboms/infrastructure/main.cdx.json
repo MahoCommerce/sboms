@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
-  "serialNumber": "urn:uuid:bb98e913-7078-45ab-87bd-e8de066a684e",
+  "serialNumber": "urn:uuid:488bedf3-e12c-410b-8436-7de273af8ec6",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-06-30T06:46:14Z",
+    "timestamp": "2026-07-01T07:04:22Z",
     "tools": {
       "components": [
         {
@@ -17,9 +17,9 @@
       ]
     },
     "component": {
-      "bom-ref": "943ec4aac103e538",
+      "bom-ref": "136744c0685bdc78",
       "type": "file",
-      "name": "/tmp/tmp.KAwQD0qOuX/infrastructure-default",
+      "name": "/tmp/tmp.s23WFMXEtd/infrastructure-default",
       "licenses": [
         {
           "license": {
@@ -2105,7 +2105,7 @@
     {
       "bom-ref": "5ebde7ddc8076c2b",
       "type": "file",
-      "name": "/tmp/tmp.KAwQD0qOuX/infrastructure-default/.github/workflows/lint.yml",
+      "name": "/tmp/tmp.s23WFMXEtd/infrastructure-default/.github/workflows/lint.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -2120,7 +2120,7 @@
     {
       "bom-ref": "f23abd314990253e",
       "type": "file",
-      "name": "/tmp/tmp.KAwQD0qOuX/infrastructure-default/.github/workflows/phpstan.yml",
+      "name": "/tmp/tmp.s23WFMXEtd/infrastructure-default/.github/workflows/phpstan.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -2135,7 +2135,7 @@
     {
       "bom-ref": "cbbb57827f0f16c5",
       "type": "file",
-      "name": "/tmp/tmp.KAwQD0qOuX/infrastructure-default/.github/workflows/sync.yml",
+      "name": "/tmp/tmp.s23WFMXEtd/infrastructure-default/.github/workflows/sync.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -2150,7 +2150,7 @@
     {
       "bom-ref": "c8bb62e6bded633e",
       "type": "file",
-      "name": "/tmp/tmp.KAwQD0qOuX/infrastructure-default/composer.lock",
+      "name": "/tmp/tmp.s23WFMXEtd/infrastructure-default/composer.lock",
       "hashes": [
         {
           "alg": "SHA-1",
