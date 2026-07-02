@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
-  "serialNumber": "urn:uuid:05f0e2a9-c7ef-43d0-94a8-b05c4c99cb27",
+  "serialNumber": "urn:uuid:997ac689-0f36-4fc2-9cfa-45cc5d34870a",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-07-01T07:04:40Z",
+    "timestamp": "2026-07-02T06:30:42Z",
     "tools": {
       "components": [
         {
@@ -17,9 +17,9 @@
       ]
     },
     "component": {
-      "bom-ref": "8aa44ed61f5d4af9",
+      "bom-ref": "6b309cd0bf8e4eb6",
       "type": "file",
-      "name": "/tmp/tmp.s23WFMXEtd/maho-phpstan-plugin-default",
+      "name": "/tmp/tmp.zEWg9wRBEV/maho-phpstan-plugin-default",
       "licenses": [
         {
           "license": {
@@ -142,7 +142,7 @@
     {
       "bom-ref": "f23abd314990253e",
       "type": "file",
-      "name": "/tmp/tmp.s23WFMXEtd/maho-phpstan-plugin-default/.github/workflows/phpstan.yml",
+      "name": "/tmp/tmp.zEWg9wRBEV/maho-phpstan-plugin-default/.github/workflows/phpstan.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -157,7 +157,7 @@
     {
       "bom-ref": "c8bb62e6bded633e",
       "type": "file",
-      "name": "/tmp/tmp.s23WFMXEtd/maho-phpstan-plugin-default/composer.lock",
+      "name": "/tmp/tmp.zEWg9wRBEV/maho-phpstan-plugin-default/composer.lock",
       "hashes": [
         {
           "alg": "SHA-1",

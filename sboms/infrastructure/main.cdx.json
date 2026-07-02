@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
-  "serialNumber": "urn:uuid:488bedf3-e12c-410b-8436-7de273af8ec6",
+  "serialNumber": "urn:uuid:376adb54-19ad-422e-9f58-43237fc050b9",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-07-01T07:04:22Z",
+    "timestamp": "2026-07-02T06:30:25Z",
     "tools": {
       "components": [
         {
@@ -17,9 +17,9 @@
       ]
     },
     "component": {
-      "bom-ref": "136744c0685bdc78",
+      "bom-ref": "382e870db4714b7d",
       "type": "file",
-      "name": "/tmp/tmp.s23WFMXEtd/infrastructure-default",
+      "name": "/tmp/tmp.zEWg9wRBEV/infrastructure-default",
       "licenses": [
         {
           "license": {
@@ -183,6 +183,52 @@
         {
           "name": "syft:location:0:path",
           "value": "/.github/workflows/sync.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/actions/github-script@v7.0.1?package-id=1cad6cabf1a597cc",
+      "type": "library",
+      "name": "actions/github-script",
+      "version": "v7.0.1",
+      "cpe": "cpe:2.3:a:actions\\/github-script:actions\\/github-script:v7.0.1:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/github-script@v7.0.1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/github-script:actions\\/github_script:v7.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/github_script:actions\\/github-script:v7.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/github_script:actions\\/github_script:v7.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/github:actions\\/github-script:v7.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/github:actions\\/github_script:v7.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/ai-assisted-note.yml"
         }
       ]
     },
@@ -2103,9 +2149,24 @@
       ]
     },
     {
+      "bom-ref": "2711cd66e9444a3c",
+      "type": "file",
+      "name": "/tmp/tmp.zEWg9wRBEV/infrastructure-default/.github/workflows/ai-assisted-note.yml",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "aaf2d1f4dcccfedc175cc4054480d56b43cb7f19"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "bbe252f37d1336ac5b4635ed3cc879cbb5c1dc263da403f110ba74b55f2e629d"
+        }
+      ]
+    },
+    {
       "bom-ref": "5ebde7ddc8076c2b",
       "type": "file",
-      "name": "/tmp/tmp.s23WFMXEtd/infrastructure-default/.github/workflows/lint.yml",
+      "name": "/tmp/tmp.zEWg9wRBEV/infrastructure-default/.github/workflows/lint.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -2120,7 +2181,7 @@
     {
       "bom-ref": "f23abd314990253e",
       "type": "file",
-      "name": "/tmp/tmp.s23WFMXEtd/infrastructure-default/.github/workflows/phpstan.yml",
+      "name": "/tmp/tmp.zEWg9wRBEV/infrastructure-default/.github/workflows/phpstan.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -2135,7 +2196,7 @@
     {
       "bom-ref": "cbbb57827f0f16c5",
       "type": "file",
-      "name": "/tmp/tmp.s23WFMXEtd/infrastructure-default/.github/workflows/sync.yml",
+      "name": "/tmp/tmp.zEWg9wRBEV/infrastructure-default/.github/workflows/sync.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -2150,7 +2211,7 @@
     {
       "bom-ref": "c8bb62e6bded633e",
       "type": "file",
-      "name": "/tmp/tmp.s23WFMXEtd/infrastructure-default/composer.lock",
+      "name": "/tmp/tmp.zEWg9wRBEV/infrastructure-default/composer.lock",
       "hashes": [
         {
           "alg": "SHA-1",

@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
-  "serialNumber": "urn:uuid:cf377af3-b6e7-4e38-ba46-b900bc166de3",
+  "serialNumber": "urn:uuid:1b44977a-fbe2-4745-a85f-9b70dab27a4e",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-07-01T07:04:57Z",
+    "timestamp": "2026-07-02T06:30:55Z",
     "tools": {
       "components": [
         {
@@ -17,9 +17,9 @@
       ]
     },
     "component": {
-      "bom-ref": "4ca2354b9705d314",
+      "bom-ref": "800a68565bbdb9f7",
       "type": "file",
-      "name": "/tmp/tmp.s23WFMXEtd/module-mollie-default",
+      "name": "/tmp/tmp.zEWg9wRBEV/module-mollie-default",
       "licenses": [
         {
           "expression": "OSL-3.0 OR AFL-3.0"
@@ -351,7 +351,7 @@
     {
       "bom-ref": "d422de945bf18b46",
       "type": "file",
-      "name": "/tmp/tmp.s23WFMXEtd/module-mollie-default/.github/workflows/composer.yml",
+      "name": "/tmp/tmp.zEWg9wRBEV/module-mollie-default/.github/workflows/composer.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -366,7 +366,7 @@
     {
       "bom-ref": "ca67cce3ff943159",
       "type": "file",
-      "name": "/tmp/tmp.s23WFMXEtd/module-mollie-default/.github/workflows/line-endings.yml",
+      "name": "/tmp/tmp.zEWg9wRBEV/module-mollie-default/.github/workflows/line-endings.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -381,7 +381,7 @@
     {
       "bom-ref": "5ebde7ddc8076c2b",
       "type": "file",
-      "name": "/tmp/tmp.s23WFMXEtd/module-mollie-default/.github/workflows/lint.yml",
+      "name": "/tmp/tmp.zEWg9wRBEV/module-mollie-default/.github/workflows/lint.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -396,7 +396,7 @@
     {
       "bom-ref": "f23abd314990253e",
       "type": "file",
-      "name": "/tmp/tmp.s23WFMXEtd/module-mollie-default/.github/workflows/phpstan.yml",
+      "name": "/tmp/tmp.zEWg9wRBEV/module-mollie-default/.github/workflows/phpstan.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -411,7 +411,7 @@
     {
       "bom-ref": "5c470c2c7e53f689",
       "type": "file",
-      "name": "/tmp/tmp.s23WFMXEtd/module-mollie-default/.github/workflows/syntax-php.yml",
+      "name": "/tmp/tmp.zEWg9wRBEV/module-mollie-default/.github/workflows/syntax-php.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -426,7 +426,7 @@
     {
       "bom-ref": "5681d4ed4a932be8",
       "type": "file",
-      "name": "/tmp/tmp.s23WFMXEtd/module-mollie-default/.github/workflows/syntax-xml.yml",
+      "name": "/tmp/tmp.zEWg9wRBEV/module-mollie-default/.github/workflows/syntax-xml.yml",
       "hashes": [
         {
           "alg": "SHA-1",
