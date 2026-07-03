@@ -1,6 +1,6 @@
 # Vulnerability Report
 
-_Last updated: 2026-07-02 06:32 UTC_
+_Last updated: 2026-07-03 06:23 UTC_
 
 Generated from the HEAD-of-default-branch SBOM of each tracked repo, scanned by Grype and Trivy. Only vulnerabilities with an upstream fix available are included. Per-repo JSON with the full finding detail is in [`vulns/`](vulns/).
 
@@ -27,6 +27,7 @@ Generated from the HEAD-of-default-branch SBOM of each tracked repo, scanned by 
 | `module-netseasy` | — | — | — | — | — | — |
 | `module-przelewy24` | — | — | — | — | — | — |
 | `module-revolut` | — | — | — | — | — | — |
+| `module-taler` | — | — | — | — | — | — |
 | `module-template` | — | — | — | — | — | — |
 | `phpstorm` | — | — | — | — | — | — |
 | `vscode` | — | — | — | — | — | — |
