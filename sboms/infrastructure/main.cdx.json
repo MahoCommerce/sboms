@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
-  "serialNumber": "urn:uuid:9582f06d-56a2-43b3-b2b8-c102d50482eb",
+  "serialNumber": "urn:uuid:33c90596-42ff-4bf3-b51f-fbe73953b9bb",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-07-05T06:29:54Z",
+    "timestamp": "2026-07-06T07:01:47Z",
     "tools": {
       "components": [
         {
@@ -17,9 +17,9 @@
       ]
     },
     "component": {
-      "bom-ref": "462701170115e1a9",
+      "bom-ref": "0339b620faafb59b",
       "type": "file",
-      "name": "/tmp/tmp.IyKbjZbc5W/infrastructure-default",
+      "name": "/tmp/tmp.4AZD5Z1UIy/infrastructure-default",
       "licenses": [
         {
           "license": {
@@ -187,12 +187,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:github/actions/github-script@v7.0.1?package-id=1cad6cabf1a597cc",
+      "bom-ref": "pkg:github/actions/github-script@v9.0.0?package-id=ed60fc4127d9e1ef",
       "type": "library",
       "name": "actions/github-script",
-      "version": "v7.0.1",
-      "cpe": "cpe:2.3:a:actions\\/github-script:actions\\/github-script:v7.0.1:*:*:*:*:*:*:*",
-      "purl": "pkg:github/actions/github-script@v7.0.1",
+      "version": "v9.0.0",
+      "cpe": "cpe:2.3:a:actions\\/github-script:actions\\/github-script:v9.0.0:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/github-script@v9.0.0",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -208,23 +208,23 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:actions\\/github-script:actions\\/github_script:v7.0.1:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:actions\\/github-script:actions\\/github_script:v9.0.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:actions\\/github_script:actions\\/github-script:v7.0.1:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:actions\\/github_script:actions\\/github-script:v9.0.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:actions\\/github_script:actions\\/github_script:v7.0.1:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:actions\\/github_script:actions\\/github_script:v9.0.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:actions\\/github:actions\\/github-script:v7.0.1:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:actions\\/github:actions\\/github-script:v9.0.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:actions\\/github:actions\\/github_script:v7.0.1:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:actions\\/github:actions\\/github_script:v9.0.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:path",
@@ -363,10 +363,10 @@
       ]
     },
     {
-      "bom-ref": "pkg:composer/composer/composer@2.10.1?package-id=a073e56450c40836",
+      "bom-ref": "pkg:composer/composer/composer@2.10.2?package-id=1ea8d9ad54730bf6",
       "type": "library",
       "name": "composer/composer",
-      "version": "2.10.1",
+      "version": "2.10.2",
       "licenses": [
         {
           "license": {
@@ -374,8 +374,8 @@
           }
         }
       ],
-      "cpe": "cpe:2.3:a:composer\\/composer:composer\\/composer:2.10.1:*:*:*:*:*:*:*",
-      "purl": "pkg:composer/composer/composer@2.10.1",
+      "cpe": "cpe:2.3:a:composer\\/composer:composer\\/composer:2.10.2:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/composer/composer@2.10.2",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -400,10 +400,10 @@
       ]
     },
     {
-      "bom-ref": "pkg:composer/composer/metadata-minifier@1.0.0?package-id=2f3309dd6bbca12d",
+      "bom-ref": "pkg:composer/composer/metadata-minifier@1.0.1?package-id=e1112154e9aeb5ed",
       "type": "library",
       "name": "composer/metadata-minifier",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "licenses": [
         {
           "license": {
@@ -411,8 +411,8 @@
           }
         }
       ],
-      "cpe": "cpe:2.3:a:composer\\/metadata-minifier:composer\\/metadata-minifier:1.0.0:*:*:*:*:*:*:*",
-      "purl": "pkg:composer/composer/metadata-minifier@1.0.0",
+      "cpe": "cpe:2.3:a:composer\\/metadata-minifier:composer\\/metadata-minifier:1.0.1:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/composer/metadata-minifier@1.0.1",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -432,23 +432,23 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:composer\\/metadata-minifier:composer\\/metadata_minifier:1.0.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:composer\\/metadata-minifier:composer\\/metadata_minifier:1.0.1:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:composer\\/metadata_minifier:composer\\/metadata-minifier:1.0.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:composer\\/metadata_minifier:composer\\/metadata-minifier:1.0.1:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:composer\\/metadata_minifier:composer\\/metadata_minifier:1.0.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:composer\\/metadata_minifier:composer\\/metadata_minifier:1.0.1:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:composer\\/metadata:composer\\/metadata-minifier:1.0.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:composer\\/metadata:composer\\/metadata-minifier:1.0.1:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:composer\\/metadata:composer\\/metadata_minifier:1.0.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:composer\\/metadata:composer\\/metadata_minifier:1.0.1:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:path",
@@ -645,10 +645,10 @@
       ]
     },
     {
-      "bom-ref": "pkg:composer/justinrainbow/json-schema@6.9.0?package-id=bfd1c549729c43d4",
+      "bom-ref": "pkg:composer/justinrainbow/json-schema@6.10.0?package-id=ebddee11051be580",
       "type": "library",
       "name": "justinrainbow/json-schema",
-      "version": "6.9.0",
+      "version": "6.10.0",
       "licenses": [
         {
           "license": {
@@ -656,8 +656,8 @@
           }
         }
       ],
-      "cpe": "cpe:2.3:a:justinrainbow\\/json-schema:justinrainbow\\/json-schema:6.9.0:*:*:*:*:*:*:*",
-      "purl": "pkg:composer/justinrainbow/json-schema@6.9.0",
+      "cpe": "cpe:2.3:a:justinrainbow\\/json-schema:justinrainbow\\/json-schema:6.10.0:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/justinrainbow/json-schema@6.10.0",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -677,23 +677,23 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:justinrainbow\\/json-schema:justinrainbow\\/json_schema:6.9.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:justinrainbow\\/json-schema:justinrainbow\\/json_schema:6.10.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:justinrainbow\\/json_schema:justinrainbow\\/json-schema:6.9.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:justinrainbow\\/json_schema:justinrainbow\\/json-schema:6.10.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:justinrainbow\\/json_schema:justinrainbow\\/json_schema:6.9.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:justinrainbow\\/json_schema:justinrainbow\\/json_schema:6.10.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:justinrainbow\\/json:justinrainbow\\/json-schema:6.9.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:justinrainbow\\/json:justinrainbow\\/json-schema:6.10.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:justinrainbow\\/json:justinrainbow\\/json_schema:6.9.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:justinrainbow\\/json:justinrainbow\\/json_schema:6.10.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:path",
@@ -886,10 +886,10 @@
       ]
     },
     {
-      "bom-ref": "pkg:composer/seld/jsonlint@1.11.0?package-id=2fbe577705227781",
+      "bom-ref": "pkg:composer/seld/jsonlint@1.12.1?package-id=d044aa6795479a18",
       "type": "library",
       "name": "seld/jsonlint",
-      "version": "1.11.0",
+      "version": "1.12.1",
       "licenses": [
         {
           "license": {
@@ -897,8 +897,8 @@
           }
         }
       ],
-      "cpe": "cpe:2.3:a:seld\\/jsonlint:seld\\/jsonlint:1.11.0:*:*:*:*:*:*:*",
-      "purl": "pkg:composer/seld/jsonlint@1.11.0",
+      "cpe": "cpe:2.3:a:seld\\/jsonlint:seld\\/jsonlint:1.12.1:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/seld/jsonlint@1.12.1",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -2151,22 +2151,22 @@
     {
       "bom-ref": "2711cd66e9444a3c",
       "type": "file",
-      "name": "/tmp/tmp.IyKbjZbc5W/infrastructure-default/.github/workflows/ai-assisted-note.yml",
+      "name": "/tmp/tmp.4AZD5Z1UIy/infrastructure-default/.github/workflows/ai-assisted-note.yml",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "aaf2d1f4dcccfedc175cc4054480d56b43cb7f19"
+          "content": "89c360259174440afd7107580d72d0349937eb5c"
         },
         {
           "alg": "SHA-256",
-          "content": "bbe252f37d1336ac5b4635ed3cc879cbb5c1dc263da403f110ba74b55f2e629d"
+          "content": "3758507d0ddd9738e7677387a378460aba24c0447e9cff2f596601d938c8b53f"
         }
       ]
     },
     {
       "bom-ref": "5ebde7ddc8076c2b",
       "type": "file",
-      "name": "/tmp/tmp.IyKbjZbc5W/infrastructure-default/.github/workflows/lint.yml",
+      "name": "/tmp/tmp.4AZD5Z1UIy/infrastructure-default/.github/workflows/lint.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -2181,7 +2181,7 @@
     {
       "bom-ref": "f23abd314990253e",
       "type": "file",
-      "name": "/tmp/tmp.IyKbjZbc5W/infrastructure-default/.github/workflows/phpstan.yml",
+      "name": "/tmp/tmp.4AZD5Z1UIy/infrastructure-default/.github/workflows/phpstan.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -2196,7 +2196,7 @@
     {
       "bom-ref": "cbbb57827f0f16c5",
       "type": "file",
-      "name": "/tmp/tmp.IyKbjZbc5W/infrastructure-default/.github/workflows/sync.yml",
+      "name": "/tmp/tmp.4AZD5Z1UIy/infrastructure-default/.github/workflows/sync.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -2211,15 +2211,15 @@
     {
       "bom-ref": "c8bb62e6bded633e",
       "type": "file",
-      "name": "/tmp/tmp.IyKbjZbc5W/infrastructure-default/composer.lock",
+      "name": "/tmp/tmp.4AZD5Z1UIy/infrastructure-default/composer.lock",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "1ca0eb937ee13ebfc57831cfb5cbb3937ee9747e"
+          "content": "a05c9de2fc996a84cf3fb2b4b53abd8960818f7d"
         },
         {
           "alg": "SHA-256",
-          "content": "49c8500b335aebc0fd83acbb159f6c452f956b30a4678f90518a3d1efad3fdcc"
+          "content": "3565e4fe64498193905088643489a914e6402962d87e3b729398d481f33d8728"
         }
       ]
     }
