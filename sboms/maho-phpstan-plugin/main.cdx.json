@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
-  "serialNumber": "urn:uuid:a1b0cb39-e56a-42ce-985a-c7823a51c6b2",
+  "serialNumber": "urn:uuid:884c4f10-957b-46c8-9ceb-de8b8ed51fff",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-07-08T05:41:50Z",
+    "timestamp": "2026-07-09T06:34:36Z",
     "tools": {
       "components": [
         {
@@ -17,9 +17,9 @@
       ]
     },
     "component": {
-      "bom-ref": "3a1be8daedb1fa31",
+      "bom-ref": "66e4b8669491b211",
       "type": "file",
-      "name": "/tmp/tmp.qQs0b5nPEb/maho-phpstan-plugin-default",
+      "name": "/tmp/tmp.49hUswX3ZX/maho-phpstan-plugin-default",
       "licenses": [
         {
           "license": {
@@ -57,10 +57,10 @@
       ]
     },
     {
-      "bom-ref": "pkg:composer/phpstan/phpstan@2.2.2?package-id=e66e9db0a9f4da22",
+      "bom-ref": "pkg:composer/phpstan/phpstan@2.2.5?package-id=76373869a201d94a",
       "type": "library",
       "name": "phpstan/phpstan",
-      "version": "2.2.2",
+      "version": "2.2.5",
       "licenses": [
         {
           "license": {
@@ -68,8 +68,8 @@
           }
         }
       ],
-      "cpe": "cpe:2.3:a:phpstan\\/phpstan:phpstan\\/phpstan:2.2.2:*:*:*:*:*:*:*",
-      "purl": "pkg:composer/phpstan/phpstan@2.2.2",
+      "cpe": "cpe:2.3:a:phpstan\\/phpstan:phpstan\\/phpstan:2.2.5:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/phpstan/phpstan@2.2.5",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -142,7 +142,7 @@
     {
       "bom-ref": "f23abd314990253e",
       "type": "file",
-      "name": "/tmp/tmp.qQs0b5nPEb/maho-phpstan-plugin-default/.github/workflows/phpstan.yml",
+      "name": "/tmp/tmp.49hUswX3ZX/maho-phpstan-plugin-default/.github/workflows/phpstan.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -157,15 +157,15 @@
     {
       "bom-ref": "c8bb62e6bded633e",
       "type": "file",
-      "name": "/tmp/tmp.qQs0b5nPEb/maho-phpstan-plugin-default/composer.lock",
+      "name": "/tmp/tmp.49hUswX3ZX/maho-phpstan-plugin-default/composer.lock",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "5363cb9706ce70528d974d179344131ce60d9431"
+          "content": "af22e2a795829bacf42689d0b89dd59aa8605b27"
         },
         {
           "alg": "SHA-256",
-          "content": "9bb80cf047e2c0a10f823a0bf7ba363579cb0fab0211cb00b6b6f77511b8a810"
+          "content": "c1df401d168b0fedea77a1f5bb8de65e0efda2614274ffa76e9198858510b79c"
         }
       ]
     }
