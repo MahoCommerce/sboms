@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
-  "serialNumber": "urn:uuid:17234281-3eeb-4acf-b57b-0c5394dc8e04",
+  "serialNumber": "urn:uuid:c0c6d22b-c761-4b35-a82d-02eb77198a67",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-07-10T06:32:34Z",
+    "timestamp": "2026-07-11T05:31:43Z",
     "tools": {
       "components": [
         {
@@ -17,9 +17,9 @@
       ]
     },
     "component": {
-      "bom-ref": "74abe5d3b1093495",
+      "bom-ref": "7ac4c57a893edfc5",
       "type": "file",
-      "name": "/tmp/tmp.S5FTIhGSLJ/directory-data-default",
+      "name": "/tmp/tmp.QdUgo5HCvk/directory-data-default",
       "licenses": [
         {
           "license": {
@@ -183,7 +183,7 @@
     {
       "bom-ref": "62f594948731c9a4",
       "type": "file",
-      "name": "/tmp/tmp.S5FTIhGSLJ/directory-data-default/.github/workflows/update-data.yml",
+      "name": "/tmp/tmp.QdUgo5HCvk/directory-data-default/.github/workflows/update-data.yml",
       "hashes": [
         {
           "alg": "SHA-1",
