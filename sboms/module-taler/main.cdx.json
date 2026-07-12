@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
-  "serialNumber": "urn:uuid:dd3a9a54-e012-48b3-a292-540681ebec6e",
+  "serialNumber": "urn:uuid:7fe888b7-3a07-4b2b-949c-a0dc2aac44b6",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-07-11T05:32:29Z",
+    "timestamp": "2026-07-12T05:47:57Z",
     "tools": {
       "components": [
         {
@@ -17,9 +17,9 @@
       ]
     },
     "component": {
-      "bom-ref": "b5eb4b181b6fff76",
+      "bom-ref": "7df6fe20a3e84a85",
       "type": "file",
-      "name": "/tmp/tmp.QdUgo5HCvk/module-taler-default",
+      "name": "/tmp/tmp.8k9EXE9Lkn/module-taler-default",
       "licenses": [
         {
           "expression": "OSL-3.0 OR AFL-3.0"
@@ -51,6 +51,32 @@
         {
           "name": "syft:location:0:path",
           "value": "/.github/workflows/phpstan.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/actions/cache@v6.1.0?package-id=224cdc9be1ac5f82",
+      "type": "library",
+      "name": "actions/cache",
+      "version": "v6.1.0",
+      "cpe": "cpe:2.3:a:actions\\/cache:actions\\/cache:v6.1.0:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/cache@v6.1.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/tests.yml"
         }
       ]
     },
@@ -211,6 +237,78 @@
       ]
     },
     {
+      "bom-ref": "pkg:github/actions/checkout@v7.0.0?package-id=426e3e65b41bf185",
+      "type": "library",
+      "name": "actions/checkout",
+      "version": "v7.0.0",
+      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v7.0.0:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/checkout@v7.0.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/tests.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/actions/github-script@v9.0.0?package-id=ed60fc4127d9e1ef",
+      "type": "library",
+      "name": "actions/github-script",
+      "version": "v9.0.0",
+      "cpe": "cpe:2.3:a:actions\\/github-script:actions\\/github-script:v9.0.0:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/github-script@v9.0.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/github-script:actions\\/github_script:v9.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/github_script:actions\\/github-script:v9.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/github_script:actions\\/github_script:v9.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/github:actions\\/github-script:v9.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/github:actions\\/github_script:v9.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/ai-assisted-note.yml"
+        }
+      ]
+    },
+    {
       "bom-ref": "pkg:github/shivammathur/setup-php@2.37.2?package-id=601f9983e0144444",
       "type": "library",
       "name": "shivammathur/setup-php",
@@ -349,9 +447,70 @@
       ]
     },
     {
+      "bom-ref": "pkg:github/shivammathur/setup-php@2.37.2?package-id=ffd231b172d107c8",
+      "type": "library",
+      "name": "shivammathur/setup-php",
+      "version": "2.37.2",
+      "cpe": "cpe:2.3:a:shivammathur\\/setup-php:shivammathur\\/setup-php:2.37.2:*:*:*:*:*:*:*",
+      "purl": "pkg:github/shivammathur/setup-php@2.37.2",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:shivammathur\\/setup-php:shivammathur\\/setup_php:2.37.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:shivammathur\\/setup_php:shivammathur\\/setup-php:2.37.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:shivammathur\\/setup_php:shivammathur\\/setup_php:2.37.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:shivammathur\\/setup:shivammathur\\/setup-php:2.37.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:shivammathur\\/setup:shivammathur\\/setup_php:2.37.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/tests.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "2711cd66e9444a3c",
+      "type": "file",
+      "name": "/tmp/tmp.8k9EXE9Lkn/module-taler-default/.github/workflows/ai-assisted-note.yml",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "89c360259174440afd7107580d72d0349937eb5c"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "3758507d0ddd9738e7677387a378460aba24c0447e9cff2f596601d938c8b53f"
+        }
+      ]
+    },
+    {
       "bom-ref": "d422de945bf18b46",
       "type": "file",
-      "name": "/tmp/tmp.QdUgo5HCvk/module-taler-default/.github/workflows/composer.yml",
+      "name": "/tmp/tmp.8k9EXE9Lkn/module-taler-default/.github/workflows/composer.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -366,7 +525,7 @@
     {
       "bom-ref": "ca67cce3ff943159",
       "type": "file",
-      "name": "/tmp/tmp.QdUgo5HCvk/module-taler-default/.github/workflows/line-endings.yml",
+      "name": "/tmp/tmp.8k9EXE9Lkn/module-taler-default/.github/workflows/line-endings.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -381,7 +540,7 @@
     {
       "bom-ref": "5ebde7ddc8076c2b",
       "type": "file",
-      "name": "/tmp/tmp.QdUgo5HCvk/module-taler-default/.github/workflows/lint.yml",
+      "name": "/tmp/tmp.8k9EXE9Lkn/module-taler-default/.github/workflows/lint.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -396,7 +555,7 @@
     {
       "bom-ref": "f23abd314990253e",
       "type": "file",
-      "name": "/tmp/tmp.QdUgo5HCvk/module-taler-default/.github/workflows/phpstan.yml",
+      "name": "/tmp/tmp.8k9EXE9Lkn/module-taler-default/.github/workflows/phpstan.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -411,7 +570,7 @@
     {
       "bom-ref": "5c470c2c7e53f689",
       "type": "file",
-      "name": "/tmp/tmp.QdUgo5HCvk/module-taler-default/.github/workflows/syntax-php.yml",
+      "name": "/tmp/tmp.8k9EXE9Lkn/module-taler-default/.github/workflows/syntax-php.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -426,7 +585,7 @@
     {
       "bom-ref": "5681d4ed4a932be8",
       "type": "file",
-      "name": "/tmp/tmp.QdUgo5HCvk/module-taler-default/.github/workflows/syntax-xml.yml",
+      "name": "/tmp/tmp.8k9EXE9Lkn/module-taler-default/.github/workflows/syntax-xml.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -435,6 +594,21 @@
         {
           "alg": "SHA-256",
           "content": "5950c83d36d45dee1c7030e06a9857122495380c46d6883d3de7201d4e10266b"
+        }
+      ]
+    },
+    {
+      "bom-ref": "9b0927f24570d5cb",
+      "type": "file",
+      "name": "/tmp/tmp.8k9EXE9Lkn/module-taler-default/.github/workflows/tests.yml",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "a08acd35feff7923846005801f76293948bac7a1"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "2870972935f3dd54ecb39874557232a745424a3b25b8008ad598eef3b761dd54"
         }
       ]
     }

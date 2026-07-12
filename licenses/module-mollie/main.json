@@ -7,13 +7,13 @@
       "AFL-3.0",
       "OSL-3.0"
     ],
-    "files_total": 69,
-    "files_with_copyright_info": 47,
-    "files_with_licensing_info": 46,
+    "files_total": 70,
+    "files_with_copyright_info": 48,
+    "files_with_licensing_info": 47,
     "compliant": false
   },
   "license_file_counts": {
     "AFL-3.0": 3,
-    "OSL-3.0": 43
+    "OSL-3.0": 44
   }
 }

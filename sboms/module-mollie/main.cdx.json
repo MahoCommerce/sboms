@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
-  "serialNumber": "urn:uuid:c0481868-08fe-419a-b64e-ddf400143243",
+  "serialNumber": "urn:uuid:e142ac87-5c1e-42e8-9812-d53f5f4969b6",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-07-11T05:32:22Z",
+    "timestamp": "2026-07-12T05:47:50Z",
     "tools": {
       "components": [
         {
@@ -17,9 +17,9 @@
       ]
     },
     "component": {
-      "bom-ref": "1b2bf6cbba0dff9e",
+      "bom-ref": "aab88a6fb11e53c3",
       "type": "file",
-      "name": "/tmp/tmp.QdUgo5HCvk/module-mollie-default",
+      "name": "/tmp/tmp.8k9EXE9Lkn/module-mollie-default",
       "licenses": [
         {
           "expression": "OSL-3.0 OR AFL-3.0"
@@ -211,6 +211,52 @@
       ]
     },
     {
+      "bom-ref": "pkg:github/actions/github-script@v9.0.0?package-id=ed60fc4127d9e1ef",
+      "type": "library",
+      "name": "actions/github-script",
+      "version": "v9.0.0",
+      "cpe": "cpe:2.3:a:actions\\/github-script:actions\\/github-script:v9.0.0:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/github-script@v9.0.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/github-script:actions\\/github_script:v9.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/github_script:actions\\/github-script:v9.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/github_script:actions\\/github_script:v9.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/github:actions\\/github-script:v9.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/github:actions\\/github_script:v9.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/ai-assisted-note.yml"
+        }
+      ]
+    },
+    {
       "bom-ref": "pkg:github/shivammathur/setup-php@2.37.2?package-id=601f9983e0144444",
       "type": "library",
       "name": "shivammathur/setup-php",
@@ -349,9 +395,24 @@
       ]
     },
     {
+      "bom-ref": "2711cd66e9444a3c",
+      "type": "file",
+      "name": "/tmp/tmp.8k9EXE9Lkn/module-mollie-default/.github/workflows/ai-assisted-note.yml",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "89c360259174440afd7107580d72d0349937eb5c"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "3758507d0ddd9738e7677387a378460aba24c0447e9cff2f596601d938c8b53f"
+        }
+      ]
+    },
+    {
       "bom-ref": "d422de945bf18b46",
       "type": "file",
-      "name": "/tmp/tmp.QdUgo5HCvk/module-mollie-default/.github/workflows/composer.yml",
+      "name": "/tmp/tmp.8k9EXE9Lkn/module-mollie-default/.github/workflows/composer.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -366,7 +427,7 @@
     {
       "bom-ref": "ca67cce3ff943159",
       "type": "file",
-      "name": "/tmp/tmp.QdUgo5HCvk/module-mollie-default/.github/workflows/line-endings.yml",
+      "name": "/tmp/tmp.8k9EXE9Lkn/module-mollie-default/.github/workflows/line-endings.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -381,7 +442,7 @@
     {
       "bom-ref": "5ebde7ddc8076c2b",
       "type": "file",
-      "name": "/tmp/tmp.QdUgo5HCvk/module-mollie-default/.github/workflows/lint.yml",
+      "name": "/tmp/tmp.8k9EXE9Lkn/module-mollie-default/.github/workflows/lint.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -396,7 +457,7 @@
     {
       "bom-ref": "f23abd314990253e",
       "type": "file",
-      "name": "/tmp/tmp.QdUgo5HCvk/module-mollie-default/.github/workflows/phpstan.yml",
+      "name": "/tmp/tmp.8k9EXE9Lkn/module-mollie-default/.github/workflows/phpstan.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -411,7 +472,7 @@
     {
       "bom-ref": "5c470c2c7e53f689",
       "type": "file",
-      "name": "/tmp/tmp.QdUgo5HCvk/module-mollie-default/.github/workflows/syntax-php.yml",
+      "name": "/tmp/tmp.8k9EXE9Lkn/module-mollie-default/.github/workflows/syntax-php.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -426,7 +487,7 @@
     {
       "bom-ref": "5681d4ed4a932be8",
       "type": "file",
-      "name": "/tmp/tmp.QdUgo5HCvk/module-mollie-default/.github/workflows/syntax-xml.yml",
+      "name": "/tmp/tmp.8k9EXE9Lkn/module-mollie-default/.github/workflows/syntax-xml.yml",
       "hashes": [
         {
           "alg": "SHA-1",
