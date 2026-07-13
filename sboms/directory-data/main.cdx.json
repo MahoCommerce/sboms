@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
-  "serialNumber": "urn:uuid:0d87d941-4766-4243-bba6-d50c8669b067",
+  "serialNumber": "urn:uuid:c2409816-8e94-47d5-94f6-55ea43f7e37d",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-07-12T05:47:11Z",
+    "timestamp": "2026-07-13T05:58:12Z",
     "tools": {
       "components": [
         {
@@ -17,9 +17,9 @@
       ]
     },
     "component": {
-      "bom-ref": "b7cc84582cddc582",
+      "bom-ref": "d44d2bc2a05fd3db",
       "type": "file",
-      "name": "/tmp/tmp.8k9EXE9Lkn/directory-data-default",
+      "name": "/tmp/tmp.M3hZYfUc0h/directory-data-default",
       "licenses": [
         {
           "license": {
@@ -135,6 +135,52 @@
       ]
     },
     {
+      "bom-ref": "pkg:github/actions/github-script@v9.0.0?package-id=ed60fc4127d9e1ef",
+      "type": "library",
+      "name": "actions/github-script",
+      "version": "v9.0.0",
+      "cpe": "cpe:2.3:a:actions\\/github-script:actions\\/github-script:v9.0.0:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/github-script@v9.0.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/github-script:actions\\/github_script:v9.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/github_script:actions\\/github-script:v9.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/github_script:actions\\/github_script:v9.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/github:actions\\/github-script:v9.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/github:actions\\/github_script:v9.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/ai-assisted-note.yml"
+        }
+      ]
+    },
+    {
       "bom-ref": "pkg:github/shivammathur/setup-php@2.37.2?package-id=3a0712d65a13c1ae",
       "type": "library",
       "name": "shivammathur/setup-php",
@@ -181,9 +227,24 @@
       ]
     },
     {
+      "bom-ref": "2711cd66e9444a3c",
+      "type": "file",
+      "name": "/tmp/tmp.M3hZYfUc0h/directory-data-default/.github/workflows/ai-assisted-note.yml",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "89c360259174440afd7107580d72d0349937eb5c"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "3758507d0ddd9738e7677387a378460aba24c0447e9cff2f596601d938c8b53f"
+        }
+      ]
+    },
+    {
       "bom-ref": "62f594948731c9a4",
       "type": "file",
-      "name": "/tmp/tmp.8k9EXE9Lkn/directory-data-default/.github/workflows/update-data.yml",
+      "name": "/tmp/tmp.M3hZYfUc0h/directory-data-default/.github/workflows/update-data.yml",
       "hashes": [
         {
           "alg": "SHA-1",

@@ -3,11 +3,15 @@
   "ref": "main",
   "reuse_spec_version": "3.3",
   "summary": {
-    "used_licenses": [],
-    "files_total": 14,
-    "files_with_copyright_info": 0,
-    "files_with_licensing_info": 0,
+    "used_licenses": [
+      "OSL-3.0"
+    ],
+    "files_total": 15,
+    "files_with_copyright_info": 1,
+    "files_with_licensing_info": 1,
     "compliant": false
   },
-  "license_file_counts": {}
+  "license_file_counts": {
+    "OSL-3.0": 1
+  }
 }

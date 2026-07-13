@@ -4,14 +4,16 @@
   "reuse_spec_version": "3.3",
   "summary": {
     "used_licenses": [
-      "Apache-2.0"
+      "Apache-2.0",
+      "OSL-3.0"
     ],
-    "files_total": 35,
-    "files_with_copyright_info": 2,
-    "files_with_licensing_info": 2,
+    "files_total": 36,
+    "files_with_copyright_info": 3,
+    "files_with_licensing_info": 3,
     "compliant": false
   },
   "license_file_counts": {
-    "Apache-2.0": 2
+    "Apache-2.0": 2,
+    "OSL-3.0": 1
   }
 }
