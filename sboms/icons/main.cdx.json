@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
-  "serialNumber": "urn:uuid:3fc9a6c8-8006-4631-a0df-ffd896b7eeb6",
+  "serialNumber": "urn:uuid:5f80733d-caee-42a9-98be-3cfb3103bf26",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-07-14T05:20:46Z",
+    "timestamp": "2026-07-15T05:22:02Z",
     "tools": {
       "components": [
         {
@@ -17,9 +17,9 @@
       ]
     },
     "component": {
-      "bom-ref": "620f7cdf45c45525",
+      "bom-ref": "f6205ef9455f8903",
       "type": "file",
-      "name": "/tmp/tmp.gnQ1MHqQUh/icons-default",
+      "name": "/tmp/tmp.oVUcEOyXZ3/icons-default",
       "licenses": [
         {
           "license": {
@@ -137,7 +137,7 @@
     {
       "bom-ref": "33e7109e7b1ded1d",
       "type": "file",
-      "name": "/tmp/tmp.gnQ1MHqQUh/icons-default/.github/workflows/sync-upstream.yml",
+      "name": "/tmp/tmp.oVUcEOyXZ3/icons-default/.github/workflows/sync-upstream.yml",
       "hashes": [
         {
           "alg": "SHA-1",

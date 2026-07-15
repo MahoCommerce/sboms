@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
-  "serialNumber": "urn:uuid:3f878299-426e-48e3-a07d-c7a18da9fda9",
+  "serialNumber": "urn:uuid:2380c646-7145-442f-b201-4d19f0953e8b",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-07-14T05:21:33Z",
+    "timestamp": "2026-07-15T05:22:49Z",
     "tools": {
       "components": [
         {
@@ -17,9 +17,9 @@
       ]
     },
     "component": {
-      "bom-ref": "c010cc28b12a8b8b",
+      "bom-ref": "e5dbef9cc8f5e145",
       "type": "file",
-      "name": "/tmp/tmp.gnQ1MHqQUh/vscode-default",
+      "name": "/tmp/tmp.oVUcEOyXZ3/vscode-default",
       "licenses": [
         {
           "license": {
@@ -616,7 +616,7 @@
     {
       "bom-ref": "2711cd66e9444a3c",
       "type": "file",
-      "name": "/tmp/tmp.gnQ1MHqQUh/vscode-default/.github/workflows/ai-assisted-note.yml",
+      "name": "/tmp/tmp.oVUcEOyXZ3/vscode-default/.github/workflows/ai-assisted-note.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -631,7 +631,7 @@
     {
       "bom-ref": "cc210d8a1a5f5704",
       "type": "file",
-      "name": "/tmp/tmp.gnQ1MHqQUh/vscode-default/.github/workflows/release.yml",
+      "name": "/tmp/tmp.oVUcEOyXZ3/vscode-default/.github/workflows/release.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -646,7 +646,7 @@
     {
       "bom-ref": "fd71c2238fc07657",
       "type": "file",
-      "name": "/tmp/tmp.gnQ1MHqQUh/vscode-default/package-lock.json",
+      "name": "/tmp/tmp.oVUcEOyXZ3/vscode-default/package-lock.json",
       "hashes": [
         {
           "alg": "SHA-1",
