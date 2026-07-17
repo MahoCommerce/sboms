@@ -1,0 +1,17 @@
+{
+  "repo": "maho-composer-plugin",
+  "ref": "v4.3.0",
+  "reuse_spec_version": "3.3",
+  "summary": {
+    "used_licenses": [
+      "OSL-3.0"
+    ],
+    "files_total": 20,
+    "files_with_copyright_info": 1,
+    "files_with_licensing_info": 1,
+    "compliant": false
+  },
+  "license_file_counts": {
+    "OSL-3.0": 1
+  }
+}

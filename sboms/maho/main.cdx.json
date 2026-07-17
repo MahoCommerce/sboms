@@ -2,24 +2,24 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
-  "serialNumber": "urn:uuid:63ff9801-f612-4bb7-970b-cdfd7b52a7d0",
+  "serialNumber": "urn:uuid:d99d47e9-386b-4ced-9708-e1a157a42d9b",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-07-16T05:30:57Z",
+    "timestamp": "2026-07-17T05:32:35Z",
     "tools": {
       "components": [
         {
           "type": "application",
           "author": "anchore",
           "name": "syft",
-          "version": "1.46.0"
+          "version": "1.48.0"
         }
       ]
     },
     "component": {
-      "bom-ref": "a63140375c596d19",
+      "bom-ref": "673a593549fec3ef",
       "type": "file",
-      "name": "/tmp/tmp.rKHYmGQe06/maho-default",
+      "name": "/tmp/tmp.82l0qdMKhK/maho-default",
       "licenses": [
         {
           "expression": "OSL-3.0 OR AFL-3.0"
@@ -29,12 +29,12 @@
   },
   "components": [
     {
-      "bom-ref": "pkg:github/samhammerag/last-successful-build-action@c32fe86b51dd1479ea281d29767d09288458d120?package-id=c151362999f8ede4",
+      "bom-ref": "pkg:github/samhammerag/last-successful-build-action@v7?package-id=220f50b9cdc2b2cd",
       "type": "library",
       "name": "SamhammerAG/last-successful-build-action",
-      "version": "c32fe86b51dd1479ea281d29767d09288458d120",
-      "cpe": "cpe:2.3:a:SamhammerAG\\/last-successful-build-action:SamhammerAG\\/last-successful-build-action:c32fe86b51dd1479ea281d29767d09288458d120:*:*:*:*:*:*:*",
-      "purl": "pkg:github/SamhammerAG/last-successful-build-action@c32fe86b51dd1479ea281d29767d09288458d120",
+      "version": "v7",
+      "cpe": "cpe:2.3:a:SamhammerAG\\/last-successful-build-action:SamhammerAG\\/last-successful-build-action:v7:*:*:*:*:*:*:*",
+      "purl": "pkg:github/SamhammerAG/last-successful-build-action@v7",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -50,55 +50,55 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:SamhammerAG\\/last-successful-build-action:SamhammerAG\\/last_successful_build_action:c32fe86b51dd1479ea281d29767d09288458d120:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:SamhammerAG\\/last-successful-build-action:SamhammerAG\\/last_successful_build_action:v7:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:SamhammerAG\\/last_successful_build_action:SamhammerAG\\/last-successful-build-action:c32fe86b51dd1479ea281d29767d09288458d120:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:SamhammerAG\\/last_successful_build_action:SamhammerAG\\/last-successful-build-action:v7:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:SamhammerAG\\/last_successful_build_action:SamhammerAG\\/last_successful_build_action:c32fe86b51dd1479ea281d29767d09288458d120:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:SamhammerAG\\/last_successful_build_action:SamhammerAG\\/last_successful_build_action:v7:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:SamhammerAG\\/last-successful-build:SamhammerAG\\/last-successful-build-action:c32fe86b51dd1479ea281d29767d09288458d120:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:SamhammerAG\\/last-successful-build:SamhammerAG\\/last-successful-build-action:v7:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:SamhammerAG\\/last-successful-build:SamhammerAG\\/last_successful_build_action:c32fe86b51dd1479ea281d29767d09288458d120:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:SamhammerAG\\/last-successful-build:SamhammerAG\\/last_successful_build_action:v7:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:SamhammerAG\\/last_successful_build:SamhammerAG\\/last-successful-build-action:c32fe86b51dd1479ea281d29767d09288458d120:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:SamhammerAG\\/last_successful_build:SamhammerAG\\/last-successful-build-action:v7:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:SamhammerAG\\/last_successful_build:SamhammerAG\\/last_successful_build_action:c32fe86b51dd1479ea281d29767d09288458d120:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:SamhammerAG\\/last_successful_build:SamhammerAG\\/last_successful_build_action:v7:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:SamhammerAG\\/last-successful:SamhammerAG\\/last-successful-build-action:c32fe86b51dd1479ea281d29767d09288458d120:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:SamhammerAG\\/last-successful:SamhammerAG\\/last-successful-build-action:v7:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:SamhammerAG\\/last-successful:SamhammerAG\\/last_successful_build_action:c32fe86b51dd1479ea281d29767d09288458d120:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:SamhammerAG\\/last-successful:SamhammerAG\\/last_successful_build_action:v7:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:SamhammerAG\\/last_successful:SamhammerAG\\/last-successful-build-action:c32fe86b51dd1479ea281d29767d09288458d120:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:SamhammerAG\\/last_successful:SamhammerAG\\/last-successful-build-action:v7:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:SamhammerAG\\/last_successful:SamhammerAG\\/last_successful_build_action:c32fe86b51dd1479ea281d29767d09288458d120:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:SamhammerAG\\/last_successful:SamhammerAG\\/last_successful_build_action:v7:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:SamhammerAG\\/last:SamhammerAG\\/last-successful-build-action:c32fe86b51dd1479ea281d29767d09288458d120:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:SamhammerAG\\/last:SamhammerAG\\/last-successful-build-action:v7:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:SamhammerAG\\/last:SamhammerAG\\/last_successful_build_action:c32fe86b51dd1479ea281d29767d09288458d120:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:SamhammerAG\\/last:SamhammerAG\\/last_successful_build_action:v7:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:path",
@@ -107,12 +107,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:github/samhammerag/last-successful-build-action@c32fe86b51dd1479ea281d29767d09288458d120?package-id=fbb2f137d63df6fe",
+      "bom-ref": "pkg:github/samhammerag/last-successful-build-action@v7?package-id=7dfc714f5f9bc4df",
       "type": "library",
       "name": "SamhammerAG/last-successful-build-action",
-      "version": "c32fe86b51dd1479ea281d29767d09288458d120",
-      "cpe": "cpe:2.3:a:SamhammerAG\\/last-successful-build-action:SamhammerAG\\/last-successful-build-action:c32fe86b51dd1479ea281d29767d09288458d120:*:*:*:*:*:*:*",
-      "purl": "pkg:github/SamhammerAG/last-successful-build-action@c32fe86b51dd1479ea281d29767d09288458d120",
+      "version": "v7",
+      "cpe": "cpe:2.3:a:SamhammerAG\\/last-successful-build-action:SamhammerAG\\/last-successful-build-action:v7:*:*:*:*:*:*:*",
+      "purl": "pkg:github/SamhammerAG/last-successful-build-action@v7",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -128,55 +128,55 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:SamhammerAG\\/last-successful-build-action:SamhammerAG\\/last_successful_build_action:c32fe86b51dd1479ea281d29767d09288458d120:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:SamhammerAG\\/last-successful-build-action:SamhammerAG\\/last_successful_build_action:v7:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:SamhammerAG\\/last_successful_build_action:SamhammerAG\\/last-successful-build-action:c32fe86b51dd1479ea281d29767d09288458d120:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:SamhammerAG\\/last_successful_build_action:SamhammerAG\\/last-successful-build-action:v7:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:SamhammerAG\\/last_successful_build_action:SamhammerAG\\/last_successful_build_action:c32fe86b51dd1479ea281d29767d09288458d120:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:SamhammerAG\\/last_successful_build_action:SamhammerAG\\/last_successful_build_action:v7:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:SamhammerAG\\/last-successful-build:SamhammerAG\\/last-successful-build-action:c32fe86b51dd1479ea281d29767d09288458d120:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:SamhammerAG\\/last-successful-build:SamhammerAG\\/last-successful-build-action:v7:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:SamhammerAG\\/last-successful-build:SamhammerAG\\/last_successful_build_action:c32fe86b51dd1479ea281d29767d09288458d120:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:SamhammerAG\\/last-successful-build:SamhammerAG\\/last_successful_build_action:v7:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:SamhammerAG\\/last_successful_build:SamhammerAG\\/last-successful-build-action:c32fe86b51dd1479ea281d29767d09288458d120:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:SamhammerAG\\/last_successful_build:SamhammerAG\\/last-successful-build-action:v7:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:SamhammerAG\\/last_successful_build:SamhammerAG\\/last_successful_build_action:c32fe86b51dd1479ea281d29767d09288458d120:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:SamhammerAG\\/last_successful_build:SamhammerAG\\/last_successful_build_action:v7:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:SamhammerAG\\/last-successful:SamhammerAG\\/last-successful-build-action:c32fe86b51dd1479ea281d29767d09288458d120:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:SamhammerAG\\/last-successful:SamhammerAG\\/last-successful-build-action:v7:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:SamhammerAG\\/last-successful:SamhammerAG\\/last_successful_build_action:c32fe86b51dd1479ea281d29767d09288458d120:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:SamhammerAG\\/last-successful:SamhammerAG\\/last_successful_build_action:v7:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:SamhammerAG\\/last_successful:SamhammerAG\\/last-successful-build-action:c32fe86b51dd1479ea281d29767d09288458d120:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:SamhammerAG\\/last_successful:SamhammerAG\\/last-successful-build-action:v7:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:SamhammerAG\\/last_successful:SamhammerAG\\/last_successful_build_action:c32fe86b51dd1479ea281d29767d09288458d120:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:SamhammerAG\\/last_successful:SamhammerAG\\/last_successful_build_action:v7:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:SamhammerAG\\/last:SamhammerAG\\/last-successful-build-action:c32fe86b51dd1479ea281d29767d09288458d120:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:SamhammerAG\\/last:SamhammerAG\\/last-successful-build-action:v7:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:SamhammerAG\\/last:SamhammerAG\\/last_successful_build_action:c32fe86b51dd1479ea281d29767d09288458d120:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:SamhammerAG\\/last:SamhammerAG\\/last_successful_build_action:v7:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:path",
@@ -6042,12 +6042,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:github/symfonycorp/security-checker-action@258311ef7ac571f1310780ef3d79fc5abef642b5?package-id=404a8984ab052b34",
+      "bom-ref": "pkg:github/symfonycorp/security-checker-action@v5?package-id=4e9475eb5ccae6f7",
       "type": "library",
       "name": "symfonycorp/security-checker-action",
-      "version": "258311ef7ac571f1310780ef3d79fc5abef642b5",
-      "cpe": "cpe:2.3:a:symfonycorp\\/security-checker-action:symfonycorp\\/security-checker-action:258311ef7ac571f1310780ef3d79fc5abef642b5:*:*:*:*:*:*:*",
-      "purl": "pkg:github/symfonycorp/security-checker-action@258311ef7ac571f1310780ef3d79fc5abef642b5",
+      "version": "v5",
+      "cpe": "cpe:2.3:a:symfonycorp\\/security-checker-action:symfonycorp\\/security-checker-action:v5:*:*:*:*:*:*:*",
+      "purl": "pkg:github/symfonycorp/security-checker-action@v5",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -6063,39 +6063,39 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:symfonycorp\\/security-checker-action:symfonycorp\\/security_checker_action:258311ef7ac571f1310780ef3d79fc5abef642b5:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:symfonycorp\\/security-checker-action:symfonycorp\\/security_checker_action:v5:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:symfonycorp\\/security_checker_action:symfonycorp\\/security-checker-action:258311ef7ac571f1310780ef3d79fc5abef642b5:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:symfonycorp\\/security_checker_action:symfonycorp\\/security-checker-action:v5:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:symfonycorp\\/security_checker_action:symfonycorp\\/security_checker_action:258311ef7ac571f1310780ef3d79fc5abef642b5:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:symfonycorp\\/security_checker_action:symfonycorp\\/security_checker_action:v5:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:symfonycorp\\/security-checker:symfonycorp\\/security-checker-action:258311ef7ac571f1310780ef3d79fc5abef642b5:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:symfonycorp\\/security-checker:symfonycorp\\/security-checker-action:v5:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:symfonycorp\\/security-checker:symfonycorp\\/security_checker_action:258311ef7ac571f1310780ef3d79fc5abef642b5:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:symfonycorp\\/security-checker:symfonycorp\\/security_checker_action:v5:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:symfonycorp\\/security_checker:symfonycorp\\/security-checker-action:258311ef7ac571f1310780ef3d79fc5abef642b5:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:symfonycorp\\/security_checker:symfonycorp\\/security-checker-action:v5:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:symfonycorp\\/security_checker:symfonycorp\\/security_checker_action:258311ef7ac571f1310780ef3d79fc5abef642b5:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:symfonycorp\\/security_checker:symfonycorp\\/security_checker_action:v5:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:symfonycorp\\/security:symfonycorp\\/security-checker-action:258311ef7ac571f1310780ef3d79fc5abef642b5:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:symfonycorp\\/security:symfonycorp\\/security-checker-action:v5:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:symfonycorp\\/security:symfonycorp\\/security_checker_action:258311ef7ac571f1310780ef3d79fc5abef642b5:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:symfonycorp\\/security:symfonycorp\\/security_checker_action:v5:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:path",
@@ -6423,7 +6423,7 @@
     {
       "bom-ref": "2711cd66e9444a3c",
       "type": "file",
-      "name": "/tmp/tmp.rKHYmGQe06/maho-default/.github/workflows/ai-assisted-note.yml",
+      "name": "/tmp/tmp.82l0qdMKhK/maho-default/.github/workflows/ai-assisted-note.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -6438,7 +6438,7 @@
     {
       "bom-ref": "32613741646b9bd0",
       "type": "file",
-      "name": "/tmp/tmp.rKHYmGQe06/maho-default/.github/workflows/backport.yml",
+      "name": "/tmp/tmp.82l0qdMKhK/maho-default/.github/workflows/backport.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -6453,7 +6453,7 @@
     {
       "bom-ref": "98dd120a020982a4",
       "type": "file",
-      "name": "/tmp/tmp.rKHYmGQe06/maho-default/.github/workflows/check-missing-translations.yml",
+      "name": "/tmp/tmp.82l0qdMKhK/maho-default/.github/workflows/check-missing-translations.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -6468,7 +6468,7 @@
     {
       "bom-ref": "7e66aa23a8e80c65",
       "type": "file",
-      "name": "/tmp/tmp.rKHYmGQe06/maho-default/.github/workflows/check-unused-translations.yml",
+      "name": "/tmp/tmp.82l0qdMKhK/maho-default/.github/workflows/check-unused-translations.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -6483,7 +6483,7 @@
     {
       "bom-ref": "5e19ea2e1f9dfee4",
       "type": "file",
-      "name": "/tmp/tmp.rKHYmGQe06/maho-default/.github/workflows/codeql-analysis.yml",
+      "name": "/tmp/tmp.82l0qdMKhK/maho-default/.github/workflows/codeql-analysis.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -6498,7 +6498,7 @@
     {
       "bom-ref": "d422de945bf18b46",
       "type": "file",
-      "name": "/tmp/tmp.rKHYmGQe06/maho-default/.github/workflows/composer.yml",
+      "name": "/tmp/tmp.82l0qdMKhK/maho-default/.github/workflows/composer.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -6513,7 +6513,7 @@
     {
       "bom-ref": "b90322a436b20519",
       "type": "file",
-      "name": "/tmp/tmp.rKHYmGQe06/maho-default/.github/workflows/copyright.yml",
+      "name": "/tmp/tmp.82l0qdMKhK/maho-default/.github/workflows/copyright.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -6528,7 +6528,7 @@
     {
       "bom-ref": "dc9bdc1a84992eac",
       "type": "file",
-      "name": "/tmp/tmp.rKHYmGQe06/maho-default/.github/workflows/install-with-prefix.yml",
+      "name": "/tmp/tmp.82l0qdMKhK/maho-default/.github/workflows/install-with-prefix.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -6543,7 +6543,7 @@
     {
       "bom-ref": "ca67cce3ff943159",
       "type": "file",
-      "name": "/tmp/tmp.rKHYmGQe06/maho-default/.github/workflows/line-endings.yml",
+      "name": "/tmp/tmp.82l0qdMKhK/maho-default/.github/workflows/line-endings.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -6558,7 +6558,7 @@
     {
       "bom-ref": "5ebde7ddc8076c2b",
       "type": "file",
-      "name": "/tmp/tmp.rKHYmGQe06/maho-default/.github/workflows/lint.yml",
+      "name": "/tmp/tmp.82l0qdMKhK/maho-default/.github/workflows/lint.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -6573,7 +6573,7 @@
     {
       "bom-ref": "57d4f10249bd0e10",
       "type": "file",
-      "name": "/tmp/tmp.rKHYmGQe06/maho-default/.github/workflows/locale-csv-sorting.yml",
+      "name": "/tmp/tmp.82l0qdMKhK/maho-default/.github/workflows/locale-csv-sorting.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -6588,7 +6588,7 @@
     {
       "bom-ref": "e1e2bba7dd1b17e6",
       "type": "file",
-      "name": "/tmp/tmp.rKHYmGQe06/maho-default/.github/workflows/pest.yml",
+      "name": "/tmp/tmp.82l0qdMKhK/maho-default/.github/workflows/pest.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -6603,7 +6603,7 @@
     {
       "bom-ref": "2f9a4ebf9db35197",
       "type": "file",
-      "name": "/tmp/tmp.rKHYmGQe06/maho-default/.github/workflows/phpdoc.yml",
+      "name": "/tmp/tmp.82l0qdMKhK/maho-default/.github/workflows/phpdoc.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -6618,7 +6618,7 @@
     {
       "bom-ref": "f23abd314990253e",
       "type": "file",
-      "name": "/tmp/tmp.rKHYmGQe06/maho-default/.github/workflows/phpstan.yml",
+      "name": "/tmp/tmp.82l0qdMKhK/maho-default/.github/workflows/phpstan.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -6633,7 +6633,7 @@
     {
       "bom-ref": "8a94ac50b5062d56",
       "type": "file",
-      "name": "/tmp/tmp.rKHYmGQe06/maho-default/.github/workflows/security-php.yml",
+      "name": "/tmp/tmp.82l0qdMKhK/maho-default/.github/workflows/security-php.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -6648,7 +6648,7 @@
     {
       "bom-ref": "17bee73d399623a9",
       "type": "file",
-      "name": "/tmp/tmp.rKHYmGQe06/maho-default/.github/workflows/sync-l10n-repo.yml",
+      "name": "/tmp/tmp.82l0qdMKhK/maho-default/.github/workflows/sync-l10n-repo.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -6663,7 +6663,7 @@
     {
       "bom-ref": "5c470c2c7e53f689",
       "type": "file",
-      "name": "/tmp/tmp.rKHYmGQe06/maho-default/.github/workflows/syntax-php.yml",
+      "name": "/tmp/tmp.82l0qdMKhK/maho-default/.github/workflows/syntax-php.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -6678,7 +6678,7 @@
     {
       "bom-ref": "5681d4ed4a932be8",
       "type": "file",
-      "name": "/tmp/tmp.rKHYmGQe06/maho-default/.github/workflows/syntax-xml.yml",
+      "name": "/tmp/tmp.82l0qdMKhK/maho-default/.github/workflows/syntax-xml.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -6693,15 +6693,15 @@
     {
       "bom-ref": "c8bb62e6bded633e",
       "type": "file",
-      "name": "/tmp/tmp.rKHYmGQe06/maho-default/composer.lock",
+      "name": "/tmp/tmp.82l0qdMKhK/maho-default/composer.lock",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "4264ddf611901f2d9be24461ffc6eaf596da5ab6"
+          "content": "37abd298c7638f179055a6a5ded24c5ce086767c"
         },
         {
           "alg": "SHA-256",
-          "content": "1227c37a820279fa3ae898ceb52a26a583bc79f307bdfd4b033b106cdde077e4"
+          "content": "faa68363a774113088d48699769aadd494deb525ee8d8a0dd4a702b4935fafda"
         }
       ]
     }

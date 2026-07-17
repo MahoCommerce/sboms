@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
-  "serialNumber": "urn:uuid:8fb5ddf2-b8b8-4963-89a0-21aa04bd94cc",
+  "serialNumber": "urn:uuid:ced01a5a-f0c9-4c6a-9110-f617adc48a48",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-07-17T05:33:07Z",
+    "timestamp": "2026-07-17T05:32:44Z",
     "tools": {
       "components": [
         {
@@ -17,17 +17,123 @@
       ]
     },
     "component": {
-      "bom-ref": "13cadc8cb48dd081",
+      "bom-ref": "024f746df6422662",
       "type": "file",
-      "name": "/tmp/tmp.82l0qdMKhK/module-przelewy24-default",
+      "name": "/tmp/tmp.82l0qdMKhK/maho-composer-plugin-v4.3.0",
       "licenses": [
         {
-          "expression": "OSL-3.0 OR AFL-3.0"
+          "license": {
+            "id": "MIT"
+          }
         }
       ]
     }
   },
   "components": [
+    {
+      "bom-ref": "pkg:github/samhammerag/last-successful-build-action@v7?package-id=220f50b9cdc2b2cd",
+      "type": "library",
+      "name": "SamhammerAG/last-successful-build-action",
+      "version": "v7",
+      "cpe": "cpe:2.3:a:SamhammerAG\\/last-successful-build-action:SamhammerAG\\/last-successful-build-action:v7:*:*:*:*:*:*:*",
+      "purl": "pkg:github/SamhammerAG/last-successful-build-action@v7",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:SamhammerAG\\/last-successful-build-action:SamhammerAG\\/last_successful_build_action:v7:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:SamhammerAG\\/last_successful_build_action:SamhammerAG\\/last-successful-build-action:v7:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:SamhammerAG\\/last_successful_build_action:SamhammerAG\\/last_successful_build_action:v7:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:SamhammerAG\\/last-successful-build:SamhammerAG\\/last-successful-build-action:v7:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:SamhammerAG\\/last-successful-build:SamhammerAG\\/last_successful_build_action:v7:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:SamhammerAG\\/last_successful_build:SamhammerAG\\/last-successful-build-action:v7:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:SamhammerAG\\/last_successful_build:SamhammerAG\\/last_successful_build_action:v7:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:SamhammerAG\\/last-successful:SamhammerAG\\/last-successful-build-action:v7:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:SamhammerAG\\/last-successful:SamhammerAG\\/last_successful_build_action:v7:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:SamhammerAG\\/last_successful:SamhammerAG\\/last-successful-build-action:v7:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:SamhammerAG\\/last_successful:SamhammerAG\\/last_successful_build_action:v7:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:SamhammerAG\\/last:SamhammerAG\\/last-successful-build-action:v7:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:SamhammerAG\\/last:SamhammerAG\\/last_successful_build_action:v7:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/syntax-php.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/actions/cache@v6.1.0?package-id=4005fb77658c00bb",
+      "type": "library",
+      "name": "actions/cache",
+      "version": "v6.1.0",
+      "cpe": "cpe:2.3:a:actions\\/cache:actions\\/cache:v6.1.0:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/cache@v6.1.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/composer.yml"
+        }
+      ]
+    },
     {
       "bom-ref": "pkg:github/actions/cache@v6.1.0?package-id=533d665346845ede",
       "type": "library",
@@ -107,32 +213,6 @@
       ]
     },
     {
-      "bom-ref": "pkg:github/actions/checkout@v7.0.0?package-id=e22dde1cf7913a9e",
-      "type": "library",
-      "name": "actions/checkout",
-      "version": "v7.0.0",
-      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v7.0.0:*:*:*:*:*:*:*",
-      "purl": "pkg:github/actions/checkout@v7.0.0",
-      "properties": [
-        {
-          "name": "syft:package:foundBy",
-          "value": "github-actions-usage-cataloger"
-        },
-        {
-          "name": "syft:package:type",
-          "value": "github-action"
-        },
-        {
-          "name": "syft:package:metadataType",
-          "value": "github-actions-use-statement"
-        },
-        {
-          "name": "syft:location:0:path",
-          "value": "/.github/workflows/lint.yml"
-        }
-      ]
-    },
-    {
       "bom-ref": "pkg:github/actions/checkout@v7.0.0?package-id=fb7050b197303fc2",
       "type": "library",
       "name": "actions/checkout",
@@ -185,32 +265,6 @@
       ]
     },
     {
-      "bom-ref": "pkg:github/actions/checkout@v7.0.0?package-id=274cc6b005799273",
-      "type": "library",
-      "name": "actions/checkout",
-      "version": "v7.0.0",
-      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v7.0.0:*:*:*:*:*:*:*",
-      "purl": "pkg:github/actions/checkout@v7.0.0",
-      "properties": [
-        {
-          "name": "syft:package:foundBy",
-          "value": "github-actions-usage-cataloger"
-        },
-        {
-          "name": "syft:package:type",
-          "value": "github-action"
-        },
-        {
-          "name": "syft:package:metadataType",
-          "value": "github-actions-use-statement"
-        },
-        {
-          "name": "syft:location:0:path",
-          "value": "/.github/workflows/syntax-xml.yml"
-        }
-      ]
-    },
-    {
       "bom-ref": "pkg:github/actions/github-script@v9.0.0?package-id=ed60fc4127d9e1ef",
       "type": "library",
       "name": "actions/github-script",
@@ -253,52 +307,6 @@
         {
           "name": "syft:location:0:path",
           "value": "/.github/workflows/ai-assisted-note.yml"
-        }
-      ]
-    },
-    {
-      "bom-ref": "pkg:github/shivammathur/setup-php@2.37.2?package-id=601f9983e0144444",
-      "type": "library",
-      "name": "shivammathur/setup-php",
-      "version": "2.37.2",
-      "cpe": "cpe:2.3:a:shivammathur\\/setup-php:shivammathur\\/setup-php:2.37.2:*:*:*:*:*:*:*",
-      "purl": "pkg:github/shivammathur/setup-php@2.37.2",
-      "properties": [
-        {
-          "name": "syft:package:foundBy",
-          "value": "github-actions-usage-cataloger"
-        },
-        {
-          "name": "syft:package:type",
-          "value": "github-action"
-        },
-        {
-          "name": "syft:package:metadataType",
-          "value": "github-actions-use-statement"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:shivammathur\\/setup-php:shivammathur\\/setup_php:2.37.2:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:shivammathur\\/setup_php:shivammathur\\/setup-php:2.37.2:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:shivammathur\\/setup_php:shivammathur\\/setup_php:2.37.2:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:shivammathur\\/setup:shivammathur\\/setup-php:2.37.2:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:shivammathur\\/setup:shivammathur\\/setup_php:2.37.2:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:location:0:path",
-          "value": "/.github/workflows/lint.yml"
         }
       ]
     },
@@ -395,9 +403,165 @@
       ]
     },
     {
+      "bom-ref": "pkg:composer/symfony/deprecation-contracts@v3.7.1?package-id=017b654a9656e81d",
+      "type": "library",
+      "name": "symfony/deprecation-contracts",
+      "version": "v3.7.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:symfony\\/deprecation-contracts:symfony\\/deprecation-contracts:v3.7.1:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/symfony/deprecation-contracts@v3.7.1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "php-composer-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "php"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "php-composer"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "php-composer-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/deprecation-contracts:symfony\\/deprecation_contracts:v3.7.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/deprecation_contracts:symfony\\/deprecation-contracts:v3.7.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/deprecation_contracts:symfony\\/deprecation_contracts:v3.7.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/deprecation:symfony\\/deprecation-contracts:v3.7.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/deprecation:symfony\\/deprecation_contracts:v3.7.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/composer.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:composer/symfony/routing@v7.4.13?package-id=198715f20110966c",
+      "type": "library",
+      "name": "symfony/routing",
+      "version": "v7.4.13",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:symfony\\/routing:symfony\\/routing:v7.4.13:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/symfony/routing@v7.4.13",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "php-composer-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "php"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "php-composer"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "php-composer-lock-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/composer.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/tj-actions/changed-files@v47.0.6?package-id=bda9d408afb3a71a",
+      "type": "library",
+      "name": "tj-actions/changed-files",
+      "version": "v47.0.6",
+      "cpe": "cpe:2.3:a:tj-actions\\/changed-files:tj-actions\\/changed-files:v47.0.6:*:*:*:*:*:*:*",
+      "purl": "pkg:github/tj-actions/changed-files@v47.0.6",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:tj-actions\\/changed-files:tj_actions\\/changed_files:v47.0.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:tj_actions\\/changed_files:tj-actions\\/changed-files:v47.0.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:tj_actions\\/changed_files:tj_actions\\/changed_files:v47.0.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:tj-actions\\/changed:tj-actions\\/changed-files:v47.0.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:tj-actions\\/changed:tj_actions\\/changed_files:v47.0.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:tj_actions\\/changed:tj-actions\\/changed-files:v47.0.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:tj_actions\\/changed:tj_actions\\/changed_files:v47.0.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:tj:tj-actions\\/changed-files:v47.0.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:tj:tj_actions\\/changed_files:v47.0.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/syntax-php.yml"
+        }
+      ]
+    },
+    {
       "bom-ref": "2711cd66e9444a3c",
       "type": "file",
-      "name": "/tmp/tmp.82l0qdMKhK/module-przelewy24-default/.github/workflows/ai-assisted-note.yml",
+      "name": "/tmp/tmp.82l0qdMKhK/maho-composer-plugin-v4.3.0/.github/workflows/ai-assisted-note.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -412,90 +576,75 @@
     {
       "bom-ref": "d422de945bf18b46",
       "type": "file",
-      "name": "/tmp/tmp.82l0qdMKhK/module-przelewy24-default/.github/workflows/composer.yml",
+      "name": "/tmp/tmp.82l0qdMKhK/maho-composer-plugin-v4.3.0/.github/workflows/composer.yml",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "05ea57ff15cc81bb1690886ec60b72242a35a25f"
+          "content": "a151f8e39c8d98e044186aa36fd5b86d79e6b64b"
         },
         {
           "alg": "SHA-256",
-          "content": "266563f03a6341d80ed991acbd4e686a9d1774d35eab12c2e9dd4e0d09cf2272"
+          "content": "e857880f083ee7867743620a9c70aafd1857aff619a240bd21cdef7e50035ab5"
         }
       ]
     },
     {
       "bom-ref": "ca67cce3ff943159",
       "type": "file",
-      "name": "/tmp/tmp.82l0qdMKhK/module-przelewy24-default/.github/workflows/line-endings.yml",
+      "name": "/tmp/tmp.82l0qdMKhK/maho-composer-plugin-v4.3.0/.github/workflows/line-endings.yml",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "639e9df312a98e8472bf5aed7649026b6dc77383"
+          "content": "cf2486c2a057aee6b61ef0e04af7feac9772bfe2"
         },
         {
           "alg": "SHA-256",
-          "content": "409f2eec4e1ef5b50d006fbb7ed5ca90ff14b82b25aac7f931eaf6a4c4a508a7"
-        }
-      ]
-    },
-    {
-      "bom-ref": "5ebde7ddc8076c2b",
-      "type": "file",
-      "name": "/tmp/tmp.82l0qdMKhK/module-przelewy24-default/.github/workflows/lint.yml",
-      "hashes": [
-        {
-          "alg": "SHA-1",
-          "content": "4fd2c1bd8ee5b5c29dc23714803eb61d8138a057"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "4a2915d37881f1bdadf71b8e4e5a797f0af47433a8c042f9fe9045f690b2d732"
+          "content": "f2823f0da573c866f6b6fb10a3fbfee99a51d0e18a5d3d108b9f7fe8bbe35dd5"
         }
       ]
     },
     {
       "bom-ref": "f23abd314990253e",
       "type": "file",
-      "name": "/tmp/tmp.82l0qdMKhK/module-przelewy24-default/.github/workflows/phpstan.yml",
+      "name": "/tmp/tmp.82l0qdMKhK/maho-composer-plugin-v4.3.0/.github/workflows/phpstan.yml",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "e5122d5d4bbe1215cc33706bf6b6d23f585eaf0c"
+          "content": "faecfdd85adfc10ce3028064a9a2b6b68d6fb3e6"
         },
         {
           "alg": "SHA-256",
-          "content": "048bd2a49ce93ddd1914a18563326b4ccbe02ac1c28a4354ad074cca7770ece4"
+          "content": "336276e5d7d36b543f05286c77cc68685a7ce9e2e1db58ba3b942a699c474e9a"
         }
       ]
     },
     {
       "bom-ref": "5c470c2c7e53f689",
       "type": "file",
-      "name": "/tmp/tmp.82l0qdMKhK/module-przelewy24-default/.github/workflows/syntax-php.yml",
+      "name": "/tmp/tmp.82l0qdMKhK/maho-composer-plugin-v4.3.0/.github/workflows/syntax-php.yml",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "8513f0ab1ad3659b7b18b0c82163b5cb22be8f27"
+          "content": "221275a38da4e634bc90686eab64fcaebccb8cc8"
         },
         {
           "alg": "SHA-256",
-          "content": "c09e7bd4c20ef95d3e0c85f04be65892d14847e0446302f342e43d95e389a56d"
+          "content": "4a793be006e861390741bbcb1f54111adad0229e04b9cb6150d7a47d526715bf"
         }
       ]
     },
     {
-      "bom-ref": "5681d4ed4a932be8",
+      "bom-ref": "c8bb62e6bded633e",
       "type": "file",
-      "name": "/tmp/tmp.82l0qdMKhK/module-przelewy24-default/.github/workflows/syntax-xml.yml",
+      "name": "/tmp/tmp.82l0qdMKhK/maho-composer-plugin-v4.3.0/composer.lock",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "ec3adb49ec81aae11ebf26a1f7a625d080df08f2"
+          "content": "8132afd5b9743869d6bda11cc98919f3edba355d"
         },
         {
           "alg": "SHA-256",
-          "content": "5950c83d36d45dee1c7030e06a9857122495380c46d6883d3de7201d4e10266b"
+          "content": "d7d811a12fa6b0ee53ad62a49a4983c0e4f65a6f6c8656c47d34261b343110e8"
         }
       ]
     }
