@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
-  "serialNumber": "urn:uuid:3022d986-127d-45fc-b36f-8d05a022d69a",
+  "serialNumber": "urn:uuid:4ad43483-896d-479f-b8b9-f1081db82028",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-07-17T05:32:55Z",
+    "timestamp": "2026-07-18T05:15:38Z",
     "tools": {
       "components": [
         {
@@ -17,9 +17,9 @@
       ]
     },
     "component": {
-      "bom-ref": "a14d1bb1d16e4ac5",
+      "bom-ref": "4a3db6b527d9c7bc",
       "type": "file",
-      "name": "/tmp/tmp.82l0qdMKhK/maho-starter-default",
+      "name": "/tmp/tmp.ZxKkGCHm3K/maho-starter-default",
       "licenses": [
         {
           "expression": "OSL-3.0 OR AFL-3.0"
@@ -77,7 +77,7 @@
     {
       "bom-ref": "2711cd66e9444a3c",
       "type": "file",
-      "name": "/tmp/tmp.82l0qdMKhK/maho-starter-default/.github/workflows/ai-assisted-note.yml",
+      "name": "/tmp/tmp.ZxKkGCHm3K/maho-starter-default/.github/workflows/ai-assisted-note.yml",
       "hashes": [
         {
           "alg": "SHA-1",
