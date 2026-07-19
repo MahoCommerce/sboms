@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
-  "serialNumber": "urn:uuid:82f94b2d-120e-45ee-9792-ad97bbe5f6f8",
+  "serialNumber": "urn:uuid:83f2ae22-de20-4559-8962-a445a06131cc",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-07-18T05:15:55Z",
+    "timestamp": "2026-07-19T05:42:23Z",
     "tools": {
       "components": [
         {
@@ -17,9 +17,9 @@
       ]
     },
     "component": {
-      "bom-ref": "f9a8f9b7e476aeea",
+      "bom-ref": "97a206ba330e2503",
       "type": "file",
-      "name": "/tmp/tmp.ZxKkGCHm3K/module-taler-default",
+      "name": "/tmp/tmp.fUxd10JqwT/module-taler-default",
       "licenses": [
         {
           "expression": "OSL-3.0 OR AFL-3.0"
@@ -495,7 +495,7 @@
     {
       "bom-ref": "2711cd66e9444a3c",
       "type": "file",
-      "name": "/tmp/tmp.ZxKkGCHm3K/module-taler-default/.github/workflows/ai-assisted-note.yml",
+      "name": "/tmp/tmp.fUxd10JqwT/module-taler-default/.github/workflows/ai-assisted-note.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -510,7 +510,7 @@
     {
       "bom-ref": "d422de945bf18b46",
       "type": "file",
-      "name": "/tmp/tmp.ZxKkGCHm3K/module-taler-default/.github/workflows/composer.yml",
+      "name": "/tmp/tmp.fUxd10JqwT/module-taler-default/.github/workflows/composer.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -525,7 +525,7 @@
     {
       "bom-ref": "ca67cce3ff943159",
       "type": "file",
-      "name": "/tmp/tmp.ZxKkGCHm3K/module-taler-default/.github/workflows/line-endings.yml",
+      "name": "/tmp/tmp.fUxd10JqwT/module-taler-default/.github/workflows/line-endings.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -540,7 +540,7 @@
     {
       "bom-ref": "5ebde7ddc8076c2b",
       "type": "file",
-      "name": "/tmp/tmp.ZxKkGCHm3K/module-taler-default/.github/workflows/lint.yml",
+      "name": "/tmp/tmp.fUxd10JqwT/module-taler-default/.github/workflows/lint.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -555,7 +555,7 @@
     {
       "bom-ref": "f23abd314990253e",
       "type": "file",
-      "name": "/tmp/tmp.ZxKkGCHm3K/module-taler-default/.github/workflows/phpstan.yml",
+      "name": "/tmp/tmp.fUxd10JqwT/module-taler-default/.github/workflows/phpstan.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -570,7 +570,7 @@
     {
       "bom-ref": "5c470c2c7e53f689",
       "type": "file",
-      "name": "/tmp/tmp.ZxKkGCHm3K/module-taler-default/.github/workflows/syntax-php.yml",
+      "name": "/tmp/tmp.fUxd10JqwT/module-taler-default/.github/workflows/syntax-php.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -585,7 +585,7 @@
     {
       "bom-ref": "5681d4ed4a932be8",
       "type": "file",
-      "name": "/tmp/tmp.ZxKkGCHm3K/module-taler-default/.github/workflows/syntax-xml.yml",
+      "name": "/tmp/tmp.fUxd10JqwT/module-taler-default/.github/workflows/syntax-xml.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -600,7 +600,7 @@
     {
       "bom-ref": "9b0927f24570d5cb",
       "type": "file",
-      "name": "/tmp/tmp.ZxKkGCHm3K/module-taler-default/.github/workflows/tests.yml",
+      "name": "/tmp/tmp.fUxd10JqwT/module-taler-default/.github/workflows/tests.yml",
       "hashes": [
         {
           "alg": "SHA-1",
