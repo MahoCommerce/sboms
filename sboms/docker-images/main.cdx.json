@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
-  "serialNumber": "urn:uuid:92c2c01a-a55b-46ec-98ba-8a7729bb213b",
+  "serialNumber": "urn:uuid:3eba45fd-32a0-4ac2-81a4-1f9f53b8a6dd",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-07-20T05:59:24Z",
+    "timestamp": "2026-07-21T05:40:26Z",
     "tools": {
       "components": [
         {
@@ -17,9 +17,9 @@
       ]
     },
     "component": {
-      "bom-ref": "b8ab1877d7c8c30e",
+      "bom-ref": "0dcf95109299845e",
       "type": "file",
-      "name": "/tmp/tmp.ogrc0PSXKv/docker-images-default",
+      "name": "/tmp/tmp.BFZtRNqCb1/docker-images-default",
       "licenses": [
         {
           "expression": "OSL-3.0 OR AFL-3.0"
@@ -273,7 +273,7 @@
     {
       "bom-ref": "2711cd66e9444a3c",
       "type": "file",
-      "name": "/tmp/tmp.ogrc0PSXKv/docker-images-default/.github/workflows/ai-assisted-note.yml",
+      "name": "/tmp/tmp.BFZtRNqCb1/docker-images-default/.github/workflows/ai-assisted-note.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -288,7 +288,7 @@
     {
       "bom-ref": "ebff2c81fbaf921b",
       "type": "file",
-      "name": "/tmp/tmp.ogrc0PSXKv/docker-images-default/.github/workflows/build.yml",
+      "name": "/tmp/tmp.BFZtRNqCb1/docker-images-default/.github/workflows/build.yml",
       "hashes": [
         {
           "alg": "SHA-1",
