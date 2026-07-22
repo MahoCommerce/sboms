@@ -1,6 +1,6 @@
 # Vulnerability Report
 
-_Last updated: 2026-07-21 05:43 UTC_
+_Last updated: 2026-07-22 05:42 UTC_
 
 Generated from the HEAD-of-default-branch SBOM of each tracked repo, scanned by Grype and Trivy. Only vulnerabilities with an upstream fix available are included. Per-repo JSON with the full finding detail is in [`vulns/`](vulns/).
 
@@ -30,9 +30,9 @@ Generated from the HEAD-of-default-branch SBOM of each tracked repo, scanned by 
 | `module-taler` | — | — | — | — | — | — |
 | `module-template` | — | — | — | — | — | — |
 | `phpstorm` | — | — | — | — | — | — |
-| `vscode` | — | 1 | — | — | — | — |
+| `vscode` | — | 2 | — | — | — | — |
 | `zed` | — | — | — | — | — | — |
-| **Total** | — | **1** | — | — | — | — |
+| **Total** | — | **2** | — | — | — | — |
 
 ## Critical findings
 
@@ -43,4 +43,5 @@ _None._
 ### `vscode`
 
 - [CVE-2026-13149](https://nvd.nist.gov/vuln/detail/CVE-2026-13149) in `brace-expansion@2.0.3` — fix: `5.0.7, 1.1.16, 2.1.2` (via trivy)
+- [GHSA-3jxr-9vmj-r5cp](https://github.com/advisories/GHSA-3jxr-9vmj-r5cp) in `brace-expansion@2.0.3` — fix: `2.1.2` (via grype)
 
