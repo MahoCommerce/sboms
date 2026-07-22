@@ -2,24 +2,24 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
-  "serialNumber": "urn:uuid:3eb976f1-5966-4358-aa20-cd8eebf94672",
+  "serialNumber": "urn:uuid:5e0a93b3-9029-4ec2-a21d-53fcfbbe033e",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-07-21T05:41:09Z",
+    "timestamp": "2026-07-22T05:40:13Z",
     "tools": {
       "components": [
         {
           "type": "application",
           "author": "anchore",
           "name": "syft",
-          "version": "1.48.0"
+          "version": "1.49.0"
         }
       ]
     },
     "component": {
-      "bom-ref": "142da6b278bde6b6",
+      "bom-ref": "836a8b0227c4550d",
       "type": "file",
-      "name": "/tmp/tmp.BFZtRNqCb1/module-mollie-default",
+      "name": "/tmp/tmp.BM8hlqhOzE/module-mollie-default",
       "licenses": [
         {
           "expression": "OSL-3.0 OR AFL-3.0"
@@ -397,7 +397,7 @@
     {
       "bom-ref": "2711cd66e9444a3c",
       "type": "file",
-      "name": "/tmp/tmp.BFZtRNqCb1/module-mollie-default/.github/workflows/ai-assisted-note.yml",
+      "name": "/tmp/tmp.BM8hlqhOzE/module-mollie-default/.github/workflows/ai-assisted-note.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -412,7 +412,7 @@
     {
       "bom-ref": "d422de945bf18b46",
       "type": "file",
-      "name": "/tmp/tmp.BFZtRNqCb1/module-mollie-default/.github/workflows/composer.yml",
+      "name": "/tmp/tmp.BM8hlqhOzE/module-mollie-default/.github/workflows/composer.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -427,7 +427,7 @@
     {
       "bom-ref": "ca67cce3ff943159",
       "type": "file",
-      "name": "/tmp/tmp.BFZtRNqCb1/module-mollie-default/.github/workflows/line-endings.yml",
+      "name": "/tmp/tmp.BM8hlqhOzE/module-mollie-default/.github/workflows/line-endings.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -442,7 +442,7 @@
     {
       "bom-ref": "5ebde7ddc8076c2b",
       "type": "file",
-      "name": "/tmp/tmp.BFZtRNqCb1/module-mollie-default/.github/workflows/lint.yml",
+      "name": "/tmp/tmp.BM8hlqhOzE/module-mollie-default/.github/workflows/lint.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -457,7 +457,7 @@
     {
       "bom-ref": "f23abd314990253e",
       "type": "file",
-      "name": "/tmp/tmp.BFZtRNqCb1/module-mollie-default/.github/workflows/phpstan.yml",
+      "name": "/tmp/tmp.BM8hlqhOzE/module-mollie-default/.github/workflows/phpstan.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -472,7 +472,7 @@
     {
       "bom-ref": "5c470c2c7e53f689",
       "type": "file",
-      "name": "/tmp/tmp.BFZtRNqCb1/module-mollie-default/.github/workflows/syntax-php.yml",
+      "name": "/tmp/tmp.BM8hlqhOzE/module-mollie-default/.github/workflows/syntax-php.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -487,7 +487,7 @@
     {
       "bom-ref": "5681d4ed4a932be8",
       "type": "file",
-      "name": "/tmp/tmp.BFZtRNqCb1/module-mollie-default/.github/workflows/syntax-xml.yml",
+      "name": "/tmp/tmp.BM8hlqhOzE/module-mollie-default/.github/workflows/syntax-xml.yml",
       "hashes": [
         {
           "alg": "SHA-1",

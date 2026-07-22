@@ -2,24 +2,24 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
-  "serialNumber": "urn:uuid:3dacf996-adcb-4c18-8680-f2a29d6603a5",
+  "serialNumber": "urn:uuid:1daefc32-2ec7-4c26-89af-db9dca9089c2",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-07-21T05:40:33Z",
+    "timestamp": "2026-07-22T05:39:34Z",
     "tools": {
       "components": [
         {
           "type": "application",
           "author": "anchore",
           "name": "syft",
-          "version": "1.48.0"
+          "version": "1.49.0"
         }
       ]
     },
     "component": {
-      "bom-ref": "f66f3ca9a4a737da",
+      "bom-ref": "207fcc0059c68323",
       "type": "file",
-      "name": "/tmp/tmp.BFZtRNqCb1/infrastructure-default",
+      "name": "/tmp/tmp.BM8hlqhOzE/infrastructure-default",
       "licenses": [
         {
           "license": {
@@ -2151,7 +2151,7 @@
     {
       "bom-ref": "2711cd66e9444a3c",
       "type": "file",
-      "name": "/tmp/tmp.BFZtRNqCb1/infrastructure-default/.github/workflows/ai-assisted-note.yml",
+      "name": "/tmp/tmp.BM8hlqhOzE/infrastructure-default/.github/workflows/ai-assisted-note.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -2166,7 +2166,7 @@
     {
       "bom-ref": "5ebde7ddc8076c2b",
       "type": "file",
-      "name": "/tmp/tmp.BFZtRNqCb1/infrastructure-default/.github/workflows/lint.yml",
+      "name": "/tmp/tmp.BM8hlqhOzE/infrastructure-default/.github/workflows/lint.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -2181,7 +2181,7 @@
     {
       "bom-ref": "f23abd314990253e",
       "type": "file",
-      "name": "/tmp/tmp.BFZtRNqCb1/infrastructure-default/.github/workflows/phpstan.yml",
+      "name": "/tmp/tmp.BM8hlqhOzE/infrastructure-default/.github/workflows/phpstan.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -2196,7 +2196,7 @@
     {
       "bom-ref": "cbbb57827f0f16c5",
       "type": "file",
-      "name": "/tmp/tmp.BFZtRNqCb1/infrastructure-default/.github/workflows/sync.yml",
+      "name": "/tmp/tmp.BM8hlqhOzE/infrastructure-default/.github/workflows/sync.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -2211,7 +2211,7 @@
     {
       "bom-ref": "c8bb62e6bded633e",
       "type": "file",
-      "name": "/tmp/tmp.BFZtRNqCb1/infrastructure-default/composer.lock",
+      "name": "/tmp/tmp.BM8hlqhOzE/infrastructure-default/composer.lock",
       "hashes": [
         {
           "alg": "SHA-1",
