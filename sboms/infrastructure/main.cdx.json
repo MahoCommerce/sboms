@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
-  "serialNumber": "urn:uuid:1e7101c9-1709-43ed-b547-9f68ecda1dea",
+  "serialNumber": "urn:uuid:67572468-95bf-4cda-9298-c95bfd39b332",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-07-23T05:44:12Z",
+    "timestamp": "2026-07-24T05:40:31Z",
     "tools": {
       "components": [
         {
@@ -17,9 +17,9 @@
       ]
     },
     "component": {
-      "bom-ref": "861767171301cf31",
+      "bom-ref": "e949b3d415d22963",
       "type": "file",
-      "name": "/tmp/tmp.HB8e0ZubUO/infrastructure-default",
+      "name": "/tmp/tmp.x0pG1GLx2C/infrastructure-default",
       "licenses": [
         {
           "license": {
@@ -2151,7 +2151,7 @@
     {
       "bom-ref": "2711cd66e9444a3c",
       "type": "file",
-      "name": "/tmp/tmp.HB8e0ZubUO/infrastructure-default/.github/workflows/ai-assisted-note.yml",
+      "name": "/tmp/tmp.x0pG1GLx2C/infrastructure-default/.github/workflows/ai-assisted-note.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -2166,7 +2166,7 @@
     {
       "bom-ref": "5ebde7ddc8076c2b",
       "type": "file",
-      "name": "/tmp/tmp.HB8e0ZubUO/infrastructure-default/.github/workflows/lint.yml",
+      "name": "/tmp/tmp.x0pG1GLx2C/infrastructure-default/.github/workflows/lint.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -2181,7 +2181,7 @@
     {
       "bom-ref": "f23abd314990253e",
       "type": "file",
-      "name": "/tmp/tmp.HB8e0ZubUO/infrastructure-default/.github/workflows/phpstan.yml",
+      "name": "/tmp/tmp.x0pG1GLx2C/infrastructure-default/.github/workflows/phpstan.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -2196,7 +2196,7 @@
     {
       "bom-ref": "cbbb57827f0f16c5",
       "type": "file",
-      "name": "/tmp/tmp.HB8e0ZubUO/infrastructure-default/.github/workflows/sync.yml",
+      "name": "/tmp/tmp.x0pG1GLx2C/infrastructure-default/.github/workflows/sync.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -2211,7 +2211,7 @@
     {
       "bom-ref": "c8bb62e6bded633e",
       "type": "file",
-      "name": "/tmp/tmp.HB8e0ZubUO/infrastructure-default/composer.lock",
+      "name": "/tmp/tmp.x0pG1GLx2C/infrastructure-default/composer.lock",
       "hashes": [
         {
           "alg": "SHA-1",
