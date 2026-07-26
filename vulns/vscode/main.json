@@ -1,20 +1,4 @@
 {
-  "summary": {
-    "High": 1
-  },
-  "findings": [
-    {
-      "cve": "CVE-2026-14257",
-      "package": "brace-expansion",
-      "version": "2.1.2",
-      "purl": "pkg:npm/brace-expansion@2.1.2",
-      "severity": "High",
-      "fixed_in": [
-        "5.0.8"
-      ],
-      "sources": [
-        "trivy"
-      ]
-    }
-  ]
+  "summary": {},
+  "findings": []
 }
