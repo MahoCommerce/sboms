@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
-  "serialNumber": "urn:uuid:a8e79875-6d80-4b31-9b7b-0c534986b964",
+  "serialNumber": "urn:uuid:cbac1f00-bd91-46bb-954f-287add41fc46",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-07-26T05:52:00Z",
+    "timestamp": "2026-07-26T05:52:03Z",
     "tools": {
       "components": [
         {
@@ -17,9 +17,9 @@
       ]
     },
     "component": {
-      "bom-ref": "80672a9cca93f4da",
+      "bom-ref": "0d677b8038af2f97",
       "type": "file",
-      "name": "/tmp/tmp.SRPXbTyOJO/vscode-default",
+      "name": "/tmp/tmp.SRPXbTyOJO/vscode-v0.10.7",
       "licenses": [
         {
           "license": {
@@ -689,7 +689,7 @@
     {
       "bom-ref": "2711cd66e9444a3c",
       "type": "file",
-      "name": "/tmp/tmp.SRPXbTyOJO/vscode-default/.github/workflows/ai-assisted-note.yml",
+      "name": "/tmp/tmp.SRPXbTyOJO/vscode-v0.10.7/.github/workflows/ai-assisted-note.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -704,22 +704,22 @@
     {
       "bom-ref": "cc210d8a1a5f5704",
       "type": "file",
-      "name": "/tmp/tmp.SRPXbTyOJO/vscode-default/.github/workflows/release.yml",
+      "name": "/tmp/tmp.SRPXbTyOJO/vscode-v0.10.7/.github/workflows/release.yml",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "13059a6a9400f5981d73ec5de1e02602b8ac8f0f"
+          "content": "03334308be1a66984c9809340b9c1f4122829c99"
         },
         {
           "alg": "SHA-256",
-          "content": "37cb58a2f1b3e1e12a4bc4de059edbe1543216192a8367d7a813c48b4d86e392"
+          "content": "a0b21988db200ff04dfca8711afc9a518c41a2816666d059e217266b96a533f1"
         }
       ]
     },
     {
       "bom-ref": "fd71c2238fc07657",
       "type": "file",
-      "name": "/tmp/tmp.SRPXbTyOJO/vscode-default/package-lock.json",
+      "name": "/tmp/tmp.SRPXbTyOJO/vscode-v0.10.7/package-lock.json",
       "hashes": [
         {
           "alg": "SHA-1",
