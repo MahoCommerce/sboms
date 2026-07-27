@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
-  "serialNumber": "urn:uuid:1bb35015-d14e-4f62-a990-ccf942b67923",
+  "serialNumber": "urn:uuid:fae0a266-f976-462d-aba4-ffc3f7c0ea86",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-07-27T06:17:21Z",
+    "timestamp": "2026-07-27T06:17:26Z",
     "tools": {
       "components": [
         {
@@ -17,9 +17,9 @@
       ]
     },
     "component": {
-      "bom-ref": "4be878f4d15dd819",
+      "bom-ref": "a5a593ef8ea4b79a",
       "type": "file",
-      "name": "/tmp/tmp.T1DpxHwvns/icons-default",
+      "name": "/tmp/tmp.T1DpxHwvns/icons-3.45.0",
       "licenses": [
         {
           "license": {
@@ -31,12 +31,12 @@
   },
   "components": [
     {
-      "bom-ref": "pkg:github/actions/checkout@v7.0.1?package-id=e551c0dff9d9973c",
+      "bom-ref": "pkg:github/actions/checkout@v5.0.1?package-id=b6111829f6509b17",
       "type": "library",
       "name": "actions/checkout",
-      "version": "v7.0.1",
-      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v7.0.1:*:*:*:*:*:*:*",
-      "purl": "pkg:github/actions/checkout@v7.0.1",
+      "version": "v5.0.1",
+      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v5.0.1:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/checkout@v5.0.1",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -135,78 +135,17 @@
       ]
     },
     {
-      "bom-ref": "pkg:github/actions/github-script@v9.0.0?package-id=ed60fc4127d9e1ef",
-      "type": "library",
-      "name": "actions/github-script",
-      "version": "v9.0.0",
-      "cpe": "cpe:2.3:a:actions\\/github-script:actions\\/github-script:v9.0.0:*:*:*:*:*:*:*",
-      "purl": "pkg:github/actions/github-script@v9.0.0",
-      "properties": [
-        {
-          "name": "syft:package:foundBy",
-          "value": "github-actions-usage-cataloger"
-        },
-        {
-          "name": "syft:package:type",
-          "value": "github-action"
-        },
-        {
-          "name": "syft:package:metadataType",
-          "value": "github-actions-use-statement"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:actions\\/github-script:actions\\/github_script:v9.0.0:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:actions\\/github_script:actions\\/github-script:v9.0.0:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:actions\\/github_script:actions\\/github_script:v9.0.0:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:actions\\/github:actions\\/github-script:v9.0.0:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:actions\\/github:actions\\/github_script:v9.0.0:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:location:0:path",
-          "value": "/.github/workflows/ai-assisted-note.yml"
-        }
-      ]
-    },
-    {
-      "bom-ref": "2711cd66e9444a3c",
-      "type": "file",
-      "name": "/tmp/tmp.T1DpxHwvns/icons-default/.github/workflows/ai-assisted-note.yml",
-      "hashes": [
-        {
-          "alg": "SHA-1",
-          "content": "89c360259174440afd7107580d72d0349937eb5c"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "3758507d0ddd9738e7677387a378460aba24c0447e9cff2f596601d938c8b53f"
-        }
-      ]
-    },
-    {
       "bom-ref": "33e7109e7b1ded1d",
       "type": "file",
-      "name": "/tmp/tmp.T1DpxHwvns/icons-default/.github/workflows/sync-upstream.yml",
+      "name": "/tmp/tmp.T1DpxHwvns/icons-3.45.0/.github/workflows/sync-upstream.yml",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "da048c90502664e183bbd42e0c14232aedb0e205"
+          "content": "5f74989264729942b28c38784dc469c701baf035"
         },
         {
           "alg": "SHA-256",
-          "content": "85adddf0ea20c05d258b3fca68182fc2bcefd622da2a93085f4ae31673a731c1"
+          "content": "f0b1ab9587be41288c6d1f22560944ec86533c35bea61bd843dce47806711149"
         }
       ]
     }
