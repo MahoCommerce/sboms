@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
-  "serialNumber": "urn:uuid:8822ac86-3e4d-44be-88f5-c31546076bb6",
+  "serialNumber": "urn:uuid:c3cdcf56-384a-44ed-9b87-487023508b91",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-07-27T06:17:15Z",
+    "timestamp": "2026-07-28T05:37:16Z",
     "tools": {
       "components": [
         {
@@ -17,9 +17,9 @@
       ]
     },
     "component": {
-      "bom-ref": "3d1389d1d376fb7b",
+      "bom-ref": "184083e85293734d",
       "type": "file",
-      "name": "/tmp/tmp.T1DpxHwvns/directory-data-default",
+      "name": "/tmp/tmp.9eVQVVP41C/directory-data-default",
       "licenses": [
         {
           "license": {
@@ -31,12 +31,12 @@
   },
   "components": [
     {
-      "bom-ref": "pkg:github/actions/checkout@v7.0.0?package-id=4c83771b33b6ad7c",
+      "bom-ref": "pkg:github/actions/checkout@v7.0.1?package-id=ebba6778d34df1f9",
       "type": "library",
       "name": "actions/checkout",
-      "version": "v7.0.0",
-      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v7.0.0:*:*:*:*:*:*:*",
-      "purl": "pkg:github/actions/checkout@v7.0.0",
+      "version": "v7.0.1",
+      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v7.0.1:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/checkout@v7.0.1",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -229,7 +229,7 @@
     {
       "bom-ref": "2711cd66e9444a3c",
       "type": "file",
-      "name": "/tmp/tmp.T1DpxHwvns/directory-data-default/.github/workflows/ai-assisted-note.yml",
+      "name": "/tmp/tmp.9eVQVVP41C/directory-data-default/.github/workflows/ai-assisted-note.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -244,15 +244,15 @@
     {
       "bom-ref": "62f594948731c9a4",
       "type": "file",
-      "name": "/tmp/tmp.T1DpxHwvns/directory-data-default/.github/workflows/update-data.yml",
+      "name": "/tmp/tmp.9eVQVVP41C/directory-data-default/.github/workflows/update-data.yml",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "1211ea8cac2b5acebf684403b885384548db36e2"
+          "content": "d846f10886600b775efbac2eec631154d5f9ec0f"
         },
         {
           "alg": "SHA-256",
-          "content": "18e51ce4cb100ffe4365edef4a16a25f2637bac291ebdf05fa38b6ea75f82938"
+          "content": "f788a3d299ec179be9268db96b044507e9c1669d54ffaa39b6c4f0806dcad00c"
         }
       ]
     }

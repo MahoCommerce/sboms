@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
-  "serialNumber": "urn:uuid:a5f61f78-0b87-4034-9104-85460bc4e2ec",
+  "serialNumber": "urn:uuid:5d76415d-0334-470d-9c30-9b2b8bd4da06",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-07-28T05:37:54Z",
+    "timestamp": "2026-07-28T05:37:56Z",
     "tools": {
       "components": [
         {
@@ -17,9 +17,9 @@
       ]
     },
     "component": {
-      "bom-ref": "a96ce88bc1ff37ef",
+      "bom-ref": "7b4e7de83121e991",
       "type": "file",
-      "name": "/tmp/tmp.9eVQVVP41C/maho-phpstan-plugin-default",
+      "name": "/tmp/tmp.9eVQVVP41C/maho-phpstan-plugin-v4.3.0",
       "licenses": [
         {
           "license": {
@@ -188,7 +188,7 @@
     {
       "bom-ref": "2711cd66e9444a3c",
       "type": "file",
-      "name": "/tmp/tmp.9eVQVVP41C/maho-phpstan-plugin-default/.github/workflows/ai-assisted-note.yml",
+      "name": "/tmp/tmp.9eVQVVP41C/maho-phpstan-plugin-v4.3.0/.github/workflows/ai-assisted-note.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -203,7 +203,7 @@
     {
       "bom-ref": "f23abd314990253e",
       "type": "file",
-      "name": "/tmp/tmp.9eVQVVP41C/maho-phpstan-plugin-default/.github/workflows/phpstan.yml",
+      "name": "/tmp/tmp.9eVQVVP41C/maho-phpstan-plugin-v4.3.0/.github/workflows/phpstan.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -218,15 +218,15 @@
     {
       "bom-ref": "c8bb62e6bded633e",
       "type": "file",
-      "name": "/tmp/tmp.9eVQVVP41C/maho-phpstan-plugin-default/composer.lock",
+      "name": "/tmp/tmp.9eVQVVP41C/maho-phpstan-plugin-v4.3.0/composer.lock",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "8bd0e224ab27e122d3a63dfb99a20eac5a617d5a"
+          "content": "3a7d8ba898f4ae10951bdfcdad0d93be45dd2477"
         },
         {
           "alg": "SHA-256",
-          "content": "38d5a5a40c6846b8489c24aa6374059f7cf9b9b82919ea1f4231a35ccae3f5ab"
+          "content": "17e79f69c818eeb5a7efcffad6f173788b66d19e87a2deff7f3ccb3ad3c3a54c"
         }
       ]
     }

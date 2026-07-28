@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
-  "serialNumber": "urn:uuid:daa46c68-3383-4c2f-be85-2dfb044febed",
+  "serialNumber": "urn:uuid:eb897e2f-5e4c-45a2-97a4-9c0e19684299",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-07-27T06:18:20Z",
+    "timestamp": "2026-07-28T05:38:29Z",
     "tools": {
       "components": [
         {
@@ -17,9 +17,9 @@
       ]
     },
     "component": {
-      "bom-ref": "92761ec86351dbc7",
+      "bom-ref": "c326428d693c48d1",
       "type": "file",
-      "name": "/tmp/tmp.T1DpxHwvns/vscode-default",
+      "name": "/tmp/tmp.9eVQVVP41C/vscode-default",
       "licenses": [
         {
           "license": {
@@ -31,12 +31,12 @@
   },
   "components": [
     {
-      "bom-ref": "pkg:github/actions/checkout@v7.0.0?package-id=51b623a3bc354634",
+      "bom-ref": "pkg:github/actions/checkout@v7.0.1?package-id=ae6fd725c63fbcb6",
       "type": "library",
       "name": "actions/checkout",
-      "version": "v7.0.0",
-      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v7.0.0:*:*:*:*:*:*:*",
-      "purl": "pkg:github/actions/checkout@v7.0.0",
+      "version": "v7.0.1",
+      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v7.0.1:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/checkout@v7.0.1",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -689,7 +689,7 @@
     {
       "bom-ref": "2711cd66e9444a3c",
       "type": "file",
-      "name": "/tmp/tmp.T1DpxHwvns/vscode-default/.github/workflows/ai-assisted-note.yml",
+      "name": "/tmp/tmp.9eVQVVP41C/vscode-default/.github/workflows/ai-assisted-note.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -704,22 +704,22 @@
     {
       "bom-ref": "cc210d8a1a5f5704",
       "type": "file",
-      "name": "/tmp/tmp.T1DpxHwvns/vscode-default/.github/workflows/release.yml",
+      "name": "/tmp/tmp.9eVQVVP41C/vscode-default/.github/workflows/release.yml",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "13059a6a9400f5981d73ec5de1e02602b8ac8f0f"
+          "content": "9e58661987a70ecb185998b36380214f0d4b3eb3"
         },
         {
           "alg": "SHA-256",
-          "content": "37cb58a2f1b3e1e12a4bc4de059edbe1543216192a8367d7a813c48b4d86e392"
+          "content": "968bfa4d5b47860d0a58a9d1df4e70a597e46d90dc268f29cb992f6ee956b4cc"
         }
       ]
     },
     {
       "bom-ref": "fd71c2238fc07657",
       "type": "file",
-      "name": "/tmp/tmp.T1DpxHwvns/vscode-default/package-lock.json",
+      "name": "/tmp/tmp.9eVQVVP41C/vscode-default/package-lock.json",
       "hashes": [
         {
           "alg": "SHA-1",

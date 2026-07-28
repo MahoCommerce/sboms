@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
-  "serialNumber": "urn:uuid:c01bddbf-3f3b-4867-83c8-09bd3922083c",
+  "serialNumber": "urn:uuid:abd64fb1-059a-48b7-998d-1d1437df00bc",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-07-27T06:17:30Z",
+    "timestamp": "2026-07-28T05:37:26Z",
     "tools": {
       "components": [
         {
@@ -17,9 +17,9 @@
       ]
     },
     "component": {
-      "bom-ref": "1bbeb37d01e7c314",
+      "bom-ref": "d322501eeaa2f86a",
       "type": "file",
-      "name": "/tmp/tmp.T1DpxHwvns/infrastructure-default",
+      "name": "/tmp/tmp.9eVQVVP41C/infrastructure-default",
       "licenses": [
         {
           "license": {
@@ -31,12 +31,12 @@
   },
   "components": [
     {
-      "bom-ref": "pkg:github/actions/checkout@v7.0.0?package-id=e22dde1cf7913a9e",
+      "bom-ref": "pkg:github/actions/checkout@v7.0.1?package-id=9db7cdd88e0d2a25",
       "type": "library",
       "name": "actions/checkout",
-      "version": "v7.0.0",
-      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v7.0.0:*:*:*:*:*:*:*",
-      "purl": "pkg:github/actions/checkout@v7.0.0",
+      "version": "v7.0.1",
+      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v7.0.1:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/checkout@v7.0.1",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -57,12 +57,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:github/actions/checkout@v7.0.0?package-id=fb7050b197303fc2",
+      "bom-ref": "pkg:github/actions/checkout@v7.0.1?package-id=e1864b52a552ab34",
       "type": "library",
       "name": "actions/checkout",
-      "version": "v7.0.0",
-      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v7.0.0:*:*:*:*:*:*:*",
-      "purl": "pkg:github/actions/checkout@v7.0.0",
+      "version": "v7.0.1",
+      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v7.0.1:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/checkout@v7.0.1",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -83,12 +83,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:github/actions/checkout@v7.0.0?package-id=4359e105a9f4d28d",
+      "bom-ref": "pkg:github/actions/checkout@v7.0.1?package-id=ceb63c825590d5e0",
       "type": "library",
       "name": "actions/checkout",
-      "version": "v7.0.0",
-      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v7.0.0:*:*:*:*:*:*:*",
-      "purl": "pkg:github/actions/checkout@v7.0.0",
+      "version": "v7.0.1",
+      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v7.0.1:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/checkout@v7.0.1",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -2151,7 +2151,7 @@
     {
       "bom-ref": "2711cd66e9444a3c",
       "type": "file",
-      "name": "/tmp/tmp.T1DpxHwvns/infrastructure-default/.github/workflows/ai-assisted-note.yml",
+      "name": "/tmp/tmp.9eVQVVP41C/infrastructure-default/.github/workflows/ai-assisted-note.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -2166,60 +2166,60 @@
     {
       "bom-ref": "5ebde7ddc8076c2b",
       "type": "file",
-      "name": "/tmp/tmp.T1DpxHwvns/infrastructure-default/.github/workflows/lint.yml",
+      "name": "/tmp/tmp.9eVQVVP41C/infrastructure-default/.github/workflows/lint.yml",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "4fd2c1bd8ee5b5c29dc23714803eb61d8138a057"
+          "content": "8addf99ffbcada103caebac418caef5b6340f7e7"
         },
         {
           "alg": "SHA-256",
-          "content": "4a2915d37881f1bdadf71b8e4e5a797f0af47433a8c042f9fe9045f690b2d732"
+          "content": "35137a644be6298e5c16d81acfda95c7238dfd523ad92adbfb9bdcfcfe51bb43"
         }
       ]
     },
     {
       "bom-ref": "f23abd314990253e",
       "type": "file",
-      "name": "/tmp/tmp.T1DpxHwvns/infrastructure-default/.github/workflows/phpstan.yml",
+      "name": "/tmp/tmp.9eVQVVP41C/infrastructure-default/.github/workflows/phpstan.yml",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "c88f9b26f5b8405c1a154f1669902a4f6e6cbe04"
+          "content": "9f21bed74fb9aa2b88ed3ac0916cf6706a6fc96a"
         },
         {
           "alg": "SHA-256",
-          "content": "1a6ba930a90b1f1aaed56f8df03f7475b4d46e7357b921cca283bd31dfe8f34f"
+          "content": "790ab7033b13406a779105613f726f36e5f0dc272c6632a306c2aef6686cc718"
         }
       ]
     },
     {
       "bom-ref": "cbbb57827f0f16c5",
       "type": "file",
-      "name": "/tmp/tmp.T1DpxHwvns/infrastructure-default/.github/workflows/sync.yml",
+      "name": "/tmp/tmp.9eVQVVP41C/infrastructure-default/.github/workflows/sync.yml",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "8ec90f531b5c8ab120a95f3cd8c9c893ac554fa9"
+          "content": "78acf92168dd9b1be4590f2c09d926bef070d4c4"
         },
         {
           "alg": "SHA-256",
-          "content": "21b2b1138440652d1e295cfaf42b04b46479062e84dfd940d2e6a747f889b17c"
+          "content": "dce7764ac0a6ad5b61e6ce7d982aa0d550bab2620fc3445fd747a3dfa235de01"
         }
       ]
     },
     {
       "bom-ref": "c8bb62e6bded633e",
       "type": "file",
-      "name": "/tmp/tmp.T1DpxHwvns/infrastructure-default/composer.lock",
+      "name": "/tmp/tmp.9eVQVVP41C/infrastructure-default/composer.lock",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "7885d8c52772e831f669891a984fcf87400948aa"
+          "content": "e70882fb4a51905e9a2ebe0650e8d0afcabbe300"
         },
         {
           "alg": "SHA-256",
-          "content": "a5586896b897e3660597f0bc99d271a9a23ab72d889dc7da9ba7ddd39dd01ab8"
+          "content": "7be383f0c1136f42218af780e8c59cd1cfc238997e6784c050cd091a9805b87b"
         }
       ]
     }

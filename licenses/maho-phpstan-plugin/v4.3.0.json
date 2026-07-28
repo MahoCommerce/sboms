@@ -1,12 +1,12 @@
 {
-  "repo": "docker-images",
-  "ref": "main",
+  "repo": "maho-phpstan-plugin",
+  "ref": "v4.3.0",
   "reuse_spec_version": "3.3",
   "summary": {
     "used_licenses": [
       "OSL-3.0"
     ],
-    "files_total": 17,
+    "files_total": 31,
     "files_with_copyright_info": 1,
     "files_with_licensing_info": 1,
     "compliant": false
