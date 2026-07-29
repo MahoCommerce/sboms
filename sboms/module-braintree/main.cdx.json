@@ -2,24 +2,24 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
-  "serialNumber": "urn:uuid:a0823f0c-976c-434a-87df-fb2aa4b21a54",
+  "serialNumber": "urn:uuid:03209b23-a65d-4351-b858-e8fdefa917b7",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-07-28T05:38:09Z",
+    "timestamp": "2026-07-29T05:42:45Z",
     "tools": {
       "components": [
         {
           "type": "application",
           "author": "anchore",
           "name": "syft",
-          "version": "1.49.0"
+          "version": "1.50.0"
         }
       ]
     },
     "component": {
-      "bom-ref": "5d97d4fbdbb67a18",
+      "bom-ref": "eff56119a11e5efc",
       "type": "file",
-      "name": "/tmp/tmp.9eVQVVP41C/module-braintree-default",
+      "name": "/tmp/tmp.ReJXGM1vf3/module-braintree-default",
       "licenses": [
         {
           "license": {
@@ -399,7 +399,7 @@
     {
       "bom-ref": "2711cd66e9444a3c",
       "type": "file",
-      "name": "/tmp/tmp.9eVQVVP41C/module-braintree-default/.github/workflows/ai-assisted-note.yml",
+      "name": "/tmp/tmp.ReJXGM1vf3/module-braintree-default/.github/workflows/ai-assisted-note.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -414,7 +414,7 @@
     {
       "bom-ref": "d422de945bf18b46",
       "type": "file",
-      "name": "/tmp/tmp.9eVQVVP41C/module-braintree-default/.github/workflows/composer.yml",
+      "name": "/tmp/tmp.ReJXGM1vf3/module-braintree-default/.github/workflows/composer.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -429,7 +429,7 @@
     {
       "bom-ref": "ca67cce3ff943159",
       "type": "file",
-      "name": "/tmp/tmp.9eVQVVP41C/module-braintree-default/.github/workflows/line-endings.yml",
+      "name": "/tmp/tmp.ReJXGM1vf3/module-braintree-default/.github/workflows/line-endings.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -444,7 +444,7 @@
     {
       "bom-ref": "5ebde7ddc8076c2b",
       "type": "file",
-      "name": "/tmp/tmp.9eVQVVP41C/module-braintree-default/.github/workflows/lint.yml",
+      "name": "/tmp/tmp.ReJXGM1vf3/module-braintree-default/.github/workflows/lint.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -459,7 +459,7 @@
     {
       "bom-ref": "f23abd314990253e",
       "type": "file",
-      "name": "/tmp/tmp.9eVQVVP41C/module-braintree-default/.github/workflows/phpstan.yml",
+      "name": "/tmp/tmp.ReJXGM1vf3/module-braintree-default/.github/workflows/phpstan.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -474,7 +474,7 @@
     {
       "bom-ref": "5c470c2c7e53f689",
       "type": "file",
-      "name": "/tmp/tmp.9eVQVVP41C/module-braintree-default/.github/workflows/syntax-php.yml",
+      "name": "/tmp/tmp.ReJXGM1vf3/module-braintree-default/.github/workflows/syntax-php.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -489,7 +489,7 @@
     {
       "bom-ref": "5681d4ed4a932be8",
       "type": "file",
-      "name": "/tmp/tmp.9eVQVVP41C/module-braintree-default/.github/workflows/syntax-xml.yml",
+      "name": "/tmp/tmp.ReJXGM1vf3/module-braintree-default/.github/workflows/syntax-xml.yml",
       "hashes": [
         {
           "alg": "SHA-1",

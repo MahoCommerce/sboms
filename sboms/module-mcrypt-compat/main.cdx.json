@@ -2,24 +2,24 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
-  "serialNumber": "urn:uuid:6ab2b3aa-8224-496b-a50f-a066d4b14dfc",
+  "serialNumber": "urn:uuid:38da8192-5ec5-417c-a876-c90c2acd4ea7",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-07-28T05:38:11Z",
+    "timestamp": "2026-07-29T05:42:47Z",
     "tools": {
       "components": [
         {
           "type": "application",
           "author": "anchore",
           "name": "syft",
-          "version": "1.49.0"
+          "version": "1.50.0"
         }
       ]
     },
     "component": {
-      "bom-ref": "da0e1e9ed9fff0ae",
+      "bom-ref": "acb6d6fb677b8ce2",
       "type": "file",
-      "name": "/tmp/tmp.9eVQVVP41C/module-mcrypt-compat-default",
+      "name": "/tmp/tmp.ReJXGM1vf3/module-mcrypt-compat-default",
       "licenses": [
         {
           "license": {
@@ -79,7 +79,7 @@
     {
       "bom-ref": "2711cd66e9444a3c",
       "type": "file",
-      "name": "/tmp/tmp.9eVQVVP41C/module-mcrypt-compat-default/.github/workflows/ai-assisted-note.yml",
+      "name": "/tmp/tmp.ReJXGM1vf3/module-mcrypt-compat-default/.github/workflows/ai-assisted-note.yml",
       "hashes": [
         {
           "alg": "SHA-1",

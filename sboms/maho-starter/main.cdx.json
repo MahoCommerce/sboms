@@ -2,24 +2,24 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
-  "serialNumber": "urn:uuid:0bc581ed-a9b2-4e31-b4ce-136011fdb8e7",
+  "serialNumber": "urn:uuid:edb14832-8ce6-459a-87e6-37665dafe3ea",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-07-28T05:38:03Z",
+    "timestamp": "2026-07-29T05:42:40Z",
     "tools": {
       "components": [
         {
           "type": "application",
           "author": "anchore",
           "name": "syft",
-          "version": "1.49.0"
+          "version": "1.50.0"
         }
       ]
     },
     "component": {
-      "bom-ref": "c10d782cd92b55f0",
+      "bom-ref": "af0084cbdf7ede3c",
       "type": "file",
-      "name": "/tmp/tmp.9eVQVVP41C/maho-starter-default",
+      "name": "/tmp/tmp.ReJXGM1vf3/maho-starter-default",
       "licenses": [
         {
           "expression": "OSL-3.0 OR AFL-3.0"
@@ -77,7 +77,7 @@
     {
       "bom-ref": "2711cd66e9444a3c",
       "type": "file",
-      "name": "/tmp/tmp.9eVQVVP41C/maho-starter-default/.github/workflows/ai-assisted-note.yml",
+      "name": "/tmp/tmp.ReJXGM1vf3/maho-starter-default/.github/workflows/ai-assisted-note.yml",
       "hashes": [
         {
           "alg": "SHA-1",
