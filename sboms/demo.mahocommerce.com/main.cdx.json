@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
-  "serialNumber": "urn:uuid:4ddd006f-1207-4d03-bc6f-b805b962b47a",
+  "serialNumber": "urn:uuid:f0da2692-68ed-401d-9dcf-2e55190ea923",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-08-01T05:45:27Z",
+    "timestamp": "2026-08-02T05:46:32Z",
     "tools": {
       "components": [
         {
@@ -17,9 +17,9 @@
       ]
     },
     "component": {
-      "bom-ref": "9ddbf5b2e85ed0d4",
+      "bom-ref": "354215c9f22738a2",
       "type": "file",
-      "name": "/tmp/tmp.LzPRlfTqAT/demo.mahocommerce.com-default",
+      "name": "/tmp/tmp.4qXg3eKarb/demo.mahocommerce.com-default",
       "licenses": [
         {
           "expression": "OSL-3.0 OR AFL-3.0"
@@ -77,7 +77,7 @@
     {
       "bom-ref": "2711cd66e9444a3c",
       "type": "file",
-      "name": "/tmp/tmp.LzPRlfTqAT/demo.mahocommerce.com-default/.github/workflows/ai-assisted-note.yml",
+      "name": "/tmp/tmp.4qXg3eKarb/demo.mahocommerce.com-default/.github/workflows/ai-assisted-note.yml",
       "hashes": [
         {
           "alg": "SHA-1",
