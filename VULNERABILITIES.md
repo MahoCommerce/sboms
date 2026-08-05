@@ -1,6 +1,6 @@
 # Vulnerability Report
 
-_Last updated: 2026-08-04 05:41 UTC_
+_Last updated: 2026-08-05 05:38 UTC_
 
 Generated from the HEAD-of-default-branch SBOM of each tracked repo, scanned by Grype and Trivy. Only vulnerabilities with an upstream fix available are included. Per-repo JSON with the full finding detail is in [`vulns/`](vulns/).
 
@@ -30,9 +30,9 @@ Generated from the HEAD-of-default-branch SBOM of each tracked repo, scanned by 
 | `module-taler` | — | — | — | — | — | — |
 | `module-template` | — | — | — | — | — | — |
 | `phpstorm` | — | — | — | — | — | — |
-| `vscode` | — | 1 | — | — | — | — |
+| `vscode` | — | — | — | — | — | — |
 | `zed` | — | — | — | — | — | — |
-| **Total** | — | **1** | — | — | — | — |
+| **Total** | — | — | — | — | — | — |
 
 ## Critical findings
 
@@ -40,7 +40,5 @@ _None._
 
 ## High findings
 
-### `vscode`
-
-- [CVE-2026-69152](https://nvd.nist.gov/vuln/detail/CVE-2026-69152) in `brace-expansion@5.0.8` — fix: `1.1.18, 2.1.4, 3.0.6, 5.0.9` (via trivy)
+_None._
 
