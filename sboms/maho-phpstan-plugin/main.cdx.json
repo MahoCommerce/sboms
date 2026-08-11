@@ -2,24 +2,24 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
-  "serialNumber": "urn:uuid:d7527cf0-d7c4-450c-9dee-34ec436f4d2f",
+  "serialNumber": "urn:uuid:06df16c7-4d30-4580-bf6b-c4a5e9804c9f",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-08-10T04:22:14Z",
+    "timestamp": "2026-08-11T04:11:33Z",
     "tools": {
       "components": [
         {
           "type": "application",
           "author": "anchore",
           "name": "syft",
-          "version": "1.50.0"
+          "version": "1.51.0"
         }
       ]
     },
     "component": {
-      "bom-ref": "e17173587ea598eb",
+      "bom-ref": "d3751770a0036c20",
       "type": "file",
-      "name": "/tmp/tmp.WuWaczaIOm/maho-phpstan-plugin-default",
+      "name": "/tmp/tmp.AlqNH5va3K/maho-phpstan-plugin-default",
       "licenses": [
         {
           "license": {
@@ -188,7 +188,7 @@
     {
       "bom-ref": "2711cd66e9444a3c",
       "type": "file",
-      "name": "/tmp/tmp.WuWaczaIOm/maho-phpstan-plugin-default/.github/workflows/ai-assisted-note.yml",
+      "name": "/tmp/tmp.AlqNH5va3K/maho-phpstan-plugin-default/.github/workflows/ai-assisted-note.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -203,7 +203,7 @@
     {
       "bom-ref": "f23abd314990253e",
       "type": "file",
-      "name": "/tmp/tmp.WuWaczaIOm/maho-phpstan-plugin-default/.github/workflows/phpstan.yml",
+      "name": "/tmp/tmp.AlqNH5va3K/maho-phpstan-plugin-default/.github/workflows/phpstan.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -218,7 +218,7 @@
     {
       "bom-ref": "c8bb62e6bded633e",
       "type": "file",
-      "name": "/tmp/tmp.WuWaczaIOm/maho-phpstan-plugin-default/composer.lock",
+      "name": "/tmp/tmp.AlqNH5va3K/maho-phpstan-plugin-default/composer.lock",
       "hashes": [
         {
           "alg": "SHA-1",
