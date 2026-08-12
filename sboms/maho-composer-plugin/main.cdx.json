@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
-  "serialNumber": "urn:uuid:bee360f5-64e0-48bb-951b-820ac76add7b",
+  "serialNumber": "urn:uuid:8663e5dc-4fab-418a-b505-8e76a745cc3c",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-08-11T04:11:27Z",
+    "timestamp": "2026-08-12T04:41:14Z",
     "tools": {
       "components": [
         {
@@ -17,9 +17,9 @@
       ]
     },
     "component": {
-      "bom-ref": "56b8e6bc92e4b542",
+      "bom-ref": "197a2ee1979ccd92",
       "type": "file",
-      "name": "/tmp/tmp.AlqNH5va3K/maho-composer-plugin-default",
+      "name": "/tmp/tmp.eETjgWEv7d/maho-composer-plugin-default",
       "licenses": [
         {
           "license": {
@@ -213,6 +213,32 @@
       ]
     },
     {
+      "bom-ref": "pkg:github/actions/checkout@v7.0.1?package-id=9db7cdd88e0d2a25",
+      "type": "library",
+      "name": "actions/checkout",
+      "version": "v7.0.1",
+      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v7.0.1:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/checkout@v7.0.1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/lint.yml"
+        }
+      ]
+    },
+    {
       "bom-ref": "pkg:github/actions/checkout@v7.0.1?package-id=e1864b52a552ab34",
       "type": "library",
       "name": "actions/checkout",
@@ -307,6 +333,52 @@
         {
           "name": "syft:location:0:path",
           "value": "/.github/workflows/ai-assisted-note.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/shivammathur/setup-php@2.37.2?package-id=601f9983e0144444",
+      "type": "library",
+      "name": "shivammathur/setup-php",
+      "version": "2.37.2",
+      "cpe": "cpe:2.3:a:shivammathur\\/setup-php:shivammathur\\/setup-php:2.37.2:*:*:*:*:*:*:*",
+      "purl": "pkg:github/shivammathur/setup-php@2.37.2",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:shivammathur\\/setup-php:shivammathur\\/setup_php:2.37.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:shivammathur\\/setup_php:shivammathur\\/setup-php:2.37.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:shivammathur\\/setup_php:shivammathur\\/setup_php:2.37.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:shivammathur\\/setup:shivammathur\\/setup-php:2.37.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:shivammathur\\/setup:shivammathur\\/setup_php:2.37.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/lint.yml"
         }
       ]
     },
@@ -460,10 +532,10 @@
       ]
     },
     {
-      "bom-ref": "pkg:composer/symfony/routing@v7.4.13?package-id=198715f20110966c",
+      "bom-ref": "pkg:composer/symfony/routing@v7.4.15?package-id=f683bbb5242079c7",
       "type": "library",
       "name": "symfony/routing",
-      "version": "v7.4.13",
+      "version": "v7.4.15",
       "licenses": [
         {
           "license": {
@@ -471,8 +543,8 @@
           }
         }
       ],
-      "cpe": "cpe:2.3:a:symfony\\/routing:symfony\\/routing:v7.4.13:*:*:*:*:*:*:*",
-      "purl": "pkg:composer/symfony/routing@v7.4.13",
+      "cpe": "cpe:2.3:a:symfony\\/routing:symfony\\/routing:v7.4.15:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/symfony/routing@v7.4.15",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -561,7 +633,7 @@
     {
       "bom-ref": "2711cd66e9444a3c",
       "type": "file",
-      "name": "/tmp/tmp.AlqNH5va3K/maho-composer-plugin-default/.github/workflows/ai-assisted-note.yml",
+      "name": "/tmp/tmp.eETjgWEv7d/maho-composer-plugin-default/.github/workflows/ai-assisted-note.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -576,7 +648,7 @@
     {
       "bom-ref": "d422de945bf18b46",
       "type": "file",
-      "name": "/tmp/tmp.AlqNH5va3K/maho-composer-plugin-default/.github/workflows/composer.yml",
+      "name": "/tmp/tmp.eETjgWEv7d/maho-composer-plugin-default/.github/workflows/composer.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -591,7 +663,7 @@
     {
       "bom-ref": "ca67cce3ff943159",
       "type": "file",
-      "name": "/tmp/tmp.AlqNH5va3K/maho-composer-plugin-default/.github/workflows/line-endings.yml",
+      "name": "/tmp/tmp.eETjgWEv7d/maho-composer-plugin-default/.github/workflows/line-endings.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -604,9 +676,24 @@
       ]
     },
     {
+      "bom-ref": "5ebde7ddc8076c2b",
+      "type": "file",
+      "name": "/tmp/tmp.eETjgWEv7d/maho-composer-plugin-default/.github/workflows/lint.yml",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "8addf99ffbcada103caebac418caef5b6340f7e7"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "35137a644be6298e5c16d81acfda95c7238dfd523ad92adbfb9bdcfcfe51bb43"
+        }
+      ]
+    },
+    {
       "bom-ref": "f23abd314990253e",
       "type": "file",
-      "name": "/tmp/tmp.AlqNH5va3K/maho-composer-plugin-default/.github/workflows/phpstan.yml",
+      "name": "/tmp/tmp.eETjgWEv7d/maho-composer-plugin-default/.github/workflows/phpstan.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -621,7 +708,7 @@
     {
       "bom-ref": "5c470c2c7e53f689",
       "type": "file",
-      "name": "/tmp/tmp.AlqNH5va3K/maho-composer-plugin-default/.github/workflows/syntax-php.yml",
+      "name": "/tmp/tmp.eETjgWEv7d/maho-composer-plugin-default/.github/workflows/syntax-php.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -636,15 +723,15 @@
     {
       "bom-ref": "c8bb62e6bded633e",
       "type": "file",
-      "name": "/tmp/tmp.AlqNH5va3K/maho-composer-plugin-default/composer.lock",
+      "name": "/tmp/tmp.eETjgWEv7d/maho-composer-plugin-default/composer.lock",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "f07112ca5cf888e3a907d5ec2e4edd4a5831b5f6"
+          "content": "cd4f0d2262dadbc01525ff42b8604cda6bac9713"
         },
         {
           "alg": "SHA-256",
-          "content": "616815a742dc2f6f507024b61ca8c593647fe6601196a7641dce45b2ed7865e8"
+          "content": "c4642b25b28babdd5599359a70cc2d7eb47dfc06441c55b66c95047c269f8e4f"
         }
       ]
     }

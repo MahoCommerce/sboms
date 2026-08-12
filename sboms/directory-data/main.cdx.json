@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
-  "serialNumber": "urn:uuid:ec5c0903-2ad1-4bf7-a9a6-b45546073db4",
+  "serialNumber": "urn:uuid:cf590ba1-da04-4adb-a5e1-fb793507355f",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-08-11T04:11:03Z",
+    "timestamp": "2026-08-12T04:40:40Z",
     "tools": {
       "components": [
         {
@@ -17,9 +17,9 @@
       ]
     },
     "component": {
-      "bom-ref": "76e382d50f423968",
+      "bom-ref": "9bc703db209f4038",
       "type": "file",
-      "name": "/tmp/tmp.AlqNH5va3K/directory-data-default",
+      "name": "/tmp/tmp.eETjgWEv7d/directory-data-default",
       "licenses": [
         {
           "license": {
@@ -30,6 +30,32 @@
     }
   },
   "components": [
+    {
+      "bom-ref": "pkg:github/actions/checkout@v7.0.1?package-id=9db7cdd88e0d2a25",
+      "type": "library",
+      "name": "actions/checkout",
+      "version": "v7.0.1",
+      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v7.0.1:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/checkout@v7.0.1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/lint.yml"
+        }
+      ]
+    },
     {
       "bom-ref": "pkg:github/actions/checkout@v7.0.1?package-id=ebba6778d34df1f9",
       "type": "library",
@@ -181,6 +207,52 @@
       ]
     },
     {
+      "bom-ref": "pkg:github/shivammathur/setup-php@2.37.2?package-id=601f9983e0144444",
+      "type": "library",
+      "name": "shivammathur/setup-php",
+      "version": "2.37.2",
+      "cpe": "cpe:2.3:a:shivammathur\\/setup-php:shivammathur\\/setup-php:2.37.2:*:*:*:*:*:*:*",
+      "purl": "pkg:github/shivammathur/setup-php@2.37.2",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:shivammathur\\/setup-php:shivammathur\\/setup_php:2.37.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:shivammathur\\/setup_php:shivammathur\\/setup-php:2.37.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:shivammathur\\/setup_php:shivammathur\\/setup_php:2.37.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:shivammathur\\/setup:shivammathur\\/setup-php:2.37.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:shivammathur\\/setup:shivammathur\\/setup_php:2.37.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/lint.yml"
+        }
+      ]
+    },
+    {
       "bom-ref": "pkg:github/shivammathur/setup-php@2.37.2?package-id=3a0712d65a13c1ae",
       "type": "library",
       "name": "shivammathur/setup-php",
@@ -229,7 +301,7 @@
     {
       "bom-ref": "2711cd66e9444a3c",
       "type": "file",
-      "name": "/tmp/tmp.AlqNH5va3K/directory-data-default/.github/workflows/ai-assisted-note.yml",
+      "name": "/tmp/tmp.eETjgWEv7d/directory-data-default/.github/workflows/ai-assisted-note.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -242,9 +314,24 @@
       ]
     },
     {
+      "bom-ref": "5ebde7ddc8076c2b",
+      "type": "file",
+      "name": "/tmp/tmp.eETjgWEv7d/directory-data-default/.github/workflows/lint.yml",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "8addf99ffbcada103caebac418caef5b6340f7e7"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "35137a644be6298e5c16d81acfda95c7238dfd523ad92adbfb9bdcfcfe51bb43"
+        }
+      ]
+    },
+    {
       "bom-ref": "62f594948731c9a4",
       "type": "file",
-      "name": "/tmp/tmp.AlqNH5va3K/directory-data-default/.github/workflows/update-data.yml",
+      "name": "/tmp/tmp.eETjgWEv7d/directory-data-default/.github/workflows/update-data.yml",
       "hashes": [
         {
           "alg": "SHA-1",

@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
-  "serialNumber": "urn:uuid:06df16c7-4d30-4580-bf6b-c4a5e9804c9f",
+  "serialNumber": "urn:uuid:91687136-722d-44f5-8a4e-43cc7064b6c4",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-08-11T04:11:33Z",
+    "timestamp": "2026-08-12T04:41:22Z",
     "tools": {
       "components": [
         {
@@ -17,9 +17,9 @@
       ]
     },
     "component": {
-      "bom-ref": "d3751770a0036c20",
+      "bom-ref": "14f5488804c62070",
       "type": "file",
-      "name": "/tmp/tmp.AlqNH5va3K/maho-phpstan-plugin-default",
+      "name": "/tmp/tmp.eETjgWEv7d/maho-phpstan-plugin-default",
       "licenses": [
         {
           "license": {
@@ -30,6 +30,32 @@
     }
   },
   "components": [
+    {
+      "bom-ref": "pkg:github/actions/checkout@v7.0.1?package-id=9db7cdd88e0d2a25",
+      "type": "library",
+      "name": "actions/checkout",
+      "version": "v7.0.1",
+      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v7.0.1:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/checkout@v7.0.1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/lint.yml"
+        }
+      ]
+    },
     {
       "bom-ref": "pkg:github/actions/checkout@v7.0.1?package-id=e1864b52a552ab34",
       "type": "library",
@@ -103,10 +129,10 @@
       ]
     },
     {
-      "bom-ref": "pkg:composer/phpstan/phpstan@2.2.7?package-id=25233ef5c0d73c64",
+      "bom-ref": "pkg:composer/phpstan/phpstan@2.2.8?package-id=ac4898d4cfb00019",
       "type": "library",
       "name": "phpstan/phpstan",
-      "version": "2.2.7",
+      "version": "2.2.8",
       "licenses": [
         {
           "license": {
@@ -114,8 +140,8 @@
           }
         }
       ],
-      "cpe": "cpe:2.3:a:phpstan\\/phpstan:phpstan\\/phpstan:2.2.7:*:*:*:*:*:*:*",
-      "purl": "pkg:composer/phpstan/phpstan@2.2.7",
+      "cpe": "cpe:2.3:a:phpstan\\/phpstan:phpstan\\/phpstan:2.2.8:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/phpstan/phpstan@2.2.8",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -136,6 +162,52 @@
         {
           "name": "syft:location:0:path",
           "value": "/composer.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/shivammathur/setup-php@2.37.2?package-id=601f9983e0144444",
+      "type": "library",
+      "name": "shivammathur/setup-php",
+      "version": "2.37.2",
+      "cpe": "cpe:2.3:a:shivammathur\\/setup-php:shivammathur\\/setup-php:2.37.2:*:*:*:*:*:*:*",
+      "purl": "pkg:github/shivammathur/setup-php@2.37.2",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:shivammathur\\/setup-php:shivammathur\\/setup_php:2.37.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:shivammathur\\/setup_php:shivammathur\\/setup-php:2.37.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:shivammathur\\/setup_php:shivammathur\\/setup_php:2.37.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:shivammathur\\/setup:shivammathur\\/setup-php:2.37.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:shivammathur\\/setup:shivammathur\\/setup_php:2.37.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/lint.yml"
         }
       ]
     },
@@ -188,7 +260,7 @@
     {
       "bom-ref": "2711cd66e9444a3c",
       "type": "file",
-      "name": "/tmp/tmp.AlqNH5va3K/maho-phpstan-plugin-default/.github/workflows/ai-assisted-note.yml",
+      "name": "/tmp/tmp.eETjgWEv7d/maho-phpstan-plugin-default/.github/workflows/ai-assisted-note.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -201,9 +273,24 @@
       ]
     },
     {
+      "bom-ref": "5ebde7ddc8076c2b",
+      "type": "file",
+      "name": "/tmp/tmp.eETjgWEv7d/maho-phpstan-plugin-default/.github/workflows/lint.yml",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "8addf99ffbcada103caebac418caef5b6340f7e7"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "35137a644be6298e5c16d81acfda95c7238dfd523ad92adbfb9bdcfcfe51bb43"
+        }
+      ]
+    },
+    {
       "bom-ref": "f23abd314990253e",
       "type": "file",
-      "name": "/tmp/tmp.AlqNH5va3K/maho-phpstan-plugin-default/.github/workflows/phpstan.yml",
+      "name": "/tmp/tmp.eETjgWEv7d/maho-phpstan-plugin-default/.github/workflows/phpstan.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -218,15 +305,15 @@
     {
       "bom-ref": "c8bb62e6bded633e",
       "type": "file",
-      "name": "/tmp/tmp.AlqNH5va3K/maho-phpstan-plugin-default/composer.lock",
+      "name": "/tmp/tmp.eETjgWEv7d/maho-phpstan-plugin-default/composer.lock",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "adea29ea91c7e590aca1fad5cc7e002e6f09a385"
+          "content": "478fea12885acc1732c3444648d32ced636d4732"
         },
         {
           "alg": "SHA-256",
-          "content": "1266742d91de7869f41b1a7f28091b5b90067917bd51f7be8c7c4a9676c43cee"
+          "content": "3228bc7822bda9f41d2e7d7cd442ceff72d5eedf11d1373e7274565bcd220b99"
         }
       ]
     }

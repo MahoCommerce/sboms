@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
-  "serialNumber": "urn:uuid:4c9c680e-aaff-49be-a3c6-1479a4d88ee9",
+  "serialNumber": "urn:uuid:20c026ca-4249-474a-bdc8-ff0a1bddaad4",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-08-12T04:41:38Z",
+    "timestamp": "2026-08-12T04:41:24Z",
     "tools": {
       "components": [
         {
@@ -17,97 +17,19 @@
       ]
     },
     "component": {
-      "bom-ref": "364d194fea38d531",
+      "bom-ref": "a0fd7178bce74523",
       "type": "file",
-      "name": "/tmp/tmp.eETjgWEv7d/module-braintree-default",
+      "name": "/tmp/tmp.eETjgWEv7d/maho-phpstan-plugin-v4.4.0",
       "licenses": [
         {
           "license": {
-            "id": "OSL-3.0"
+            "id": "MIT"
           }
         }
       ]
     }
   },
   "components": [
-    {
-      "bom-ref": "pkg:github/actions/cache@v6.1.0?package-id=533d665346845ede",
-      "type": "library",
-      "name": "actions/cache",
-      "version": "v6.1.0",
-      "cpe": "cpe:2.3:a:actions\\/cache:actions\\/cache:v6.1.0:*:*:*:*:*:*:*",
-      "purl": "pkg:github/actions/cache@v6.1.0",
-      "properties": [
-        {
-          "name": "syft:package:foundBy",
-          "value": "github-actions-usage-cataloger"
-        },
-        {
-          "name": "syft:package:type",
-          "value": "github-action"
-        },
-        {
-          "name": "syft:package:metadataType",
-          "value": "github-actions-use-statement"
-        },
-        {
-          "name": "syft:location:0:path",
-          "value": "/.github/workflows/phpstan.yml"
-        }
-      ]
-    },
-    {
-      "bom-ref": "pkg:github/actions/checkout@v7.0.1?package-id=50a367bfcaf8b94e",
-      "type": "library",
-      "name": "actions/checkout",
-      "version": "v7.0.1",
-      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v7.0.1:*:*:*:*:*:*:*",
-      "purl": "pkg:github/actions/checkout@v7.0.1",
-      "properties": [
-        {
-          "name": "syft:package:foundBy",
-          "value": "github-actions-usage-cataloger"
-        },
-        {
-          "name": "syft:package:type",
-          "value": "github-action"
-        },
-        {
-          "name": "syft:package:metadataType",
-          "value": "github-actions-use-statement"
-        },
-        {
-          "name": "syft:location:0:path",
-          "value": "/.github/workflows/composer.yml"
-        }
-      ]
-    },
-    {
-      "bom-ref": "pkg:github/actions/checkout@v7.0.1?package-id=f84b26fc332f0e8a",
-      "type": "library",
-      "name": "actions/checkout",
-      "version": "v7.0.1",
-      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v7.0.1:*:*:*:*:*:*:*",
-      "purl": "pkg:github/actions/checkout@v7.0.1",
-      "properties": [
-        {
-          "name": "syft:package:foundBy",
-          "value": "github-actions-usage-cataloger"
-        },
-        {
-          "name": "syft:package:type",
-          "value": "github-action"
-        },
-        {
-          "name": "syft:package:metadataType",
-          "value": "github-actions-use-statement"
-        },
-        {
-          "name": "syft:location:0:path",
-          "value": "/.github/workflows/line-endings.yml"
-        }
-      ]
-    },
     {
       "bom-ref": "pkg:github/actions/checkout@v7.0.1?package-id=9db7cdd88e0d2a25",
       "type": "library",
@@ -161,58 +83,6 @@
       ]
     },
     {
-      "bom-ref": "pkg:github/actions/checkout@v7.0.1?package-id=2ce7ebfc7c7b6f32",
-      "type": "library",
-      "name": "actions/checkout",
-      "version": "v7.0.1",
-      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v7.0.1:*:*:*:*:*:*:*",
-      "purl": "pkg:github/actions/checkout@v7.0.1",
-      "properties": [
-        {
-          "name": "syft:package:foundBy",
-          "value": "github-actions-usage-cataloger"
-        },
-        {
-          "name": "syft:package:type",
-          "value": "github-action"
-        },
-        {
-          "name": "syft:package:metadataType",
-          "value": "github-actions-use-statement"
-        },
-        {
-          "name": "syft:location:0:path",
-          "value": "/.github/workflows/syntax-php.yml"
-        }
-      ]
-    },
-    {
-      "bom-ref": "pkg:github/actions/checkout@v7.0.1?package-id=a840bb94fabf1a6c",
-      "type": "library",
-      "name": "actions/checkout",
-      "version": "v7.0.1",
-      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v7.0.1:*:*:*:*:*:*:*",
-      "purl": "pkg:github/actions/checkout@v7.0.1",
-      "properties": [
-        {
-          "name": "syft:package:foundBy",
-          "value": "github-actions-usage-cataloger"
-        },
-        {
-          "name": "syft:package:type",
-          "value": "github-action"
-        },
-        {
-          "name": "syft:package:metadataType",
-          "value": "github-actions-use-statement"
-        },
-        {
-          "name": "syft:location:0:path",
-          "value": "/.github/workflows/syntax-xml.yml"
-        }
-      ]
-    },
-    {
       "bom-ref": "pkg:github/actions/github-script@v9.0.0?package-id=ed60fc4127d9e1ef",
       "type": "library",
       "name": "actions/github-script",
@@ -255,6 +125,43 @@
         {
           "name": "syft:location:0:path",
           "value": "/.github/workflows/ai-assisted-note.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:composer/phpstan/phpstan@2.2.8?package-id=ac4898d4cfb00019",
+      "type": "library",
+      "name": "phpstan/phpstan",
+      "version": "2.2.8",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:phpstan\\/phpstan:phpstan\\/phpstan:2.2.8:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/phpstan/phpstan@2.2.8",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "php-composer-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "php"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "php-composer"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "php-composer-lock-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/composer.lock"
         }
       ]
     },
@@ -351,55 +258,9 @@
       ]
     },
     {
-      "bom-ref": "pkg:github/shivammathur/setup-php@2.37.2?package-id=be99c198af6e7b96",
-      "type": "library",
-      "name": "shivammathur/setup-php",
-      "version": "2.37.2",
-      "cpe": "cpe:2.3:a:shivammathur\\/setup-php:shivammathur\\/setup-php:2.37.2:*:*:*:*:*:*:*",
-      "purl": "pkg:github/shivammathur/setup-php@2.37.2",
-      "properties": [
-        {
-          "name": "syft:package:foundBy",
-          "value": "github-actions-usage-cataloger"
-        },
-        {
-          "name": "syft:package:type",
-          "value": "github-action"
-        },
-        {
-          "name": "syft:package:metadataType",
-          "value": "github-actions-use-statement"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:shivammathur\\/setup-php:shivammathur\\/setup_php:2.37.2:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:shivammathur\\/setup_php:shivammathur\\/setup-php:2.37.2:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:shivammathur\\/setup_php:shivammathur\\/setup_php:2.37.2:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:shivammathur\\/setup:shivammathur\\/setup-php:2.37.2:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:shivammathur\\/setup:shivammathur\\/setup_php:2.37.2:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:location:0:path",
-          "value": "/.github/workflows/syntax-php.yml"
-        }
-      ]
-    },
-    {
       "bom-ref": "2711cd66e9444a3c",
       "type": "file",
-      "name": "/tmp/tmp.eETjgWEv7d/module-braintree-default/.github/workflows/ai-assisted-note.yml",
+      "name": "/tmp/tmp.eETjgWEv7d/maho-phpstan-plugin-v4.4.0/.github/workflows/ai-assisted-note.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -412,39 +273,9 @@
       ]
     },
     {
-      "bom-ref": "d422de945bf18b46",
-      "type": "file",
-      "name": "/tmp/tmp.eETjgWEv7d/module-braintree-default/.github/workflows/composer.yml",
-      "hashes": [
-        {
-          "alg": "SHA-1",
-          "content": "ea0f23d6cf4e495c3caacf72f41797cc067347f4"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "8b7241d682a05f5aa58c6b7af38a06789d1a3e362a0e760668dbc7c998e38822"
-        }
-      ]
-    },
-    {
-      "bom-ref": "ca67cce3ff943159",
-      "type": "file",
-      "name": "/tmp/tmp.eETjgWEv7d/module-braintree-default/.github/workflows/line-endings.yml",
-      "hashes": [
-        {
-          "alg": "SHA-1",
-          "content": "d3f12561009468c8963b569185ad7b80c9e5a150"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "d0cec4bb5a5e937388b6e11526f449356030e5070a2b30d6622618809772982a"
-        }
-      ]
-    },
-    {
       "bom-ref": "5ebde7ddc8076c2b",
       "type": "file",
-      "name": "/tmp/tmp.eETjgWEv7d/module-braintree-default/.github/workflows/lint.yml",
+      "name": "/tmp/tmp.eETjgWEv7d/maho-phpstan-plugin-v4.4.0/.github/workflows/lint.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -459,45 +290,30 @@
     {
       "bom-ref": "f23abd314990253e",
       "type": "file",
-      "name": "/tmp/tmp.eETjgWEv7d/module-braintree-default/.github/workflows/phpstan.yml",
+      "name": "/tmp/tmp.eETjgWEv7d/maho-phpstan-plugin-v4.4.0/.github/workflows/phpstan.yml",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "ac9fc1b9a45e7354ee50b65e6096229b6cc639af"
+          "content": "2640bd47a817135049a6bd3c853757f7d2cac375"
         },
         {
           "alg": "SHA-256",
-          "content": "84b8cbf521fb705e55ce743bc5b6263f8ff6bb300ff7f0de1a9f2cc67728260f"
+          "content": "7ff538a1aeda6cae13a9387d28dde7ec2d3b74c8dba93160a59e5602d627b3c9"
         }
       ]
     },
     {
-      "bom-ref": "5c470c2c7e53f689",
+      "bom-ref": "c8bb62e6bded633e",
       "type": "file",
-      "name": "/tmp/tmp.eETjgWEv7d/module-braintree-default/.github/workflows/syntax-php.yml",
+      "name": "/tmp/tmp.eETjgWEv7d/maho-phpstan-plugin-v4.4.0/composer.lock",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "5bac42f8b25a29f000fb88183802868313a89c34"
+          "content": "478fea12885acc1732c3444648d32ced636d4732"
         },
         {
           "alg": "SHA-256",
-          "content": "4e4383b5448dafb8ee4c731bf1cef7c3215ec76dac13b600f8c657a2b33ac6f7"
-        }
-      ]
-    },
-    {
-      "bom-ref": "5681d4ed4a932be8",
-      "type": "file",
-      "name": "/tmp/tmp.eETjgWEv7d/module-braintree-default/.github/workflows/syntax-xml.yml",
-      "hashes": [
-        {
-          "alg": "SHA-1",
-          "content": "55b2dda9b9c61e879cc1c11a278c5588484c69bb"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "6e96db01ebe2d82ba184aebeb999ac8798f92f39eed4782eac5e38e548d65376"
+          "content": "3228bc7822bda9f41d2e7d7cd442ceff72d5eedf11d1373e7274565bcd220b99"
         }
       ]
     }

@@ -1,6 +1,6 @@
 {
   "repo": "maho",
-  "ref": "main",
+  "ref": "26.7.3",
   "reuse_spec_version": "3.3",
   "summary": {
     "used_licenses": [
@@ -8,15 +8,15 @@
       "MIT",
       "OSL-3.0"
     ],
-    "files_total": 6434,
-    "files_with_copyright_info": 6206,
-    "files_with_licensing_info": 6204,
+    "files_total": 6247,
+    "files_with_copyright_info": 6018,
+    "files_with_licensing_info": 6016,
     "compliant": false
   },
   "license_file_counts": {
-    "AFL-3.0": 1170,
+    "AFL-3.0": 1154,
     "MIT": 3,
-    "OSL-3.0": 5031,
+    "OSL-3.0": 4859,
     "OSL-3.0')": 1
   }
 }

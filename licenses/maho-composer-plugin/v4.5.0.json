@@ -1,12 +1,12 @@
 {
-  "repo": "demo.mahocommerce.com",
-  "ref": "main",
+  "repo": "maho-composer-plugin",
+  "ref": "v4.5.0",
   "reuse_spec_version": "3.3",
   "summary": {
     "used_licenses": [
       "OSL-3.0"
     ],
-    "files_total": 12,
+    "files_total": 23,
     "files_with_copyright_info": 1,
     "files_with_licensing_info": 1,
     "compliant": false
