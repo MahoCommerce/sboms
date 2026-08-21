@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
-  "serialNumber": "urn:uuid:3090ca18-912c-448e-b42d-e1a1a7823975",
+  "serialNumber": "urn:uuid:e7bd85fd-e91f-4cc6-be3c-98845b42faf7",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-08-20T03:38:11Z",
+    "timestamp": "2026-08-21T03:42:04Z",
     "tools": {
       "components": [
         {
@@ -17,9 +17,9 @@
       ]
     },
     "component": {
-      "bom-ref": "f67550aa3ec503aa",
+      "bom-ref": "755a57a34e0a3a53",
       "type": "file",
-      "name": "/tmp/tmp.Ij0lgteLxf/module-mcrypt-compat-default",
+      "name": "/tmp/tmp.mboFwE0XYW/module-mcrypt-compat-default",
       "licenses": [
         {
           "license": {
@@ -79,7 +79,7 @@
     {
       "bom-ref": "2711cd66e9444a3c",
       "type": "file",
-      "name": "/tmp/tmp.Ij0lgteLxf/module-mcrypt-compat-default/.github/workflows/ai-assisted-note.yml",
+      "name": "/tmp/tmp.mboFwE0XYW/module-mcrypt-compat-default/.github/workflows/ai-assisted-note.yml",
       "hashes": [
         {
           "alg": "SHA-1",
