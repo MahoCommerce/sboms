@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
-  "serialNumber": "urn:uuid:80377f34-275c-4bd7-aa10-e9d8fc321970",
+  "serialNumber": "urn:uuid:db466b83-6bbf-4156-a28f-3729a6ef662c",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-09-02T07:25:18Z",
+    "timestamp": "2026-09-03T07:29:00Z",
     "tools": {
       "components": [
         {
@@ -17,9 +17,9 @@
       ]
     },
     "component": {
-      "bom-ref": "e1b121e10e30779a",
+      "bom-ref": "37e60a6520969cb9",
       "type": "file",
-      "name": "/tmp/tmp.W4HQMRmLoO/directory-data-default",
+      "name": "/tmp/tmp.T4Kpco2XJf/directory-data-default",
       "licenses": [
         {
           "license": {
@@ -301,7 +301,7 @@
     {
       "bom-ref": "2711cd66e9444a3c",
       "type": "file",
-      "name": "/tmp/tmp.W4HQMRmLoO/directory-data-default/.github/workflows/ai-assisted-note.yml",
+      "name": "/tmp/tmp.T4Kpco2XJf/directory-data-default/.github/workflows/ai-assisted-note.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -316,7 +316,7 @@
     {
       "bom-ref": "5ebde7ddc8076c2b",
       "type": "file",
-      "name": "/tmp/tmp.W4HQMRmLoO/directory-data-default/.github/workflows/lint.yml",
+      "name": "/tmp/tmp.T4Kpco2XJf/directory-data-default/.github/workflows/lint.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -331,7 +331,7 @@
     {
       "bom-ref": "62f594948731c9a4",
       "type": "file",
-      "name": "/tmp/tmp.W4HQMRmLoO/directory-data-default/.github/workflows/update-data.yml",
+      "name": "/tmp/tmp.T4Kpco2XJf/directory-data-default/.github/workflows/update-data.yml",
       "hashes": [
         {
           "alg": "SHA-1",
