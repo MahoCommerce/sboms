@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
-  "serialNumber": "urn:uuid:d3490e05-c080-41ea-94e3-2307749d69d6",
+  "serialNumber": "urn:uuid:8f69c0b3-f02f-471b-8b6e-4570152ad6f6",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-09-08T07:32:35Z",
+    "timestamp": "2026-09-09T07:40:14Z",
     "tools": {
       "components": [
         {
@@ -17,9 +17,9 @@
       ]
     },
     "component": {
-      "bom-ref": "6222a32435f7a2a4",
+      "bom-ref": "ea7b48003bacdc61",
       "type": "file",
-      "name": "/tmp/tmp.Gq4QfZoQG7/infrastructure-default",
+      "name": "/tmp/tmp.LJQqHVQOjh/infrastructure-default",
       "licenses": [
         {
           "license": {
@@ -1175,10 +1175,10 @@
       ]
     },
     {
-      "bom-ref": "pkg:composer/symfony/console@v7.4.17?package-id=081d593ff51edf36",
+      "bom-ref": "pkg:composer/symfony/console@v7.4.18?package-id=cb0f5657b8085a35",
       "type": "library",
       "name": "symfony/console",
-      "version": "v7.4.17",
+      "version": "v7.4.18",
       "licenses": [
         {
           "license": {
@@ -1186,8 +1186,8 @@
           }
         }
       ],
-      "cpe": "cpe:2.3:a:symfony\\/console:symfony\\/console:v7.4.17:*:*:*:*:*:*:*",
-      "purl": "pkg:composer/symfony/console@v7.4.17",
+      "cpe": "cpe:2.3:a:symfony\\/console:symfony\\/console:v7.4.18:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/symfony/console@v7.4.18",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -1269,10 +1269,10 @@
       ]
     },
     {
-      "bom-ref": "pkg:composer/symfony/filesystem@v7.4.17?package-id=cb691521952d79ac",
+      "bom-ref": "pkg:composer/symfony/filesystem@v7.4.18?package-id=5e9936b4a64936ab",
       "type": "library",
       "name": "symfony/filesystem",
-      "version": "v7.4.17",
+      "version": "v7.4.18",
       "licenses": [
         {
           "license": {
@@ -1280,8 +1280,8 @@
           }
         }
       ],
-      "cpe": "cpe:2.3:a:symfony\\/filesystem:symfony\\/filesystem:v7.4.17:*:*:*:*:*:*:*",
-      "purl": "pkg:composer/symfony/filesystem@v7.4.17",
+      "cpe": "cpe:2.3:a:symfony\\/filesystem:symfony\\/filesystem:v7.4.18:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/symfony/filesystem@v7.4.18",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -2018,10 +2018,10 @@
       ]
     },
     {
-      "bom-ref": "pkg:composer/symfony/process@v7.4.17?package-id=a5ec52bf31be2227",
+      "bom-ref": "pkg:composer/symfony/process@v7.4.18?package-id=9fde62d977263d86",
       "type": "library",
       "name": "symfony/process",
-      "version": "v7.4.17",
+      "version": "v7.4.18",
       "licenses": [
         {
           "license": {
@@ -2029,8 +2029,8 @@
           }
         }
       ],
-      "cpe": "cpe:2.3:a:symfony\\/process:symfony\\/process:v7.4.17:*:*:*:*:*:*:*",
-      "purl": "pkg:composer/symfony/process@v7.4.17",
+      "cpe": "cpe:2.3:a:symfony\\/process:symfony\\/process:v7.4.18:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/symfony/process@v7.4.18",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -2055,10 +2055,10 @@
       ]
     },
     {
-      "bom-ref": "pkg:composer/symfony/service-contracts@v3.7.1?package-id=eba32ba1da58aa73",
+      "bom-ref": "pkg:composer/symfony/service-contracts@v3.7.3?package-id=2877d211c3be0193",
       "type": "library",
       "name": "symfony/service-contracts",
-      "version": "v3.7.1",
+      "version": "v3.7.3",
       "licenses": [
         {
           "license": {
@@ -2066,8 +2066,8 @@
           }
         }
       ],
-      "cpe": "cpe:2.3:a:symfony\\/service-contracts:symfony\\/service-contracts:v3.7.1:*:*:*:*:*:*:*",
-      "purl": "pkg:composer/symfony/service-contracts@v3.7.1",
+      "cpe": "cpe:2.3:a:symfony\\/service-contracts:symfony\\/service-contracts:v3.7.3:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/symfony/service-contracts@v3.7.3",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -2087,23 +2087,23 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:symfony\\/service-contracts:symfony\\/service_contracts:v3.7.1:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:symfony\\/service-contracts:symfony\\/service_contracts:v3.7.3:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:symfony\\/service_contracts:symfony\\/service-contracts:v3.7.1:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:symfony\\/service_contracts:symfony\\/service-contracts:v3.7.3:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:symfony\\/service_contracts:symfony\\/service_contracts:v3.7.1:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:symfony\\/service_contracts:symfony\\/service_contracts:v3.7.3:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:symfony\\/service:symfony\\/service-contracts:v3.7.1:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:symfony\\/service:symfony\\/service-contracts:v3.7.3:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:symfony\\/service:symfony\\/service_contracts:v3.7.1:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:symfony\\/service:symfony\\/service_contracts:v3.7.3:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:path",
@@ -2151,7 +2151,7 @@
     {
       "bom-ref": "2711cd66e9444a3c",
       "type": "file",
-      "name": "/tmp/tmp.Gq4QfZoQG7/infrastructure-default/.github/workflows/ai-assisted-note.yml",
+      "name": "/tmp/tmp.LJQqHVQOjh/infrastructure-default/.github/workflows/ai-assisted-note.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -2166,7 +2166,7 @@
     {
       "bom-ref": "5ebde7ddc8076c2b",
       "type": "file",
-      "name": "/tmp/tmp.Gq4QfZoQG7/infrastructure-default/.github/workflows/lint.yml",
+      "name": "/tmp/tmp.LJQqHVQOjh/infrastructure-default/.github/workflows/lint.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -2181,7 +2181,7 @@
     {
       "bom-ref": "f23abd314990253e",
       "type": "file",
-      "name": "/tmp/tmp.Gq4QfZoQG7/infrastructure-default/.github/workflows/phpstan.yml",
+      "name": "/tmp/tmp.LJQqHVQOjh/infrastructure-default/.github/workflows/phpstan.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -2196,7 +2196,7 @@
     {
       "bom-ref": "cbbb57827f0f16c5",
       "type": "file",
-      "name": "/tmp/tmp.Gq4QfZoQG7/infrastructure-default/.github/workflows/sync.yml",
+      "name": "/tmp/tmp.LJQqHVQOjh/infrastructure-default/.github/workflows/sync.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -2211,15 +2211,15 @@
     {
       "bom-ref": "c8bb62e6bded633e",
       "type": "file",
-      "name": "/tmp/tmp.Gq4QfZoQG7/infrastructure-default/composer.lock",
+      "name": "/tmp/tmp.LJQqHVQOjh/infrastructure-default/composer.lock",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "e41bc125f6230afb6ad3ddb8954639a8dbd546ce"
+          "content": "291e83392697a9343f8fd9ffb77e8b85d32df2d1"
         },
         {
           "alg": "SHA-256",
-          "content": "e2662bdd94aad009caa50d9f050a75b4313f42fa4303bdc06d00faca6bbda0dd"
+          "content": "6da48f89cb573fc7b5a7ca0e98e1d2ef6dc5aa89deef9a017e68ace5029f2638"
         }
       ]
     }

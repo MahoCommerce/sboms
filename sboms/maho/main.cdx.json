@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
-  "serialNumber": "urn:uuid:384f538c-6cbb-4a91-a5fb-c71ad0d89621",
+  "serialNumber": "urn:uuid:0aa10c26-958b-4a61-b803-a1ba787f39d3",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-09-08T07:32:41Z",
+    "timestamp": "2026-09-09T07:40:19Z",
     "tools": {
       "components": [
         {
@@ -17,9 +17,9 @@
       ]
     },
     "component": {
-      "bom-ref": "ffea5fb119e45db0",
+      "bom-ref": "8efe78dc13b8533d",
       "type": "file",
-      "name": "/tmp/tmp.Gq4QfZoQG7/maho-default",
+      "name": "/tmp/tmp.LJQqHVQOjh/maho-default",
       "licenses": [
         {
           "expression": "OSL-3.0 OR AFL-3.0"
@@ -441,6 +441,32 @@
         {
           "name": "syft:location:0:path",
           "value": "/.github/workflows/phpstan.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/actions/checkout@v7.0.0?package-id=305657270faaeef1",
+      "type": "library",
+      "name": "actions/checkout",
+      "version": "v7.0.0",
+      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v7.0.0:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/checkout@v7.0.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/theme-build.yml"
         }
       ]
     },
@@ -1007,6 +1033,52 @@
         {
           "name": "syft:location:0:path",
           "value": "/.github/workflows/ai-assisted-note.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/actions/setup-node@v6.4.0?package-id=bd46cd1026a4a732",
+      "type": "library",
+      "name": "actions/setup-node",
+      "version": "v6.4.0",
+      "cpe": "cpe:2.3:a:actions\\/setup-node:actions\\/setup-node:v6.4.0:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/setup-node@v6.4.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup-node:actions\\/setup_node:v6.4.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup_node:actions\\/setup-node:v6.4.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup_node:actions\\/setup_node:v6.4.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup:actions\\/setup-node:v6.4.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup:actions\\/setup_node:v6.4.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/theme-build.yml"
         }
       ]
     },
@@ -2545,6 +2617,56 @@
         {
           "name": "syft:location:0:path",
           "value": "/composer.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/maho-themes?package-id=a1fcc9d6a38b6eb2",
+      "type": "library",
+      "name": "maho-themes",
+      "version": "UNKNOWN",
+      "cpe": "cpe:2.3:a:maho-themes:maho-themes:*:*:*:*:*:*:*:*",
+      "purl": "pkg:npm/maho-themes",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "javascript-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "javascript"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "npm"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "javascript-npm-package-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:maho-themes:maho_themes:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:maho_themes:maho-themes:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:maho_themes:maho_themes:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:maho:maho-themes:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:maho:maho_themes:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/package-lock.json"
         }
       ]
     },
@@ -4116,6 +4238,52 @@
         {
           "name": "syft:location:0:path",
           "value": "/.github/workflows/syntax-php.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/shivammathur/setup-php@2.37.2?package-id=adda8d1546294a04",
+      "type": "library",
+      "name": "shivammathur/setup-php",
+      "version": "2.37.2",
+      "cpe": "cpe:2.3:a:shivammathur\\/setup-php:shivammathur\\/setup-php:2.37.2:*:*:*:*:*:*:*",
+      "purl": "pkg:github/shivammathur/setup-php@2.37.2",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:shivammathur\\/setup-php:shivammathur\\/setup_php:2.37.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:shivammathur\\/setup_php:shivammathur\\/setup-php:2.37.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:shivammathur\\/setup_php:shivammathur\\/setup_php:2.37.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:shivammathur\\/setup:shivammathur\\/setup-php:2.37.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:shivammathur\\/setup:shivammathur\\/setup_php:2.37.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/theme-build.yml"
         }
       ]
     },
@@ -6818,7 +6986,7 @@
     {
       "bom-ref": "2711cd66e9444a3c",
       "type": "file",
-      "name": "/tmp/tmp.Gq4QfZoQG7/maho-default/.github/workflows/ai-assisted-note.yml",
+      "name": "/tmp/tmp.LJQqHVQOjh/maho-default/.github/workflows/ai-assisted-note.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -6833,7 +7001,7 @@
     {
       "bom-ref": "32613741646b9bd0",
       "type": "file",
-      "name": "/tmp/tmp.Gq4QfZoQG7/maho-default/.github/workflows/backport.yml",
+      "name": "/tmp/tmp.LJQqHVQOjh/maho-default/.github/workflows/backport.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -6848,7 +7016,7 @@
     {
       "bom-ref": "98dd120a020982a4",
       "type": "file",
-      "name": "/tmp/tmp.Gq4QfZoQG7/maho-default/.github/workflows/check-missing-translations.yml",
+      "name": "/tmp/tmp.LJQqHVQOjh/maho-default/.github/workflows/check-missing-translations.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -6863,7 +7031,7 @@
     {
       "bom-ref": "7e66aa23a8e80c65",
       "type": "file",
-      "name": "/tmp/tmp.Gq4QfZoQG7/maho-default/.github/workflows/check-unused-translations.yml",
+      "name": "/tmp/tmp.LJQqHVQOjh/maho-default/.github/workflows/check-unused-translations.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -6878,7 +7046,7 @@
     {
       "bom-ref": "5e19ea2e1f9dfee4",
       "type": "file",
-      "name": "/tmp/tmp.Gq4QfZoQG7/maho-default/.github/workflows/codeql-analysis.yml",
+      "name": "/tmp/tmp.LJQqHVQOjh/maho-default/.github/workflows/codeql-analysis.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -6893,7 +7061,7 @@
     {
       "bom-ref": "d422de945bf18b46",
       "type": "file",
-      "name": "/tmp/tmp.Gq4QfZoQG7/maho-default/.github/workflows/composer.yml",
+      "name": "/tmp/tmp.LJQqHVQOjh/maho-default/.github/workflows/composer.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -6908,7 +7076,7 @@
     {
       "bom-ref": "b90322a436b20519",
       "type": "file",
-      "name": "/tmp/tmp.Gq4QfZoQG7/maho-default/.github/workflows/copyright.yml",
+      "name": "/tmp/tmp.LJQqHVQOjh/maho-default/.github/workflows/copyright.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -6923,7 +7091,7 @@
     {
       "bom-ref": "dc9bdc1a84992eac",
       "type": "file",
-      "name": "/tmp/tmp.Gq4QfZoQG7/maho-default/.github/workflows/install-with-prefix.yml",
+      "name": "/tmp/tmp.LJQqHVQOjh/maho-default/.github/workflows/install-with-prefix.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -6938,7 +7106,7 @@
     {
       "bom-ref": "ca67cce3ff943159",
       "type": "file",
-      "name": "/tmp/tmp.Gq4QfZoQG7/maho-default/.github/workflows/line-endings.yml",
+      "name": "/tmp/tmp.LJQqHVQOjh/maho-default/.github/workflows/line-endings.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -6953,7 +7121,7 @@
     {
       "bom-ref": "5ebde7ddc8076c2b",
       "type": "file",
-      "name": "/tmp/tmp.Gq4QfZoQG7/maho-default/.github/workflows/lint.yml",
+      "name": "/tmp/tmp.LJQqHVQOjh/maho-default/.github/workflows/lint.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -6968,7 +7136,7 @@
     {
       "bom-ref": "57d4f10249bd0e10",
       "type": "file",
-      "name": "/tmp/tmp.Gq4QfZoQG7/maho-default/.github/workflows/locale-csv-sorting.yml",
+      "name": "/tmp/tmp.LJQqHVQOjh/maho-default/.github/workflows/locale-csv-sorting.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -6983,22 +7151,22 @@
     {
       "bom-ref": "e1e2bba7dd1b17e6",
       "type": "file",
-      "name": "/tmp/tmp.Gq4QfZoQG7/maho-default/.github/workflows/pest.yml",
+      "name": "/tmp/tmp.LJQqHVQOjh/maho-default/.github/workflows/pest.yml",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "57ac1b1aecf8396ba7126bdba5a1a3e2a0284440"
+          "content": "39129b97ff47ca75f80ec6c36431e8a79b6054d7"
         },
         {
           "alg": "SHA-256",
-          "content": "d20fc018a5d2c31ea6b0b48009253ad6e83b69c2bf5a6c4350f88a7a574466c9"
+          "content": "cb2865c49404c49053bff79dd75ec7897bcc062f9f0144c6d485819ee2e15678"
         }
       ]
     },
     {
       "bom-ref": "2f9a4ebf9db35197",
       "type": "file",
-      "name": "/tmp/tmp.Gq4QfZoQG7/maho-default/.github/workflows/phpdoc.yml",
+      "name": "/tmp/tmp.LJQqHVQOjh/maho-default/.github/workflows/phpdoc.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -7013,7 +7181,7 @@
     {
       "bom-ref": "f23abd314990253e",
       "type": "file",
-      "name": "/tmp/tmp.Gq4QfZoQG7/maho-default/.github/workflows/phpstan.yml",
+      "name": "/tmp/tmp.LJQqHVQOjh/maho-default/.github/workflows/phpstan.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -7028,7 +7196,7 @@
     {
       "bom-ref": "8a94ac50b5062d56",
       "type": "file",
-      "name": "/tmp/tmp.Gq4QfZoQG7/maho-default/.github/workflows/security-php.yml",
+      "name": "/tmp/tmp.LJQqHVQOjh/maho-default/.github/workflows/security-php.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -7043,7 +7211,7 @@
     {
       "bom-ref": "17bee73d399623a9",
       "type": "file",
-      "name": "/tmp/tmp.Gq4QfZoQG7/maho-default/.github/workflows/sync-l10n-repo.yml",
+      "name": "/tmp/tmp.LJQqHVQOjh/maho-default/.github/workflows/sync-l10n-repo.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -7058,7 +7226,7 @@
     {
       "bom-ref": "5c470c2c7e53f689",
       "type": "file",
-      "name": "/tmp/tmp.Gq4QfZoQG7/maho-default/.github/workflows/syntax-php.yml",
+      "name": "/tmp/tmp.LJQqHVQOjh/maho-default/.github/workflows/syntax-php.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -7073,7 +7241,7 @@
     {
       "bom-ref": "5681d4ed4a932be8",
       "type": "file",
-      "name": "/tmp/tmp.Gq4QfZoQG7/maho-default/.github/workflows/syntax-xml.yml",
+      "name": "/tmp/tmp.LJQqHVQOjh/maho-default/.github/workflows/syntax-xml.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -7086,9 +7254,24 @@
       ]
     },
     {
+      "bom-ref": "06212730fd2d369a",
+      "type": "file",
+      "name": "/tmp/tmp.LJQqHVQOjh/maho-default/.github/workflows/theme-build.yml",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "9f18155fa802bb9fb71e6697a88f5b1e93ec3659"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "b08fdf8e36b08624431daaf9bbefcc7ab29041f9622bca1e8c35af53ff50e2d6"
+        }
+      ]
+    },
+    {
       "bom-ref": "c8bb62e6bded633e",
       "type": "file",
-      "name": "/tmp/tmp.Gq4QfZoQG7/maho-default/composer.lock",
+      "name": "/tmp/tmp.LJQqHVQOjh/maho-default/composer.lock",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -7097,6 +7280,21 @@
         {
           "alg": "SHA-256",
           "content": "350ef34d8c7ac882e944b676a4c34350155522286bdb121abd78bb1a86a93edb"
+        }
+      ]
+    },
+    {
+      "bom-ref": "fd71c2238fc07657",
+      "type": "file",
+      "name": "/tmp/tmp.LJQqHVQOjh/maho-default/package-lock.json",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "20be3579e7aae315c465130807c6f9e51dca52b4"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "52e61ae63f774770551e11353a959f11f6f7adfa6cfb541346530c2f052ed134"
         }
       ]
     }
