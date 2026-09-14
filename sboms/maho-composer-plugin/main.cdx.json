@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
-  "serialNumber": "urn:uuid:c52e8ab9-6d78-4536-b999-bf527ddfdcc6",
+  "serialNumber": "urn:uuid:889b1207-6aef-42d4-aab4-fba22d31686d",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-09-13T07:45:59Z",
+    "timestamp": "2026-09-14T08:16:59Z",
     "tools": {
       "components": [
         {
@@ -17,9 +17,9 @@
       ]
     },
     "component": {
-      "bom-ref": "4de124380109f3dc",
+      "bom-ref": "6f19a126e1c2b28f",
       "type": "file",
-      "name": "/tmp/tmp.Eg2ZUu21iv/maho-composer-plugin-default",
+      "name": "/tmp/tmp.JXceotGc7a/maho-composer-plugin-default",
       "licenses": [
         {
           "license": {
@@ -31,12 +31,12 @@
   },
   "components": [
     {
-      "bom-ref": "pkg:github/samhammerag/last-successful-build-action@v7?package-id=220f50b9cdc2b2cd",
+      "bom-ref": "pkg:github/samhammerag/last-successful-build-action@v8?package-id=20ed46a099ab2f69",
       "type": "library",
       "name": "SamhammerAG/last-successful-build-action",
-      "version": "v7",
-      "cpe": "cpe:2.3:a:SamhammerAG\\/last-successful-build-action:SamhammerAG\\/last-successful-build-action:v7:*:*:*:*:*:*:*",
-      "purl": "pkg:github/SamhammerAG/last-successful-build-action@v7",
+      "version": "v8",
+      "cpe": "cpe:2.3:a:SamhammerAG\\/last-successful-build-action:SamhammerAG\\/last-successful-build-action:v8:*:*:*:*:*:*:*",
+      "purl": "pkg:github/SamhammerAG/last-successful-build-action@v8",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -52,55 +52,55 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:SamhammerAG\\/last-successful-build-action:SamhammerAG\\/last_successful_build_action:v7:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:SamhammerAG\\/last-successful-build-action:SamhammerAG\\/last_successful_build_action:v8:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:SamhammerAG\\/last_successful_build_action:SamhammerAG\\/last-successful-build-action:v7:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:SamhammerAG\\/last_successful_build_action:SamhammerAG\\/last-successful-build-action:v8:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:SamhammerAG\\/last_successful_build_action:SamhammerAG\\/last_successful_build_action:v7:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:SamhammerAG\\/last_successful_build_action:SamhammerAG\\/last_successful_build_action:v8:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:SamhammerAG\\/last-successful-build:SamhammerAG\\/last-successful-build-action:v7:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:SamhammerAG\\/last-successful-build:SamhammerAG\\/last-successful-build-action:v8:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:SamhammerAG\\/last-successful-build:SamhammerAG\\/last_successful_build_action:v7:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:SamhammerAG\\/last-successful-build:SamhammerAG\\/last_successful_build_action:v8:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:SamhammerAG\\/last_successful_build:SamhammerAG\\/last-successful-build-action:v7:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:SamhammerAG\\/last_successful_build:SamhammerAG\\/last-successful-build-action:v8:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:SamhammerAG\\/last_successful_build:SamhammerAG\\/last_successful_build_action:v7:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:SamhammerAG\\/last_successful_build:SamhammerAG\\/last_successful_build_action:v8:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:SamhammerAG\\/last-successful:SamhammerAG\\/last-successful-build-action:v7:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:SamhammerAG\\/last-successful:SamhammerAG\\/last-successful-build-action:v8:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:SamhammerAG\\/last-successful:SamhammerAG\\/last_successful_build_action:v7:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:SamhammerAG\\/last-successful:SamhammerAG\\/last_successful_build_action:v8:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:SamhammerAG\\/last_successful:SamhammerAG\\/last-successful-build-action:v7:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:SamhammerAG\\/last_successful:SamhammerAG\\/last-successful-build-action:v8:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:SamhammerAG\\/last_successful:SamhammerAG\\/last_successful_build_action:v7:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:SamhammerAG\\/last_successful:SamhammerAG\\/last_successful_build_action:v8:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:SamhammerAG\\/last:SamhammerAG\\/last-successful-build-action:v7:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:SamhammerAG\\/last:SamhammerAG\\/last-successful-build-action:v8:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:SamhammerAG\\/last:SamhammerAG\\/last_successful_build_action:v7:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:SamhammerAG\\/last:SamhammerAG\\/last_successful_build_action:v8:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:path",
@@ -633,7 +633,7 @@
     {
       "bom-ref": "2711cd66e9444a3c",
       "type": "file",
-      "name": "/tmp/tmp.Eg2ZUu21iv/maho-composer-plugin-default/.github/workflows/ai-assisted-note.yml",
+      "name": "/tmp/tmp.JXceotGc7a/maho-composer-plugin-default/.github/workflows/ai-assisted-note.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -648,7 +648,7 @@
     {
       "bom-ref": "d422de945bf18b46",
       "type": "file",
-      "name": "/tmp/tmp.Eg2ZUu21iv/maho-composer-plugin-default/.github/workflows/composer.yml",
+      "name": "/tmp/tmp.JXceotGc7a/maho-composer-plugin-default/.github/workflows/composer.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -663,7 +663,7 @@
     {
       "bom-ref": "ca67cce3ff943159",
       "type": "file",
-      "name": "/tmp/tmp.Eg2ZUu21iv/maho-composer-plugin-default/.github/workflows/line-endings.yml",
+      "name": "/tmp/tmp.JXceotGc7a/maho-composer-plugin-default/.github/workflows/line-endings.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -678,7 +678,7 @@
     {
       "bom-ref": "5ebde7ddc8076c2b",
       "type": "file",
-      "name": "/tmp/tmp.Eg2ZUu21iv/maho-composer-plugin-default/.github/workflows/lint.yml",
+      "name": "/tmp/tmp.JXceotGc7a/maho-composer-plugin-default/.github/workflows/lint.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -693,7 +693,7 @@
     {
       "bom-ref": "f23abd314990253e",
       "type": "file",
-      "name": "/tmp/tmp.Eg2ZUu21iv/maho-composer-plugin-default/.github/workflows/phpstan.yml",
+      "name": "/tmp/tmp.JXceotGc7a/maho-composer-plugin-default/.github/workflows/phpstan.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -708,30 +708,30 @@
     {
       "bom-ref": "5c470c2c7e53f689",
       "type": "file",
-      "name": "/tmp/tmp.Eg2ZUu21iv/maho-composer-plugin-default/.github/workflows/syntax-php.yml",
+      "name": "/tmp/tmp.JXceotGc7a/maho-composer-plugin-default/.github/workflows/syntax-php.yml",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "f479c99eadef9b09a3fa3c9a4ff8bc616ad471a8"
+          "content": "be9d599286673407ad19e12ee1892d0607f81ff4"
         },
         {
           "alg": "SHA-256",
-          "content": "8dba6352cdca4b1575bfe9f65c993bd5f47d0802db1e742aa9eb55f3a20d8879"
+          "content": "06af590101d24797226820bfaa1a9257c777e20fbb4cbea225e4d633fb46756e"
         }
       ]
     },
     {
       "bom-ref": "c8bb62e6bded633e",
       "type": "file",
-      "name": "/tmp/tmp.Eg2ZUu21iv/maho-composer-plugin-default/composer.lock",
+      "name": "/tmp/tmp.JXceotGc7a/maho-composer-plugin-default/composer.lock",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "ab9741cd0fb7c9b78e1776534777c8fb92c71afc"
+          "content": "00153baca456c26ab63f2cd1521d823097df9d34"
         },
         {
           "alg": "SHA-256",
-          "content": "8c1746237b2835d3494dbe89e1aba7eb0c0e37a3d2210f054d16a76978b6b1c1"
+          "content": "1dd06da816c66fbb9b305ae5067b5e26cd23fd80e871c80725cae941536bf7d0"
         }
       ]
     }

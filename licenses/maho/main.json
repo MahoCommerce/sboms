@@ -8,15 +8,15 @@
       "MIT",
       "OSL-3.0"
     ],
-    "files_total": 6817,
-    "files_with_copyright_info": 6555,
-    "files_with_licensing_info": 6552,
+    "files_total": 6823,
+    "files_with_copyright_info": 6561,
+    "files_with_licensing_info": 6558,
     "compliant": false
   },
   "license_file_counts": {
     "AFL-3.0": 1175,
     "MIT": 4,
-    "OSL-3.0": 5374,
+    "OSL-3.0": 5380,
     "OSL-3.0')": 1,
     "OSL-3.0',": 1
   }
