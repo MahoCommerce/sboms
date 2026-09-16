@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
-  "serialNumber": "urn:uuid:4e99d11b-1e39-48fa-83c2-91dbae1c6812",
+  "serialNumber": "urn:uuid:129180a8-3183-4267-b82d-f5d6c46a9db1",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-09-15T08:09:18Z",
+    "timestamp": "2026-09-16T08:02:55Z",
     "tools": {
       "components": [
         {
@@ -17,9 +17,9 @@
       ]
     },
     "component": {
-      "bom-ref": "48c6fc8e259f44c3",
+      "bom-ref": "1878060e0c57db86",
       "type": "file",
-      "name": "/tmp/tmp.FQH8CJwtfe/infrastructure-default",
+      "name": "/tmp/tmp.4Qtk21nhZL/infrastructure-default",
       "licenses": [
         {
           "license": {
@@ -2151,7 +2151,7 @@
     {
       "bom-ref": "2711cd66e9444a3c",
       "type": "file",
-      "name": "/tmp/tmp.FQH8CJwtfe/infrastructure-default/.github/workflows/ai-assisted-note.yml",
+      "name": "/tmp/tmp.4Qtk21nhZL/infrastructure-default/.github/workflows/ai-assisted-note.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -2166,37 +2166,37 @@
     {
       "bom-ref": "5ebde7ddc8076c2b",
       "type": "file",
-      "name": "/tmp/tmp.FQH8CJwtfe/infrastructure-default/.github/workflows/lint.yml",
+      "name": "/tmp/tmp.4Qtk21nhZL/infrastructure-default/.github/workflows/lint.yml",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "8addf99ffbcada103caebac418caef5b6340f7e7"
+          "content": "1282cc480f0b2f0d8cfbd91c878d101523111be6"
         },
         {
           "alg": "SHA-256",
-          "content": "35137a644be6298e5c16d81acfda95c7238dfd523ad92adbfb9bdcfcfe51bb43"
+          "content": "2f7bf1081f94a69152b755d4d7970e84541e07841df8b13643d32465e1645b29"
         }
       ]
     },
     {
       "bom-ref": "f23abd314990253e",
       "type": "file",
-      "name": "/tmp/tmp.FQH8CJwtfe/infrastructure-default/.github/workflows/phpstan.yml",
+      "name": "/tmp/tmp.4Qtk21nhZL/infrastructure-default/.github/workflows/phpstan.yml",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "9f21bed74fb9aa2b88ed3ac0916cf6706a6fc96a"
+          "content": "617baf58ca0abe1e1a4d2fbd91c616be075209a2"
         },
         {
           "alg": "SHA-256",
-          "content": "790ab7033b13406a779105613f726f36e5f0dc272c6632a306c2aef6686cc718"
+          "content": "13ba1035e24ea0495ea40827496b19780d7c912d8cad6a8eea896bf3de9ea981"
         }
       ]
     },
     {
       "bom-ref": "cbbb57827f0f16c5",
       "type": "file",
-      "name": "/tmp/tmp.FQH8CJwtfe/infrastructure-default/.github/workflows/sync.yml",
+      "name": "/tmp/tmp.4Qtk21nhZL/infrastructure-default/.github/workflows/sync.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -2211,15 +2211,15 @@
     {
       "bom-ref": "c8bb62e6bded633e",
       "type": "file",
-      "name": "/tmp/tmp.FQH8CJwtfe/infrastructure-default/composer.lock",
+      "name": "/tmp/tmp.4Qtk21nhZL/infrastructure-default/composer.lock",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "0560268d82af7521eea5dbd566c085a2263ffb73"
+          "content": "228cf3c99c8f4d07d64f2991ead47e1f35e207ff"
         },
         {
           "alg": "SHA-256",
-          "content": "aa28ff88cadd64020d8ce893e4054a3dbe175f37a0b13f69a5ffa5b3d4d76679"
+          "content": "00d5d14c9c5b6f6bf8df15c6685b84f0eb5b0634b52bf702e0b978aee7c5980e"
         }
       ]
     }

@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
-  "serialNumber": "urn:uuid:a32f05ea-3eec-4ce2-a095-cc929d5527d3",
+  "serialNumber": "urn:uuid:2457a0b5-3019-401b-a1e5-a8bccea17f72",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-09-15T08:09:09Z",
+    "timestamp": "2026-09-16T08:02:45Z",
     "tools": {
       "components": [
         {
@@ -17,9 +17,9 @@
       ]
     },
     "component": {
-      "bom-ref": "44280a36e0330170",
+      "bom-ref": "175e3dbd4b502349",
       "type": "file",
-      "name": "/tmp/tmp.FQH8CJwtfe/directory-data-default",
+      "name": "/tmp/tmp.4Qtk21nhZL/directory-data-default",
       "licenses": [
         {
           "license": {
@@ -301,7 +301,7 @@
     {
       "bom-ref": "2711cd66e9444a3c",
       "type": "file",
-      "name": "/tmp/tmp.FQH8CJwtfe/directory-data-default/.github/workflows/ai-assisted-note.yml",
+      "name": "/tmp/tmp.4Qtk21nhZL/directory-data-default/.github/workflows/ai-assisted-note.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -316,22 +316,22 @@
     {
       "bom-ref": "5ebde7ddc8076c2b",
       "type": "file",
-      "name": "/tmp/tmp.FQH8CJwtfe/directory-data-default/.github/workflows/lint.yml",
+      "name": "/tmp/tmp.4Qtk21nhZL/directory-data-default/.github/workflows/lint.yml",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "8addf99ffbcada103caebac418caef5b6340f7e7"
+          "content": "1282cc480f0b2f0d8cfbd91c878d101523111be6"
         },
         {
           "alg": "SHA-256",
-          "content": "35137a644be6298e5c16d81acfda95c7238dfd523ad92adbfb9bdcfcfe51bb43"
+          "content": "2f7bf1081f94a69152b755d4d7970e84541e07841df8b13643d32465e1645b29"
         }
       ]
     },
     {
       "bom-ref": "62f594948731c9a4",
       "type": "file",
-      "name": "/tmp/tmp.FQH8CJwtfe/directory-data-default/.github/workflows/update-data.yml",
+      "name": "/tmp/tmp.4Qtk21nhZL/directory-data-default/.github/workflows/update-data.yml",
       "hashes": [
         {
           "alg": "SHA-1",

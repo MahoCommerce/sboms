@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
-  "serialNumber": "urn:uuid:7910f1bf-37e7-4f75-8632-25bf03ba5c06",
+  "serialNumber": "urn:uuid:6d4b0b49-53d9-4627-ab26-a05c34a68b53",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-09-16T08:02:40Z",
+    "timestamp": "2026-09-16T08:03:36Z",
     "tools": {
       "components": [
         {
@@ -17,12 +17,14 @@
       ]
     },
     "component": {
-      "bom-ref": "a8ccb3ce06e33365",
+      "bom-ref": "f24a2cb5039928d9",
       "type": "file",
-      "name": "/tmp/tmp.4Qtk21nhZL/demo.mahocommerce.com-default",
+      "name": "/tmp/tmp.4Qtk21nhZL/module-mcrypt-compat-v1.0.1",
       "licenses": [
         {
-          "expression": "OSL-3.0 OR AFL-3.0"
+          "license": {
+            "id": "OSL-3.0"
+          }
         }
       ]
     }
@@ -77,7 +79,7 @@
     {
       "bom-ref": "2711cd66e9444a3c",
       "type": "file",
-      "name": "/tmp/tmp.4Qtk21nhZL/demo.mahocommerce.com-default/.github/workflows/ai-assisted-note.yml",
+      "name": "/tmp/tmp.4Qtk21nhZL/module-mcrypt-compat-v1.0.1/.github/workflows/ai-assisted-note.yml",
       "hashes": [
         {
           "alg": "SHA-1",

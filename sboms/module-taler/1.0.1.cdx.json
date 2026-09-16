@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
-  "serialNumber": "urn:uuid:2d719ca6-1970-46e4-bf7c-a87cebf888d3",
+  "serialNumber": "urn:uuid:0e025adb-2804-4f17-a739-0dca0c6abdfb",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-09-16T08:03:46Z",
+    "timestamp": "2026-09-16T08:03:59Z",
     "tools": {
       "components": [
         {
@@ -17,9 +17,9 @@
       ]
     },
     "component": {
-      "bom-ref": "a34ab6cabad81062",
+      "bom-ref": "bdaaa80d598d116d",
       "type": "file",
-      "name": "/tmp/tmp.4Qtk21nhZL/module-przelewy24-default",
+      "name": "/tmp/tmp.4Qtk21nhZL/module-taler-1.0.1",
       "licenses": [
         {
           "expression": "OSL-3.0 OR AFL-3.0"
@@ -51,6 +51,32 @@
         {
           "name": "syft:location:0:path",
           "value": "/.github/workflows/phpstan.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/actions/cache@v6.1.0?package-id=224cdc9be1ac5f82",
+      "type": "library",
+      "name": "actions/cache",
+      "version": "v6.1.0",
+      "cpe": "cpe:2.3:a:actions\\/cache:actions\\/cache:v6.1.0:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/cache@v6.1.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/tests.yml"
         }
       ]
     },
@@ -207,6 +233,32 @@
         {
           "name": "syft:location:0:path",
           "value": "/.github/workflows/syntax-xml.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/actions/checkout@v7.0.1?package-id=267e9b6939f430e5",
+      "type": "library",
+      "name": "actions/checkout",
+      "version": "v7.0.1",
+      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v7.0.1:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/checkout@v7.0.1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/tests.yml"
         }
       ]
     },
@@ -395,9 +447,55 @@
       ]
     },
     {
+      "bom-ref": "pkg:github/shivammathur/setup-php@2.37.2?package-id=ffd231b172d107c8",
+      "type": "library",
+      "name": "shivammathur/setup-php",
+      "version": "2.37.2",
+      "cpe": "cpe:2.3:a:shivammathur\\/setup-php:shivammathur\\/setup-php:2.37.2:*:*:*:*:*:*:*",
+      "purl": "pkg:github/shivammathur/setup-php@2.37.2",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:shivammathur\\/setup-php:shivammathur\\/setup_php:2.37.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:shivammathur\\/setup_php:shivammathur\\/setup-php:2.37.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:shivammathur\\/setup_php:shivammathur\\/setup_php:2.37.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:shivammathur\\/setup:shivammathur\\/setup-php:2.37.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:shivammathur\\/setup:shivammathur\\/setup_php:2.37.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/tests.yml"
+        }
+      ]
+    },
+    {
       "bom-ref": "2711cd66e9444a3c",
       "type": "file",
-      "name": "/tmp/tmp.4Qtk21nhZL/module-przelewy24-default/.github/workflows/ai-assisted-note.yml",
+      "name": "/tmp/tmp.4Qtk21nhZL/module-taler-1.0.1/.github/workflows/ai-assisted-note.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -412,7 +510,7 @@
     {
       "bom-ref": "d422de945bf18b46",
       "type": "file",
-      "name": "/tmp/tmp.4Qtk21nhZL/module-przelewy24-default/.github/workflows/composer.yml",
+      "name": "/tmp/tmp.4Qtk21nhZL/module-taler-1.0.1/.github/workflows/composer.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -427,7 +525,7 @@
     {
       "bom-ref": "ca67cce3ff943159",
       "type": "file",
-      "name": "/tmp/tmp.4Qtk21nhZL/module-przelewy24-default/.github/workflows/line-endings.yml",
+      "name": "/tmp/tmp.4Qtk21nhZL/module-taler-1.0.1/.github/workflows/line-endings.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -442,7 +540,7 @@
     {
       "bom-ref": "5ebde7ddc8076c2b",
       "type": "file",
-      "name": "/tmp/tmp.4Qtk21nhZL/module-przelewy24-default/.github/workflows/lint.yml",
+      "name": "/tmp/tmp.4Qtk21nhZL/module-taler-1.0.1/.github/workflows/lint.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -457,7 +555,7 @@
     {
       "bom-ref": "f23abd314990253e",
       "type": "file",
-      "name": "/tmp/tmp.4Qtk21nhZL/module-przelewy24-default/.github/workflows/phpstan.yml",
+      "name": "/tmp/tmp.4Qtk21nhZL/module-taler-1.0.1/.github/workflows/phpstan.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -472,7 +570,7 @@
     {
       "bom-ref": "5c470c2c7e53f689",
       "type": "file",
-      "name": "/tmp/tmp.4Qtk21nhZL/module-przelewy24-default/.github/workflows/syntax-php.yml",
+      "name": "/tmp/tmp.4Qtk21nhZL/module-taler-1.0.1/.github/workflows/syntax-php.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -487,7 +585,7 @@
     {
       "bom-ref": "5681d4ed4a932be8",
       "type": "file",
-      "name": "/tmp/tmp.4Qtk21nhZL/module-przelewy24-default/.github/workflows/syntax-xml.yml",
+      "name": "/tmp/tmp.4Qtk21nhZL/module-taler-1.0.1/.github/workflows/syntax-xml.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -496,6 +594,21 @@
         {
           "alg": "SHA-256",
           "content": "6e96db01ebe2d82ba184aebeb999ac8798f92f39eed4782eac5e38e548d65376"
+        }
+      ]
+    },
+    {
+      "bom-ref": "9b0927f24570d5cb",
+      "type": "file",
+      "name": "/tmp/tmp.4Qtk21nhZL/module-taler-1.0.1/.github/workflows/tests.yml",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "c26382fd0a9545cb9b32c88590d8041453925b4c"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "43410cf9095e472a14a195ce7da6c24c869c8948da5efb5b4be95a5dcddfaac3"
         }
       ]
     }
