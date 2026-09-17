@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
-  "serialNumber": "urn:uuid:995b6312-5563-4ff9-8633-9a663475b340",
+  "serialNumber": "urn:uuid:08c9e68b-a5f4-48bb-bc3b-8b77040a387b",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-09-16T08:03:00Z",
+    "timestamp": "2026-09-17T08:08:45Z",
     "tools": {
       "components": [
         {
@@ -17,9 +17,9 @@
       ]
     },
     "component": {
-      "bom-ref": "be4b4777de3835aa",
+      "bom-ref": "f942282351d4490a",
       "type": "file",
-      "name": "/tmp/tmp.4Qtk21nhZL/maho-default",
+      "name": "/tmp/tmp.FYsqKTNa7y/maho-default",
       "licenses": [
         {
           "expression": "OSL-3.0 OR AFL-3.0"
@@ -29,12 +29,12 @@
   },
   "components": [
     {
-      "bom-ref": "pkg:github/samhammerag/last-successful-build-action@v7?package-id=220f50b9cdc2b2cd",
+      "bom-ref": "pkg:github/samhammerag/last-successful-build-action@v8?package-id=20ed46a099ab2f69",
       "type": "library",
       "name": "SamhammerAG/last-successful-build-action",
-      "version": "v7",
-      "cpe": "cpe:2.3:a:SamhammerAG\\/last-successful-build-action:SamhammerAG\\/last-successful-build-action:v7:*:*:*:*:*:*:*",
-      "purl": "pkg:github/SamhammerAG/last-successful-build-action@v7",
+      "version": "v8",
+      "cpe": "cpe:2.3:a:SamhammerAG\\/last-successful-build-action:SamhammerAG\\/last-successful-build-action:v8:*:*:*:*:*:*:*",
+      "purl": "pkg:github/SamhammerAG/last-successful-build-action@v8",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -50,55 +50,55 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:SamhammerAG\\/last-successful-build-action:SamhammerAG\\/last_successful_build_action:v7:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:SamhammerAG\\/last-successful-build-action:SamhammerAG\\/last_successful_build_action:v8:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:SamhammerAG\\/last_successful_build_action:SamhammerAG\\/last-successful-build-action:v7:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:SamhammerAG\\/last_successful_build_action:SamhammerAG\\/last-successful-build-action:v8:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:SamhammerAG\\/last_successful_build_action:SamhammerAG\\/last_successful_build_action:v7:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:SamhammerAG\\/last_successful_build_action:SamhammerAG\\/last_successful_build_action:v8:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:SamhammerAG\\/last-successful-build:SamhammerAG\\/last-successful-build-action:v7:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:SamhammerAG\\/last-successful-build:SamhammerAG\\/last-successful-build-action:v8:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:SamhammerAG\\/last-successful-build:SamhammerAG\\/last_successful_build_action:v7:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:SamhammerAG\\/last-successful-build:SamhammerAG\\/last_successful_build_action:v8:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:SamhammerAG\\/last_successful_build:SamhammerAG\\/last-successful-build-action:v7:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:SamhammerAG\\/last_successful_build:SamhammerAG\\/last-successful-build-action:v8:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:SamhammerAG\\/last_successful_build:SamhammerAG\\/last_successful_build_action:v7:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:SamhammerAG\\/last_successful_build:SamhammerAG\\/last_successful_build_action:v8:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:SamhammerAG\\/last-successful:SamhammerAG\\/last-successful-build-action:v7:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:SamhammerAG\\/last-successful:SamhammerAG\\/last-successful-build-action:v8:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:SamhammerAG\\/last-successful:SamhammerAG\\/last_successful_build_action:v7:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:SamhammerAG\\/last-successful:SamhammerAG\\/last_successful_build_action:v8:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:SamhammerAG\\/last_successful:SamhammerAG\\/last-successful-build-action:v7:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:SamhammerAG\\/last_successful:SamhammerAG\\/last-successful-build-action:v8:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:SamhammerAG\\/last_successful:SamhammerAG\\/last_successful_build_action:v7:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:SamhammerAG\\/last_successful:SamhammerAG\\/last_successful_build_action:v8:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:SamhammerAG\\/last:SamhammerAG\\/last-successful-build-action:v7:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:SamhammerAG\\/last:SamhammerAG\\/last-successful-build-action:v8:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:SamhammerAG\\/last:SamhammerAG\\/last_successful_build_action:v7:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:SamhammerAG\\/last:SamhammerAG\\/last_successful_build_action:v8:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:path",
@@ -107,12 +107,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:github/samhammerag/last-successful-build-action@v7?package-id=7dfc714f5f9bc4df",
+      "bom-ref": "pkg:github/samhammerag/last-successful-build-action@v8?package-id=268f2fcf69fbc325",
       "type": "library",
       "name": "SamhammerAG/last-successful-build-action",
-      "version": "v7",
-      "cpe": "cpe:2.3:a:SamhammerAG\\/last-successful-build-action:SamhammerAG\\/last-successful-build-action:v7:*:*:*:*:*:*:*",
-      "purl": "pkg:github/SamhammerAG/last-successful-build-action@v7",
+      "version": "v8",
+      "cpe": "cpe:2.3:a:SamhammerAG\\/last-successful-build-action:SamhammerAG\\/last-successful-build-action:v8:*:*:*:*:*:*:*",
+      "purl": "pkg:github/SamhammerAG/last-successful-build-action@v8",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -128,55 +128,55 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:SamhammerAG\\/last-successful-build-action:SamhammerAG\\/last_successful_build_action:v7:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:SamhammerAG\\/last-successful-build-action:SamhammerAG\\/last_successful_build_action:v8:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:SamhammerAG\\/last_successful_build_action:SamhammerAG\\/last-successful-build-action:v7:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:SamhammerAG\\/last_successful_build_action:SamhammerAG\\/last-successful-build-action:v8:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:SamhammerAG\\/last_successful_build_action:SamhammerAG\\/last_successful_build_action:v7:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:SamhammerAG\\/last_successful_build_action:SamhammerAG\\/last_successful_build_action:v8:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:SamhammerAG\\/last-successful-build:SamhammerAG\\/last-successful-build-action:v7:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:SamhammerAG\\/last-successful-build:SamhammerAG\\/last-successful-build-action:v8:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:SamhammerAG\\/last-successful-build:SamhammerAG\\/last_successful_build_action:v7:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:SamhammerAG\\/last-successful-build:SamhammerAG\\/last_successful_build_action:v8:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:SamhammerAG\\/last_successful_build:SamhammerAG\\/last-successful-build-action:v7:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:SamhammerAG\\/last_successful_build:SamhammerAG\\/last-successful-build-action:v8:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:SamhammerAG\\/last_successful_build:SamhammerAG\\/last_successful_build_action:v7:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:SamhammerAG\\/last_successful_build:SamhammerAG\\/last_successful_build_action:v8:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:SamhammerAG\\/last-successful:SamhammerAG\\/last-successful-build-action:v7:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:SamhammerAG\\/last-successful:SamhammerAG\\/last-successful-build-action:v8:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:SamhammerAG\\/last-successful:SamhammerAG\\/last_successful_build_action:v7:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:SamhammerAG\\/last-successful:SamhammerAG\\/last_successful_build_action:v8:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:SamhammerAG\\/last_successful:SamhammerAG\\/last-successful-build-action:v7:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:SamhammerAG\\/last_successful:SamhammerAG\\/last-successful-build-action:v8:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:SamhammerAG\\/last_successful:SamhammerAG\\/last_successful_build_action:v7:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:SamhammerAG\\/last_successful:SamhammerAG\\/last_successful_build_action:v8:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:SamhammerAG\\/last:SamhammerAG\\/last-successful-build-action:v7:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:SamhammerAG\\/last:SamhammerAG\\/last-successful-build-action:v8:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:SamhammerAG\\/last:SamhammerAG\\/last_successful_build_action:v7:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:SamhammerAG\\/last:SamhammerAG\\/last_successful_build_action:v8:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:path",
@@ -2285,12 +2285,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:github/github/codeql-action@v4.37.9?package-id=fb43caf14d338bf6#analyze",
+      "bom-ref": "pkg:github/github/codeql-action@v4.38.0?package-id=72f4f03608e0f6ec#analyze",
       "type": "library",
       "name": "github/codeql-action/analyze",
-      "version": "v4.37.9",
-      "cpe": "cpe:2.3:a:github\\/codeql-action\\/analyze:github\\/codeql-action\\/analyze:v4.37.9:*:*:*:*:*:*:*",
-      "purl": "pkg:github/github/codeql-action@v4.37.9#analyze",
+      "version": "v4.38.0",
+      "cpe": "cpe:2.3:a:github\\/codeql-action\\/analyze:github\\/codeql-action\\/analyze:v4.38.0:*:*:*:*:*:*:*",
+      "purl": "pkg:github/github/codeql-action@v4.38.0#analyze",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -2306,23 +2306,23 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:github\\/codeql-action\\/analyze:github\\/codeql_action\\/analyze:v4.37.9:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:github\\/codeql-action\\/analyze:github\\/codeql_action\\/analyze:v4.38.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:github\\/codeql_action\\/analyze:github\\/codeql-action\\/analyze:v4.37.9:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:github\\/codeql_action\\/analyze:github\\/codeql-action\\/analyze:v4.38.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:github\\/codeql_action\\/analyze:github\\/codeql_action\\/analyze:v4.37.9:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:github\\/codeql_action\\/analyze:github\\/codeql_action\\/analyze:v4.38.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:github\\/codeql:github\\/codeql-action\\/analyze:v4.37.9:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:github\\/codeql:github\\/codeql-action\\/analyze:v4.38.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:github\\/codeql:github\\/codeql_action\\/analyze:v4.37.9:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:github\\/codeql:github\\/codeql_action\\/analyze:v4.38.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:path",
@@ -2331,12 +2331,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:github/github/codeql-action@v4.37.9?package-id=58e5353df28af11b#init",
+      "bom-ref": "pkg:github/github/codeql-action@v4.38.0?package-id=21cde02af8309b50#init",
       "type": "library",
       "name": "github/codeql-action/init",
-      "version": "v4.37.9",
-      "cpe": "cpe:2.3:a:github\\/codeql-action\\/init:github\\/codeql-action\\/init:v4.37.9:*:*:*:*:*:*:*",
-      "purl": "pkg:github/github/codeql-action@v4.37.9#init",
+      "version": "v4.38.0",
+      "cpe": "cpe:2.3:a:github\\/codeql-action\\/init:github\\/codeql-action\\/init:v4.38.0:*:*:*:*:*:*:*",
+      "purl": "pkg:github/github/codeql-action@v4.38.0#init",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -2352,23 +2352,23 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:github\\/codeql-action\\/init:github\\/codeql_action\\/init:v4.37.9:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:github\\/codeql-action\\/init:github\\/codeql_action\\/init:v4.38.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:github\\/codeql_action\\/init:github\\/codeql-action\\/init:v4.37.9:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:github\\/codeql_action\\/init:github\\/codeql-action\\/init:v4.38.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:github\\/codeql_action\\/init:github\\/codeql_action\\/init:v4.37.9:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:github\\/codeql_action\\/init:github\\/codeql_action\\/init:v4.38.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:github\\/codeql:github\\/codeql-action\\/init:v4.37.9:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:github\\/codeql:github\\/codeql-action\\/init:v4.38.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:github\\/codeql:github\\/codeql_action\\/init:v4.37.9:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:github\\/codeql:github\\/codeql_action\\/init:v4.38.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:path",
@@ -2644,10 +2644,10 @@
       ]
     },
     {
-      "bom-ref": "pkg:composer/league/html-to-markdown@5.1.1?package-id=555fce0ee7522fe7",
+      "bom-ref": "pkg:composer/league/html-to-markdown@5.1.2?package-id=1a5bae34c73a6830",
       "type": "library",
       "name": "league/html-to-markdown",
-      "version": "5.1.1",
+      "version": "5.1.2",
       "licenses": [
         {
           "license": {
@@ -2655,8 +2655,8 @@
           }
         }
       ],
-      "cpe": "cpe:2.3:a:league\\/html-to-markdown:league\\/html-to-markdown:5.1.1:*:*:*:*:*:*:*",
-      "purl": "pkg:composer/league/html-to-markdown@5.1.1",
+      "cpe": "cpe:2.3:a:league\\/html-to-markdown:league\\/html-to-markdown:5.1.2:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/league/html-to-markdown@5.1.2",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -2676,39 +2676,39 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:league\\/html-to-markdown:league\\/html_to_markdown:5.1.1:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:league\\/html-to-markdown:league\\/html_to_markdown:5.1.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:league\\/html_to_markdown:league\\/html-to-markdown:5.1.1:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:league\\/html_to_markdown:league\\/html-to-markdown:5.1.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:league\\/html_to_markdown:league\\/html_to_markdown:5.1.1:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:league\\/html_to_markdown:league\\/html_to_markdown:5.1.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:league\\/html-to:league\\/html-to-markdown:5.1.1:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:league\\/html-to:league\\/html-to-markdown:5.1.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:league\\/html-to:league\\/html_to_markdown:5.1.1:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:league\\/html-to:league\\/html_to_markdown:5.1.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:league\\/html_to:league\\/html-to-markdown:5.1.1:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:league\\/html_to:league\\/html-to-markdown:5.1.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:league\\/html_to:league\\/html_to_markdown:5.1.1:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:league\\/html_to:league\\/html_to_markdown:5.1.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:league\\/html:league\\/html-to-markdown:5.1.1:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:league\\/html:league\\/html-to-markdown:5.1.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:league\\/html:league\\/html_to_markdown:5.1.1:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:league\\/html:league\\/html_to_markdown:5.1.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:path",
@@ -3102,10 +3102,10 @@
       ]
     },
     {
-      "bom-ref": "pkg:composer/monolog/monolog@3.11.0?package-id=074d9625ee0c58f7",
+      "bom-ref": "pkg:composer/monolog/monolog@3.12.0?package-id=e08c1434ac63d187",
       "type": "library",
       "name": "monolog/monolog",
-      "version": "3.11.0",
+      "version": "3.12.0",
       "licenses": [
         {
           "license": {
@@ -3113,8 +3113,8 @@
           }
         }
       ],
-      "cpe": "cpe:2.3:a:monolog\\/monolog:monolog\\/monolog:3.11.0:*:*:*:*:*:*:*",
-      "purl": "pkg:composer/monolog/monolog@3.11.0",
+      "cpe": "cpe:2.3:a:monolog\\/monolog:monolog\\/monolog:3.12.0:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/monolog/monolog@3.12.0",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -5963,10 +5963,10 @@
       ]
     },
     {
-      "bom-ref": "pkg:composer/symfony/process@v7.4.18?package-id=9fde62d977263d86",
+      "bom-ref": "pkg:composer/symfony/process@v7.4.19?package-id=ff328547b6fbf468",
       "type": "library",
       "name": "symfony/process",
-      "version": "v7.4.18",
+      "version": "v7.4.19",
       "licenses": [
         {
           "license": {
@@ -5974,8 +5974,8 @@
           }
         }
       ],
-      "cpe": "cpe:2.3:a:symfony\\/process:symfony\\/process:v7.4.18:*:*:*:*:*:*:*",
-      "purl": "pkg:composer/symfony/process@v7.4.18",
+      "cpe": "cpe:2.3:a:symfony\\/process:symfony\\/process:v7.4.19:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/symfony/process@v7.4.19",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -7213,7 +7213,7 @@
     {
       "bom-ref": "2711cd66e9444a3c",
       "type": "file",
-      "name": "/tmp/tmp.4Qtk21nhZL/maho-default/.github/workflows/ai-assisted-note.yml",
+      "name": "/tmp/tmp.FYsqKTNa7y/maho-default/.github/workflows/ai-assisted-note.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -7228,7 +7228,7 @@
     {
       "bom-ref": "32613741646b9bd0",
       "type": "file",
-      "name": "/tmp/tmp.4Qtk21nhZL/maho-default/.github/workflows/backport.yml",
+      "name": "/tmp/tmp.FYsqKTNa7y/maho-default/.github/workflows/backport.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -7243,7 +7243,7 @@
     {
       "bom-ref": "4260212f7c4181cb",
       "type": "file",
-      "name": "/tmp/tmp.4Qtk21nhZL/maho-default/.github/workflows/check-js-libraries.yml",
+      "name": "/tmp/tmp.FYsqKTNa7y/maho-default/.github/workflows/check-js-libraries.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -7258,7 +7258,7 @@
     {
       "bom-ref": "98dd120a020982a4",
       "type": "file",
-      "name": "/tmp/tmp.4Qtk21nhZL/maho-default/.github/workflows/check-missing-translations.yml",
+      "name": "/tmp/tmp.FYsqKTNa7y/maho-default/.github/workflows/check-missing-translations.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -7273,7 +7273,7 @@
     {
       "bom-ref": "7e66aa23a8e80c65",
       "type": "file",
-      "name": "/tmp/tmp.4Qtk21nhZL/maho-default/.github/workflows/check-unused-translations.yml",
+      "name": "/tmp/tmp.FYsqKTNa7y/maho-default/.github/workflows/check-unused-translations.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -7288,22 +7288,22 @@
     {
       "bom-ref": "5e19ea2e1f9dfee4",
       "type": "file",
-      "name": "/tmp/tmp.4Qtk21nhZL/maho-default/.github/workflows/codeql-analysis.yml",
+      "name": "/tmp/tmp.FYsqKTNa7y/maho-default/.github/workflows/codeql-analysis.yml",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "52ae90a8b9662c7b826ce4aba89016a4989ce27a"
+          "content": "22095860584d93c44edb568549808045b26e4a54"
         },
         {
           "alg": "SHA-256",
-          "content": "60cca97e4f5f847a001a4746466dc210c49de861aa09e298216fca2e45d63f92"
+          "content": "2eb115b581c20bdfb4db1d29475d7e47df95cae8cfa37af06b20860fa8a414d0"
         }
       ]
     },
     {
       "bom-ref": "d422de945bf18b46",
       "type": "file",
-      "name": "/tmp/tmp.4Qtk21nhZL/maho-default/.github/workflows/composer.yml",
+      "name": "/tmp/tmp.FYsqKTNa7y/maho-default/.github/workflows/composer.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -7318,7 +7318,7 @@
     {
       "bom-ref": "b90322a436b20519",
       "type": "file",
-      "name": "/tmp/tmp.4Qtk21nhZL/maho-default/.github/workflows/copyright.yml",
+      "name": "/tmp/tmp.FYsqKTNa7y/maho-default/.github/workflows/copyright.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -7333,7 +7333,7 @@
     {
       "bom-ref": "dc9bdc1a84992eac",
       "type": "file",
-      "name": "/tmp/tmp.4Qtk21nhZL/maho-default/.github/workflows/install-with-prefix.yml",
+      "name": "/tmp/tmp.FYsqKTNa7y/maho-default/.github/workflows/install-with-prefix.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -7348,7 +7348,7 @@
     {
       "bom-ref": "ca67cce3ff943159",
       "type": "file",
-      "name": "/tmp/tmp.4Qtk21nhZL/maho-default/.github/workflows/line-endings.yml",
+      "name": "/tmp/tmp.FYsqKTNa7y/maho-default/.github/workflows/line-endings.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -7363,7 +7363,7 @@
     {
       "bom-ref": "5ebde7ddc8076c2b",
       "type": "file",
-      "name": "/tmp/tmp.4Qtk21nhZL/maho-default/.github/workflows/lint.yml",
+      "name": "/tmp/tmp.FYsqKTNa7y/maho-default/.github/workflows/lint.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -7378,7 +7378,7 @@
     {
       "bom-ref": "57d4f10249bd0e10",
       "type": "file",
-      "name": "/tmp/tmp.4Qtk21nhZL/maho-default/.github/workflows/locale-csv-sorting.yml",
+      "name": "/tmp/tmp.FYsqKTNa7y/maho-default/.github/workflows/locale-csv-sorting.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -7393,7 +7393,7 @@
     {
       "bom-ref": "e1e2bba7dd1b17e6",
       "type": "file",
-      "name": "/tmp/tmp.4Qtk21nhZL/maho-default/.github/workflows/pest.yml",
+      "name": "/tmp/tmp.FYsqKTNa7y/maho-default/.github/workflows/pest.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -7408,7 +7408,7 @@
     {
       "bom-ref": "2f9a4ebf9db35197",
       "type": "file",
-      "name": "/tmp/tmp.4Qtk21nhZL/maho-default/.github/workflows/phpdoc.yml",
+      "name": "/tmp/tmp.FYsqKTNa7y/maho-default/.github/workflows/phpdoc.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -7423,7 +7423,7 @@
     {
       "bom-ref": "f23abd314990253e",
       "type": "file",
-      "name": "/tmp/tmp.4Qtk21nhZL/maho-default/.github/workflows/phpstan.yml",
+      "name": "/tmp/tmp.FYsqKTNa7y/maho-default/.github/workflows/phpstan.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -7438,7 +7438,7 @@
     {
       "bom-ref": "8a94ac50b5062d56",
       "type": "file",
-      "name": "/tmp/tmp.4Qtk21nhZL/maho-default/.github/workflows/security-php.yml",
+      "name": "/tmp/tmp.FYsqKTNa7y/maho-default/.github/workflows/security-php.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -7453,7 +7453,7 @@
     {
       "bom-ref": "17bee73d399623a9",
       "type": "file",
-      "name": "/tmp/tmp.4Qtk21nhZL/maho-default/.github/workflows/sync-l10n-repo.yml",
+      "name": "/tmp/tmp.FYsqKTNa7y/maho-default/.github/workflows/sync-l10n-repo.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -7468,37 +7468,37 @@
     {
       "bom-ref": "5c470c2c7e53f689",
       "type": "file",
-      "name": "/tmp/tmp.4Qtk21nhZL/maho-default/.github/workflows/syntax-php.yml",
+      "name": "/tmp/tmp.FYsqKTNa7y/maho-default/.github/workflows/syntax-php.yml",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "a501b89fa5ba637439f4f62050ede33a9660556e"
+          "content": "7f7d42c27044914a60e81038e08c5d66de732364"
         },
         {
           "alg": "SHA-256",
-          "content": "cbefe273c688d564684aef24c50c28d0e34c9879eed4bd1b8730579b6a0c789d"
+          "content": "2b06e81027828c9e083647900c053af3507d2dab0fb340a27b6115fc090ad8b6"
         }
       ]
     },
     {
       "bom-ref": "5681d4ed4a932be8",
       "type": "file",
-      "name": "/tmp/tmp.4Qtk21nhZL/maho-default/.github/workflows/syntax-xml.yml",
+      "name": "/tmp/tmp.FYsqKTNa7y/maho-default/.github/workflows/syntax-xml.yml",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "dd7a327329bfe835d494fd6a6d45e42d8a72c1c4"
+          "content": "223416a85155f250102cbd0de8883aa9a3e3d47c"
         },
         {
           "alg": "SHA-256",
-          "content": "0cf49b8937de59d04d07e496698196df894f75bb0e606e1ce8915704b98d79b7"
+          "content": "8bd00cdbf1aa26d7d003e779adfc1138cd0d6b7b4ae2522d46fd7a27462322af"
         }
       ]
     },
     {
       "bom-ref": "06212730fd2d369a",
       "type": "file",
-      "name": "/tmp/tmp.4Qtk21nhZL/maho-default/.github/workflows/theme-build.yml",
+      "name": "/tmp/tmp.FYsqKTNa7y/maho-default/.github/workflows/theme-build.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -7513,7 +7513,7 @@
     {
       "bom-ref": "4c6138ad0b6769b5",
       "type": "file",
-      "name": "/tmp/tmp.4Qtk21nhZL/maho-default/.github/workflows/update-js-libraries.yml",
+      "name": "/tmp/tmp.FYsqKTNa7y/maho-default/.github/workflows/update-js-libraries.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -7528,30 +7528,30 @@
     {
       "bom-ref": "c8bb62e6bded633e",
       "type": "file",
-      "name": "/tmp/tmp.4Qtk21nhZL/maho-default/composer.lock",
+      "name": "/tmp/tmp.FYsqKTNa7y/maho-default/composer.lock",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "4f865d78f12f151d3f0ebc10036935d3e56691be"
+          "content": "edeaad7df62985c6a31fc0ecb1ed78423b177ef8"
         },
         {
           "alg": "SHA-256",
-          "content": "6e4a14253619e661b17cc361b3c89cf0e8a2a28cf02947055e231207820ec406"
+          "content": "814285eeb974173e16cc3432fb6fa171d086660dae6d76f4774ab316455ccf2a"
         }
       ]
     },
     {
       "bom-ref": "fd71c2238fc07657",
       "type": "file",
-      "name": "/tmp/tmp.4Qtk21nhZL/maho-default/package-lock.json",
+      "name": "/tmp/tmp.FYsqKTNa7y/maho-default/package-lock.json",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "25ab39685eed0dfdf9f5e9db9b5fe19822b63e2d"
+          "content": "a0eae0d7d9ff24ce1a4e55b9d29d95e4259d33eb"
         },
         {
           "alg": "SHA-256",
-          "content": "39ede3b73afdd19757e61085e184ca0b51a7d671c5cd04b8fd26851f81c25677"
+          "content": "f817264ae14950871663f71fc7a72014fc9bde0c6e37e761a8a465eb8ac40289"
         }
       ]
     }
