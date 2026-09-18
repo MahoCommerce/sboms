@@ -2,24 +2,24 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
-  "serialNumber": "urn:uuid:5561789d-6389-440d-a6d7-c16d6aa6be82",
+  "serialNumber": "urn:uuid:d0ee7af4-d2f0-4271-b8bb-6987cf088f9e",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-09-17T08:08:53Z",
+    "timestamp": "2026-09-18T07:44:18Z",
     "tools": {
       "components": [
         {
           "type": "application",
           "author": "anchore",
           "name": "syft",
-          "version": "1.51.1"
+          "version": "1.52.0"
         }
       ]
     },
     "component": {
-      "bom-ref": "8cb38508792f4477",
+      "bom-ref": "4a8c76065bc66655",
       "type": "file",
-      "name": "/tmp/tmp.FYsqKTNa7y/maho-composer-plugin-default",
+      "name": "/tmp/tmp.o6vRNixZ9B/maho-composer-plugin-default",
       "licenses": [
         {
           "license": {
@@ -532,10 +532,10 @@
       ]
     },
     {
-      "bom-ref": "pkg:composer/symfony/routing@v7.4.15?package-id=f683bbb5242079c7",
+      "bom-ref": "pkg:composer/symfony/routing@v8.1.6?package-id=01895c7ccb9d6555",
       "type": "library",
       "name": "symfony/routing",
-      "version": "v7.4.15",
+      "version": "v8.1.6",
       "licenses": [
         {
           "license": {
@@ -543,8 +543,8 @@
           }
         }
       ],
-      "cpe": "cpe:2.3:a:symfony\\/routing:symfony\\/routing:v7.4.15:*:*:*:*:*:*:*",
-      "purl": "pkg:composer/symfony/routing@v7.4.15",
+      "cpe": "cpe:2.3:a:symfony\\/routing:symfony\\/routing:v8.1.6:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/symfony/routing@v8.1.6",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -633,7 +633,7 @@
     {
       "bom-ref": "2711cd66e9444a3c",
       "type": "file",
-      "name": "/tmp/tmp.FYsqKTNa7y/maho-composer-plugin-default/.github/workflows/ai-assisted-note.yml",
+      "name": "/tmp/tmp.o6vRNixZ9B/maho-composer-plugin-default/.github/workflows/ai-assisted-note.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -648,7 +648,7 @@
     {
       "bom-ref": "d422de945bf18b46",
       "type": "file",
-      "name": "/tmp/tmp.FYsqKTNa7y/maho-composer-plugin-default/.github/workflows/composer.yml",
+      "name": "/tmp/tmp.o6vRNixZ9B/maho-composer-plugin-default/.github/workflows/composer.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -663,7 +663,7 @@
     {
       "bom-ref": "ca67cce3ff943159",
       "type": "file",
-      "name": "/tmp/tmp.FYsqKTNa7y/maho-composer-plugin-default/.github/workflows/line-endings.yml",
+      "name": "/tmp/tmp.o6vRNixZ9B/maho-composer-plugin-default/.github/workflows/line-endings.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -678,22 +678,22 @@
     {
       "bom-ref": "5ebde7ddc8076c2b",
       "type": "file",
-      "name": "/tmp/tmp.FYsqKTNa7y/maho-composer-plugin-default/.github/workflows/lint.yml",
+      "name": "/tmp/tmp.o6vRNixZ9B/maho-composer-plugin-default/.github/workflows/lint.yml",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "8addf99ffbcada103caebac418caef5b6340f7e7"
+          "content": "1282cc480f0b2f0d8cfbd91c878d101523111be6"
         },
         {
           "alg": "SHA-256",
-          "content": "35137a644be6298e5c16d81acfda95c7238dfd523ad92adbfb9bdcfcfe51bb43"
+          "content": "2f7bf1081f94a69152b755d4d7970e84541e07841df8b13643d32465e1645b29"
         }
       ]
     },
     {
       "bom-ref": "f23abd314990253e",
       "type": "file",
-      "name": "/tmp/tmp.FYsqKTNa7y/maho-composer-plugin-default/.github/workflows/phpstan.yml",
+      "name": "/tmp/tmp.o6vRNixZ9B/maho-composer-plugin-default/.github/workflows/phpstan.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -708,30 +708,30 @@
     {
       "bom-ref": "5c470c2c7e53f689",
       "type": "file",
-      "name": "/tmp/tmp.FYsqKTNa7y/maho-composer-plugin-default/.github/workflows/syntax-php.yml",
+      "name": "/tmp/tmp.o6vRNixZ9B/maho-composer-plugin-default/.github/workflows/syntax-php.yml",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "be9d599286673407ad19e12ee1892d0607f81ff4"
+          "content": "f351d23f74b5157aed2a53b9866f9a0843a9d477"
         },
         {
           "alg": "SHA-256",
-          "content": "06af590101d24797226820bfaa1a9257c777e20fbb4cbea225e4d633fb46756e"
+          "content": "df11f705730769edd0f10c4b5566e517925ef3618edea2dc6e7e010eae484d24"
         }
       ]
     },
     {
       "bom-ref": "c8bb62e6bded633e",
       "type": "file",
-      "name": "/tmp/tmp.FYsqKTNa7y/maho-composer-plugin-default/composer.lock",
+      "name": "/tmp/tmp.o6vRNixZ9B/maho-composer-plugin-default/composer.lock",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "00153baca456c26ab63f2cd1521d823097df9d34"
+          "content": "db4bb4c5e5f9ee205f2f2cb9fae1873c015a9fb8"
         },
         {
           "alg": "SHA-256",
-          "content": "1dd06da816c66fbb9b305ae5067b5e26cd23fd80e871c80725cae941536bf7d0"
+          "content": "a0ff04b637d65a5c89e8be4da213ceff61dece72e8f8152a0d99cf9ccb614bd2"
         }
       ]
     }

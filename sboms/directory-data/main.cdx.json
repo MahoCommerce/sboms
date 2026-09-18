@@ -2,24 +2,24 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
-  "serialNumber": "urn:uuid:dd2b9e10-8735-48d4-9305-818f9ee66f3b",
+  "serialNumber": "urn:uuid:b7e451ee-9051-49c0-acb0-21a70666c1af",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-09-17T08:08:29Z",
+    "timestamp": "2026-09-18T07:43:46Z",
     "tools": {
       "components": [
         {
           "type": "application",
           "author": "anchore",
           "name": "syft",
-          "version": "1.51.1"
+          "version": "1.52.0"
         }
       ]
     },
     "component": {
-      "bom-ref": "85d73711e55ae1a9",
+      "bom-ref": "b3dd5738bbcbaf97",
       "type": "file",
-      "name": "/tmp/tmp.FYsqKTNa7y/directory-data-default",
+      "name": "/tmp/tmp.o6vRNixZ9B/directory-data-default",
       "licenses": [
         {
           "license": {
@@ -301,7 +301,7 @@
     {
       "bom-ref": "2711cd66e9444a3c",
       "type": "file",
-      "name": "/tmp/tmp.FYsqKTNa7y/directory-data-default/.github/workflows/ai-assisted-note.yml",
+      "name": "/tmp/tmp.o6vRNixZ9B/directory-data-default/.github/workflows/ai-assisted-note.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -316,7 +316,7 @@
     {
       "bom-ref": "5ebde7ddc8076c2b",
       "type": "file",
-      "name": "/tmp/tmp.FYsqKTNa7y/directory-data-default/.github/workflows/lint.yml",
+      "name": "/tmp/tmp.o6vRNixZ9B/directory-data-default/.github/workflows/lint.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -331,7 +331,7 @@
     {
       "bom-ref": "62f594948731c9a4",
       "type": "file",
-      "name": "/tmp/tmp.FYsqKTNa7y/directory-data-default/.github/workflows/update-data.yml",
+      "name": "/tmp/tmp.o6vRNixZ9B/directory-data-default/.github/workflows/update-data.yml",
       "hashes": [
         {
           "alg": "SHA-1",
