@@ -1,12 +1,12 @@
 {
-  "repo": "icons",
-  "ref": "main",
+  "repo": "maho-composer-plugin",
+  "ref": "v5.1.0",
   "reuse_spec_version": "3.3",
   "summary": {
     "used_licenses": [
       "OSL-3.0"
     ],
-    "files_total": 6221,
+    "files_total": 25,
     "files_with_copyright_info": 1,
     "files_with_licensing_info": 1,
     "compliant": false

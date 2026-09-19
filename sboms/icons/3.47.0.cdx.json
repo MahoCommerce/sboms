@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
-  "serialNumber": "urn:uuid:83d4be3a-7add-48ec-8f70-f65e2f268ed2",
+  "serialNumber": "urn:uuid:f7799a6f-d99e-4978-900b-11e4f8a8af12",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-09-19T07:38:30Z",
+    "timestamp": "2026-09-19T07:38:39Z",
     "tools": {
       "components": [
         {
@@ -17,9 +17,9 @@
       ]
     },
     "component": {
-      "bom-ref": "f8a10f9b2f0dec27",
+      "bom-ref": "d305ab947f78ef9c",
       "type": "file",
-      "name": "/tmp/tmp.zUf6FCCXW5/directory-data-default",
+      "name": "/tmp/tmp.zUf6FCCXW5/icons-3.47.0",
       "licenses": [
         {
           "license": {
@@ -31,7 +31,7 @@
   },
   "components": [
     {
-      "bom-ref": "pkg:github/actions/checkout@v7.0.1?package-id=9db7cdd88e0d2a25",
+      "bom-ref": "pkg:github/actions/checkout@v7.0.1?package-id=e551c0dff9d9973c",
       "type": "library",
       "name": "actions/checkout",
       "version": "v7.0.1",
@@ -52,38 +52,12 @@
         },
         {
           "name": "syft:location:0:path",
-          "value": "/.github/workflows/lint.yml"
+          "value": "/.github/workflows/sync-upstream.yml"
         }
       ]
     },
     {
-      "bom-ref": "pkg:github/actions/checkout@v7.0.1?package-id=ebba6778d34df1f9",
-      "type": "library",
-      "name": "actions/checkout",
-      "version": "v7.0.1",
-      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v7.0.1:*:*:*:*:*:*:*",
-      "purl": "pkg:github/actions/checkout@v7.0.1",
-      "properties": [
-        {
-          "name": "syft:package:foundBy",
-          "value": "github-actions-usage-cataloger"
-        },
-        {
-          "name": "syft:package:type",
-          "value": "github-action"
-        },
-        {
-          "name": "syft:package:metadataType",
-          "value": "github-actions-use-statement"
-        },
-        {
-          "name": "syft:location:0:path",
-          "value": "/.github/workflows/update-data.yml"
-        }
-      ]
-    },
-    {
-      "bom-ref": "pkg:github/actions/create-github-app-token@v3.2.0?package-id=7b9122aef29307cc",
+      "bom-ref": "pkg:github/actions/create-github-app-token@v3.2.0?package-id=dcecac498cd3768a",
       "type": "library",
       "name": "actions/create-github-app-token",
       "version": "v3.2.0",
@@ -156,7 +130,7 @@
         },
         {
           "name": "syft:location:0:path",
-          "value": "/.github/workflows/update-data.yml"
+          "value": "/.github/workflows/sync-upstream.yml"
         }
       ]
     },
@@ -207,101 +181,9 @@
       ]
     },
     {
-      "bom-ref": "pkg:github/shivammathur/setup-php@2.37.2?package-id=601f9983e0144444",
-      "type": "library",
-      "name": "shivammathur/setup-php",
-      "version": "2.37.2",
-      "cpe": "cpe:2.3:a:shivammathur\\/setup-php:shivammathur\\/setup-php:2.37.2:*:*:*:*:*:*:*",
-      "purl": "pkg:github/shivammathur/setup-php@2.37.2",
-      "properties": [
-        {
-          "name": "syft:package:foundBy",
-          "value": "github-actions-usage-cataloger"
-        },
-        {
-          "name": "syft:package:type",
-          "value": "github-action"
-        },
-        {
-          "name": "syft:package:metadataType",
-          "value": "github-actions-use-statement"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:shivammathur\\/setup-php:shivammathur\\/setup_php:2.37.2:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:shivammathur\\/setup_php:shivammathur\\/setup-php:2.37.2:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:shivammathur\\/setup_php:shivammathur\\/setup_php:2.37.2:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:shivammathur\\/setup:shivammathur\\/setup-php:2.37.2:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:shivammathur\\/setup:shivammathur\\/setup_php:2.37.2:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:location:0:path",
-          "value": "/.github/workflows/lint.yml"
-        }
-      ]
-    },
-    {
-      "bom-ref": "pkg:github/shivammathur/setup-php@2.37.2?package-id=3a0712d65a13c1ae",
-      "type": "library",
-      "name": "shivammathur/setup-php",
-      "version": "2.37.2",
-      "cpe": "cpe:2.3:a:shivammathur\\/setup-php:shivammathur\\/setup-php:2.37.2:*:*:*:*:*:*:*",
-      "purl": "pkg:github/shivammathur/setup-php@2.37.2",
-      "properties": [
-        {
-          "name": "syft:package:foundBy",
-          "value": "github-actions-usage-cataloger"
-        },
-        {
-          "name": "syft:package:type",
-          "value": "github-action"
-        },
-        {
-          "name": "syft:package:metadataType",
-          "value": "github-actions-use-statement"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:shivammathur\\/setup-php:shivammathur\\/setup_php:2.37.2:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:shivammathur\\/setup_php:shivammathur\\/setup-php:2.37.2:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:shivammathur\\/setup_php:shivammathur\\/setup_php:2.37.2:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:shivammathur\\/setup:shivammathur\\/setup-php:2.37.2:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:shivammathur\\/setup:shivammathur\\/setup_php:2.37.2:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:location:0:path",
-          "value": "/.github/workflows/update-data.yml"
-        }
-      ]
-    },
-    {
       "bom-ref": "2711cd66e9444a3c",
       "type": "file",
-      "name": "/tmp/tmp.zUf6FCCXW5/directory-data-default/.github/workflows/ai-assisted-note.yml",
+      "name": "/tmp/tmp.zUf6FCCXW5/icons-3.47.0/.github/workflows/ai-assisted-note.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -314,32 +196,17 @@
       ]
     },
     {
-      "bom-ref": "5ebde7ddc8076c2b",
+      "bom-ref": "33e7109e7b1ded1d",
       "type": "file",
-      "name": "/tmp/tmp.zUf6FCCXW5/directory-data-default/.github/workflows/lint.yml",
+      "name": "/tmp/tmp.zUf6FCCXW5/icons-3.47.0/.github/workflows/sync-upstream.yml",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "1282cc480f0b2f0d8cfbd91c878d101523111be6"
+          "content": "da048c90502664e183bbd42e0c14232aedb0e205"
         },
         {
           "alg": "SHA-256",
-          "content": "2f7bf1081f94a69152b755d4d7970e84541e07841df8b13643d32465e1645b29"
-        }
-      ]
-    },
-    {
-      "bom-ref": "62f594948731c9a4",
-      "type": "file",
-      "name": "/tmp/tmp.zUf6FCCXW5/directory-data-default/.github/workflows/update-data.yml",
-      "hashes": [
-        {
-          "alg": "SHA-1",
-          "content": "d846f10886600b775efbac2eec631154d5f9ec0f"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "f788a3d299ec179be9268db96b044507e9c1669d54ffaa39b6c4f0806dcad00c"
+          "content": "85adddf0ea20c05d258b3fca68182fc2bcefd622da2a93085f4ae31673a731c1"
         }
       ]
     }
