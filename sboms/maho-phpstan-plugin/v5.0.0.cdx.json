@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
-  "serialNumber": "urn:uuid:f54a5960-1cdb-4842-8e07-6ba1a8e63ebf",
+  "serialNumber": "urn:uuid:84bb6cd3-b4ab-48a4-963c-3caed32187d2",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-09-22T08:03:04Z",
+    "timestamp": "2026-09-22T08:03:37Z",
     "tools": {
       "components": [
         {
@@ -17,9 +17,9 @@
       ]
     },
     "component": {
-      "bom-ref": "3d96038f226a65a9",
+      "bom-ref": "1e90e4a86259b26b",
       "type": "file",
-      "name": "/tmp/tmp.MTzjqLdGF8/directory-data-default",
+      "name": "/tmp/tmp.MTzjqLdGF8/maho-phpstan-plugin-v5.0.0",
       "licenses": [
         {
           "license": {
@@ -57,7 +57,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:github/actions/checkout@v7.0.1?package-id=ebba6778d34df1f9",
+      "bom-ref": "pkg:github/actions/checkout@v7.0.1?package-id=e1864b52a552ab34",
       "type": "library",
       "name": "actions/checkout",
       "version": "v7.0.1",
@@ -78,85 +78,7 @@
         },
         {
           "name": "syft:location:0:path",
-          "value": "/.github/workflows/update-data.yml"
-        }
-      ]
-    },
-    {
-      "bom-ref": "pkg:github/actions/create-github-app-token@v3.2.0?package-id=7b9122aef29307cc",
-      "type": "library",
-      "name": "actions/create-github-app-token",
-      "version": "v3.2.0",
-      "cpe": "cpe:2.3:a:actions\\/create-github-app-token:actions\\/create-github-app-token:v3.2.0:*:*:*:*:*:*:*",
-      "purl": "pkg:github/actions/create-github-app-token@v3.2.0",
-      "properties": [
-        {
-          "name": "syft:package:foundBy",
-          "value": "github-actions-usage-cataloger"
-        },
-        {
-          "name": "syft:package:type",
-          "value": "github-action"
-        },
-        {
-          "name": "syft:package:metadataType",
-          "value": "github-actions-use-statement"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:actions\\/create-github-app-token:actions\\/create_github_app_token:v3.2.0:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:actions\\/create_github_app_token:actions\\/create-github-app-token:v3.2.0:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:actions\\/create_github_app_token:actions\\/create_github_app_token:v3.2.0:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:actions\\/create-github-app:actions\\/create-github-app-token:v3.2.0:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:actions\\/create-github-app:actions\\/create_github_app_token:v3.2.0:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:actions\\/create_github_app:actions\\/create-github-app-token:v3.2.0:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:actions\\/create_github_app:actions\\/create_github_app_token:v3.2.0:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:actions\\/create-github:actions\\/create-github-app-token:v3.2.0:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:actions\\/create-github:actions\\/create_github_app_token:v3.2.0:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:actions\\/create_github:actions\\/create-github-app-token:v3.2.0:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:actions\\/create_github:actions\\/create_github_app_token:v3.2.0:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:actions\\/create:actions\\/create-github-app-token:v3.2.0:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:actions\\/create:actions\\/create_github_app_token:v3.2.0:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:location:0:path",
-          "value": "/.github/workflows/update-data.yml"
+          "value": "/.github/workflows/phpstan.yml"
         }
       ]
     },
@@ -207,6 +129,43 @@
       ]
     },
     {
+      "bom-ref": "pkg:composer/phpstan/phpstan@2.2.14?package-id=41affd27856dccc6",
+      "type": "library",
+      "name": "phpstan/phpstan",
+      "version": "2.2.14",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:phpstan\\/phpstan:phpstan\\/phpstan:2.2.14:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/phpstan/phpstan@2.2.14",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "php-composer-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "php"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "php-composer"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "php-composer-lock-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/composer.lock"
+        }
+      ]
+    },
+    {
       "bom-ref": "pkg:github/shivammathur/setup-php@2.37.2?package-id=601f9983e0144444",
       "type": "library",
       "name": "shivammathur/setup-php",
@@ -253,7 +212,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:github/shivammathur/setup-php@2.37.2?package-id=3a0712d65a13c1ae",
+      "bom-ref": "pkg:github/shivammathur/setup-php@2.37.2?package-id=d0ed5197ee6c16a2",
       "type": "library",
       "name": "shivammathur/setup-php",
       "version": "2.37.2",
@@ -294,14 +253,14 @@
         },
         {
           "name": "syft:location:0:path",
-          "value": "/.github/workflows/update-data.yml"
+          "value": "/.github/workflows/phpstan.yml"
         }
       ]
     },
     {
       "bom-ref": "2711cd66e9444a3c",
       "type": "file",
-      "name": "/tmp/tmp.MTzjqLdGF8/directory-data-default/.github/workflows/ai-assisted-note.yml",
+      "name": "/tmp/tmp.MTzjqLdGF8/maho-phpstan-plugin-v5.0.0/.github/workflows/ai-assisted-note.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -316,7 +275,7 @@
     {
       "bom-ref": "5ebde7ddc8076c2b",
       "type": "file",
-      "name": "/tmp/tmp.MTzjqLdGF8/directory-data-default/.github/workflows/lint.yml",
+      "name": "/tmp/tmp.MTzjqLdGF8/maho-phpstan-plugin-v5.0.0/.github/workflows/lint.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -329,17 +288,32 @@
       ]
     },
     {
-      "bom-ref": "62f594948731c9a4",
+      "bom-ref": "f23abd314990253e",
       "type": "file",
-      "name": "/tmp/tmp.MTzjqLdGF8/directory-data-default/.github/workflows/update-data.yml",
+      "name": "/tmp/tmp.MTzjqLdGF8/maho-phpstan-plugin-v5.0.0/.github/workflows/phpstan.yml",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "d846f10886600b775efbac2eec631154d5f9ec0f"
+          "content": "9c5a75612030b6198e48ac1fca8f783d52947588"
         },
         {
           "alg": "SHA-256",
-          "content": "f788a3d299ec179be9268db96b044507e9c1669d54ffaa39b6c4f0806dcad00c"
+          "content": "dbdc71fc64f243116aa7ead2804e0f17541940cdf5c46e83147497de8355c540"
+        }
+      ]
+    },
+    {
+      "bom-ref": "c8bb62e6bded633e",
+      "type": "file",
+      "name": "/tmp/tmp.MTzjqLdGF8/maho-phpstan-plugin-v5.0.0/composer.lock",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "e41be217abb54d61898cbcce0d10a278e1630b32"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "a0cabc669972e5f12aa70877061f8f0e2c402f757597ec693297567378bb499f"
         }
       ]
     }

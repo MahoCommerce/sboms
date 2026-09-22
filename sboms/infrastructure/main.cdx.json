@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
-  "serialNumber": "urn:uuid:4ddb4701-2780-47b7-a412-9db2193ebc1e",
+  "serialNumber": "urn:uuid:160f1f8e-9899-41ab-a875-08fd4bc8a3c4",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-09-21T08:20:55Z",
+    "timestamp": "2026-09-22T08:03:14Z",
     "tools": {
       "components": [
         {
@@ -17,9 +17,9 @@
       ]
     },
     "component": {
-      "bom-ref": "006401aa8ab65568",
+      "bom-ref": "0668ab198cfd4666",
       "type": "file",
-      "name": "/tmp/tmp.MH47crHzks/infrastructure-default",
+      "name": "/tmp/tmp.MTzjqLdGF8/infrastructure-default",
       "licenses": [
         {
           "license": {
@@ -1343,10 +1343,10 @@
       ]
     },
     {
-      "bom-ref": "pkg:composer/symfony/http-client@v7.4.16?package-id=fc31a63537a8cc11",
+      "bom-ref": "pkg:composer/symfony/http-client@v8.1.7?package-id=a15b76fac745c0b6",
       "type": "library",
       "name": "symfony/http-client",
-      "version": "v7.4.16",
+      "version": "v8.1.7",
       "licenses": [
         {
           "license": {
@@ -1354,8 +1354,8 @@
           }
         }
       ],
-      "cpe": "cpe:2.3:a:symfony\\/http-client:symfony\\/http-client:v7.4.16:*:*:*:*:*:*:*",
-      "purl": "pkg:composer/symfony/http-client@v7.4.16",
+      "cpe": "cpe:2.3:a:symfony\\/http-client:symfony\\/http-client:v8.1.7:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/symfony/http-client@v8.1.7",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -1375,23 +1375,23 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:symfony\\/http-client:symfony\\/http_client:v7.4.16:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:symfony\\/http-client:symfony\\/http_client:v8.1.7:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:symfony\\/http_client:symfony\\/http-client:v7.4.16:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:symfony\\/http_client:symfony\\/http-client:v8.1.7:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:symfony\\/http_client:symfony\\/http_client:v7.4.16:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:symfony\\/http_client:symfony\\/http_client:v8.1.7:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:symfony\\/http:symfony\\/http-client:v7.4.16:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:symfony\\/http:symfony\\/http-client:v8.1.7:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:symfony\\/http:symfony\\/http_client:v7.4.16:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:symfony\\/http:symfony\\/http_client:v8.1.7:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:path",
@@ -1400,10 +1400,10 @@
       ]
     },
     {
-      "bom-ref": "pkg:composer/symfony/http-client-contracts@v3.7.1?package-id=e84b25448dbba6e3",
+      "bom-ref": "pkg:composer/symfony/http-client-contracts@v3.7.3?package-id=92e7f1852db7531f",
       "type": "library",
       "name": "symfony/http-client-contracts",
-      "version": "v3.7.1",
+      "version": "v3.7.3",
       "licenses": [
         {
           "license": {
@@ -1411,8 +1411,8 @@
           }
         }
       ],
-      "cpe": "cpe:2.3:a:symfony\\/http-client-contracts:symfony\\/http-client-contracts:v3.7.1:*:*:*:*:*:*:*",
-      "purl": "pkg:composer/symfony/http-client-contracts@v3.7.1",
+      "cpe": "cpe:2.3:a:symfony\\/http-client-contracts:symfony\\/http-client-contracts:v3.7.3:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/symfony/http-client-contracts@v3.7.3",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -1432,39 +1432,39 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:symfony\\/http-client-contracts:symfony\\/http_client_contracts:v3.7.1:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:symfony\\/http-client-contracts:symfony\\/http_client_contracts:v3.7.3:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:symfony\\/http_client_contracts:symfony\\/http-client-contracts:v3.7.1:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:symfony\\/http_client_contracts:symfony\\/http-client-contracts:v3.7.3:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:symfony\\/http_client_contracts:symfony\\/http_client_contracts:v3.7.1:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:symfony\\/http_client_contracts:symfony\\/http_client_contracts:v3.7.3:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:symfony\\/http-client:symfony\\/http-client-contracts:v3.7.1:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:symfony\\/http-client:symfony\\/http-client-contracts:v3.7.3:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:symfony\\/http-client:symfony\\/http_client_contracts:v3.7.1:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:symfony\\/http-client:symfony\\/http_client_contracts:v3.7.3:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:symfony\\/http_client:symfony\\/http-client-contracts:v3.7.1:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:symfony\\/http_client:symfony\\/http-client-contracts:v3.7.3:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:symfony\\/http_client:symfony\\/http_client_contracts:v3.7.1:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:symfony\\/http_client:symfony\\/http_client_contracts:v3.7.3:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:symfony\\/http:symfony\\/http-client-contracts:v3.7.1:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:symfony\\/http:symfony\\/http-client-contracts:v3.7.3:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:symfony\\/http:symfony\\/http_client_contracts:v3.7.1:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:symfony\\/http:symfony\\/http_client_contracts:v3.7.3:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:path",
@@ -1904,63 +1904,6 @@
       ]
     },
     {
-      "bom-ref": "pkg:composer/symfony/polyfill-php83@v1.41.0?package-id=4e7ead27d9a8ad76",
-      "type": "library",
-      "name": "symfony/polyfill-php83",
-      "version": "v1.41.0",
-      "licenses": [
-        {
-          "license": {
-            "id": "MIT"
-          }
-        }
-      ],
-      "cpe": "cpe:2.3:a:symfony\\/polyfill-php83:symfony\\/polyfill-php83:v1.41.0:*:*:*:*:*:*:*",
-      "purl": "pkg:composer/symfony/polyfill-php83@v1.41.0",
-      "properties": [
-        {
-          "name": "syft:package:foundBy",
-          "value": "php-composer-lock-cataloger"
-        },
-        {
-          "name": "syft:package:language",
-          "value": "php"
-        },
-        {
-          "name": "syft:package:type",
-          "value": "php-composer"
-        },
-        {
-          "name": "syft:package:metadataType",
-          "value": "php-composer-lock-entry"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:symfony\\/polyfill-php83:symfony\\/polyfill_php83:v1.41.0:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:symfony\\/polyfill_php83:symfony\\/polyfill-php83:v1.41.0:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:symfony\\/polyfill_php83:symfony\\/polyfill_php83:v1.41.0:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:symfony\\/polyfill:symfony\\/polyfill-php83:v1.41.0:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:symfony\\/polyfill:symfony\\/polyfill_php83:v1.41.0:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:location:0:path",
-          "value": "/composer.lock"
-        }
-      ]
-    },
-    {
       "bom-ref": "pkg:composer/symfony/polyfill-php84@v1.38.1?package-id=47abc90db837dba7",
       "type": "library",
       "name": "symfony/polyfill-php84",
@@ -2151,7 +2094,7 @@
     {
       "bom-ref": "2711cd66e9444a3c",
       "type": "file",
-      "name": "/tmp/tmp.MH47crHzks/infrastructure-default/.github/workflows/ai-assisted-note.yml",
+      "name": "/tmp/tmp.MTzjqLdGF8/infrastructure-default/.github/workflows/ai-assisted-note.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -2166,7 +2109,7 @@
     {
       "bom-ref": "5ebde7ddc8076c2b",
       "type": "file",
-      "name": "/tmp/tmp.MH47crHzks/infrastructure-default/.github/workflows/lint.yml",
+      "name": "/tmp/tmp.MTzjqLdGF8/infrastructure-default/.github/workflows/lint.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -2181,7 +2124,7 @@
     {
       "bom-ref": "f23abd314990253e",
       "type": "file",
-      "name": "/tmp/tmp.MH47crHzks/infrastructure-default/.github/workflows/phpstan.yml",
+      "name": "/tmp/tmp.MTzjqLdGF8/infrastructure-default/.github/workflows/phpstan.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -2196,7 +2139,7 @@
     {
       "bom-ref": "cbbb57827f0f16c5",
       "type": "file",
-      "name": "/tmp/tmp.MH47crHzks/infrastructure-default/.github/workflows/sync.yml",
+      "name": "/tmp/tmp.MTzjqLdGF8/infrastructure-default/.github/workflows/sync.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -2211,15 +2154,15 @@
     {
       "bom-ref": "c8bb62e6bded633e",
       "type": "file",
-      "name": "/tmp/tmp.MH47crHzks/infrastructure-default/composer.lock",
+      "name": "/tmp/tmp.MTzjqLdGF8/infrastructure-default/composer.lock",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "228cf3c99c8f4d07d64f2991ead47e1f35e207ff"
+          "content": "e85fe3aa8c04cb902cf685300b9129f0a9d84350"
         },
         {
           "alg": "SHA-256",
-          "content": "00d5d14c9c5b6f6bf8df15c6685b84f0eb5b0634b52bf702e0b978aee7c5980e"
+          "content": "057413120c6366d663bdf245fcb328c2c44602a821fcdab5048053069839acba"
         }
       ]
     }
