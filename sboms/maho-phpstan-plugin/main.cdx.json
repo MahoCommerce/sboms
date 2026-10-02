@@ -2,24 +2,24 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
-  "serialNumber": "urn:uuid:192785e6-e7f9-4195-87cf-72e937a5b949",
+  "serialNumber": "urn:uuid:d9428d51-7ac9-44c3-bfd1-27b1696ee7aa",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-10-01T09:35:36Z",
+    "timestamp": "2026-10-02T09:10:03Z",
     "tools": {
       "components": [
         {
           "type": "application",
           "author": "anchore",
           "name": "syft",
-          "version": "1.52.0"
+          "version": "1.54.0"
         }
       ]
     },
     "component": {
-      "bom-ref": "3b7d73955dc04da2",
+      "bom-ref": "e7b503518ed7bec4",
       "type": "file",
-      "name": "/tmp/tmp.phqJhnaIhy/maho-phpstan-plugin-default",
+      "name": "/tmp/tmp.Qjr6LxgEBE/maho-phpstan-plugin-default",
       "licenses": [
         {
           "license": {
@@ -260,7 +260,7 @@
     {
       "bom-ref": "2711cd66e9444a3c",
       "type": "file",
-      "name": "/tmp/tmp.phqJhnaIhy/maho-phpstan-plugin-default/.github/workflows/ai-assisted-note.yml",
+      "name": "/tmp/tmp.Qjr6LxgEBE/maho-phpstan-plugin-default/.github/workflows/ai-assisted-note.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -275,7 +275,7 @@
     {
       "bom-ref": "5ebde7ddc8076c2b",
       "type": "file",
-      "name": "/tmp/tmp.phqJhnaIhy/maho-phpstan-plugin-default/.github/workflows/lint.yml",
+      "name": "/tmp/tmp.Qjr6LxgEBE/maho-phpstan-plugin-default/.github/workflows/lint.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -290,7 +290,7 @@
     {
       "bom-ref": "f23abd314990253e",
       "type": "file",
-      "name": "/tmp/tmp.phqJhnaIhy/maho-phpstan-plugin-default/.github/workflows/phpstan.yml",
+      "name": "/tmp/tmp.Qjr6LxgEBE/maho-phpstan-plugin-default/.github/workflows/phpstan.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -305,7 +305,7 @@
     {
       "bom-ref": "c8bb62e6bded633e",
       "type": "file",
-      "name": "/tmp/tmp.phqJhnaIhy/maho-phpstan-plugin-default/composer.lock",
+      "name": "/tmp/tmp.Qjr6LxgEBE/maho-phpstan-plugin-default/composer.lock",
       "hashes": [
         {
           "alg": "SHA-1",
