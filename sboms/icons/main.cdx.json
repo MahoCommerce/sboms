@@ -2,24 +2,24 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
-  "serialNumber": "urn:uuid:6bf716ab-3fb3-493d-bd50-7e85d5a00351",
+  "serialNumber": "urn:uuid:d09158d7-cd61-42be-9791-6da0b97f345b",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-10-06T09:35:32Z",
+    "timestamp": "2026-10-07T09:34:24Z",
     "tools": {
       "components": [
         {
           "type": "application",
           "author": "anchore",
           "name": "syft",
-          "version": "1.54.0"
+          "version": "1.54.1"
         }
       ]
     },
     "component": {
-      "bom-ref": "39d2f339d32b531d",
+      "bom-ref": "2af70ec41ba8c411",
       "type": "file",
-      "name": "/tmp/tmp.nja4G7fQiJ/icons-default",
+      "name": "/tmp/tmp.9pfGHVDc2j/icons-default",
       "licenses": [
         {
           "license": {
@@ -183,7 +183,7 @@
     {
       "bom-ref": "2711cd66e9444a3c",
       "type": "file",
-      "name": "/tmp/tmp.nja4G7fQiJ/icons-default/.github/workflows/ai-assisted-note.yml",
+      "name": "/tmp/tmp.9pfGHVDc2j/icons-default/.github/workflows/ai-assisted-note.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -198,7 +198,7 @@
     {
       "bom-ref": "33e7109e7b1ded1d",
       "type": "file",
-      "name": "/tmp/tmp.nja4G7fQiJ/icons-default/.github/workflows/sync-upstream.yml",
+      "name": "/tmp/tmp.9pfGHVDc2j/icons-default/.github/workflows/sync-upstream.yml",
       "hashes": [
         {
           "alg": "SHA-1",
