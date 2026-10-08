@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
-  "serialNumber": "urn:uuid:76c08526-88a6-4150-a566-7fa5e3014d37",
+  "serialNumber": "urn:uuid:7b55174b-8bb8-4ae1-bf11-74171ebd0844",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-10-07T09:34:49Z",
+    "timestamp": "2026-10-08T09:42:17Z",
     "tools": {
       "components": [
         {
@@ -17,9 +17,9 @@
       ]
     },
     "component": {
-      "bom-ref": "da2a588385e8776d",
+      "bom-ref": "ee5117914c29d0c6",
       "type": "file",
-      "name": "/tmp/tmp.9pfGHVDc2j/maho-phpstan-plugin-default",
+      "name": "/tmp/tmp.cGIHlKnmxi/maho-phpstan-plugin-default",
       "licenses": [
         {
           "license": {
@@ -260,7 +260,7 @@
     {
       "bom-ref": "2711cd66e9444a3c",
       "type": "file",
-      "name": "/tmp/tmp.9pfGHVDc2j/maho-phpstan-plugin-default/.github/workflows/ai-assisted-note.yml",
+      "name": "/tmp/tmp.cGIHlKnmxi/maho-phpstan-plugin-default/.github/workflows/ai-assisted-note.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -275,7 +275,7 @@
     {
       "bom-ref": "5ebde7ddc8076c2b",
       "type": "file",
-      "name": "/tmp/tmp.9pfGHVDc2j/maho-phpstan-plugin-default/.github/workflows/lint.yml",
+      "name": "/tmp/tmp.cGIHlKnmxi/maho-phpstan-plugin-default/.github/workflows/lint.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -290,7 +290,7 @@
     {
       "bom-ref": "f23abd314990253e",
       "type": "file",
-      "name": "/tmp/tmp.9pfGHVDc2j/maho-phpstan-plugin-default/.github/workflows/phpstan.yml",
+      "name": "/tmp/tmp.cGIHlKnmxi/maho-phpstan-plugin-default/.github/workflows/phpstan.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -305,15 +305,15 @@
     {
       "bom-ref": "c8bb62e6bded633e",
       "type": "file",
-      "name": "/tmp/tmp.9pfGHVDc2j/maho-phpstan-plugin-default/composer.lock",
+      "name": "/tmp/tmp.cGIHlKnmxi/maho-phpstan-plugin-default/composer.lock",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "bfdd4ae03e26043370848260a861e3ae12b15082"
+          "content": "5a5061a208a319955d231288da249db8a91cf2cd"
         },
         {
           "alg": "SHA-256",
-          "content": "33c907b44ee7208cb7b034ddf1f93ca0edd5612c773ae51610882b3b5cf4f4b3"
+          "content": "412a27242970152e750ab7e3de80ca62e9de033c0b59de094f179f94ad3ef5bc"
         }
       ]
     }
