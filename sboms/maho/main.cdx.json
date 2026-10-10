@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
-  "serialNumber": "urn:uuid:c4a9b3a7-69f3-4f31-9243-8b49c7a9edbe",
+  "serialNumber": "urn:uuid:5744f583-8984-4678-8fb9-6a58bc563b6b",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-10-09T09:47:55Z",
+    "timestamp": "2026-10-10T09:12:43Z",
     "tools": {
       "components": [
         {
@@ -17,9 +17,9 @@
       ]
     },
     "component": {
-      "bom-ref": "f6176127b2d15ff6",
+      "bom-ref": "2e119af9d7720bb6",
       "type": "file",
-      "name": "/tmp/tmp.uztK0PII4E/maho-default",
+      "name": "/tmp/tmp.3ApHIa2iDt/maho-default",
       "licenses": [
         {
           "expression": "OSL-3.0 OR AFL-3.0"
@@ -3159,6 +3159,43 @@
       ]
     },
     {
+      "bom-ref": "pkg:composer/mcp/sdk@v0.8.1?package-id=b6bb315206acbf9c",
+      "type": "library",
+      "name": "mcp/sdk",
+      "version": "v0.8.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:mcp\\/sdk:mcp\\/sdk:v0.8.1:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/mcp/sdk@v0.8.1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "php-composer-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "php"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "php-composer"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "php-composer-lock-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/composer.lock"
+        }
+      ]
+    },
+    {
       "bom-ref": "pkg:composer/monolog/monolog@3.12.1?package-id=9a3c60c1235f1565",
       "type": "library",
       "name": "monolog/monolog",
@@ -3245,6 +3282,231 @@
         {
           "name": "syft:cpe23",
           "value": "cpe:2.3:a:nelmio\\/cors:nelmio\\/cors_bundle:2.6.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/composer.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:composer/nyholm/psr7@1.8.2?package-id=530276e94b6dbfc9",
+      "type": "library",
+      "name": "nyholm/psr7",
+      "version": "1.8.2",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:nyholm\\/psr7:nyholm\\/psr7:1.8.2:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/nyholm/psr7@1.8.2",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "php-composer-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "php"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "php-composer"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "php-composer-lock-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/composer.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:composer/opis/json-schema@2.6.0?package-id=2997e7409cfb4dab",
+      "type": "library",
+      "name": "opis/json-schema",
+      "version": "2.6.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:opis\\/json-schema:opis\\/json-schema:2.6.0:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/opis/json-schema@2.6.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "php-composer-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "php"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "php-composer"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "php-composer-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opis\\/json-schema:opis\\/json_schema:2.6.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opis\\/json_schema:opis\\/json-schema:2.6.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opis\\/json_schema:opis\\/json_schema:2.6.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opis\\/json:opis\\/json-schema:2.6.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opis\\/json:opis\\/json_schema:2.6.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/composer.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:composer/opis/string@2.1.0?package-id=7813eb91938938d7",
+      "type": "library",
+      "name": "opis/string",
+      "version": "2.1.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:opis\\/string:opis\\/string:2.1.0:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/opis/string@2.1.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "php-composer-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "php"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "php-composer"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "php-composer-lock-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/composer.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:composer/opis/uri@1.1.0?package-id=5fd5cb19742826a0",
+      "type": "library",
+      "name": "opis/uri",
+      "version": "1.1.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:opis\\/uri:opis\\/uri:1.1.0:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/opis/uri@1.1.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "php-composer-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "php"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "php-composer"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "php-composer-lock-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/composer.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:composer/oskarstark/enum-helper@1.8.4?package-id=0e2acbe729968d39",
+      "type": "library",
+      "name": "oskarstark/enum-helper",
+      "version": "1.8.4",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:oskarstark\\/enum-helper:oskarstark\\/enum-helper:1.8.4:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/oskarstark/enum-helper@1.8.4",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "php-composer-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "php"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "php-composer"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "php-composer-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:oskarstark\\/enum-helper:oskarstark\\/enum_helper:1.8.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:oskarstark\\/enum_helper:oskarstark\\/enum-helper:1.8.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:oskarstark\\/enum_helper:oskarstark\\/enum_helper:1.8.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:oskarstark\\/enum:oskarstark\\/enum-helper:1.8.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:oskarstark\\/enum:oskarstark\\/enum_helper:1.8.4:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:path",
@@ -3428,6 +3690,63 @@
         {
           "name": "syft:package:metadataType",
           "value": "php-composer-lock-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/composer.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:composer/php-http/discovery@1.20.0?package-id=9af973c136ce21d0",
+      "type": "library",
+      "name": "php-http/discovery",
+      "version": "1.20.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:php-http\\/discovery:php-http\\/discovery:1.20.0:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/php-http/discovery@1.20.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "php-composer-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "php"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "php-composer"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "php-composer-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:php-http\\/discovery:php_http\\/discovery:1.20.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:php_http\\/discovery:php-http\\/discovery:1.20.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:php_http\\/discovery:php_http\\/discovery:1.20.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:php:php-http\\/discovery:1.20.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:php:php_http\\/discovery:1.20.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:path",
@@ -3646,6 +3965,234 @@
       ]
     },
     {
+      "bom-ref": "pkg:composer/phpdocumentor/reflection-common@2.2.0?package-id=102b625567ff75eb",
+      "type": "library",
+      "name": "phpdocumentor/reflection-common",
+      "version": "2.2.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:phpdocumentor\\/reflection-common:phpdocumentor\\/reflection-common:2.2.0:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/phpdocumentor/reflection-common@2.2.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "php-composer-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "php"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "php-composer"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "php-composer-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:phpdocumentor\\/reflection-common:phpdocumentor\\/reflection_common:2.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:phpdocumentor\\/reflection_common:phpdocumentor\\/reflection-common:2.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:phpdocumentor\\/reflection_common:phpdocumentor\\/reflection_common:2.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:phpdocumentor\\/reflection:phpdocumentor\\/reflection-common:2.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:phpdocumentor\\/reflection:phpdocumentor\\/reflection_common:2.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/composer.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:composer/phpdocumentor/reflection-docblock@6.0.3?package-id=9f430edde7f9bbc0",
+      "type": "library",
+      "name": "phpdocumentor/reflection-docblock",
+      "version": "6.0.3",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:phpdocumentor\\/reflection-docblock:phpdocumentor\\/reflection-docblock:6.0.3:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/phpdocumentor/reflection-docblock@6.0.3",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "php-composer-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "php"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "php-composer"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "php-composer-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:phpdocumentor\\/reflection-docblock:phpdocumentor\\/reflection_docblock:6.0.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:phpdocumentor\\/reflection_docblock:phpdocumentor\\/reflection-docblock:6.0.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:phpdocumentor\\/reflection_docblock:phpdocumentor\\/reflection_docblock:6.0.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:phpdocumentor\\/reflection:phpdocumentor\\/reflection-docblock:6.0.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:phpdocumentor\\/reflection:phpdocumentor\\/reflection_docblock:6.0.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/composer.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:composer/phpdocumentor/type-resolver@2.0.0?package-id=33800d0403d9fc7a",
+      "type": "library",
+      "name": "phpdocumentor/type-resolver",
+      "version": "2.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:phpdocumentor\\/type-resolver:phpdocumentor\\/type-resolver:2.0.0:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/phpdocumentor/type-resolver@2.0.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "php-composer-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "php"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "php-composer"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "php-composer-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:phpdocumentor\\/type-resolver:phpdocumentor\\/type_resolver:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:phpdocumentor\\/type_resolver:phpdocumentor\\/type-resolver:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:phpdocumentor\\/type_resolver:phpdocumentor\\/type_resolver:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:phpdocumentor\\/type:phpdocumentor\\/type-resolver:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:phpdocumentor\\/type:phpdocumentor\\/type_resolver:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/composer.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:composer/phpstan/phpdoc-parser@2.3.5?package-id=68c1d8ea7a4f4280",
+      "type": "library",
+      "name": "phpstan/phpdoc-parser",
+      "version": "2.3.5",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:phpstan\\/phpdoc-parser:phpstan\\/phpdoc-parser:2.3.5:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/phpstan/phpdoc-parser@2.3.5",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "php-composer-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "php"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "php-composer"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "php-composer-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:phpstan\\/phpdoc-parser:phpstan\\/phpdoc_parser:2.3.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:phpstan\\/phpdoc_parser:phpstan\\/phpdoc-parser:2.3.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:phpstan\\/phpdoc_parser:phpstan\\/phpdoc_parser:2.3.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:phpstan\\/phpdoc:phpstan\\/phpdoc-parser:2.3.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:phpstan\\/phpdoc:phpstan\\/phpdoc_parser:2.3.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/composer.lock"
+        }
+      ]
+    },
+    {
       "bom-ref": "pkg:composer/psr/cache@3.0.0?package-id=5e4b6e9eea495e8b",
       "type": "library",
       "name": "psr/cache",
@@ -3814,6 +4361,63 @@
       ]
     },
     {
+      "bom-ref": "pkg:composer/psr/http-client@1.0.3?package-id=473d83842dd6a583",
+      "type": "library",
+      "name": "psr/http-client",
+      "version": "1.0.3",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:psr\\/http-client:psr\\/http-client:1.0.3:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/psr/http-client@1.0.3",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "php-composer-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "php"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "php-composer"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "php-composer-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:psr\\/http-client:psr\\/http_client:1.0.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:psr\\/http_client:psr\\/http-client:1.0.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:psr\\/http_client:psr\\/http_client:1.0.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:psr\\/http:psr\\/http-client:1.0.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:psr\\/http:psr\\/http_client:1.0.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/composer.lock"
+        }
+      ]
+    },
+    {
       "bom-ref": "pkg:composer/psr/http-factory@1.1.0?package-id=be955475ffc18ffa",
       "type": "library",
       "name": "psr/http-factory",
@@ -3920,6 +4524,152 @@
         {
           "name": "syft:cpe23",
           "value": "cpe:2.3:a:psr\\/http:psr\\/http_message:2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/composer.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:composer/psr/http-server-handler@1.0.2?package-id=a5f7fb1e94973859",
+      "type": "library",
+      "name": "psr/http-server-handler",
+      "version": "1.0.2",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:psr\\/http-server-handler:psr\\/http-server-handler:1.0.2:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/psr/http-server-handler@1.0.2",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "php-composer-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "php"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "php-composer"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "php-composer-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:psr\\/http-server-handler:psr\\/http_server_handler:1.0.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:psr\\/http_server_handler:psr\\/http-server-handler:1.0.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:psr\\/http_server_handler:psr\\/http_server_handler:1.0.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:psr\\/http-server:psr\\/http-server-handler:1.0.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:psr\\/http-server:psr\\/http_server_handler:1.0.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:psr\\/http_server:psr\\/http-server-handler:1.0.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:psr\\/http_server:psr\\/http_server_handler:1.0.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:psr\\/http:psr\\/http-server-handler:1.0.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:psr\\/http:psr\\/http_server_handler:1.0.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/composer.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:composer/psr/http-server-middleware@1.0.2?package-id=76289ef752899131",
+      "type": "library",
+      "name": "psr/http-server-middleware",
+      "version": "1.0.2",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:psr\\/http-server-middleware:psr\\/http-server-middleware:1.0.2:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/psr/http-server-middleware@1.0.2",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "php-composer-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "php"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "php-composer"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "php-composer-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:psr\\/http-server-middleware:psr\\/http_server_middleware:1.0.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:psr\\/http_server_middleware:psr\\/http-server-middleware:1.0.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:psr\\/http_server_middleware:psr\\/http_server_middleware:1.0.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:psr\\/http-server:psr\\/http-server-middleware:1.0.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:psr\\/http-server:psr\\/http_server_middleware:1.0.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:psr\\/http_server:psr\\/http-server-middleware:1.0.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:psr\\/http_server:psr\\/http_server_middleware:1.0.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:psr\\/http:psr\\/http-server-middleware:1.0.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:psr\\/http:psr\\/http_server_middleware:1.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:path",
@@ -4584,6 +5334,193 @@
         {
           "name": "syft:cpe23",
           "value": "cpe:2.3:a:spomky:spomky_labs\\/otphp:11.5.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/composer.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:composer/symfony/ai-agent@v0.14.1?package-id=dad1a30e028efb2a",
+      "type": "library",
+      "name": "symfony/ai-agent",
+      "version": "v0.14.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:symfony\\/ai-agent:symfony\\/ai-agent:v0.14.1:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/symfony/ai-agent@v0.14.1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "php-composer-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "php"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "php-composer"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "php-composer-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/ai-agent:symfony\\/ai_agent:v0.14.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/ai_agent:symfony\\/ai-agent:v0.14.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/ai_agent:symfony\\/ai_agent:v0.14.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/ai:symfony\\/ai-agent:v0.14.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/ai:symfony\\/ai_agent:v0.14.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/composer.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:composer/symfony/ai-generic-platform@v0.14.0?package-id=3123467d483039a3",
+      "type": "library",
+      "name": "symfony/ai-generic-platform",
+      "version": "v0.14.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:symfony\\/ai-generic-platform:symfony\\/ai-generic-platform:v0.14.0:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/symfony/ai-generic-platform@v0.14.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "php-composer-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "php"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "php-composer"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "php-composer-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/ai-generic-platform:symfony\\/ai_generic_platform:v0.14.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/ai_generic_platform:symfony\\/ai-generic-platform:v0.14.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/ai_generic_platform:symfony\\/ai_generic_platform:v0.14.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/ai-generic:symfony\\/ai-generic-platform:v0.14.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/ai-generic:symfony\\/ai_generic_platform:v0.14.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/ai_generic:symfony\\/ai-generic-platform:v0.14.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/ai_generic:symfony\\/ai_generic_platform:v0.14.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/ai:symfony\\/ai-generic-platform:v0.14.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/ai:symfony\\/ai_generic_platform:v0.14.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/composer.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:composer/symfony/ai-platform@v0.14.1?package-id=fafb3d7329e1e806",
+      "type": "library",
+      "name": "symfony/ai-platform",
+      "version": "v0.14.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:symfony\\/ai-platform:symfony\\/ai-platform:v0.14.1:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/symfony/ai-platform@v0.14.1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "php-composer-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "php"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "php-composer"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "php-composer-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/ai-platform:symfony\\/ai_platform:v0.14.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/ai_platform:symfony\\/ai-platform:v0.14.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/ai_platform:symfony\\/ai_platform:v0.14.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/ai:symfony\\/ai-platform:v0.14.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/ai:symfony\\/ai_platform:v0.14.1:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:path",
@@ -5718,6 +6655,63 @@
       ]
     },
     {
+      "bom-ref": "pkg:composer/symfony/mcp-bundle@v0.14.1?package-id=0aa89cb753d5788b",
+      "type": "library",
+      "name": "symfony/mcp-bundle",
+      "version": "v0.14.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:symfony\\/mcp-bundle:symfony\\/mcp-bundle:v0.14.1:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/symfony/mcp-bundle@v0.14.1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "php-composer-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "php"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "php-composer"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "php-composer-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/mcp-bundle:symfony\\/mcp_bundle:v0.14.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/mcp_bundle:symfony\\/mcp-bundle:v0.14.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/mcp_bundle:symfony\\/mcp_bundle:v0.14.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/mcp:symfony\\/mcp-bundle:v0.14.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/mcp:symfony\\/mcp_bundle:v0.14.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/composer.lock"
+        }
+      ]
+    },
+    {
       "bom-ref": "pkg:composer/symfony/messenger@v8.1.8?package-id=9922bee2facf19cd",
       "type": "library",
       "name": "symfony/messenger",
@@ -5963,6 +6957,63 @@
       ]
     },
     {
+      "bom-ref": "pkg:composer/symfony/polyfill-uuid@v1.37.0?package-id=38777fe68261f026",
+      "type": "library",
+      "name": "symfony/polyfill-uuid",
+      "version": "v1.37.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:symfony\\/polyfill-uuid:symfony\\/polyfill-uuid:v1.37.0:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/symfony/polyfill-uuid@v1.37.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "php-composer-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "php"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "php-composer"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "php-composer-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/polyfill-uuid:symfony\\/polyfill_uuid:v1.37.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/polyfill_uuid:symfony\\/polyfill-uuid:v1.37.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/polyfill_uuid:symfony\\/polyfill_uuid:v1.37.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/polyfill:symfony\\/polyfill-uuid:v1.37.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/polyfill:symfony\\/polyfill_uuid:v1.37.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/composer.lock"
+        }
+      ]
+    },
+    {
       "bom-ref": "pkg:composer/symfony/process@v8.1.7?package-id=4648d42116edf451",
       "type": "library",
       "name": "symfony/process",
@@ -6106,6 +7157,95 @@
         {
           "name": "syft:cpe23",
           "value": "cpe:2.3:a:symfony\\/property:symfony\\/property_info:v8.1.8:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/composer.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:composer/symfony/psr-http-message-bridge@v8.1.0?package-id=0a9860cefe6f1f4c",
+      "type": "library",
+      "name": "symfony/psr-http-message-bridge",
+      "version": "v8.1.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:symfony\\/psr-http-message-bridge:symfony\\/psr-http-message-bridge:v8.1.0:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/symfony/psr-http-message-bridge@v8.1.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "php-composer-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "php"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "php-composer"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "php-composer-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/psr-http-message-bridge:symfony\\/psr_http_message_bridge:v8.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/psr_http_message_bridge:symfony\\/psr-http-message-bridge:v8.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/psr_http_message_bridge:symfony\\/psr_http_message_bridge:v8.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/psr-http-message:symfony\\/psr-http-message-bridge:v8.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/psr-http-message:symfony\\/psr_http_message_bridge:v8.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/psr_http_message:symfony\\/psr-http-message-bridge:v8.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/psr_http_message:symfony\\/psr_http_message_bridge:v8.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/psr-http:symfony\\/psr-http-message-bridge:v8.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/psr-http:symfony\\/psr_http_message_bridge:v8.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/psr_http:symfony\\/psr-http-message-bridge:v8.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/psr_http:symfony\\/psr_http_message_bridge:v8.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/psr:symfony\\/psr-http-message-bridge:v8.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:symfony\\/psr:symfony\\/psr_http_message_bridge:v8.1.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:path",
@@ -6624,6 +7764,43 @@
       ]
     },
     {
+      "bom-ref": "pkg:composer/symfony/uid@v8.1.5?package-id=371bc008ee773f11",
+      "type": "library",
+      "name": "symfony/uid",
+      "version": "v8.1.5",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:symfony\\/uid:symfony\\/uid:v8.1.5:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/symfony/uid@v8.1.5",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "php-composer-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "php"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "php-composer"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "php-composer-lock-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/composer.lock"
+        }
+      ]
+    },
+    {
       "bom-ref": "pkg:composer/symfony/validator@v8.1.8?package-id=c2f6eb9c9400972a",
       "type": "library",
       "name": "symfony/validator",
@@ -7117,6 +8294,43 @@
       ]
     },
     {
+      "bom-ref": "pkg:composer/webmozart/assert@2.4.1?package-id=1e673b592d527a78",
+      "type": "library",
+      "name": "webmozart/assert",
+      "version": "2.4.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:webmozart\\/assert:webmozart\\/assert:2.4.1:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/webmozart/assert@2.4.1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "php-composer-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "php"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "php-composer"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "php-composer-lock-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/composer.lock"
+        }
+      ]
+    },
+    {
       "bom-ref": "pkg:composer/webonyx/graphql-php@v15.37.2?package-id=232ede4707d339be",
       "type": "library",
       "name": "webonyx/graphql-php",
@@ -7213,7 +8427,7 @@
     {
       "bom-ref": "2711cd66e9444a3c",
       "type": "file",
-      "name": "/tmp/tmp.uztK0PII4E/maho-default/.github/workflows/ai-assisted-note.yml",
+      "name": "/tmp/tmp.3ApHIa2iDt/maho-default/.github/workflows/ai-assisted-note.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -7228,7 +8442,7 @@
     {
       "bom-ref": "32613741646b9bd0",
       "type": "file",
-      "name": "/tmp/tmp.uztK0PII4E/maho-default/.github/workflows/backport.yml",
+      "name": "/tmp/tmp.3ApHIa2iDt/maho-default/.github/workflows/backport.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -7243,7 +8457,7 @@
     {
       "bom-ref": "4260212f7c4181cb",
       "type": "file",
-      "name": "/tmp/tmp.uztK0PII4E/maho-default/.github/workflows/check-js-libraries.yml",
+      "name": "/tmp/tmp.3ApHIa2iDt/maho-default/.github/workflows/check-js-libraries.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -7258,7 +8472,7 @@
     {
       "bom-ref": "98dd120a020982a4",
       "type": "file",
-      "name": "/tmp/tmp.uztK0PII4E/maho-default/.github/workflows/check-missing-translations.yml",
+      "name": "/tmp/tmp.3ApHIa2iDt/maho-default/.github/workflows/check-missing-translations.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -7273,7 +8487,7 @@
     {
       "bom-ref": "7e66aa23a8e80c65",
       "type": "file",
-      "name": "/tmp/tmp.uztK0PII4E/maho-default/.github/workflows/check-unused-translations.yml",
+      "name": "/tmp/tmp.3ApHIa2iDt/maho-default/.github/workflows/check-unused-translations.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -7288,7 +8502,7 @@
     {
       "bom-ref": "5e19ea2e1f9dfee4",
       "type": "file",
-      "name": "/tmp/tmp.uztK0PII4E/maho-default/.github/workflows/codeql-analysis.yml",
+      "name": "/tmp/tmp.3ApHIa2iDt/maho-default/.github/workflows/codeql-analysis.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -7303,7 +8517,7 @@
     {
       "bom-ref": "d422de945bf18b46",
       "type": "file",
-      "name": "/tmp/tmp.uztK0PII4E/maho-default/.github/workflows/composer.yml",
+      "name": "/tmp/tmp.3ApHIa2iDt/maho-default/.github/workflows/composer.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -7318,22 +8532,22 @@
     {
       "bom-ref": "b90322a436b20519",
       "type": "file",
-      "name": "/tmp/tmp.uztK0PII4E/maho-default/.github/workflows/copyright.yml",
+      "name": "/tmp/tmp.3ApHIa2iDt/maho-default/.github/workflows/copyright.yml",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "927a2aaa91c37f4e218ec6a0419feeb77de8399b"
+          "content": "8258bf509cc941dc0ad1c6f01eab93e38876cb63"
         },
         {
           "alg": "SHA-256",
-          "content": "1db5d85a183154dbc08f2c535c82f300d7d602a0b607573b15efab1c1361c978"
+          "content": "8d1644f175d1891d19cbc4910614f0e6dcce4e8c7e534d5793ebf1876659ea11"
         }
       ]
     },
     {
       "bom-ref": "dc9bdc1a84992eac",
       "type": "file",
-      "name": "/tmp/tmp.uztK0PII4E/maho-default/.github/workflows/install-with-prefix.yml",
+      "name": "/tmp/tmp.3ApHIa2iDt/maho-default/.github/workflows/install-with-prefix.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -7348,7 +8562,7 @@
     {
       "bom-ref": "ca67cce3ff943159",
       "type": "file",
-      "name": "/tmp/tmp.uztK0PII4E/maho-default/.github/workflows/line-endings.yml",
+      "name": "/tmp/tmp.3ApHIa2iDt/maho-default/.github/workflows/line-endings.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -7363,7 +8577,7 @@
     {
       "bom-ref": "5ebde7ddc8076c2b",
       "type": "file",
-      "name": "/tmp/tmp.uztK0PII4E/maho-default/.github/workflows/lint.yml",
+      "name": "/tmp/tmp.3ApHIa2iDt/maho-default/.github/workflows/lint.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -7378,7 +8592,7 @@
     {
       "bom-ref": "57d4f10249bd0e10",
       "type": "file",
-      "name": "/tmp/tmp.uztK0PII4E/maho-default/.github/workflows/locale-csv-sorting.yml",
+      "name": "/tmp/tmp.3ApHIa2iDt/maho-default/.github/workflows/locale-csv-sorting.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -7393,7 +8607,7 @@
     {
       "bom-ref": "e1e2bba7dd1b17e6",
       "type": "file",
-      "name": "/tmp/tmp.uztK0PII4E/maho-default/.github/workflows/pest.yml",
+      "name": "/tmp/tmp.3ApHIa2iDt/maho-default/.github/workflows/pest.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -7408,7 +8622,7 @@
     {
       "bom-ref": "2f9a4ebf9db35197",
       "type": "file",
-      "name": "/tmp/tmp.uztK0PII4E/maho-default/.github/workflows/phpdoc.yml",
+      "name": "/tmp/tmp.3ApHIa2iDt/maho-default/.github/workflows/phpdoc.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -7423,7 +8637,7 @@
     {
       "bom-ref": "f23abd314990253e",
       "type": "file",
-      "name": "/tmp/tmp.uztK0PII4E/maho-default/.github/workflows/phpstan.yml",
+      "name": "/tmp/tmp.3ApHIa2iDt/maho-default/.github/workflows/phpstan.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -7438,7 +8652,7 @@
     {
       "bom-ref": "8a94ac50b5062d56",
       "type": "file",
-      "name": "/tmp/tmp.uztK0PII4E/maho-default/.github/workflows/security-php.yml",
+      "name": "/tmp/tmp.3ApHIa2iDt/maho-default/.github/workflows/security-php.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -7453,22 +8667,22 @@
     {
       "bom-ref": "17bee73d399623a9",
       "type": "file",
-      "name": "/tmp/tmp.uztK0PII4E/maho-default/.github/workflows/sync-l10n-repo.yml",
+      "name": "/tmp/tmp.3ApHIa2iDt/maho-default/.github/workflows/sync-l10n-repo.yml",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "7edc41959ae95212389286dbc17c5248bfed483c"
+          "content": "607164430c20022032f201e3953b12eb23dcbf59"
         },
         {
           "alg": "SHA-256",
-          "content": "c086ab3c599b28f238b09f96482894e4f5fe32bd49cef116574a66f66eebdcbc"
+          "content": "8d5129883270a5c5a21ac569907e47dabf04e29439625522dcb8a1676b74d4a7"
         }
       ]
     },
     {
       "bom-ref": "5c470c2c7e53f689",
       "type": "file",
-      "name": "/tmp/tmp.uztK0PII4E/maho-default/.github/workflows/syntax-php.yml",
+      "name": "/tmp/tmp.3ApHIa2iDt/maho-default/.github/workflows/syntax-php.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -7483,7 +8697,7 @@
     {
       "bom-ref": "5681d4ed4a932be8",
       "type": "file",
-      "name": "/tmp/tmp.uztK0PII4E/maho-default/.github/workflows/syntax-xml.yml",
+      "name": "/tmp/tmp.3ApHIa2iDt/maho-default/.github/workflows/syntax-xml.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -7498,7 +8712,7 @@
     {
       "bom-ref": "06212730fd2d369a",
       "type": "file",
-      "name": "/tmp/tmp.uztK0PII4E/maho-default/.github/workflows/theme-build.yml",
+      "name": "/tmp/tmp.3ApHIa2iDt/maho-default/.github/workflows/theme-build.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -7513,7 +8727,7 @@
     {
       "bom-ref": "4c6138ad0b6769b5",
       "type": "file",
-      "name": "/tmp/tmp.uztK0PII4E/maho-default/.github/workflows/update-js-libraries.yml",
+      "name": "/tmp/tmp.3ApHIa2iDt/maho-default/.github/workflows/update-js-libraries.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -7528,30 +8742,30 @@
     {
       "bom-ref": "c8bb62e6bded633e",
       "type": "file",
-      "name": "/tmp/tmp.uztK0PII4E/maho-default/composer.lock",
+      "name": "/tmp/tmp.3ApHIa2iDt/maho-default/composer.lock",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "ec4fd1d2258f33de3dbaeb428cfc7bfe631e0473"
+          "content": "6641504dfdbf18dbb940428f72511500c928b07e"
         },
         {
           "alg": "SHA-256",
-          "content": "eabc9f3d123b6285187cdd829da2d47a42566dbf2d52cd2fbcc199bdd4c77784"
+          "content": "259bf463b173d2098e1e7a79f9718860ad9bc4d9478e9f62c4a740bffe00952e"
         }
       ]
     },
     {
       "bom-ref": "fd71c2238fc07657",
       "type": "file",
-      "name": "/tmp/tmp.uztK0PII4E/maho-default/package-lock.json",
+      "name": "/tmp/tmp.3ApHIa2iDt/maho-default/package-lock.json",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "f22270c341ea3e842fe2de65b3d29fb463c0d678"
+          "content": "3e6fab52a4833c473a801e0d70a2c1caf2d2b632"
         },
         {
           "alg": "SHA-256",
-          "content": "88a368d01968338f7d7aa7133636156e911648fcb3ab4516900f709bbcc458cd"
+          "content": "6fdbcbd0f700c8b2cb0d5bb6ad0d8560e784124034e6080f061ac0f816a6cf20"
         }
       ]
     }
