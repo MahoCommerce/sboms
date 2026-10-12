@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
-  "serialNumber": "urn:uuid:57620bde-8c10-4999-ba3a-7b5b9d764499",
+  "serialNumber": "urn:uuid:2b47193e-85b7-4ddb-9ae3-5c5d17910815",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-10-11T09:28:48Z",
+    "timestamp": "2026-10-12T09:58:58Z",
     "tools": {
       "components": [
         {
@@ -17,9 +17,9 @@
       ]
     },
     "component": {
-      "bom-ref": "4028d20a80d09cb4",
+      "bom-ref": "ae0e8b5724e3755d",
       "type": "file",
-      "name": "/tmp/tmp.qf5wMLOWmC/maho-composer-plugin-default",
+      "name": "/tmp/tmp.Tba4GdTLHs/maho-composer-plugin-default",
       "licenses": [
         {
           "license": {
@@ -532,10 +532,10 @@
       ]
     },
     {
-      "bom-ref": "pkg:composer/symfony/routing@v8.1.6?package-id=01895c7ccb9d6555",
+      "bom-ref": "pkg:composer/symfony/routing@v8.1.8?package-id=43a6f92debf9b7df",
       "type": "library",
       "name": "symfony/routing",
-      "version": "v8.1.6",
+      "version": "v8.1.8",
       "licenses": [
         {
           "license": {
@@ -543,8 +543,8 @@
           }
         }
       ],
-      "cpe": "cpe:2.3:a:symfony\\/routing:symfony\\/routing:v8.1.6:*:*:*:*:*:*:*",
-      "purl": "pkg:composer/symfony/routing@v8.1.6",
+      "cpe": "cpe:2.3:a:symfony\\/routing:symfony\\/routing:v8.1.8:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/symfony/routing@v8.1.8",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -633,7 +633,7 @@
     {
       "bom-ref": "2711cd66e9444a3c",
       "type": "file",
-      "name": "/tmp/tmp.qf5wMLOWmC/maho-composer-plugin-default/.github/workflows/ai-assisted-note.yml",
+      "name": "/tmp/tmp.Tba4GdTLHs/maho-composer-plugin-default/.github/workflows/ai-assisted-note.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -648,7 +648,7 @@
     {
       "bom-ref": "d422de945bf18b46",
       "type": "file",
-      "name": "/tmp/tmp.qf5wMLOWmC/maho-composer-plugin-default/.github/workflows/composer.yml",
+      "name": "/tmp/tmp.Tba4GdTLHs/maho-composer-plugin-default/.github/workflows/composer.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -663,7 +663,7 @@
     {
       "bom-ref": "ca67cce3ff943159",
       "type": "file",
-      "name": "/tmp/tmp.qf5wMLOWmC/maho-composer-plugin-default/.github/workflows/line-endings.yml",
+      "name": "/tmp/tmp.Tba4GdTLHs/maho-composer-plugin-default/.github/workflows/line-endings.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -678,7 +678,7 @@
     {
       "bom-ref": "5ebde7ddc8076c2b",
       "type": "file",
-      "name": "/tmp/tmp.qf5wMLOWmC/maho-composer-plugin-default/.github/workflows/lint.yml",
+      "name": "/tmp/tmp.Tba4GdTLHs/maho-composer-plugin-default/.github/workflows/lint.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -693,7 +693,7 @@
     {
       "bom-ref": "f23abd314990253e",
       "type": "file",
-      "name": "/tmp/tmp.qf5wMLOWmC/maho-composer-plugin-default/.github/workflows/phpstan.yml",
+      "name": "/tmp/tmp.Tba4GdTLHs/maho-composer-plugin-default/.github/workflows/phpstan.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -708,7 +708,7 @@
     {
       "bom-ref": "5c470c2c7e53f689",
       "type": "file",
-      "name": "/tmp/tmp.qf5wMLOWmC/maho-composer-plugin-default/.github/workflows/syntax-php.yml",
+      "name": "/tmp/tmp.Tba4GdTLHs/maho-composer-plugin-default/.github/workflows/syntax-php.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -723,15 +723,15 @@
     {
       "bom-ref": "c8bb62e6bded633e",
       "type": "file",
-      "name": "/tmp/tmp.qf5wMLOWmC/maho-composer-plugin-default/composer.lock",
+      "name": "/tmp/tmp.Tba4GdTLHs/maho-composer-plugin-default/composer.lock",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "7e6b92eeaf9d41675d0eaaf6e7c845d06d2bdf57"
+          "content": "7b248ff6cc660efb54f5bbe4da42bbc978e0c377"
         },
         {
           "alg": "SHA-256",
-          "content": "0bd8f9cc24b84ac61252f315bf0c41725e1c4c7e65f761b45c312fee23ec3be3"
+          "content": "62b64194263eaa0b9fe50342ac2258588fa0521a483879593e0eebef4969fa53"
         }
       ]
     }
