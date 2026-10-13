@@ -6,12 +6,12 @@
     "used_licenses": [
       "OSL-3.0"
     ],
-    "files_total": 201,
-    "files_with_copyright_info": 1,
-    "files_with_licensing_info": 69,
+    "files_total": 202,
+    "files_with_copyright_info": 2,
+    "files_with_licensing_info": 70,
     "compliant": false
   },
   "license_file_counts": {
-    "OSL-3.0": 69
+    "OSL-3.0": 70
   }
 }
