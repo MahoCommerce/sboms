@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
-  "serialNumber": "urn:uuid:18cf64c5-be41-4f64-acf8-081e885e58b7",
+  "serialNumber": "urn:uuid:feeab325-8963-4352-be32-72e0ac1ea4d1",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-10-16T07:40:11Z",
+    "timestamp": "2026-10-17T07:18:14Z",
     "tools": {
       "components": [
         {
@@ -17,9 +17,9 @@
       ]
     },
     "component": {
-      "bom-ref": "f7a00e8f07348570",
+      "bom-ref": "06315242dfaa3d94",
       "type": "file",
-      "name": "/tmp/tmp.DlsWPNiWTR/maho-phpstan-plugin-default",
+      "name": "/tmp/tmp.sZZpejYMQk/maho-phpstan-plugin-default",
       "licenses": [
         {
           "license": {
@@ -260,7 +260,7 @@
     {
       "bom-ref": "2711cd66e9444a3c",
       "type": "file",
-      "name": "/tmp/tmp.DlsWPNiWTR/maho-phpstan-plugin-default/.github/workflows/ai-assisted-note.yml",
+      "name": "/tmp/tmp.sZZpejYMQk/maho-phpstan-plugin-default/.github/workflows/ai-assisted-note.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -275,7 +275,7 @@
     {
       "bom-ref": "5ebde7ddc8076c2b",
       "type": "file",
-      "name": "/tmp/tmp.DlsWPNiWTR/maho-phpstan-plugin-default/.github/workflows/lint.yml",
+      "name": "/tmp/tmp.sZZpejYMQk/maho-phpstan-plugin-default/.github/workflows/lint.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -290,7 +290,7 @@
     {
       "bom-ref": "f23abd314990253e",
       "type": "file",
-      "name": "/tmp/tmp.DlsWPNiWTR/maho-phpstan-plugin-default/.github/workflows/phpstan.yml",
+      "name": "/tmp/tmp.sZZpejYMQk/maho-phpstan-plugin-default/.github/workflows/phpstan.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -305,7 +305,7 @@
     {
       "bom-ref": "c8bb62e6bded633e",
       "type": "file",
-      "name": "/tmp/tmp.DlsWPNiWTR/maho-phpstan-plugin-default/composer.lock",
+      "name": "/tmp/tmp.sZZpejYMQk/maho-phpstan-plugin-default/composer.lock",
       "hashes": [
         {
           "alg": "SHA-1",
