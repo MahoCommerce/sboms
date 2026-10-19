@@ -2,24 +2,25 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
-  "serialNumber": "urn:uuid:ef4af44d-c1e4-41cc-a613-5824839123da",
+  "serialNumber": "urn:uuid:3daec4e0-ed88-4411-85ba-6b7a221dbdb3",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-10-19T08:16:45Z",
+    "timestamp": "2026-10-19T22:54:05Z",
     "tools": {
       "components": [
         {
           "type": "application",
           "author": "anchore",
           "name": "syft",
-          "version": "1.54.1"
+          "version": "1.54.0"
         }
       ]
     },
     "component": {
-      "bom-ref": "efb4599aab49ac0d",
+      "bom-ref": "372cb61ac6c6f3cd",
       "type": "file",
-      "name": "/tmp/tmp.cajwqS5WSJ/module-template-default",
+      "name": "module-template",
+      "version": "main",
       "licenses": [
         {
           "license": {
@@ -259,52 +260,6 @@
       ]
     },
     {
-      "bom-ref": "pkg:github/shivammathur/setup-php@2.37.2?package-id=601f9983e0144444",
-      "type": "library",
-      "name": "shivammathur/setup-php",
-      "version": "2.37.2",
-      "cpe": "cpe:2.3:a:shivammathur\\/setup-php:shivammathur\\/setup-php:2.37.2:*:*:*:*:*:*:*",
-      "purl": "pkg:github/shivammathur/setup-php@2.37.2",
-      "properties": [
-        {
-          "name": "syft:package:foundBy",
-          "value": "github-actions-usage-cataloger"
-        },
-        {
-          "name": "syft:package:type",
-          "value": "github-action"
-        },
-        {
-          "name": "syft:package:metadataType",
-          "value": "github-actions-use-statement"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:shivammathur\\/setup-php:shivammathur\\/setup_php:2.37.2:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:shivammathur\\/setup_php:shivammathur\\/setup-php:2.37.2:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:shivammathur\\/setup_php:shivammathur\\/setup_php:2.37.2:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:shivammathur\\/setup:shivammathur\\/setup-php:2.37.2:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:shivammathur\\/setup:shivammathur\\/setup_php:2.37.2:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:location:0:path",
-          "value": "/.github/workflows/lint.yml"
-        }
-      ]
-    },
-    {
       "bom-ref": "pkg:github/shivammathur/setup-php@2.37.2?package-id=d0ed5197ee6c16a2",
       "type": "library",
       "name": "shivammathur/setup-php",
@@ -397,9 +352,55 @@
       ]
     },
     {
+      "bom-ref": "pkg:github/shivammathur/setup-php@2.40.0?package-id=6e09cfaeebc11996",
+      "type": "library",
+      "name": "shivammathur/setup-php",
+      "version": "2.40.0",
+      "cpe": "cpe:2.3:a:shivammathur\\/setup-php:shivammathur\\/setup-php:2.40.0:*:*:*:*:*:*:*",
+      "purl": "pkg:github/shivammathur/setup-php@2.40.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:shivammathur\\/setup-php:shivammathur\\/setup_php:2.40.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:shivammathur\\/setup_php:shivammathur\\/setup-php:2.40.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:shivammathur\\/setup_php:shivammathur\\/setup_php:2.40.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:shivammathur\\/setup:shivammathur\\/setup-php:2.40.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:shivammathur\\/setup:shivammathur\\/setup_php:2.40.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/lint.yml"
+        }
+      ]
+    },
+    {
       "bom-ref": "2711cd66e9444a3c",
       "type": "file",
-      "name": "/tmp/tmp.cajwqS5WSJ/module-template-default/.github/workflows/ai-assisted-note.yml",
+      "name": "/tmp/tmp.2ekkPLTHqL/module-template-default/.github/workflows/ai-assisted-note.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -414,7 +415,7 @@
     {
       "bom-ref": "d422de945bf18b46",
       "type": "file",
-      "name": "/tmp/tmp.cajwqS5WSJ/module-template-default/.github/workflows/composer.yml",
+      "name": "/tmp/tmp.2ekkPLTHqL/module-template-default/.github/workflows/composer.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -429,7 +430,7 @@
     {
       "bom-ref": "ca67cce3ff943159",
       "type": "file",
-      "name": "/tmp/tmp.cajwqS5WSJ/module-template-default/.github/workflows/line-endings.yml",
+      "name": "/tmp/tmp.2ekkPLTHqL/module-template-default/.github/workflows/line-endings.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -444,22 +445,22 @@
     {
       "bom-ref": "5ebde7ddc8076c2b",
       "type": "file",
-      "name": "/tmp/tmp.cajwqS5WSJ/module-template-default/.github/workflows/lint.yml",
+      "name": "/tmp/tmp.2ekkPLTHqL/module-template-default/.github/workflows/lint.yml",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "1282cc480f0b2f0d8cfbd91c878d101523111be6"
+          "content": "ad4b616aff85dfc9ee50c7d974d761712dbfcb0e"
         },
         {
           "alg": "SHA-256",
-          "content": "2f7bf1081f94a69152b755d4d7970e84541e07841df8b13643d32465e1645b29"
+          "content": "13752240bceac3c26b28f6c06347a633350e1a0eb986320958bcf52e2ae6ab24"
         }
       ]
     },
     {
       "bom-ref": "f23abd314990253e",
       "type": "file",
-      "name": "/tmp/tmp.cajwqS5WSJ/module-template-default/.github/workflows/phpstan.yml",
+      "name": "/tmp/tmp.2ekkPLTHqL/module-template-default/.github/workflows/phpstan.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -474,7 +475,7 @@
     {
       "bom-ref": "5c470c2c7e53f689",
       "type": "file",
-      "name": "/tmp/tmp.cajwqS5WSJ/module-template-default/.github/workflows/syntax-php.yml",
+      "name": "/tmp/tmp.2ekkPLTHqL/module-template-default/.github/workflows/syntax-php.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -489,7 +490,7 @@
     {
       "bom-ref": "5681d4ed4a932be8",
       "type": "file",
-      "name": "/tmp/tmp.cajwqS5WSJ/module-template-default/.github/workflows/syntax-xml.yml",
+      "name": "/tmp/tmp.2ekkPLTHqL/module-template-default/.github/workflows/syntax-xml.yml",
       "hashes": [
         {
           "alg": "SHA-1",

@@ -2,24 +2,25 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
-  "serialNumber": "urn:uuid:41df4f7e-a720-41bf-b6df-61b5f7d8150b",
+  "serialNumber": "urn:uuid:9853066d-b6ce-4665-8abc-3224054e3b2c",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-10-19T08:16:49Z",
+    "timestamp": "2026-10-19T22:54:09Z",
     "tools": {
       "components": [
         {
           "type": "application",
           "author": "anchore",
           "name": "syft",
-          "version": "1.54.1"
+          "version": "1.54.0"
         }
       ]
     },
     "component": {
-      "bom-ref": "7b669162a8bfcee0",
+      "bom-ref": "20425fa98e1fb820",
       "type": "file",
-      "name": "/tmp/tmp.cajwqS5WSJ/vscode-default",
+      "name": "vscode",
+      "version": "main",
       "licenses": [
         {
           "license": {
@@ -129,12 +130,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:github/actions/setup-node@v7.0.0?package-id=428c35288a728088",
+      "bom-ref": "pkg:github/actions/setup-node@v7.1.0?package-id=129494fe965cebc9",
       "type": "library",
       "name": "actions/setup-node",
-      "version": "v7.0.0",
-      "cpe": "cpe:2.3:a:actions\\/setup-node:actions\\/setup-node:v7.0.0:*:*:*:*:*:*:*",
-      "purl": "pkg:github/actions/setup-node@v7.0.0",
+      "version": "v7.1.0",
+      "cpe": "cpe:2.3:a:actions\\/setup-node:actions\\/setup-node:v7.1.0:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/setup-node@v7.1.0",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -150,23 +151,23 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:actions\\/setup-node:actions\\/setup_node:v7.0.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:actions\\/setup-node:actions\\/setup_node:v7.1.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:actions\\/setup_node:actions\\/setup-node:v7.0.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:actions\\/setup_node:actions\\/setup-node:v7.1.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:actions\\/setup_node:actions\\/setup_node:v7.0.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:actions\\/setup_node:actions\\/setup_node:v7.1.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:actions\\/setup:actions\\/setup-node:v7.0.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:actions\\/setup:actions\\/setup-node:v7.1.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:actions\\/setup:actions\\/setup_node:v7.0.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:actions\\/setup:actions\\/setup_node:v7.1.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:path",
@@ -175,12 +176,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:github/actions/setup-node@v7.0.0?package-id=7188a29fc39d2cdf",
+      "bom-ref": "pkg:github/actions/setup-node@v7.1.0?package-id=44631a28e28e0c7b",
       "type": "library",
       "name": "actions/setup-node",
-      "version": "v7.0.0",
-      "cpe": "cpe:2.3:a:actions\\/setup-node:actions\\/setup-node:v7.0.0:*:*:*:*:*:*:*",
-      "purl": "pkg:github/actions/setup-node@v7.0.0",
+      "version": "v7.1.0",
+      "cpe": "cpe:2.3:a:actions\\/setup-node:actions\\/setup-node:v7.1.0:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/setup-node@v7.1.0",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -196,23 +197,23 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:actions\\/setup-node:actions\\/setup_node:v7.0.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:actions\\/setup-node:actions\\/setup_node:v7.1.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:actions\\/setup_node:actions\\/setup-node:v7.0.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:actions\\/setup_node:actions\\/setup-node:v7.1.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:actions\\/setup_node:actions\\/setup_node:v7.0.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:actions\\/setup_node:actions\\/setup_node:v7.1.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:actions\\/setup:actions\\/setup-node:v7.0.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:actions\\/setup:actions\\/setup-node:v7.1.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:actions\\/setup:actions\\/setup_node:v7.0.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:actions\\/setup:actions\\/setup_node:v7.1.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:path",
@@ -761,7 +762,7 @@
     {
       "bom-ref": "2711cd66e9444a3c",
       "type": "file",
-      "name": "/tmp/tmp.cajwqS5WSJ/vscode-default/.github/workflows/ai-assisted-note.yml",
+      "name": "/tmp/tmp.2ekkPLTHqL/vscode-default/.github/workflows/ai-assisted-note.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -776,45 +777,45 @@
     {
       "bom-ref": "7561d461b00ff11d",
       "type": "file",
-      "name": "/tmp/tmp.cajwqS5WSJ/vscode-default/.github/workflows/ci.yml",
+      "name": "/tmp/tmp.2ekkPLTHqL/vscode-default/.github/workflows/ci.yml",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "9c78f84d0d6c8487286e846a0fa50a6489d807ef"
+          "content": "22d6fb11da574c31203936c0059aaaef1a691918"
         },
         {
           "alg": "SHA-256",
-          "content": "9c3f46f534b482ef9760d955da0d5624d5367ae255f01f172e08f3e7fb614009"
+          "content": "76721992bdccb5815eb4d142562cd72ccab152673e6ab1299d9b73a3903a5b6b"
         }
       ]
     },
     {
       "bom-ref": "cc210d8a1a5f5704",
       "type": "file",
-      "name": "/tmp/tmp.cajwqS5WSJ/vscode-default/.github/workflows/release.yml",
+      "name": "/tmp/tmp.2ekkPLTHqL/vscode-default/.github/workflows/release.yml",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "6b29192017a6cedc34b7dc08e3baf73cb3b19139"
+          "content": "ff6ea180860c9805920703835c9c48562ca0d98c"
         },
         {
           "alg": "SHA-256",
-          "content": "49bc967841a33e32678fce203e6448edc59dc4435a0daaf08c9c55cce8f912d1"
+          "content": "ea74a4fb49ff2145fc0aa9562fdd614ce1dd7bf830fa8712dcd3d07dd8dedfa0"
         }
       ]
     },
     {
       "bom-ref": "fd71c2238fc07657",
       "type": "file",
-      "name": "/tmp/tmp.cajwqS5WSJ/vscode-default/package-lock.json",
+      "name": "/tmp/tmp.2ekkPLTHqL/vscode-default/package-lock.json",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "670b9d6b07051fa92f5383bb57f8602ef5432131"
+          "content": "bffbaac518a9db59fd4a30285dfc2db3116ff845"
         },
         {
           "alg": "SHA-256",
-          "content": "dd23870e174920ca0d9007d62bcc95ff02cb594043c76b9dd6af9b785f906530"
+          "content": "0f4dec1937968f6744ecbba9007cbb2d130035622d6136f79ed7369d6b109343"
         }
       ]
     }
