@@ -41,8 +41,11 @@ gen_sbom() {
     return 1
   fi
 
+  local version="$ref"
+  [[ "$ref" == "__default__" ]] && version="main"
+
   mkdir -p "$(dirname "$outfile")"
-  if ! syft scan "dir:$clonedir" -o "cyclonedx-json=$outfile" --quiet; then
+  if ! syft scan "dir:$clonedir" --source-name "$repo" --source-version "$version" -o "cyclonedx-json=$outfile" --quiet; then
     echo "  ! syft failed for $repo@$ref, skipping"
     return 1
   fi
