@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
-  "serialNumber": "urn:uuid:df864208-9e90-4f71-bb57-219b33cc3411",
+  "serialNumber": "urn:uuid:4e80889c-27f5-4846-94c1-5de9c5351ade",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-10-18T07:32:17Z",
+    "timestamp": "2026-10-19T08:16:05Z",
     "tools": {
       "components": [
         {
@@ -17,9 +17,9 @@
       ]
     },
     "component": {
-      "bom-ref": "e396e52a53544251",
+      "bom-ref": "ef966d1f52f8c342",
       "type": "file",
-      "name": "/tmp/tmp.u6TMEs3pgw/maho-composer-plugin-default",
+      "name": "/tmp/tmp.cajwqS5WSJ/maho-composer-plugin-default",
       "licenses": [
         {
           "license": {
@@ -337,12 +337,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:github/shivammathur/setup-php@2.37.2?package-id=601f9983e0144444",
+      "bom-ref": "pkg:github/shivammathur/setup-php@2.40.0?package-id=6e09cfaeebc11996",
       "type": "library",
       "name": "shivammathur/setup-php",
-      "version": "2.37.2",
-      "cpe": "cpe:2.3:a:shivammathur\\/setup-php:shivammathur\\/setup-php:2.37.2:*:*:*:*:*:*:*",
-      "purl": "pkg:github/shivammathur/setup-php@2.37.2",
+      "version": "2.40.0",
+      "cpe": "cpe:2.3:a:shivammathur\\/setup-php:shivammathur\\/setup-php:2.40.0:*:*:*:*:*:*:*",
+      "purl": "pkg:github/shivammathur/setup-php@2.40.0",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -358,23 +358,23 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:shivammathur\\/setup-php:shivammathur\\/setup_php:2.37.2:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:shivammathur\\/setup-php:shivammathur\\/setup_php:2.40.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:shivammathur\\/setup_php:shivammathur\\/setup-php:2.37.2:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:shivammathur\\/setup_php:shivammathur\\/setup-php:2.40.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:shivammathur\\/setup_php:shivammathur\\/setup_php:2.37.2:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:shivammathur\\/setup_php:shivammathur\\/setup_php:2.40.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:shivammathur\\/setup:shivammathur\\/setup-php:2.37.2:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:shivammathur\\/setup:shivammathur\\/setup-php:2.40.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:shivammathur\\/setup:shivammathur\\/setup_php:2.37.2:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:shivammathur\\/setup:shivammathur\\/setup_php:2.40.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:path",
@@ -383,12 +383,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:github/shivammathur/setup-php@2.37.2?package-id=d0ed5197ee6c16a2",
+      "bom-ref": "pkg:github/shivammathur/setup-php@2.40.0?package-id=3a94d546b21df290",
       "type": "library",
       "name": "shivammathur/setup-php",
-      "version": "2.37.2",
-      "cpe": "cpe:2.3:a:shivammathur\\/setup-php:shivammathur\\/setup-php:2.37.2:*:*:*:*:*:*:*",
-      "purl": "pkg:github/shivammathur/setup-php@2.37.2",
+      "version": "2.40.0",
+      "cpe": "cpe:2.3:a:shivammathur\\/setup-php:shivammathur\\/setup-php:2.40.0:*:*:*:*:*:*:*",
+      "purl": "pkg:github/shivammathur/setup-php@2.40.0",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -404,23 +404,23 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:shivammathur\\/setup-php:shivammathur\\/setup_php:2.37.2:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:shivammathur\\/setup-php:shivammathur\\/setup_php:2.40.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:shivammathur\\/setup_php:shivammathur\\/setup-php:2.37.2:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:shivammathur\\/setup_php:shivammathur\\/setup-php:2.40.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:shivammathur\\/setup_php:shivammathur\\/setup_php:2.37.2:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:shivammathur\\/setup_php:shivammathur\\/setup_php:2.40.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:shivammathur\\/setup:shivammathur\\/setup-php:2.37.2:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:shivammathur\\/setup:shivammathur\\/setup-php:2.40.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:shivammathur\\/setup:shivammathur\\/setup_php:2.37.2:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:shivammathur\\/setup:shivammathur\\/setup_php:2.40.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:path",
@@ -429,12 +429,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:github/shivammathur/setup-php@2.37.2?package-id=be99c198af6e7b96",
+      "bom-ref": "pkg:github/shivammathur/setup-php@2.40.0?package-id=ef3908a9b2c6d1d0",
       "type": "library",
       "name": "shivammathur/setup-php",
-      "version": "2.37.2",
-      "cpe": "cpe:2.3:a:shivammathur\\/setup-php:shivammathur\\/setup-php:2.37.2:*:*:*:*:*:*:*",
-      "purl": "pkg:github/shivammathur/setup-php@2.37.2",
+      "version": "2.40.0",
+      "cpe": "cpe:2.3:a:shivammathur\\/setup-php:shivammathur\\/setup-php:2.40.0:*:*:*:*:*:*:*",
+      "purl": "pkg:github/shivammathur/setup-php@2.40.0",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -450,23 +450,23 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:shivammathur\\/setup-php:shivammathur\\/setup_php:2.37.2:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:shivammathur\\/setup-php:shivammathur\\/setup_php:2.40.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:shivammathur\\/setup_php:shivammathur\\/setup-php:2.37.2:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:shivammathur\\/setup_php:shivammathur\\/setup-php:2.40.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:shivammathur\\/setup_php:shivammathur\\/setup_php:2.37.2:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:shivammathur\\/setup_php:shivammathur\\/setup_php:2.40.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:shivammathur\\/setup:shivammathur\\/setup-php:2.37.2:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:shivammathur\\/setup:shivammathur\\/setup-php:2.40.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:shivammathur\\/setup:shivammathur\\/setup_php:2.37.2:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:shivammathur\\/setup:shivammathur\\/setup_php:2.40.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:path",
@@ -633,7 +633,7 @@
     {
       "bom-ref": "2711cd66e9444a3c",
       "type": "file",
-      "name": "/tmp/tmp.u6TMEs3pgw/maho-composer-plugin-default/.github/workflows/ai-assisted-note.yml",
+      "name": "/tmp/tmp.cajwqS5WSJ/maho-composer-plugin-default/.github/workflows/ai-assisted-note.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -648,7 +648,7 @@
     {
       "bom-ref": "d422de945bf18b46",
       "type": "file",
-      "name": "/tmp/tmp.u6TMEs3pgw/maho-composer-plugin-default/.github/workflows/composer.yml",
+      "name": "/tmp/tmp.cajwqS5WSJ/maho-composer-plugin-default/.github/workflows/composer.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -663,7 +663,7 @@
     {
       "bom-ref": "ca67cce3ff943159",
       "type": "file",
-      "name": "/tmp/tmp.u6TMEs3pgw/maho-composer-plugin-default/.github/workflows/line-endings.yml",
+      "name": "/tmp/tmp.cajwqS5WSJ/maho-composer-plugin-default/.github/workflows/line-endings.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -678,60 +678,60 @@
     {
       "bom-ref": "5ebde7ddc8076c2b",
       "type": "file",
-      "name": "/tmp/tmp.u6TMEs3pgw/maho-composer-plugin-default/.github/workflows/lint.yml",
+      "name": "/tmp/tmp.cajwqS5WSJ/maho-composer-plugin-default/.github/workflows/lint.yml",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "1282cc480f0b2f0d8cfbd91c878d101523111be6"
+          "content": "ad4b616aff85dfc9ee50c7d974d761712dbfcb0e"
         },
         {
           "alg": "SHA-256",
-          "content": "2f7bf1081f94a69152b755d4d7970e84541e07841df8b13643d32465e1645b29"
+          "content": "13752240bceac3c26b28f6c06347a633350e1a0eb986320958bcf52e2ae6ab24"
         }
       ]
     },
     {
       "bom-ref": "f23abd314990253e",
       "type": "file",
-      "name": "/tmp/tmp.u6TMEs3pgw/maho-composer-plugin-default/.github/workflows/phpstan.yml",
+      "name": "/tmp/tmp.cajwqS5WSJ/maho-composer-plugin-default/.github/workflows/phpstan.yml",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "f7821d9aa472183e252519b53d3611679a7f32b5"
+          "content": "fe80815415de6ef30dc7183af4ffe8f7a356a12c"
         },
         {
           "alg": "SHA-256",
-          "content": "876b458b1d11b97591893fc6033dc00ecaf92428206b8c1226d5da961c912b03"
+          "content": "47f717278d013df9b23f6e34e29b205af5e832dc49d0b315afeb751591d7d3b4"
         }
       ]
     },
     {
       "bom-ref": "5c470c2c7e53f689",
       "type": "file",
-      "name": "/tmp/tmp.u6TMEs3pgw/maho-composer-plugin-default/.github/workflows/syntax-php.yml",
+      "name": "/tmp/tmp.cajwqS5WSJ/maho-composer-plugin-default/.github/workflows/syntax-php.yml",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "f351d23f74b5157aed2a53b9866f9a0843a9d477"
+          "content": "48920aaa2b65b9952a7b3b832a562842d33f67fe"
         },
         {
           "alg": "SHA-256",
-          "content": "df11f705730769edd0f10c4b5566e517925ef3618edea2dc6e7e010eae484d24"
+          "content": "ed4e5cbb6f1a931e272b35c1f7202f0d271d11e01de1877d96c7b633bcff64aa"
         }
       ]
     },
     {
       "bom-ref": "c8bb62e6bded633e",
       "type": "file",
-      "name": "/tmp/tmp.u6TMEs3pgw/maho-composer-plugin-default/composer.lock",
+      "name": "/tmp/tmp.cajwqS5WSJ/maho-composer-plugin-default/composer.lock",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "7b248ff6cc660efb54f5bbe4da42bbc978e0c377"
+          "content": "9f70287c147390907e9225b8dc27718a2006cf78"
         },
         {
           "alg": "SHA-256",
-          "content": "62b64194263eaa0b9fe50342ac2258588fa0521a483879593e0eebef4969fa53"
+          "content": "5329b1a518379c0251517fcfb2eea936658a5c51b3e29690ac679a9b4c9ac478"
         }
       ]
     }
