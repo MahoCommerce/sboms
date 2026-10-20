@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
-  "serialNumber": "urn:uuid:71452ab9-634f-491f-b0de-5f5039e51f6c",
+  "serialNumber": "urn:uuid:4b116262-4f6d-4441-9ffa-97fe394b9eae",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-10-19T22:53:10Z",
+    "timestamp": "2026-10-20T08:01:20Z",
     "tools": {
       "components": [
         {
@@ -17,7 +17,7 @@
       ]
     },
     "component": {
-      "bom-ref": "eb85c1bcf195d507",
+      "bom-ref": "6cb4db87b334dafb",
       "type": "file",
       "name": "maho",
       "version": "main",
@@ -182,6 +182,114 @@
         {
           "name": "syft:location:0:path",
           "value": "/.github/workflows/syntax-xml.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/actions/attest-build-provenance@v4.2.2?package-id=0f4b940ade7abf65",
+      "type": "library",
+      "name": "actions/attest-build-provenance",
+      "version": "v4.2.2",
+      "cpe": "cpe:2.3:a:actions\\/attest-build-provenance:actions\\/attest-build-provenance:v4.2.2:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/attest-build-provenance@v4.2.2",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/attest-build-provenance:actions\\/attest_build_provenance:v4.2.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/attest_build_provenance:actions\\/attest-build-provenance:v4.2.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/attest_build_provenance:actions\\/attest_build_provenance:v4.2.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/attest-build:actions\\/attest-build-provenance:v4.2.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/attest-build:actions\\/attest_build_provenance:v4.2.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/attest_build:actions\\/attest-build-provenance:v4.2.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/attest_build:actions\\/attest_build_provenance:v4.2.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/attest:actions\\/attest-build-provenance:v4.2.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/attest:actions\\/attest_build_provenance:v4.2.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/release-build.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/actions/attest-sbom@v4.1.0?package-id=c47e3908c4c90dfa",
+      "type": "library",
+      "name": "actions/attest-sbom",
+      "version": "v4.1.0",
+      "cpe": "cpe:2.3:a:actions\\/attest-sbom:actions\\/attest-sbom:v4.1.0:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/attest-sbom@v4.1.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/attest-sbom:actions\\/attest_sbom:v4.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/attest_sbom:actions\\/attest-sbom:v4.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/attest_sbom:actions\\/attest_sbom:v4.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/attest:actions\\/attest-sbom:v4.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/attest:actions\\/attest_sbom:v4.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/release-build.yml"
         }
       ]
     },
@@ -836,6 +944,32 @@
       ]
     },
     {
+      "bom-ref": "pkg:github/actions/checkout@v7.0.1?package-id=b06c42d79ece521f",
+      "type": "library",
+      "name": "actions/checkout",
+      "version": "v7.0.1",
+      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v7.0.1:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/checkout@v7.0.1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/release-build.yml"
+        }
+      ]
+    },
+    {
       "bom-ref": "pkg:github/actions/checkout@v7.0.1?package-id=ef72021d42044f34",
       "type": "library",
       "name": "actions/checkout",
@@ -1471,6 +1605,68 @@
         {
           "name": "syft:location:0:path",
           "value": "/composer.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/anchore/sbom-action@v0.24.3?package-id=d6a727113204211a#download-syft",
+      "type": "library",
+      "name": "anchore/sbom-action/download-syft",
+      "version": "v0.24.3",
+      "cpe": "cpe:2.3:a:anchore\\/sbom-action\\/download-syft:anchore\\/sbom-action\\/download-syft:v0.24.3:*:*:*:*:*:*:*",
+      "purl": "pkg:github/anchore/sbom-action@v0.24.3#download-syft",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:anchore\\/sbom-action\\/download-syft:anchore\\/sbom_action\\/download_syft:v0.24.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:anchore\\/sbom_action\\/download_syft:anchore\\/sbom-action\\/download-syft:v0.24.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:anchore\\/sbom_action\\/download_syft:anchore\\/sbom_action\\/download_syft:v0.24.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:anchore\\/sbom-action\\/download:anchore\\/sbom-action\\/download-syft:v0.24.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:anchore\\/sbom-action\\/download:anchore\\/sbom_action\\/download_syft:v0.24.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:anchore\\/sbom_action\\/download:anchore\\/sbom-action\\/download-syft:v0.24.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:anchore\\/sbom_action\\/download:anchore\\/sbom_action\\/download_syft:v0.24.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:anchore\\/sbom:anchore\\/sbom-action\\/download-syft:v0.24.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:anchore\\/sbom:anchore\\/sbom_action\\/download_syft:v0.24.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/release-build.yml"
         }
       ]
     },
@@ -8693,7 +8889,7 @@
     {
       "bom-ref": "2711cd66e9444a3c",
       "type": "file",
-      "name": "/tmp/tmp.2ekkPLTHqL/maho-default/.github/workflows/ai-assisted-note.yml",
+      "name": "/tmp/tmp.ptXyswOfYq/maho-default/.github/workflows/ai-assisted-note.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -8708,7 +8904,7 @@
     {
       "bom-ref": "32613741646b9bd0",
       "type": "file",
-      "name": "/tmp/tmp.2ekkPLTHqL/maho-default/.github/workflows/backport.yml",
+      "name": "/tmp/tmp.ptXyswOfYq/maho-default/.github/workflows/backport.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -8723,7 +8919,7 @@
     {
       "bom-ref": "4260212f7c4181cb",
       "type": "file",
-      "name": "/tmp/tmp.2ekkPLTHqL/maho-default/.github/workflows/check-js-libraries.yml",
+      "name": "/tmp/tmp.ptXyswOfYq/maho-default/.github/workflows/check-js-libraries.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -8738,7 +8934,7 @@
     {
       "bom-ref": "98dd120a020982a4",
       "type": "file",
-      "name": "/tmp/tmp.2ekkPLTHqL/maho-default/.github/workflows/check-missing-translations.yml",
+      "name": "/tmp/tmp.ptXyswOfYq/maho-default/.github/workflows/check-missing-translations.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -8753,7 +8949,7 @@
     {
       "bom-ref": "7e66aa23a8e80c65",
       "type": "file",
-      "name": "/tmp/tmp.2ekkPLTHqL/maho-default/.github/workflows/check-unused-translations.yml",
+      "name": "/tmp/tmp.ptXyswOfYq/maho-default/.github/workflows/check-unused-translations.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -8768,7 +8964,7 @@
     {
       "bom-ref": "5e19ea2e1f9dfee4",
       "type": "file",
-      "name": "/tmp/tmp.2ekkPLTHqL/maho-default/.github/workflows/codeql-analysis.yml",
+      "name": "/tmp/tmp.ptXyswOfYq/maho-default/.github/workflows/codeql-analysis.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -8783,7 +8979,7 @@
     {
       "bom-ref": "d422de945bf18b46",
       "type": "file",
-      "name": "/tmp/tmp.2ekkPLTHqL/maho-default/.github/workflows/composer.yml",
+      "name": "/tmp/tmp.ptXyswOfYq/maho-default/.github/workflows/composer.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -8798,7 +8994,7 @@
     {
       "bom-ref": "b90322a436b20519",
       "type": "file",
-      "name": "/tmp/tmp.2ekkPLTHqL/maho-default/.github/workflows/copyright.yml",
+      "name": "/tmp/tmp.ptXyswOfYq/maho-default/.github/workflows/copyright.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -8813,7 +9009,7 @@
     {
       "bom-ref": "dc9bdc1a84992eac",
       "type": "file",
-      "name": "/tmp/tmp.2ekkPLTHqL/maho-default/.github/workflows/install-with-prefix.yml",
+      "name": "/tmp/tmp.ptXyswOfYq/maho-default/.github/workflows/install-with-prefix.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -8828,7 +9024,7 @@
     {
       "bom-ref": "ca67cce3ff943159",
       "type": "file",
-      "name": "/tmp/tmp.2ekkPLTHqL/maho-default/.github/workflows/line-endings.yml",
+      "name": "/tmp/tmp.ptXyswOfYq/maho-default/.github/workflows/line-endings.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -8843,7 +9039,7 @@
     {
       "bom-ref": "5ebde7ddc8076c2b",
       "type": "file",
-      "name": "/tmp/tmp.2ekkPLTHqL/maho-default/.github/workflows/lint.yml",
+      "name": "/tmp/tmp.ptXyswOfYq/maho-default/.github/workflows/lint.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -8858,7 +9054,7 @@
     {
       "bom-ref": "57d4f10249bd0e10",
       "type": "file",
-      "name": "/tmp/tmp.2ekkPLTHqL/maho-default/.github/workflows/locale-csv-sorting.yml",
+      "name": "/tmp/tmp.ptXyswOfYq/maho-default/.github/workflows/locale-csv-sorting.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -8873,7 +9069,7 @@
     {
       "bom-ref": "e1e2bba7dd1b17e6",
       "type": "file",
-      "name": "/tmp/tmp.2ekkPLTHqL/maho-default/.github/workflows/pest.yml",
+      "name": "/tmp/tmp.ptXyswOfYq/maho-default/.github/workflows/pest.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -8888,7 +9084,7 @@
     {
       "bom-ref": "2f9a4ebf9db35197",
       "type": "file",
-      "name": "/tmp/tmp.2ekkPLTHqL/maho-default/.github/workflows/phpdoc.yml",
+      "name": "/tmp/tmp.ptXyswOfYq/maho-default/.github/workflows/phpdoc.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -8903,7 +9099,7 @@
     {
       "bom-ref": "f23abd314990253e",
       "type": "file",
-      "name": "/tmp/tmp.2ekkPLTHqL/maho-default/.github/workflows/phpstan.yml",
+      "name": "/tmp/tmp.ptXyswOfYq/maho-default/.github/workflows/phpstan.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -8916,9 +9112,24 @@
       ]
     },
     {
+      "bom-ref": "0460b1143f7fe2c1",
+      "type": "file",
+      "name": "/tmp/tmp.ptXyswOfYq/maho-default/.github/workflows/release-build.yml",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "cb7d03205ecb92c78f8d5eacc36f59c6bc4521a7"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "f4441bfd1d0495efc7abe4bc1d87f5f5ce8c652550db60a865fd345c943b6dd6"
+        }
+      ]
+    },
+    {
       "bom-ref": "8a94ac50b5062d56",
       "type": "file",
-      "name": "/tmp/tmp.2ekkPLTHqL/maho-default/.github/workflows/security-php.yml",
+      "name": "/tmp/tmp.ptXyswOfYq/maho-default/.github/workflows/security-php.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -8933,7 +9144,7 @@
     {
       "bom-ref": "f3ef676f82c38977",
       "type": "file",
-      "name": "/tmp/tmp.2ekkPLTHqL/maho-default/.github/workflows/storage-remote.yml",
+      "name": "/tmp/tmp.ptXyswOfYq/maho-default/.github/workflows/storage-remote.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -8948,7 +9159,7 @@
     {
       "bom-ref": "17bee73d399623a9",
       "type": "file",
-      "name": "/tmp/tmp.2ekkPLTHqL/maho-default/.github/workflows/sync-l10n-repo.yml",
+      "name": "/tmp/tmp.ptXyswOfYq/maho-default/.github/workflows/sync-l10n-repo.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -8963,7 +9174,7 @@
     {
       "bom-ref": "5c470c2c7e53f689",
       "type": "file",
-      "name": "/tmp/tmp.2ekkPLTHqL/maho-default/.github/workflows/syntax-php.yml",
+      "name": "/tmp/tmp.ptXyswOfYq/maho-default/.github/workflows/syntax-php.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -8978,7 +9189,7 @@
     {
       "bom-ref": "5681d4ed4a932be8",
       "type": "file",
-      "name": "/tmp/tmp.2ekkPLTHqL/maho-default/.github/workflows/syntax-xml.yml",
+      "name": "/tmp/tmp.ptXyswOfYq/maho-default/.github/workflows/syntax-xml.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -8993,7 +9204,7 @@
     {
       "bom-ref": "06212730fd2d369a",
       "type": "file",
-      "name": "/tmp/tmp.2ekkPLTHqL/maho-default/.github/workflows/theme-build.yml",
+      "name": "/tmp/tmp.ptXyswOfYq/maho-default/.github/workflows/theme-build.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -9008,7 +9219,7 @@
     {
       "bom-ref": "4c6138ad0b6769b5",
       "type": "file",
-      "name": "/tmp/tmp.2ekkPLTHqL/maho-default/.github/workflows/update-js-libraries.yml",
+      "name": "/tmp/tmp.ptXyswOfYq/maho-default/.github/workflows/update-js-libraries.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -9023,7 +9234,7 @@
     {
       "bom-ref": "c8bb62e6bded633e",
       "type": "file",
-      "name": "/tmp/tmp.2ekkPLTHqL/maho-default/composer.lock",
+      "name": "/tmp/tmp.ptXyswOfYq/maho-default/composer.lock",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -9038,7 +9249,7 @@
     {
       "bom-ref": "fd71c2238fc07657",
       "type": "file",
-      "name": "/tmp/tmp.2ekkPLTHqL/maho-default/package-lock.json",
+      "name": "/tmp/tmp.ptXyswOfYq/maho-default/package-lock.json",
       "hashes": [
         {
           "alg": "SHA-1",

@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
-  "serialNumber": "urn:uuid:51b53e38-c978-4e28-9689-329d4ce96de9",
+  "serialNumber": "urn:uuid:a8b41dbf-c22d-4349-8f6c-4292a9f5fc94",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-10-19T22:53:05Z",
+    "timestamp": "2026-10-20T08:01:14Z",
     "tools": {
       "components": [
         {
@@ -17,7 +17,7 @@
       ]
     },
     "component": {
-      "bom-ref": "219d2003ba26019b",
+      "bom-ref": "d8ae33292cc9c2c7",
       "type": "file",
       "name": "infrastructure",
       "version": "main",
@@ -2152,7 +2152,7 @@
     {
       "bom-ref": "2711cd66e9444a3c",
       "type": "file",
-      "name": "/tmp/tmp.2ekkPLTHqL/infrastructure-default/.github/workflows/ai-assisted-note.yml",
+      "name": "/tmp/tmp.ptXyswOfYq/infrastructure-default/.github/workflows/ai-assisted-note.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -2167,7 +2167,7 @@
     {
       "bom-ref": "5ebde7ddc8076c2b",
       "type": "file",
-      "name": "/tmp/tmp.2ekkPLTHqL/infrastructure-default/.github/workflows/lint.yml",
+      "name": "/tmp/tmp.ptXyswOfYq/infrastructure-default/.github/workflows/lint.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -2182,7 +2182,7 @@
     {
       "bom-ref": "f23abd314990253e",
       "type": "file",
-      "name": "/tmp/tmp.2ekkPLTHqL/infrastructure-default/.github/workflows/phpstan.yml",
+      "name": "/tmp/tmp.ptXyswOfYq/infrastructure-default/.github/workflows/phpstan.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -2197,7 +2197,7 @@
     {
       "bom-ref": "cbbb57827f0f16c5",
       "type": "file",
-      "name": "/tmp/tmp.2ekkPLTHqL/infrastructure-default/.github/workflows/sync.yml",
+      "name": "/tmp/tmp.ptXyswOfYq/infrastructure-default/.github/workflows/sync.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -2212,7 +2212,7 @@
     {
       "bom-ref": "c8bb62e6bded633e",
       "type": "file",
-      "name": "/tmp/tmp.2ekkPLTHqL/infrastructure-default/composer.lock",
+      "name": "/tmp/tmp.ptXyswOfYq/infrastructure-default/composer.lock",
       "hashes": [
         {
           "alg": "SHA-1",
