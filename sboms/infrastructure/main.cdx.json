@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
-  "serialNumber": "urn:uuid:a8b41dbf-c22d-4349-8f6c-4292a9f5fc94",
+  "serialNumber": "urn:uuid:a0a3b5e6-97ec-47c1-8e00-611dc9fabd2b",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-10-20T08:01:14Z",
+    "timestamp": "2026-10-21T08:06:21Z",
     "tools": {
       "components": [
         {
@@ -17,7 +17,7 @@
       ]
     },
     "component": {
-      "bom-ref": "d8ae33292cc9c2c7",
+      "bom-ref": "c3fe46ec678a7a6a",
       "type": "file",
       "name": "infrastructure",
       "version": "main",
@@ -31,6 +31,114 @@
     }
   },
   "components": [
+    {
+      "bom-ref": "pkg:github/actions/attest-build-provenance@v4.2.2?package-id=0f4b940ade7abf65",
+      "type": "library",
+      "name": "actions/attest-build-provenance",
+      "version": "v4.2.2",
+      "cpe": "cpe:2.3:a:actions\\/attest-build-provenance:actions\\/attest-build-provenance:v4.2.2:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/attest-build-provenance@v4.2.2",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/attest-build-provenance:actions\\/attest_build_provenance:v4.2.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/attest_build_provenance:actions\\/attest-build-provenance:v4.2.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/attest_build_provenance:actions\\/attest_build_provenance:v4.2.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/attest-build:actions\\/attest-build-provenance:v4.2.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/attest-build:actions\\/attest_build_provenance:v4.2.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/attest_build:actions\\/attest-build-provenance:v4.2.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/attest_build:actions\\/attest_build_provenance:v4.2.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/attest:actions\\/attest-build-provenance:v4.2.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/attest:actions\\/attest_build_provenance:v4.2.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/release-build.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/actions/attest-sbom@v4.1.0?package-id=c47e3908c4c90dfa",
+      "type": "library",
+      "name": "actions/attest-sbom",
+      "version": "v4.1.0",
+      "cpe": "cpe:2.3:a:actions\\/attest-sbom:actions\\/attest-sbom:v4.1.0:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/attest-sbom@v4.1.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/attest-sbom:actions\\/attest_sbom:v4.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/attest_sbom:actions\\/attest-sbom:v4.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/attest_sbom:actions\\/attest_sbom:v4.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/attest:actions\\/attest-sbom:v4.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/attest:actions\\/attest_sbom:v4.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/release-build.yml"
+        }
+      ]
+    },
     {
       "bom-ref": "pkg:github/actions/checkout@v7.0.1?package-id=9db7cdd88e0d2a25",
       "type": "library",
@@ -80,6 +188,32 @@
         {
           "name": "syft:location:0:path",
           "value": "/.github/workflows/phpstan.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/actions/checkout@v7.0.1?package-id=b06c42d79ece521f",
+      "type": "library",
+      "name": "actions/checkout",
+      "version": "v7.0.1",
+      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v7.0.1:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/checkout@v7.0.1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/release-build.yml"
         }
       ]
     },
@@ -188,6 +322,52 @@
       ]
     },
     {
+      "bom-ref": "pkg:github/actions/download-artifact@v8.0.2?package-id=b8802865381a1de0",
+      "type": "library",
+      "name": "actions/download-artifact",
+      "version": "v8.0.2",
+      "cpe": "cpe:2.3:a:actions\\/download-artifact:actions\\/download-artifact:v8.0.2:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/download-artifact@v8.0.2",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/download-artifact:actions\\/download_artifact:v8.0.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/download_artifact:actions\\/download-artifact:v8.0.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/download_artifact:actions\\/download_artifact:v8.0.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/download:actions\\/download-artifact:v8.0.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/download:actions\\/download_artifact:v8.0.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/release-build.yml"
+        }
+      ]
+    },
+    {
       "bom-ref": "pkg:github/actions/github-script@v9.0.0?package-id=ed60fc4127d9e1ef",
       "type": "library",
       "name": "actions/github-script",
@@ -230,6 +410,114 @@
         {
           "name": "syft:location:0:path",
           "value": "/.github/workflows/ai-assisted-note.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/actions/upload-artifact@v7.0.2?package-id=2d8e31c0f59f5eb4",
+      "type": "library",
+      "name": "actions/upload-artifact",
+      "version": "v7.0.2",
+      "cpe": "cpe:2.3:a:actions\\/upload-artifact:actions\\/upload-artifact:v7.0.2:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/upload-artifact@v7.0.2",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/upload-artifact:actions\\/upload_artifact:v7.0.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/upload_artifact:actions\\/upload-artifact:v7.0.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/upload_artifact:actions\\/upload_artifact:v7.0.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/upload:actions\\/upload-artifact:v7.0.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/upload:actions\\/upload_artifact:v7.0.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/release-build.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/anchore/sbom-action@v0.24.3?package-id=d6a727113204211a#download-syft",
+      "type": "library",
+      "name": "anchore/sbom-action/download-syft",
+      "version": "v0.24.3",
+      "cpe": "cpe:2.3:a:anchore\\/sbom-action\\/download-syft:anchore\\/sbom-action\\/download-syft:v0.24.3:*:*:*:*:*:*:*",
+      "purl": "pkg:github/anchore/sbom-action@v0.24.3#download-syft",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:anchore\\/sbom-action\\/download-syft:anchore\\/sbom_action\\/download_syft:v0.24.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:anchore\\/sbom_action\\/download_syft:anchore\\/sbom-action\\/download-syft:v0.24.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:anchore\\/sbom_action\\/download_syft:anchore\\/sbom_action\\/download_syft:v0.24.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:anchore\\/sbom-action\\/download:anchore\\/sbom-action\\/download-syft:v0.24.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:anchore\\/sbom-action\\/download:anchore\\/sbom_action\\/download_syft:v0.24.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:anchore\\/sbom_action\\/download:anchore\\/sbom-action\\/download-syft:v0.24.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:anchore\\/sbom_action\\/download:anchore\\/sbom_action\\/download_syft:v0.24.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:anchore\\/sbom:anchore\\/sbom-action\\/download-syft:v0.24.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:anchore\\/sbom:anchore\\/sbom_action\\/download_syft:v0.24.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/release-build.yml"
         }
       ]
     },
@@ -2152,7 +2440,7 @@
     {
       "bom-ref": "2711cd66e9444a3c",
       "type": "file",
-      "name": "/tmp/tmp.ptXyswOfYq/infrastructure-default/.github/workflows/ai-assisted-note.yml",
+      "name": "/tmp/tmp.0zaZVoIq6o/infrastructure-default/.github/workflows/ai-assisted-note.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -2167,7 +2455,7 @@
     {
       "bom-ref": "5ebde7ddc8076c2b",
       "type": "file",
-      "name": "/tmp/tmp.ptXyswOfYq/infrastructure-default/.github/workflows/lint.yml",
+      "name": "/tmp/tmp.0zaZVoIq6o/infrastructure-default/.github/workflows/lint.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -2182,7 +2470,7 @@
     {
       "bom-ref": "f23abd314990253e",
       "type": "file",
-      "name": "/tmp/tmp.ptXyswOfYq/infrastructure-default/.github/workflows/phpstan.yml",
+      "name": "/tmp/tmp.0zaZVoIq6o/infrastructure-default/.github/workflows/phpstan.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -2195,9 +2483,24 @@
       ]
     },
     {
+      "bom-ref": "0460b1143f7fe2c1",
+      "type": "file",
+      "name": "/tmp/tmp.0zaZVoIq6o/infrastructure-default/.github/workflows/release-build.yml",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "e41a547ea82fe0e517ec0e80a78c6ab0b2a7592b"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "ca80ffe178d9c4093930d1ddfe7445bc1027961a29a558ceb5c87df998c4ec9b"
+        }
+      ]
+    },
+    {
       "bom-ref": "cbbb57827f0f16c5",
       "type": "file",
-      "name": "/tmp/tmp.ptXyswOfYq/infrastructure-default/.github/workflows/sync.yml",
+      "name": "/tmp/tmp.0zaZVoIq6o/infrastructure-default/.github/workflows/sync.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -2212,7 +2515,7 @@
     {
       "bom-ref": "c8bb62e6bded633e",
       "type": "file",
-      "name": "/tmp/tmp.ptXyswOfYq/infrastructure-default/composer.lock",
+      "name": "/tmp/tmp.0zaZVoIq6o/infrastructure-default/composer.lock",
       "hashes": [
         {
           "alg": "SHA-1",

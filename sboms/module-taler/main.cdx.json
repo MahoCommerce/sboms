@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
-  "serialNumber": "urn:uuid:12866455-dff4-4d9f-8426-d5184b139b1d",
+  "serialNumber": "urn:uuid:8fa8afaf-0816-4b01-8976-a0c186502597",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-10-20T08:02:09Z",
+    "timestamp": "2026-10-21T08:07:10Z",
     "tools": {
       "components": [
         {
@@ -17,7 +17,7 @@
       ]
     },
     "component": {
-      "bom-ref": "55e6623f85d5eca7",
+      "bom-ref": "604eeb07b78b58ae",
       "type": "file",
       "name": "module-taler",
       "version": "main",
@@ -310,6 +310,187 @@
       ]
     },
     {
+      "bom-ref": "pkg:github/actions/setup-node@v7.1.0?package-id=512a65e1a417f558",
+      "type": "library",
+      "name": "actions/setup-node",
+      "version": "v7.1.0",
+      "cpe": "cpe:2.3:a:actions\\/setup-node:actions\\/setup-node:v7.1.0:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/setup-node@v7.1.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup-node:actions\\/setup_node:v7.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup_node:actions\\/setup-node:v7.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup_node:actions\\/setup_node:v7.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup:actions\\/setup-node:v7.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup:actions\\/setup_node:v7.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/tests.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/actions/upload-artifact@v7.0.2?package-id=700aec4dc3cecce9",
+      "type": "library",
+      "name": "actions/upload-artifact",
+      "version": "v7.0.2",
+      "cpe": "cpe:2.3:a:actions\\/upload-artifact:actions\\/upload-artifact:v7.0.2:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/upload-artifact@v7.0.2",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/upload-artifact:actions\\/upload_artifact:v7.0.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/upload_artifact:actions\\/upload-artifact:v7.0.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/upload_artifact:actions\\/upload_artifact:v7.0.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/upload:actions\\/upload-artifact:v7.0.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/upload:actions\\/upload_artifact:v7.0.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/tests.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/module-taler-browser-tests?package-id=8fc664225c95d90e",
+      "type": "library",
+      "name": "module-taler-browser-tests",
+      "version": "UNKNOWN",
+      "licenses": [
+        {
+          "license": {
+            "id": "OSL-3.0"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:module-taler-browser-tests:module-taler-browser-tests:*:*:*:*:*:*:*:*",
+      "purl": "pkg:npm/module-taler-browser-tests",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "javascript-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "javascript"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "npm"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "javascript-npm-package-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:module-taler-browser-tests:module_taler_browser_tests:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:module_taler_browser_tests:module-taler-browser-tests:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:module_taler_browser_tests:module_taler_browser_tests:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:module-taler-browser:module-taler-browser-tests:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:module-taler-browser:module_taler_browser_tests:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:module_taler_browser:module-taler-browser-tests:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:module_taler_browser:module_taler_browser_tests:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:module-taler:module-taler-browser-tests:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:module-taler:module_taler_browser_tests:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:module_taler:module-taler-browser-tests:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:module_taler:module_taler_browser_tests:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:module:module-taler-browser-tests:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:module:module_taler_browser_tests:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/tests/Browser/package-lock.json"
+        }
+      ]
+    },
+    {
       "bom-ref": "pkg:github/shivammathur/setup-php@2.40.0?package-id=6e09cfaeebc11996",
       "type": "library",
       "name": "shivammathur/setup-php",
@@ -496,7 +677,7 @@
     {
       "bom-ref": "2711cd66e9444a3c",
       "type": "file",
-      "name": "/tmp/tmp.ptXyswOfYq/module-taler-default/.github/workflows/ai-assisted-note.yml",
+      "name": "/tmp/tmp.0zaZVoIq6o/module-taler-default/.github/workflows/ai-assisted-note.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -511,7 +692,7 @@
     {
       "bom-ref": "d422de945bf18b46",
       "type": "file",
-      "name": "/tmp/tmp.ptXyswOfYq/module-taler-default/.github/workflows/composer.yml",
+      "name": "/tmp/tmp.0zaZVoIq6o/module-taler-default/.github/workflows/composer.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -526,7 +707,7 @@
     {
       "bom-ref": "ca67cce3ff943159",
       "type": "file",
-      "name": "/tmp/tmp.ptXyswOfYq/module-taler-default/.github/workflows/line-endings.yml",
+      "name": "/tmp/tmp.0zaZVoIq6o/module-taler-default/.github/workflows/line-endings.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -541,7 +722,7 @@
     {
       "bom-ref": "5ebde7ddc8076c2b",
       "type": "file",
-      "name": "/tmp/tmp.ptXyswOfYq/module-taler-default/.github/workflows/lint.yml",
+      "name": "/tmp/tmp.0zaZVoIq6o/module-taler-default/.github/workflows/lint.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -556,7 +737,7 @@
     {
       "bom-ref": "f23abd314990253e",
       "type": "file",
-      "name": "/tmp/tmp.ptXyswOfYq/module-taler-default/.github/workflows/phpstan.yml",
+      "name": "/tmp/tmp.0zaZVoIq6o/module-taler-default/.github/workflows/phpstan.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -571,7 +752,7 @@
     {
       "bom-ref": "5c470c2c7e53f689",
       "type": "file",
-      "name": "/tmp/tmp.ptXyswOfYq/module-taler-default/.github/workflows/syntax-php.yml",
+      "name": "/tmp/tmp.0zaZVoIq6o/module-taler-default/.github/workflows/syntax-php.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -586,7 +767,7 @@
     {
       "bom-ref": "5681d4ed4a932be8",
       "type": "file",
-      "name": "/tmp/tmp.ptXyswOfYq/module-taler-default/.github/workflows/syntax-xml.yml",
+      "name": "/tmp/tmp.0zaZVoIq6o/module-taler-default/.github/workflows/syntax-xml.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -601,15 +782,30 @@
     {
       "bom-ref": "9b0927f24570d5cb",
       "type": "file",
-      "name": "/tmp/tmp.ptXyswOfYq/module-taler-default/.github/workflows/tests.yml",
+      "name": "/tmp/tmp.0zaZVoIq6o/module-taler-default/.github/workflows/tests.yml",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "1eb80bc4d51c2396992c909d0940a941c87bdaa1"
+          "content": "2f05b79fcd1989d521f18a17630d80a21c58ab2b"
         },
         {
           "alg": "SHA-256",
-          "content": "f7891e2d1edbc92d4644b925ea43ac112b468b3aeb10ab727d8f44afce79091f"
+          "content": "4959721b644af324118aac93a8770fc1797c0d909236ef4cf32acab78cd9b7e9"
+        }
+      ]
+    },
+    {
+      "bom-ref": "6d377a5f48c30dea",
+      "type": "file",
+      "name": "/tmp/tmp.0zaZVoIq6o/module-taler-default/tests/Browser/package-lock.json",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "f10f60694e96b804c15c34d4a21fde67d221116c"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "d8c0385ddf7f48249aca010c3e820198f66a6b50546b305335244788e630b06f"
         }
       ]
     }
