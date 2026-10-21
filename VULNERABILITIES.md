@@ -1,6 +1,6 @@
 # Vulnerability Report
 
-_Last updated: 2026-10-20 08:04 UTC_
+_Last updated: 2026-10-21 08:10 UTC_
 
 Generated from the HEAD-of-default-branch SBOM of each tracked repo, scanned by Grype and Trivy. Only vulnerabilities with an upstream fix available are included. Per-repo JSON with the full finding detail is in [`vulns/`](vulns/).
 
@@ -21,7 +21,7 @@ Generated from the HEAD-of-default-branch SBOM of each tracked repo, scanned by 
 | `maho-sample-data` | — | — | — | — | — | — |
 | `maho-starter` | — | — | — | — | — | — |
 | `mahocloud-docker-images` | — | — | — | — | — | — |
-| `mahocommerce.com` | — | — | — | — | — | — |
+| `mahocommerce.com` | 1 | — | — | — | — | — |
 | `module-braintree` | — | — | — | — | — | — |
 | `module-mcrypt-compat` | — | — | — | — | — | — |
 | `module-mollie` | — | — | — | — | — | — |
@@ -34,11 +34,13 @@ Generated from the HEAD-of-default-branch SBOM of each tracked repo, scanned by 
 | `phpstorm` | — | — | — | — | — | — |
 | `vscode` | — | — | — | — | — | — |
 | `zed` | — | — | — | — | — | — |
-| **Total** | — | — | — | — | — | — |
+| **Total** | **1** | — | — | — | — | — |
 
 ## Critical findings
 
-_None._
+### `mahocommerce.com`
+
+- [GHSA-6q48-6c7w-9gw2](https://github.com/advisories/GHSA-6q48-6c7w-9gw2) in `certifi@2026.10.18` — fix: `2026.10.19` (via grype, trivy)
 
 ## High findings
 
