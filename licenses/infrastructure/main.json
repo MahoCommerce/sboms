@@ -7,13 +7,13 @@
       "MIT",
       "OSL-3.0"
     ],
-    "files_total": 30,
-    "files_with_copyright_info": 14,
-    "files_with_licensing_info": 14,
+    "files_total": 31,
+    "files_with_copyright_info": 15,
+    "files_with_licensing_info": 15,
     "compliant": false
   },
   "license_file_counts": {
-    "MIT": 13,
+    "MIT": 14,
     "OSL-3.0": 1
   }
 }
