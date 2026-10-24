@@ -1,6 +1,6 @@
 # Vulnerability Report
 
-_Last updated: 2026-10-23 08:15 UTC_
+_Last updated: 2026-10-24 07:47 UTC_
 
 Generated from the HEAD-of-default-branch SBOM of each tracked repo, scanned by Grype and Trivy. Only vulnerabilities with an upstream fix available are included. Per-repo JSON with the full finding detail is in [`vulns/`](vulns/).
 
