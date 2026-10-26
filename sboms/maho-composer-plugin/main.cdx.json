@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
-  "serialNumber": "urn:uuid:7e586eef-9713-42ac-a146-5071d428a34f",
+  "serialNumber": "urn:uuid:c3f344eb-62fb-4f78-b378-ec075a01e54a",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-10-25T07:55:00Z",
+    "timestamp": "2026-10-26T08:16:08Z",
     "tools": {
       "components": [
         {
@@ -17,7 +17,7 @@
       ]
     },
     "component": {
-      "bom-ref": "8ec423ab64ba37a6",
+      "bom-ref": "7e228ccc3f766ed0",
       "type": "file",
       "name": "maho-composer-plugin",
       "version": "main",
@@ -533,10 +533,10 @@
       ]
     },
     {
-      "bom-ref": "pkg:composer/symfony/routing@v8.1.8?package-id=43a6f92debf9b7df",
+      "bom-ref": "pkg:composer/symfony/routing@v8.1.9?package-id=e70e4548f432b35a",
       "type": "library",
       "name": "symfony/routing",
-      "version": "v8.1.8",
+      "version": "v8.1.9",
       "licenses": [
         {
           "license": {
@@ -544,8 +544,8 @@
           }
         }
       ],
-      "cpe": "cpe:2.3:a:symfony\\/routing:symfony\\/routing:v8.1.8:*:*:*:*:*:*:*",
-      "purl": "pkg:composer/symfony/routing@v8.1.8",
+      "cpe": "cpe:2.3:a:symfony\\/routing:symfony\\/routing:v8.1.9:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/symfony/routing@v8.1.9",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -634,7 +634,7 @@
     {
       "bom-ref": "2711cd66e9444a3c",
       "type": "file",
-      "name": "/tmp/tmp.KeS7XSVbGn/maho-composer-plugin-default/.github/workflows/ai-assisted-note.yml",
+      "name": "/tmp/tmp.N39REPtkT4/maho-composer-plugin-default/.github/workflows/ai-assisted-note.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -649,7 +649,7 @@
     {
       "bom-ref": "d422de945bf18b46",
       "type": "file",
-      "name": "/tmp/tmp.KeS7XSVbGn/maho-composer-plugin-default/.github/workflows/composer.yml",
+      "name": "/tmp/tmp.N39REPtkT4/maho-composer-plugin-default/.github/workflows/composer.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -664,7 +664,7 @@
     {
       "bom-ref": "ca67cce3ff943159",
       "type": "file",
-      "name": "/tmp/tmp.KeS7XSVbGn/maho-composer-plugin-default/.github/workflows/line-endings.yml",
+      "name": "/tmp/tmp.N39REPtkT4/maho-composer-plugin-default/.github/workflows/line-endings.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -679,7 +679,7 @@
     {
       "bom-ref": "5ebde7ddc8076c2b",
       "type": "file",
-      "name": "/tmp/tmp.KeS7XSVbGn/maho-composer-plugin-default/.github/workflows/lint.yml",
+      "name": "/tmp/tmp.N39REPtkT4/maho-composer-plugin-default/.github/workflows/lint.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -694,7 +694,7 @@
     {
       "bom-ref": "f23abd314990253e",
       "type": "file",
-      "name": "/tmp/tmp.KeS7XSVbGn/maho-composer-plugin-default/.github/workflows/phpstan.yml",
+      "name": "/tmp/tmp.N39REPtkT4/maho-composer-plugin-default/.github/workflows/phpstan.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -709,7 +709,7 @@
     {
       "bom-ref": "5c470c2c7e53f689",
       "type": "file",
-      "name": "/tmp/tmp.KeS7XSVbGn/maho-composer-plugin-default/.github/workflows/syntax-php.yml",
+      "name": "/tmp/tmp.N39REPtkT4/maho-composer-plugin-default/.github/workflows/syntax-php.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -724,15 +724,15 @@
     {
       "bom-ref": "c8bb62e6bded633e",
       "type": "file",
-      "name": "/tmp/tmp.KeS7XSVbGn/maho-composer-plugin-default/composer.lock",
+      "name": "/tmp/tmp.N39REPtkT4/maho-composer-plugin-default/composer.lock",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "9f70287c147390907e9225b8dc27718a2006cf78"
+          "content": "9e90a4a35faac8ccb5a5a61e3b4a553135982ea0"
         },
         {
           "alg": "SHA-256",
-          "content": "5329b1a518379c0251517fcfb2eea936658a5c51b3e29690ac679a9b4c9ac478"
+          "content": "48caa8f6e5f4446a94f009456e2197d63b58d5806b743d5658ed3decbf1b6260"
         }
       ]
     }
