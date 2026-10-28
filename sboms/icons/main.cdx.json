@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
-  "serialNumber": "urn:uuid:27a22dde-d613-4097-98fd-8dc11978761b",
+  "serialNumber": "urn:uuid:393fc65c-585a-41e7-a9de-f2071cab10dd",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-10-27T08:31:13Z",
+    "timestamp": "2026-10-28T09:07:32Z",
     "tools": {
       "components": [
         {
@@ -17,7 +17,7 @@
       ]
     },
     "component": {
-      "bom-ref": "28e2341eaea72638",
+      "bom-ref": "4144d76028702836",
       "type": "file",
       "name": "icons",
       "version": "main",
@@ -184,7 +184,7 @@
     {
       "bom-ref": "2711cd66e9444a3c",
       "type": "file",
-      "name": "/tmp/tmp.4513KsEKxE/icons-default/.github/workflows/ai-assisted-note.yml",
+      "name": "/tmp/tmp.dnvr4LUDQR/icons-default/.github/workflows/ai-assisted-note.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -199,7 +199,7 @@
     {
       "bom-ref": "33e7109e7b1ded1d",
       "type": "file",
-      "name": "/tmp/tmp.4513KsEKxE/icons-default/.github/workflows/sync-upstream.yml",
+      "name": "/tmp/tmp.dnvr4LUDQR/icons-default/.github/workflows/sync-upstream.yml",
       "hashes": [
         {
           "alg": "SHA-1",
