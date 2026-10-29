@@ -1,6 +1,6 @@
 # Vulnerability Report
 
-_Last updated: 2026-10-28 09:11 UTC_
+_Last updated: 2026-10-29 09:16 UTC_
 
 Generated from the HEAD-of-default-branch SBOM of each tracked repo, scanned by Grype and Trivy. Only vulnerabilities with an upstream fix available are included. Per-repo JSON with the full finding detail is in [`vulns/`](vulns/).
 
@@ -13,7 +13,7 @@ Generated from the HEAD-of-default-branch SBOM of each tracked repo, scanned by 
 | `docker-images` | — | — | — | — | — | — |
 | `icons` | — | — | — | — | — | — |
 | `infrastructure` | — | — | — | — | — | — |
-| `maho` | — | — | — | — | — | — |
+| `maho` | — | — | 1 | — | — | — |
 | `maho-composer-patches` | — | — | — | — | — | — |
 | `maho-composer-plugin` | — | — | — | — | — | — |
 | `maho-l10n` | — | — | — | — | — | — |
@@ -34,7 +34,7 @@ Generated from the HEAD-of-default-branch SBOM of each tracked repo, scanned by 
 | `phpstorm` | — | — | — | — | — | — |
 | `vscode` | — | — | — | — | — | — |
 | `zed` | — | — | — | — | — | — |
-| **Total** | — | — | — | — | — | — |
+| **Total** | — | — | **1** | — | — | — |
 
 ## Critical findings
 
