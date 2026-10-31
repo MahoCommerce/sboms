@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
-  "serialNumber": "urn:uuid:16eee788-c9ec-4392-995c-25f535296ac0",
+  "serialNumber": "urn:uuid:25aa1403-6e11-4dd6-abb2-aa7e6d16e16f",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-10-30T09:23:06Z",
+    "timestamp": "2026-10-31T09:03:30Z",
     "tools": {
       "components": [
         {
@@ -17,7 +17,7 @@
       ]
     },
     "component": {
-      "bom-ref": "1bdeb928ac4c7c21",
+      "bom-ref": "e45d7c40491c8d2f",
       "type": "file",
       "name": "maho",
       "version": "main",
@@ -5064,6 +5064,63 @@
       ]
     },
     {
+      "bom-ref": "pkg:composer/psr/simple-cache@3.0.0?package-id=02a70eba6eeb4e48",
+      "type": "library",
+      "name": "psr/simple-cache",
+      "version": "3.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:psr\\/simple-cache:psr\\/simple-cache:3.0.0:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/psr/simple-cache@3.0.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "php-composer-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "php"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "php-composer"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "php-composer-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:psr\\/simple-cache:psr\\/simple_cache:3.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:psr\\/simple_cache:psr\\/simple-cache:3.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:psr\\/simple_cache:psr\\/simple_cache:3.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:psr\\/simple:psr\\/simple-cache:3.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:psr\\/simple:psr\\/simple_cache:3.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/composer.lock"
+        }
+      ]
+    },
+    {
       "bom-ref": "pkg:composer/sabberworm/php-css-parser@v9.5.0?package-id=5afd51a60b3bf4f9",
       "type": "library",
       "name": "sabberworm/php-css-parser",
@@ -8748,7 +8805,7 @@
     {
       "bom-ref": "2711cd66e9444a3c",
       "type": "file",
-      "name": "/tmp/tmp.ygmMgDHyJx/maho-default/.github/workflows/ai-assisted-note.yml",
+      "name": "/tmp/tmp.I2CRUhVOgG/maho-default/.github/workflows/ai-assisted-note.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -8763,7 +8820,7 @@
     {
       "bom-ref": "32613741646b9bd0",
       "type": "file",
-      "name": "/tmp/tmp.ygmMgDHyJx/maho-default/.github/workflows/backport.yml",
+      "name": "/tmp/tmp.I2CRUhVOgG/maho-default/.github/workflows/backport.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -8778,7 +8835,7 @@
     {
       "bom-ref": "4260212f7c4181cb",
       "type": "file",
-      "name": "/tmp/tmp.ygmMgDHyJx/maho-default/.github/workflows/check-js-libraries.yml",
+      "name": "/tmp/tmp.I2CRUhVOgG/maho-default/.github/workflows/check-js-libraries.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -8793,7 +8850,7 @@
     {
       "bom-ref": "98dd120a020982a4",
       "type": "file",
-      "name": "/tmp/tmp.ygmMgDHyJx/maho-default/.github/workflows/check-missing-translations.yml",
+      "name": "/tmp/tmp.I2CRUhVOgG/maho-default/.github/workflows/check-missing-translations.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -8808,7 +8865,7 @@
     {
       "bom-ref": "7e66aa23a8e80c65",
       "type": "file",
-      "name": "/tmp/tmp.ygmMgDHyJx/maho-default/.github/workflows/check-unused-translations.yml",
+      "name": "/tmp/tmp.I2CRUhVOgG/maho-default/.github/workflows/check-unused-translations.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -8823,7 +8880,7 @@
     {
       "bom-ref": "5e19ea2e1f9dfee4",
       "type": "file",
-      "name": "/tmp/tmp.ygmMgDHyJx/maho-default/.github/workflows/codeql-analysis.yml",
+      "name": "/tmp/tmp.I2CRUhVOgG/maho-default/.github/workflows/codeql-analysis.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -8838,7 +8895,7 @@
     {
       "bom-ref": "d422de945bf18b46",
       "type": "file",
-      "name": "/tmp/tmp.ygmMgDHyJx/maho-default/.github/workflows/composer.yml",
+      "name": "/tmp/tmp.I2CRUhVOgG/maho-default/.github/workflows/composer.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -8853,22 +8910,22 @@
     {
       "bom-ref": "b90322a436b20519",
       "type": "file",
-      "name": "/tmp/tmp.ygmMgDHyJx/maho-default/.github/workflows/copyright.yml",
+      "name": "/tmp/tmp.I2CRUhVOgG/maho-default/.github/workflows/copyright.yml",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "64b03b7e1fbee72ce7517a20c029a6e8c80b6492"
+          "content": "415105c0ec5b738e18c6451dab6dd7f7d7683fb7"
         },
         {
           "alg": "SHA-256",
-          "content": "134db0a802bedf8bbbeffec5c99bdc0345af65c196b2064dedc776f46c65806a"
+          "content": "a661584b21bff202cf46bed5238bd8f706989934275b60e940069b1f19a476f5"
         }
       ]
     },
     {
       "bom-ref": "63d1046ff1e32645",
       "type": "file",
-      "name": "/tmp/tmp.ygmMgDHyJx/maho-default/.github/workflows/docs.yml",
+      "name": "/tmp/tmp.I2CRUhVOgG/maho-default/.github/workflows/docs.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -8883,7 +8940,7 @@
     {
       "bom-ref": "dc9bdc1a84992eac",
       "type": "file",
-      "name": "/tmp/tmp.ygmMgDHyJx/maho-default/.github/workflows/install-with-prefix.yml",
+      "name": "/tmp/tmp.I2CRUhVOgG/maho-default/.github/workflows/install-with-prefix.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -8898,7 +8955,7 @@
     {
       "bom-ref": "ca67cce3ff943159",
       "type": "file",
-      "name": "/tmp/tmp.ygmMgDHyJx/maho-default/.github/workflows/line-endings.yml",
+      "name": "/tmp/tmp.I2CRUhVOgG/maho-default/.github/workflows/line-endings.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -8913,7 +8970,7 @@
     {
       "bom-ref": "5ebde7ddc8076c2b",
       "type": "file",
-      "name": "/tmp/tmp.ygmMgDHyJx/maho-default/.github/workflows/lint.yml",
+      "name": "/tmp/tmp.I2CRUhVOgG/maho-default/.github/workflows/lint.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -8928,7 +8985,7 @@
     {
       "bom-ref": "57d4f10249bd0e10",
       "type": "file",
-      "name": "/tmp/tmp.ygmMgDHyJx/maho-default/.github/workflows/locale-csv-sorting.yml",
+      "name": "/tmp/tmp.I2CRUhVOgG/maho-default/.github/workflows/locale-csv-sorting.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -8943,7 +9000,7 @@
     {
       "bom-ref": "e1e2bba7dd1b17e6",
       "type": "file",
-      "name": "/tmp/tmp.ygmMgDHyJx/maho-default/.github/workflows/pest.yml",
+      "name": "/tmp/tmp.I2CRUhVOgG/maho-default/.github/workflows/pest.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -8958,7 +9015,7 @@
     {
       "bom-ref": "2f9a4ebf9db35197",
       "type": "file",
-      "name": "/tmp/tmp.ygmMgDHyJx/maho-default/.github/workflows/phpdoc.yml",
+      "name": "/tmp/tmp.I2CRUhVOgG/maho-default/.github/workflows/phpdoc.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -8973,7 +9030,7 @@
     {
       "bom-ref": "f23abd314990253e",
       "type": "file",
-      "name": "/tmp/tmp.ygmMgDHyJx/maho-default/.github/workflows/phpstan.yml",
+      "name": "/tmp/tmp.I2CRUhVOgG/maho-default/.github/workflows/phpstan.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -8988,7 +9045,7 @@
     {
       "bom-ref": "0460b1143f7fe2c1",
       "type": "file",
-      "name": "/tmp/tmp.ygmMgDHyJx/maho-default/.github/workflows/release-build.yml",
+      "name": "/tmp/tmp.I2CRUhVOgG/maho-default/.github/workflows/release-build.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -9003,7 +9060,7 @@
     {
       "bom-ref": "8a94ac50b5062d56",
       "type": "file",
-      "name": "/tmp/tmp.ygmMgDHyJx/maho-default/.github/workflows/security-php.yml",
+      "name": "/tmp/tmp.I2CRUhVOgG/maho-default/.github/workflows/security-php.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -9018,7 +9075,7 @@
     {
       "bom-ref": "f3ef676f82c38977",
       "type": "file",
-      "name": "/tmp/tmp.ygmMgDHyJx/maho-default/.github/workflows/storage-remote.yml",
+      "name": "/tmp/tmp.I2CRUhVOgG/maho-default/.github/workflows/storage-remote.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -9033,7 +9090,7 @@
     {
       "bom-ref": "17bee73d399623a9",
       "type": "file",
-      "name": "/tmp/tmp.ygmMgDHyJx/maho-default/.github/workflows/sync-l10n-repo.yml",
+      "name": "/tmp/tmp.I2CRUhVOgG/maho-default/.github/workflows/sync-l10n-repo.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -9048,7 +9105,7 @@
     {
       "bom-ref": "5c470c2c7e53f689",
       "type": "file",
-      "name": "/tmp/tmp.ygmMgDHyJx/maho-default/.github/workflows/syntax-php.yml",
+      "name": "/tmp/tmp.I2CRUhVOgG/maho-default/.github/workflows/syntax-php.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -9063,7 +9120,7 @@
     {
       "bom-ref": "5681d4ed4a932be8",
       "type": "file",
-      "name": "/tmp/tmp.ygmMgDHyJx/maho-default/.github/workflows/syntax-xml.yml",
+      "name": "/tmp/tmp.I2CRUhVOgG/maho-default/.github/workflows/syntax-xml.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -9078,7 +9135,7 @@
     {
       "bom-ref": "06212730fd2d369a",
       "type": "file",
-      "name": "/tmp/tmp.ygmMgDHyJx/maho-default/.github/workflows/theme-build.yml",
+      "name": "/tmp/tmp.I2CRUhVOgG/maho-default/.github/workflows/theme-build.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -9093,7 +9150,7 @@
     {
       "bom-ref": "4c6138ad0b6769b5",
       "type": "file",
-      "name": "/tmp/tmp.ygmMgDHyJx/maho-default/.github/workflows/update-js-libraries.yml",
+      "name": "/tmp/tmp.I2CRUhVOgG/maho-default/.github/workflows/update-js-libraries.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -9108,30 +9165,30 @@
     {
       "bom-ref": "c8bb62e6bded633e",
       "type": "file",
-      "name": "/tmp/tmp.ygmMgDHyJx/maho-default/composer.lock",
+      "name": "/tmp/tmp.I2CRUhVOgG/maho-default/composer.lock",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "01a700954afabd71fcc43a44cff815c73d879deb"
+          "content": "9199ebce68f0188dc6fa1194d7f5fc0fcd9a634e"
         },
         {
           "alg": "SHA-256",
-          "content": "3a28b79d3fda121d65619e4fe34dc927289c9c37870339ccbc507dfb85ef90ea"
+          "content": "f0cb4c582a4c80dc50b87fb7bf503277bce65b4ef2aa9ddba99479495d35e45f"
         }
       ]
     },
     {
       "bom-ref": "fd71c2238fc07657",
       "type": "file",
-      "name": "/tmp/tmp.ygmMgDHyJx/maho-default/package-lock.json",
+      "name": "/tmp/tmp.I2CRUhVOgG/maho-default/package-lock.json",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "c90d40f3873720aff9faf00806bd211f51f52338"
+          "content": "bb0f55e2eeef4d508b9a435e417d9f1d70dd6e1e"
         },
         {
           "alg": "SHA-256",
-          "content": "b3707c4ac83fe7c0ab2a74b5b6ccf1b5c6b36549bf9e9fcf42ebe8737fa3ebec"
+          "content": "06853f2641fed3c94fd393a84f9595bdac1ba0ac83b7ec1b6eb5d1468365c5a7"
         }
       ]
     }
