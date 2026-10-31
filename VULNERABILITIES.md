@@ -1,6 +1,6 @@
 # Vulnerability Report
 
-_Last updated: 2026-10-30 09:26 UTC_
+_Last updated: 2026-10-31 09:07 UTC_
 
 Generated from the HEAD-of-default-branch SBOM of each tracked repo, scanned by Grype and Trivy. Only vulnerabilities with an upstream fix available are included. Per-repo JSON with the full finding detail is in [`vulns/`](vulns/).
 
@@ -32,9 +32,9 @@ Generated from the HEAD-of-default-branch SBOM of each tracked repo, scanned by 
 | `module-taler` | — | — | — | — | — | — |
 | `module-template` | — | — | — | — | — | — |
 | `phpstorm` | — | — | — | — | — | — |
-| `vscode` | — | — | — | — | — | — |
+| `vscode` | — | — | 2 | — | — | — |
 | `zed` | — | — | — | — | — | — |
-| **Total** | — | — | — | — | — | — |
+| **Total** | — | — | **2** | — | — | — |
 
 ## Critical findings
 

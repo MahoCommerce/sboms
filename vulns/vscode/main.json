@@ -1,4 +1,33 @@
 {
-  "summary": {},
-  "findings": []
+  "summary": {
+    "Medium": 2
+  },
+  "findings": [
+    {
+      "cve": "CVE-2026-118764",
+      "package": "minimatch",
+      "version": "10.2.6",
+      "purl": "pkg:npm/minimatch@10.2.6",
+      "severity": "Medium",
+      "fixed_in": [
+        "11.0.1"
+      ],
+      "sources": [
+        "trivy"
+      ]
+    },
+    {
+      "cve": "GHSA-g3hv-75wg-m249",
+      "package": "minimatch",
+      "version": "10.2.6",
+      "purl": "pkg:npm/minimatch@10.2.6",
+      "severity": "Medium",
+      "fixed_in": [
+        "11.0.1"
+      ],
+      "sources": [
+        "grype"
+      ]
+    }
+  ]
 }
