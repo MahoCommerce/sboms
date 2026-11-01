@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
-  "serialNumber": "urn:uuid:2e954784-75e0-43ae-b31d-b18cc94a77bd",
+  "serialNumber": "urn:uuid:8a821dd0-6b98-40f4-a492-5d0358774467",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-10-31T09:03:45Z",
+    "timestamp": "2026-11-01T09:53:51Z",
     "tools": {
       "components": [
         {
@@ -17,7 +17,7 @@
       ]
     },
     "component": {
-      "bom-ref": "12a830fc8e635168",
+      "bom-ref": "73b87d93bfb44431",
       "type": "file",
       "name": "maho-phpstan-plugin",
       "version": "main",
@@ -261,7 +261,7 @@
     {
       "bom-ref": "2711cd66e9444a3c",
       "type": "file",
-      "name": "/tmp/tmp.I2CRUhVOgG/maho-phpstan-plugin-default/.github/workflows/ai-assisted-note.yml",
+      "name": "/tmp/tmp.LnLWwxP898/maho-phpstan-plugin-default/.github/workflows/ai-assisted-note.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -276,7 +276,7 @@
     {
       "bom-ref": "5ebde7ddc8076c2b",
       "type": "file",
-      "name": "/tmp/tmp.I2CRUhVOgG/maho-phpstan-plugin-default/.github/workflows/lint.yml",
+      "name": "/tmp/tmp.LnLWwxP898/maho-phpstan-plugin-default/.github/workflows/lint.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -291,7 +291,7 @@
     {
       "bom-ref": "f23abd314990253e",
       "type": "file",
-      "name": "/tmp/tmp.I2CRUhVOgG/maho-phpstan-plugin-default/.github/workflows/phpstan.yml",
+      "name": "/tmp/tmp.LnLWwxP898/maho-phpstan-plugin-default/.github/workflows/phpstan.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -306,15 +306,15 @@
     {
       "bom-ref": "c8bb62e6bded633e",
       "type": "file",
-      "name": "/tmp/tmp.I2CRUhVOgG/maho-phpstan-plugin-default/composer.lock",
+      "name": "/tmp/tmp.LnLWwxP898/maho-phpstan-plugin-default/composer.lock",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "80d1f40ba1af679eb580bd3a165a16cbfada1d3e"
+          "content": "63313cc91d712280b60fa37facde57a9cd68bdfc"
         },
         {
           "alg": "SHA-256",
-          "content": "fc4403ad0d857e158b906ca2ace00f6454c23133fcc2a380556f833045de5b7f"
+          "content": "511f55598e9fbe13084832aa96ab2aeb173537b1888f02c2bf553db1101019ce"
         }
       ]
     }

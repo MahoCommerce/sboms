@@ -4,14 +4,16 @@
   "reuse_spec_version": "3.3",
   "summary": {
     "used_licenses": [
+      "AFL-3.0",
       "OSL-3.0"
     ],
-    "files_total": 63,
-    "files_with_copyright_info": 23,
-    "files_with_licensing_info": 23,
+    "files_total": 76,
+    "files_with_copyright_info": 36,
+    "files_with_licensing_info": 35,
     "compliant": false
   },
   "license_file_counts": {
-    "OSL-3.0": 23
+    "AFL-3.0": 6,
+    "OSL-3.0": 29
   }
 }
