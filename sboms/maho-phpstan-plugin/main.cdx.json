@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
-  "serialNumber": "urn:uuid:c2841da7-5647-44e2-9514-b08d6a5d7bdf",
+  "serialNumber": "urn:uuid:bdeb42d0-6241-4913-9bac-dc359331ae47",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-11-12T10:28:59Z",
+    "timestamp": "2026-11-13T10:19:26Z",
     "tools": {
       "components": [
         {
@@ -17,7 +17,7 @@
       ]
     },
     "component": {
-      "bom-ref": "52dd16c177c3fe89",
+      "bom-ref": "28c9308f4d44252e",
       "type": "file",
       "name": "maho-phpstan-plugin",
       "version": "main",
@@ -130,10 +130,10 @@
       ]
     },
     {
-      "bom-ref": "pkg:composer/phpstan/phpstan@2.3.4?package-id=4d7bdd40bc9d929e",
+      "bom-ref": "pkg:composer/phpstan/phpstan@2.3.5?package-id=3d2e3734d8e6f04b",
       "type": "library",
       "name": "phpstan/phpstan",
-      "version": "2.3.4",
+      "version": "2.3.5",
       "licenses": [
         {
           "license": {
@@ -141,8 +141,8 @@
           }
         }
       ],
-      "cpe": "cpe:2.3:a:phpstan\\/phpstan:phpstan\\/phpstan:2.3.4:*:*:*:*:*:*:*",
-      "purl": "pkg:composer/phpstan/phpstan@2.3.4",
+      "cpe": "cpe:2.3:a:phpstan\\/phpstan:phpstan\\/phpstan:2.3.5:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/phpstan/phpstan@2.3.5",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -261,7 +261,7 @@
     {
       "bom-ref": "2711cd66e9444a3c",
       "type": "file",
-      "name": "/tmp/tmp.T5Izh4qkCR/maho-phpstan-plugin-default/.github/workflows/ai-assisted-note.yml",
+      "name": "/tmp/tmp.jmw2LCRKXf/maho-phpstan-plugin-default/.github/workflows/ai-assisted-note.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -276,7 +276,7 @@
     {
       "bom-ref": "5ebde7ddc8076c2b",
       "type": "file",
-      "name": "/tmp/tmp.T5Izh4qkCR/maho-phpstan-plugin-default/.github/workflows/lint.yml",
+      "name": "/tmp/tmp.jmw2LCRKXf/maho-phpstan-plugin-default/.github/workflows/lint.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -291,7 +291,7 @@
     {
       "bom-ref": "f23abd314990253e",
       "type": "file",
-      "name": "/tmp/tmp.T5Izh4qkCR/maho-phpstan-plugin-default/.github/workflows/phpstan.yml",
+      "name": "/tmp/tmp.jmw2LCRKXf/maho-phpstan-plugin-default/.github/workflows/phpstan.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -306,15 +306,15 @@
     {
       "bom-ref": "c8bb62e6bded633e",
       "type": "file",
-      "name": "/tmp/tmp.T5Izh4qkCR/maho-phpstan-plugin-default/composer.lock",
+      "name": "/tmp/tmp.jmw2LCRKXf/maho-phpstan-plugin-default/composer.lock",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "57d7ea5f0e668fd63a510c6c7dfebc6f5293eaad"
+          "content": "5e200776e12bcda2f9a1718cc59c0995e90544d7"
         },
         {
           "alg": "SHA-256",
-          "content": "1ad457401b1a2c797586330e72d9fa0ed7bafa81920f4d76101986862308aced"
+          "content": "e9de9c42acd8bc74f823c488420d0f8aa6b7e98935885024cc2248b98971bd78"
         }
       ]
     }
