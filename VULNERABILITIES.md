@@ -1,6 +1,6 @@
 # Vulnerability Report
 
-_Last updated: 2026-11-12 10:33 UTC_
+_Last updated: 2026-11-13 10:22 UTC_
 
 Generated from the HEAD-of-default-branch SBOM of each tracked repo, scanned by Grype and Trivy. Only vulnerabilities with an upstream fix available are included. Per-repo JSON with the full finding detail is in [`vulns/`](vulns/).
 
@@ -12,7 +12,7 @@ Generated from the HEAD-of-default-branch SBOM of each tracked repo, scanned by 
 | `directory-data` | — | — | — | — | — | — |
 | `docker-images` | — | — | — | — | — | — |
 | `icons` | — | — | — | — | — | — |
-| `infrastructure` | — | 1 | — | — | — | 1 |
+| `infrastructure` | — | — | — | — | — | — |
 | `maho` | — | — | — | — | — | — |
 | `maho-composer-patches` | — | — | — | — | — | — |
 | `maho-composer-plugin` | — | — | — | — | — | — |
@@ -34,7 +34,7 @@ Generated from the HEAD-of-default-branch SBOM of each tracked repo, scanned by 
 | `phpstorm` | — | — | — | — | — | — |
 | `vscode` | — | — | 2 | — | — | — |
 | `zed` | — | — | — | — | — | — |
-| **Total** | — | **1** | **2** | — | — | **1** |
+| **Total** | — | — | **2** | — | — | — |
 
 ## Critical findings
 
@@ -42,7 +42,5 @@ _None._
 
 ## High findings
 
-### `infrastructure`
-
-- [CVE-2026-121971](https://nvd.nist.gov/vuln/detail/CVE-2026-121971) in `symfony/http-client@v8.1.10` — fix: `5.3.0, 5.4.0, 6.4.0, 8.1.11, 4.4.0, 5.2.0, 5.4.56, 6.1.0, 6.2.0, 6.3.0, 7.1.0, 7.3.0, 5.0.0, 5.1.0, 6.4.50, 7.2.0, 7.4.0, 7.4.23, 8.1.0` (via trivy)
+_None._
 
