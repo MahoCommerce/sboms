@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
-  "serialNumber": "urn:uuid:94db0d0a-1ac8-45f2-aa1d-405a57afc2a9",
+  "serialNumber": "urn:uuid:92d7f173-de90-4e0d-8d89-814a824037f9",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-11-15T10:08:57Z",
+    "timestamp": "2026-11-16T10:21:23Z",
     "tools": {
       "components": [
         {
@@ -17,7 +17,7 @@
       ]
     },
     "component": {
-      "bom-ref": "bde6cfa6fb084e73",
+      "bom-ref": "b2471e417b3faf68",
       "type": "file",
       "name": "maho-composer-plugin",
       "version": "main",
@@ -634,7 +634,7 @@
     {
       "bom-ref": "2711cd66e9444a3c",
       "type": "file",
-      "name": "/tmp/tmp.josBg0xsdM/maho-composer-plugin-default/.github/workflows/ai-assisted-note.yml",
+      "name": "/tmp/tmp.Qj1FuStZRD/maho-composer-plugin-default/.github/workflows/ai-assisted-note.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -649,7 +649,7 @@
     {
       "bom-ref": "d422de945bf18b46",
       "type": "file",
-      "name": "/tmp/tmp.josBg0xsdM/maho-composer-plugin-default/.github/workflows/composer.yml",
+      "name": "/tmp/tmp.Qj1FuStZRD/maho-composer-plugin-default/.github/workflows/composer.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -664,7 +664,7 @@
     {
       "bom-ref": "ca67cce3ff943159",
       "type": "file",
-      "name": "/tmp/tmp.josBg0xsdM/maho-composer-plugin-default/.github/workflows/line-endings.yml",
+      "name": "/tmp/tmp.Qj1FuStZRD/maho-composer-plugin-default/.github/workflows/line-endings.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -679,7 +679,7 @@
     {
       "bom-ref": "5ebde7ddc8076c2b",
       "type": "file",
-      "name": "/tmp/tmp.josBg0xsdM/maho-composer-plugin-default/.github/workflows/lint.yml",
+      "name": "/tmp/tmp.Qj1FuStZRD/maho-composer-plugin-default/.github/workflows/lint.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -694,7 +694,7 @@
     {
       "bom-ref": "f23abd314990253e",
       "type": "file",
-      "name": "/tmp/tmp.josBg0xsdM/maho-composer-plugin-default/.github/workflows/phpstan.yml",
+      "name": "/tmp/tmp.Qj1FuStZRD/maho-composer-plugin-default/.github/workflows/phpstan.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -709,7 +709,7 @@
     {
       "bom-ref": "5c470c2c7e53f689",
       "type": "file",
-      "name": "/tmp/tmp.josBg0xsdM/maho-composer-plugin-default/.github/workflows/syntax-php.yml",
+      "name": "/tmp/tmp.Qj1FuStZRD/maho-composer-plugin-default/.github/workflows/syntax-php.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -724,15 +724,15 @@
     {
       "bom-ref": "c8bb62e6bded633e",
       "type": "file",
-      "name": "/tmp/tmp.josBg0xsdM/maho-composer-plugin-default/composer.lock",
+      "name": "/tmp/tmp.Qj1FuStZRD/maho-composer-plugin-default/composer.lock",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "425fb5951e5fc0d9775a18d9d48d32c7778dcb90"
+          "content": "18d5d3a42afbb785fb3fd5c1b3c4a0e36dc84fdc"
         },
         {
           "alg": "SHA-256",
-          "content": "7073562be215af4b347f701b9b9b5565f4dcb8840ef7d6b2f1e32802ad82d497"
+          "content": "5233c2b2f9144a3e3024dad029effd73fa2cf08eada86565b575ffb1a45af9ef"
         }
       ]
     }
