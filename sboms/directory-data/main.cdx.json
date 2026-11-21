@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
-  "serialNumber": "urn:uuid:647195e6-0af3-42db-894a-8129190b116b",
+  "serialNumber": "urn:uuid:9f397b21-40be-486c-83d7-c7c17ebffed0",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-11-20T10:42:47Z",
+    "timestamp": "2026-11-21T10:26:12Z",
     "tools": {
       "components": [
         {
@@ -17,7 +17,7 @@
       ]
     },
     "component": {
-      "bom-ref": "de73124998eccb74",
+      "bom-ref": "dd845d10cc43408b",
       "type": "file",
       "name": "directory-data",
       "version": "main",
@@ -80,6 +80,32 @@
         {
           "name": "syft:location:0:path",
           "value": "/.github/workflows/update-data.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/actions/checkout@v7.0.1?package-id=ed396013b1f367a7",
+      "type": "library",
+      "name": "actions/checkout",
+      "version": "v7.0.1",
+      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v7.0.1:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/checkout@v7.0.1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/validate.yml"
         }
       ]
     },
@@ -300,9 +326,55 @@
       ]
     },
     {
+      "bom-ref": "pkg:github/shivammathur/setup-php@2.40.0?package-id=797b4ac8c328d496",
+      "type": "library",
+      "name": "shivammathur/setup-php",
+      "version": "2.40.0",
+      "cpe": "cpe:2.3:a:shivammathur\\/setup-php:shivammathur\\/setup-php:2.40.0:*:*:*:*:*:*:*",
+      "purl": "pkg:github/shivammathur/setup-php@2.40.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:shivammathur\\/setup-php:shivammathur\\/setup_php:2.40.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:shivammathur\\/setup_php:shivammathur\\/setup-php:2.40.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:shivammathur\\/setup_php:shivammathur\\/setup_php:2.40.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:shivammathur\\/setup:shivammathur\\/setup-php:2.40.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:shivammathur\\/setup:shivammathur\\/setup_php:2.40.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/validate.yml"
+        }
+      ]
+    },
+    {
       "bom-ref": "2711cd66e9444a3c",
       "type": "file",
-      "name": "/tmp/tmp.rkf9hgJszh/directory-data-default/.github/workflows/ai-assisted-note.yml",
+      "name": "/tmp/tmp.gKlVALa04k/directory-data-default/.github/workflows/ai-assisted-note.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -317,7 +389,7 @@
     {
       "bom-ref": "5ebde7ddc8076c2b",
       "type": "file",
-      "name": "/tmp/tmp.rkf9hgJszh/directory-data-default/.github/workflows/lint.yml",
+      "name": "/tmp/tmp.gKlVALa04k/directory-data-default/.github/workflows/lint.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -332,15 +404,30 @@
     {
       "bom-ref": "62f594948731c9a4",
       "type": "file",
-      "name": "/tmp/tmp.rkf9hgJszh/directory-data-default/.github/workflows/update-data.yml",
+      "name": "/tmp/tmp.gKlVALa04k/directory-data-default/.github/workflows/update-data.yml",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "6bafb71c064aefd7afe41de000f754410a63cd54"
+          "content": "268c1474210625fd7258183940287b3a42ec4faf"
         },
         {
           "alg": "SHA-256",
-          "content": "6c92ce346ea3db4c2bbfb89854e2c5628827fae74cdadd34bdc8efe9b215a3a1"
+          "content": "c25f3ce21395967ea9241dc880eaa7f6408cd4fc662cdd11c34a27b672c9174d"
+        }
+      ]
+    },
+    {
+      "bom-ref": "00f845f6d2312dc7",
+      "type": "file",
+      "name": "/tmp/tmp.gKlVALa04k/directory-data-default/.github/workflows/validate.yml",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "600a3ed0261fe83af33e4b0db9032dc787e667da"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "d52443a80c5c7616c9a7b8af4776ba0d67baa0e3908684b32c093be616f924ee"
         }
       ]
     }

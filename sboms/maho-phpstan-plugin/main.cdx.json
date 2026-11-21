@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
-  "serialNumber": "urn:uuid:a374b2da-6a43-433f-a670-36a285fd63ed",
+  "serialNumber": "urn:uuid:87b832c0-c2e8-48f5-a717-c28c7dbc4cb2",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-11-20T10:43:38Z",
+    "timestamp": "2026-11-21T10:26:48Z",
     "tools": {
       "components": [
         {
@@ -17,7 +17,7 @@
       ]
     },
     "component": {
-      "bom-ref": "65d4090c7ae4d10c",
+      "bom-ref": "df1f688127408db5",
       "type": "file",
       "name": "maho-phpstan-plugin",
       "version": "main",
@@ -261,7 +261,7 @@
     {
       "bom-ref": "2711cd66e9444a3c",
       "type": "file",
-      "name": "/tmp/tmp.rkf9hgJszh/maho-phpstan-plugin-default/.github/workflows/ai-assisted-note.yml",
+      "name": "/tmp/tmp.gKlVALa04k/maho-phpstan-plugin-default/.github/workflows/ai-assisted-note.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -276,7 +276,7 @@
     {
       "bom-ref": "5ebde7ddc8076c2b",
       "type": "file",
-      "name": "/tmp/tmp.rkf9hgJszh/maho-phpstan-plugin-default/.github/workflows/lint.yml",
+      "name": "/tmp/tmp.gKlVALa04k/maho-phpstan-plugin-default/.github/workflows/lint.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -291,7 +291,7 @@
     {
       "bom-ref": "f23abd314990253e",
       "type": "file",
-      "name": "/tmp/tmp.rkf9hgJszh/maho-phpstan-plugin-default/.github/workflows/phpstan.yml",
+      "name": "/tmp/tmp.gKlVALa04k/maho-phpstan-plugin-default/.github/workflows/phpstan.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -306,15 +306,15 @@
     {
       "bom-ref": "c8bb62e6bded633e",
       "type": "file",
-      "name": "/tmp/tmp.rkf9hgJszh/maho-phpstan-plugin-default/composer.lock",
+      "name": "/tmp/tmp.gKlVALa04k/maho-phpstan-plugin-default/composer.lock",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "6215ae1f63b9c40fce7c11ad32913cc471cbbd37"
+          "content": "d2f6341270052a382c2aa0dc5982c7acdf195220"
         },
         {
           "alg": "SHA-256",
-          "content": "bbd6d25b97dc5361d1ead5dbf98ae5057efff5e1f555e7ed1854c133cdc46df4"
+          "content": "228e6e04d4eac76a5916058e0388b28273144eae807d4cb1a98bfe1b6e72e106"
         }
       ]
     }
