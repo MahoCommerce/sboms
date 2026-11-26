@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
-  "serialNumber": "urn:uuid:ef0c9856-87b7-4607-b2cf-22c288602207",
+  "serialNumber": "urn:uuid:94a0c0cc-8ef0-4e53-a120-3f614045fae5",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-11-25T11:52:58Z",
+    "timestamp": "2026-11-26T11:41:19Z",
     "tools": {
       "components": [
         {
@@ -17,7 +17,7 @@
       ]
     },
     "component": {
-      "bom-ref": "2a3ae66ac0db21fc",
+      "bom-ref": "07f2d759687fbce4",
       "type": "file",
       "name": "maho",
       "version": "main",
@@ -855,12 +855,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:github/actions/create-github-app-token@v3.3.0?package-id=c03467295743cd33",
+      "bom-ref": "pkg:github/actions/create-github-app-token@v3.4.0?package-id=93034c95c76e9131",
       "type": "library",
       "name": "actions/create-github-app-token",
-      "version": "v3.3.0",
-      "cpe": "cpe:2.3:a:actions\\/create-github-app-token:actions\\/create-github-app-token:v3.3.0:*:*:*:*:*:*:*",
-      "purl": "pkg:github/actions/create-github-app-token@v3.3.0",
+      "version": "v3.4.0",
+      "cpe": "cpe:2.3:a:actions\\/create-github-app-token:actions\\/create-github-app-token:v3.4.0:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/create-github-app-token@v3.4.0",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -876,55 +876,55 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:actions\\/create-github-app-token:actions\\/create_github_app_token:v3.3.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:actions\\/create-github-app-token:actions\\/create_github_app_token:v3.4.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:actions\\/create_github_app_token:actions\\/create-github-app-token:v3.3.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:actions\\/create_github_app_token:actions\\/create-github-app-token:v3.4.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:actions\\/create_github_app_token:actions\\/create_github_app_token:v3.3.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:actions\\/create_github_app_token:actions\\/create_github_app_token:v3.4.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:actions\\/create-github-app:actions\\/create-github-app-token:v3.3.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:actions\\/create-github-app:actions\\/create-github-app-token:v3.4.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:actions\\/create-github-app:actions\\/create_github_app_token:v3.3.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:actions\\/create-github-app:actions\\/create_github_app_token:v3.4.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:actions\\/create_github_app:actions\\/create-github-app-token:v3.3.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:actions\\/create_github_app:actions\\/create-github-app-token:v3.4.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:actions\\/create_github_app:actions\\/create_github_app_token:v3.3.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:actions\\/create_github_app:actions\\/create_github_app_token:v3.4.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:actions\\/create-github:actions\\/create-github-app-token:v3.3.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:actions\\/create-github:actions\\/create-github-app-token:v3.4.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:actions\\/create-github:actions\\/create_github_app_token:v3.3.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:actions\\/create-github:actions\\/create_github_app_token:v3.4.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:actions\\/create_github:actions\\/create-github-app-token:v3.3.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:actions\\/create_github:actions\\/create-github-app-token:v3.4.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:actions\\/create_github:actions\\/create_github_app_token:v3.3.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:actions\\/create_github:actions\\/create_github_app_token:v3.4.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:actions\\/create:actions\\/create-github-app-token:v3.3.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:actions\\/create:actions\\/create-github-app-token:v3.4.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:actions\\/create:actions\\/create_github_app_token:v3.3.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:actions\\/create:actions\\/create_github_app_token:v3.4.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:path",
@@ -933,12 +933,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:github/actions/create-github-app-token@v3.3.0?package-id=04f66a778fa44f07",
+      "bom-ref": "pkg:github/actions/create-github-app-token@v3.4.0?package-id=9bd0b83a996cb45c",
       "type": "library",
       "name": "actions/create-github-app-token",
-      "version": "v3.3.0",
-      "cpe": "cpe:2.3:a:actions\\/create-github-app-token:actions\\/create-github-app-token:v3.3.0:*:*:*:*:*:*:*",
-      "purl": "pkg:github/actions/create-github-app-token@v3.3.0",
+      "version": "v3.4.0",
+      "cpe": "cpe:2.3:a:actions\\/create-github-app-token:actions\\/create-github-app-token:v3.4.0:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/create-github-app-token@v3.4.0",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -954,55 +954,55 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:actions\\/create-github-app-token:actions\\/create_github_app_token:v3.3.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:actions\\/create-github-app-token:actions\\/create_github_app_token:v3.4.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:actions\\/create_github_app_token:actions\\/create-github-app-token:v3.3.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:actions\\/create_github_app_token:actions\\/create-github-app-token:v3.4.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:actions\\/create_github_app_token:actions\\/create_github_app_token:v3.3.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:actions\\/create_github_app_token:actions\\/create_github_app_token:v3.4.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:actions\\/create-github-app:actions\\/create-github-app-token:v3.3.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:actions\\/create-github-app:actions\\/create-github-app-token:v3.4.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:actions\\/create-github-app:actions\\/create_github_app_token:v3.3.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:actions\\/create-github-app:actions\\/create_github_app_token:v3.4.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:actions\\/create_github_app:actions\\/create-github-app-token:v3.3.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:actions\\/create_github_app:actions\\/create-github-app-token:v3.4.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:actions\\/create_github_app:actions\\/create_github_app_token:v3.3.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:actions\\/create_github_app:actions\\/create_github_app_token:v3.4.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:actions\\/create-github:actions\\/create-github-app-token:v3.3.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:actions\\/create-github:actions\\/create-github-app-token:v3.4.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:actions\\/create-github:actions\\/create_github_app_token:v3.3.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:actions\\/create-github:actions\\/create_github_app_token:v3.4.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:actions\\/create_github:actions\\/create-github-app-token:v3.3.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:actions\\/create_github:actions\\/create-github-app-token:v3.4.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:actions\\/create_github:actions\\/create_github_app_token:v3.3.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:actions\\/create_github:actions\\/create_github_app_token:v3.4.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:actions\\/create:actions\\/create-github-app-token:v3.3.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:actions\\/create:actions\\/create-github-app-token:v3.4.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:actions\\/create:actions\\/create_github_app_token:v3.3.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:actions\\/create:actions\\/create_github_app_token:v3.4.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:path",
@@ -1011,12 +1011,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:github/actions/create-github-app-token@v3.3.0?package-id=2cbaac80db54e72a",
+      "bom-ref": "pkg:github/actions/create-github-app-token@v3.4.0?package-id=ef7cc3165d311ce1",
       "type": "library",
       "name": "actions/create-github-app-token",
-      "version": "v3.3.0",
-      "cpe": "cpe:2.3:a:actions\\/create-github-app-token:actions\\/create-github-app-token:v3.3.0:*:*:*:*:*:*:*",
-      "purl": "pkg:github/actions/create-github-app-token@v3.3.0",
+      "version": "v3.4.0",
+      "cpe": "cpe:2.3:a:actions\\/create-github-app-token:actions\\/create-github-app-token:v3.4.0:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/create-github-app-token@v3.4.0",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -1032,55 +1032,55 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:actions\\/create-github-app-token:actions\\/create_github_app_token:v3.3.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:actions\\/create-github-app-token:actions\\/create_github_app_token:v3.4.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:actions\\/create_github_app_token:actions\\/create-github-app-token:v3.3.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:actions\\/create_github_app_token:actions\\/create-github-app-token:v3.4.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:actions\\/create_github_app_token:actions\\/create_github_app_token:v3.3.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:actions\\/create_github_app_token:actions\\/create_github_app_token:v3.4.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:actions\\/create-github-app:actions\\/create-github-app-token:v3.3.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:actions\\/create-github-app:actions\\/create-github-app-token:v3.4.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:actions\\/create-github-app:actions\\/create_github_app_token:v3.3.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:actions\\/create-github-app:actions\\/create_github_app_token:v3.4.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:actions\\/create_github_app:actions\\/create-github-app-token:v3.3.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:actions\\/create_github_app:actions\\/create-github-app-token:v3.4.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:actions\\/create_github_app:actions\\/create_github_app_token:v3.3.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:actions\\/create_github_app:actions\\/create_github_app_token:v3.4.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:actions\\/create-github:actions\\/create-github-app-token:v3.3.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:actions\\/create-github:actions\\/create-github-app-token:v3.4.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:actions\\/create-github:actions\\/create_github_app_token:v3.3.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:actions\\/create-github:actions\\/create_github_app_token:v3.4.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:actions\\/create_github:actions\\/create-github-app-token:v3.3.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:actions\\/create_github:actions\\/create-github-app-token:v3.4.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:actions\\/create_github:actions\\/create_github_app_token:v3.3.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:actions\\/create_github:actions\\/create_github_app_token:v3.4.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:actions\\/create:actions\\/create-github-app-token:v3.3.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:actions\\/create:actions\\/create-github-app-token:v3.4.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:actions\\/create:actions\\/create_github_app_token:v3.3.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:actions\\/create:actions\\/create_github_app_token:v3.4.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:path",
@@ -1089,12 +1089,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:github/actions/create-github-app-token@v3.3.0?package-id=bcdb3dd4a1818191",
+      "bom-ref": "pkg:github/actions/create-github-app-token@v3.4.0?package-id=a65ea4c7bc68a47d",
       "type": "library",
       "name": "actions/create-github-app-token",
-      "version": "v3.3.0",
-      "cpe": "cpe:2.3:a:actions\\/create-github-app-token:actions\\/create-github-app-token:v3.3.0:*:*:*:*:*:*:*",
-      "purl": "pkg:github/actions/create-github-app-token@v3.3.0",
+      "version": "v3.4.0",
+      "cpe": "cpe:2.3:a:actions\\/create-github-app-token:actions\\/create-github-app-token:v3.4.0:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/create-github-app-token@v3.4.0",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -1110,55 +1110,55 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:actions\\/create-github-app-token:actions\\/create_github_app_token:v3.3.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:actions\\/create-github-app-token:actions\\/create_github_app_token:v3.4.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:actions\\/create_github_app_token:actions\\/create-github-app-token:v3.3.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:actions\\/create_github_app_token:actions\\/create-github-app-token:v3.4.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:actions\\/create_github_app_token:actions\\/create_github_app_token:v3.3.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:actions\\/create_github_app_token:actions\\/create_github_app_token:v3.4.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:actions\\/create-github-app:actions\\/create-github-app-token:v3.3.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:actions\\/create-github-app:actions\\/create-github-app-token:v3.4.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:actions\\/create-github-app:actions\\/create_github_app_token:v3.3.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:actions\\/create-github-app:actions\\/create_github_app_token:v3.4.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:actions\\/create_github_app:actions\\/create-github-app-token:v3.3.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:actions\\/create_github_app:actions\\/create-github-app-token:v3.4.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:actions\\/create_github_app:actions\\/create_github_app_token:v3.3.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:actions\\/create_github_app:actions\\/create_github_app_token:v3.4.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:actions\\/create-github:actions\\/create-github-app-token:v3.3.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:actions\\/create-github:actions\\/create-github-app-token:v3.4.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:actions\\/create-github:actions\\/create_github_app_token:v3.3.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:actions\\/create-github:actions\\/create_github_app_token:v3.4.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:actions\\/create_github:actions\\/create-github-app-token:v3.3.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:actions\\/create_github:actions\\/create-github-app-token:v3.4.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:actions\\/create_github:actions\\/create_github_app_token:v3.3.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:actions\\/create_github:actions\\/create_github_app_token:v3.4.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:actions\\/create:actions\\/create-github-app-token:v3.3.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:actions\\/create:actions\\/create-github-app-token:v3.4.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:actions\\/create:actions\\/create_github_app_token:v3.3.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:actions\\/create:actions\\/create_github_app_token:v3.4.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:path",
@@ -8768,7 +8768,7 @@
     {
       "bom-ref": "2711cd66e9444a3c",
       "type": "file",
-      "name": "/tmp/tmp.eBxAbInDhf/maho-default/.github/workflows/ai-assisted-note.yml",
+      "name": "/tmp/tmp.BrT1KAFFfp/maho-default/.github/workflows/ai-assisted-note.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -8783,22 +8783,22 @@
     {
       "bom-ref": "32613741646b9bd0",
       "type": "file",
-      "name": "/tmp/tmp.eBxAbInDhf/maho-default/.github/workflows/backport.yml",
+      "name": "/tmp/tmp.BrT1KAFFfp/maho-default/.github/workflows/backport.yml",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "5a0134469d6e3451babdb9c60fee3ff6fc107789"
+          "content": "9c977d13ac5be67f19c52b57b5993a271d4fe787"
         },
         {
           "alg": "SHA-256",
-          "content": "4381be6fbe4ec0ccd3b3385d3b62a0b345c692ae342f4bbfa1a7126db34420df"
+          "content": "3e81a61e5fb0caa2218e124131873c0f1e0bccf191c66cbd97b31c48069e0878"
         }
       ]
     },
     {
       "bom-ref": "4260212f7c4181cb",
       "type": "file",
-      "name": "/tmp/tmp.eBxAbInDhf/maho-default/.github/workflows/check-js-libraries.yml",
+      "name": "/tmp/tmp.BrT1KAFFfp/maho-default/.github/workflows/check-js-libraries.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -8813,7 +8813,7 @@
     {
       "bom-ref": "5e19ea2e1f9dfee4",
       "type": "file",
-      "name": "/tmp/tmp.eBxAbInDhf/maho-default/.github/workflows/codeql-analysis.yml",
+      "name": "/tmp/tmp.BrT1KAFFfp/maho-default/.github/workflows/codeql-analysis.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -8828,7 +8828,7 @@
     {
       "bom-ref": "91737144fffc2b39",
       "type": "file",
-      "name": "/tmp/tmp.eBxAbInDhf/maho-default/.github/workflows/docs-preview.yml",
+      "name": "/tmp/tmp.BrT1KAFFfp/maho-default/.github/workflows/docs-preview.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -8843,7 +8843,7 @@
     {
       "bom-ref": "63d1046ff1e32645",
       "type": "file",
-      "name": "/tmp/tmp.eBxAbInDhf/maho-default/.github/workflows/docs.yml",
+      "name": "/tmp/tmp.BrT1KAFFfp/maho-default/.github/workflows/docs.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -8858,7 +8858,7 @@
     {
       "bom-ref": "dc9bdc1a84992eac",
       "type": "file",
-      "name": "/tmp/tmp.eBxAbInDhf/maho-default/.github/workflows/install-with-prefix.yml",
+      "name": "/tmp/tmp.BrT1KAFFfp/maho-default/.github/workflows/install-with-prefix.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -8873,7 +8873,7 @@
     {
       "bom-ref": "5ebde7ddc8076c2b",
       "type": "file",
-      "name": "/tmp/tmp.eBxAbInDhf/maho-default/.github/workflows/lint.yml",
+      "name": "/tmp/tmp.BrT1KAFFfp/maho-default/.github/workflows/lint.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -8888,22 +8888,22 @@
     {
       "bom-ref": "2b9cd2e1848dea3c",
       "type": "file",
-      "name": "/tmp/tmp.eBxAbInDhf/maho-default/.github/workflows/merge-on-green.yml",
+      "name": "/tmp/tmp.BrT1KAFFfp/maho-default/.github/workflows/merge-on-green.yml",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "6504764243bd14f2ddaa8bcd3dd5d5d973e8be07"
+          "content": "d78358adb770c3d11008598c2fd59ff2772ec9c3"
         },
         {
           "alg": "SHA-256",
-          "content": "4cce15929658f6130c8479319e9550b6630061f1f3997828325f020e5e8beb04"
+          "content": "835af3b921b7c85824d1b0f1b2b4119c0db0dbaaf0dc9c81d1c178b8a1b787f1"
         }
       ]
     },
     {
       "bom-ref": "e1e2bba7dd1b17e6",
       "type": "file",
-      "name": "/tmp/tmp.eBxAbInDhf/maho-default/.github/workflows/pest.yml",
+      "name": "/tmp/tmp.BrT1KAFFfp/maho-default/.github/workflows/pest.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -8918,7 +8918,7 @@
     {
       "bom-ref": "2f9a4ebf9db35197",
       "type": "file",
-      "name": "/tmp/tmp.eBxAbInDhf/maho-default/.github/workflows/phpdoc.yml",
+      "name": "/tmp/tmp.BrT1KAFFfp/maho-default/.github/workflows/phpdoc.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -8933,7 +8933,7 @@
     {
       "bom-ref": "f23abd314990253e",
       "type": "file",
-      "name": "/tmp/tmp.eBxAbInDhf/maho-default/.github/workflows/phpstan.yml",
+      "name": "/tmp/tmp.BrT1KAFFfp/maho-default/.github/workflows/phpstan.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -8948,22 +8948,22 @@
     {
       "bom-ref": "f298c210d58e23d6",
       "type": "file",
-      "name": "/tmp/tmp.eBxAbInDhf/maho-default/.github/workflows/refresh-shards.yml",
+      "name": "/tmp/tmp.BrT1KAFFfp/maho-default/.github/workflows/refresh-shards.yml",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "4c6823a8c64c3b770e9c698f88e278604637a374"
+          "content": "e3761f4556f51366376477f20a9b7c6dee8f3786"
         },
         {
           "alg": "SHA-256",
-          "content": "f5ad93ae49fa7b8b47862d5cd469caa045c172b9baca4faea25684396a262079"
+          "content": "8d4e19c14ebabbd31050b04c02cfe843a0923c6c05d40425cd5ed16d0eeb3fd0"
         }
       ]
     },
     {
       "bom-ref": "0460b1143f7fe2c1",
       "type": "file",
-      "name": "/tmp/tmp.eBxAbInDhf/maho-default/.github/workflows/release-build.yml",
+      "name": "/tmp/tmp.BrT1KAFFfp/maho-default/.github/workflows/release-build.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -8978,7 +8978,7 @@
     {
       "bom-ref": "8a94ac50b5062d56",
       "type": "file",
-      "name": "/tmp/tmp.eBxAbInDhf/maho-default/.github/workflows/security-php.yml",
+      "name": "/tmp/tmp.BrT1KAFFfp/maho-default/.github/workflows/security-php.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -8993,7 +8993,7 @@
     {
       "bom-ref": "f3ef676f82c38977",
       "type": "file",
-      "name": "/tmp/tmp.eBxAbInDhf/maho-default/.github/workflows/storage-remote.yml",
+      "name": "/tmp/tmp.BrT1KAFFfp/maho-default/.github/workflows/storage-remote.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -9008,22 +9008,22 @@
     {
       "bom-ref": "17bee73d399623a9",
       "type": "file",
-      "name": "/tmp/tmp.eBxAbInDhf/maho-default/.github/workflows/sync-l10n-repo.yml",
+      "name": "/tmp/tmp.BrT1KAFFfp/maho-default/.github/workflows/sync-l10n-repo.yml",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "6bbf47b83ece79e9331defb19072f81cb273ca84"
+          "content": "ec15d5d7068513faaffa2fe43022524b5a39d979"
         },
         {
           "alg": "SHA-256",
-          "content": "8422ed3b12e485e1d5074bc6ed38b1616de670e1a84fecd57406df48034f8e70"
+          "content": "52d7c458c435bf768f86fce84f1e848e7f398cca671770e74e3dba660692a9e0"
         }
       ]
     },
     {
       "bom-ref": "5c470c2c7e53f689",
       "type": "file",
-      "name": "/tmp/tmp.eBxAbInDhf/maho-default/.github/workflows/syntax-php.yml",
+      "name": "/tmp/tmp.BrT1KAFFfp/maho-default/.github/workflows/syntax-php.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -9038,7 +9038,7 @@
     {
       "bom-ref": "4c6138ad0b6769b5",
       "type": "file",
-      "name": "/tmp/tmp.eBxAbInDhf/maho-default/.github/workflows/update-js-libraries.yml",
+      "name": "/tmp/tmp.BrT1KAFFfp/maho-default/.github/workflows/update-js-libraries.yml",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -9053,7 +9053,7 @@
     {
       "bom-ref": "c8bb62e6bded633e",
       "type": "file",
-      "name": "/tmp/tmp.eBxAbInDhf/maho-default/composer.lock",
+      "name": "/tmp/tmp.BrT1KAFFfp/maho-default/composer.lock",
       "hashes": [
         {
           "alg": "SHA-1",
@@ -9068,15 +9068,15 @@
     {
       "bom-ref": "fd71c2238fc07657",
       "type": "file",
-      "name": "/tmp/tmp.eBxAbInDhf/maho-default/package-lock.json",
+      "name": "/tmp/tmp.BrT1KAFFfp/maho-default/package-lock.json",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "22e2c1bcb2244f02a54b3d7cd8d263f69074115c"
+          "content": "62f5bc2e40c122ca305045e3d933f9794a33b5f3"
         },
         {
           "alg": "SHA-256",
-          "content": "5fd1354c52857e8984a2db3c5546713e52f760b26869a90188164f469f03150e"
+          "content": "4d5ab22497fd863281fccc8c05a422e0166f429d93599413b531f8d6b435046a"
         }
       ]
     }
