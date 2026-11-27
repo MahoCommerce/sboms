@@ -1,4 +1,59 @@
 {
-  "summary": {},
-  "findings": []
+  "summary": {
+    "Unknown": 4
+  },
+  "findings": [
+    {
+      "cve": "CVE-2026-133750",
+      "package": "symfony/http-client",
+      "version": "v8.1.11",
+      "purl": "pkg:composer/symfony/http-client@v8.1.11",
+      "severity": "Unknown",
+      "fixed_in": [
+        "7.4.24, 8.1.0, 8.1.12"
+      ],
+      "sources": [
+        "trivy"
+      ]
+    },
+    {
+      "cve": "CVE-2026-133757",
+      "package": "symfony/http-client",
+      "version": "v8.1.11",
+      "purl": "pkg:composer/symfony/http-client@v8.1.11",
+      "severity": "Unknown",
+      "fixed_in": [
+        "5.4.57, 6.4.51, 7.2.0, 7.3.0, 7.4.0, 7.4.24, 8.1.0, 8.1.12"
+      ],
+      "sources": [
+        "trivy"
+      ]
+    },
+    {
+      "cve": "CVE-2026-133758",
+      "package": "symfony/http-client",
+      "version": "v8.1.11",
+      "purl": "pkg:composer/symfony/http-client@v8.1.11",
+      "severity": "Unknown",
+      "fixed_in": [
+        "7.3.0, 7.4.0, 7.4.24, 8.1.0, 8.1.12, 5.4.57, 6.4.51, 7.2.0"
+      ],
+      "sources": [
+        "trivy"
+      ]
+    },
+    {
+      "cve": "CVE-2026-134792",
+      "package": "symfony/http-client",
+      "version": "v8.1.11",
+      "purl": "pkg:composer/symfony/http-client@v8.1.11",
+      "severity": "Unknown",
+      "fixed_in": [
+        "5.4.0, 6.2.0, 7.1.0, 7.2.0, 5.0.0, 6.3.0, 6.4.0, 7.4.24, 8.1.0, 5.2.0, 6.4.51, 7.3.0, 5.1.0, 5.3.0, 5.4.57, 6.1.0, 7.4.0, 8.1.12"
+      ],
+      "sources": [
+        "trivy"
+      ]
+    }
+  ]
 }
